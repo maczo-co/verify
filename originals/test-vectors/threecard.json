@@ -1,0 +1,1085 @@
+{
+  "game": "threecard",
+  "vectors": [
+    {
+      "serverSeed": "6b8b216878375efb71af74019e4bc29db99f58260b813edce91184c5a77d5176",
+      "clientSeed": "player_1",
+      "commitment": "29ffd6ca316f2ea1c9db63e7cf061d11f78a870782d45de1dc174caee6da39cd",
+      "nonce": 1,
+      "params": {
+        "play": true
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "dealer": [
+            [
+              2,
+              2
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "pair",
+          "played": true,
+          "dealer_qualifies": true,
+          "return_e8": 0,
+          "staked_units": 2,
+          "result": "lose",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "1a8eebf7b0a72e21175cf6f4fb10b8349e515ec8bd08719c496099ec3e00963d",
+      "clientSeed": "player_2",
+      "commitment": "7b737aad54b47db5ac96e9be83ec310950cda311270896765fcedea63c7a0af2",
+      "nonce": 2,
+      "params": {
+        "play": true
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 400000000,
+        "win": true,
+        "payoutMinor": 400000000,
+        "outcome": {
+          "player": [
+            [
+              10,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "dealer": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              10,
+              0
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "high_card",
+          "played": true,
+          "dealer_qualifies": true,
+          "return_e8": 400000000,
+          "staked_units": 2,
+          "result": "win",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 400000000
+        }
+      }
+    },
+    {
+      "serverSeed": "56b0b74a1b6fcef894a341becb9e82cff396dd756b6db631640f1a950a23df5c",
+      "clientSeed": "player_3",
+      "commitment": "2c3a7ddf1be5df8bf478e654c3981e34f8adb4a9fd50a65ba44af211bff9c825",
+      "nonce": 3,
+      "params": {
+        "play": true
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 500000000,
+        "win": true,
+        "payoutMinor": 500000000,
+        "outcome": {
+          "player": [
+            [
+              9,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              10,
+              1
+            ]
+          ],
+          "dealer": [
+            [
+              2,
+              1
+            ],
+            [
+              9,
+              2
+            ],
+            [
+              9,
+              1
+            ]
+          ],
+          "player_cat": "straight",
+          "dealer_cat": "pair",
+          "played": true,
+          "dealer_qualifies": true,
+          "return_e8": 500000000,
+          "staked_units": 2,
+          "result": "win",
+          "ante_bonus_e8": 100000000,
+          "multiplier_e8": 500000000
+        }
+      }
+    },
+    {
+      "serverSeed": "00aa8ccca7f5305205ca7d1712b5f5c74609a651307df8d2235ff97faf2deed4",
+      "clientSeed": "player_4",
+      "commitment": "78c02296dc0fa589b7c4e27c879bb4bbb59cc294dbc934c462f45de6eb584898",
+      "nonce": 4,
+      "params": {
+        "play": true
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 400000000,
+        "win": true,
+        "payoutMinor": 400000000,
+        "outcome": {
+          "player": [
+            [
+              8,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              9,
+              2
+            ]
+          ],
+          "dealer": [
+            [
+              8,
+              2
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "player_cat": "straight",
+          "dealer_cat": "high_card",
+          "played": true,
+          "dealer_qualifies": false,
+          "return_e8": 400000000,
+          "staked_units": 2,
+          "result": "dealer_no_qualify",
+          "ante_bonus_e8": 100000000,
+          "multiplier_e8": 400000000
+        }
+      }
+    },
+    {
+      "serverSeed": "dc8df6c056b1a7f1d3a27b3805e84cabf3a939f131713d044fa4f15450c6060f",
+      "clientSeed": "player_0",
+      "commitment": "c2dfda786e75631cabd54409835fdfcb7206270838ecb51fbf102a6e126fc74a",
+      "nonce": 5,
+      "params": {
+        "play": true
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 400000000,
+        "win": true,
+        "payoutMinor": 400000000,
+        "outcome": {
+          "player": [
+            [
+              11,
+              1
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "dealer": [
+            [
+              1,
+              0
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "high_card",
+          "played": true,
+          "dealer_qualifies": true,
+          "return_e8": 400000000,
+          "staked_units": 2,
+          "result": "win",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 400000000
+        }
+      }
+    },
+    {
+      "serverSeed": "0332b4429dc4a8a1e219eeb11c6f8042e1d6972e2b572f7d99a99d9981ae946f",
+      "clientSeed": "player_1",
+      "commitment": "4b433ff953557e9c751127df6e8b6ac351ecd561cb3bb5edf0bfeb31a62fdd8f",
+      "nonce": 6,
+      "params": {
+        "play": false
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              0,
+              2
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "dealer": [
+            [
+              0,
+              1
+            ],
+            [
+              10,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "high_card",
+          "played": false,
+          "dealer_qualifies": true,
+          "return_e8": 0,
+          "staked_units": 1,
+          "result": "fold",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "12462914f1166987b82428098f6f6b8c4cb9c33c3e0756222c085e5cfa7d7c21",
+      "clientSeed": "player_2",
+      "commitment": "4bdab50723c0abd024420c4c0e38a011d87b6459537e97d5d4cf7b520c550421",
+      "nonce": 7,
+      "params": {
+        "play": false
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              4,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "dealer": [
+            [
+              3,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "high_card",
+          "played": false,
+          "dealer_qualifies": false,
+          "return_e8": 0,
+          "staked_units": 1,
+          "result": "fold",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "d41da4c032578128eebdd097ec1461ecf9374a82fc45aea4aec03a0b9531d201",
+      "clientSeed": "player_3",
+      "commitment": "a3ac8c712ebad278c06a15b4d022c680bddc273f2297afa2479c118970569ef7",
+      "nonce": 8,
+      "params": {
+        "play": false
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              10,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "dealer": [
+            [
+              11,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "high_card",
+          "played": false,
+          "dealer_qualifies": true,
+          "return_e8": 0,
+          "staked_units": 1,
+          "result": "fold",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "889bec61b861453965a6586c4b929e876cfb0fb59a2458b67d587cd8c54b340b",
+      "clientSeed": "player_4",
+      "commitment": "e115d65301a86d50e6610264966e669dfab01c1abbccd3aea8aeca13a1b67581",
+      "nonce": 9,
+      "params": {
+        "play": false
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              9,
+              0
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "dealer": [
+            [
+              11,
+              3
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "player_cat": "pair",
+          "dealer_cat": "high_card",
+          "played": false,
+          "dealer_qualifies": true,
+          "return_e8": 0,
+          "staked_units": 1,
+          "result": "fold",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "ab1409ba7bcde6694cd993167ed6391744b1bed81a31b904c590b383038a8d4e",
+      "clientSeed": "player_0",
+      "commitment": "0ea863dce5a6a568058f041d8db67f4d5695333d2058fa56483fc78fec8e729b",
+      "nonce": 10,
+      "params": {
+        "play": false
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              3,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "dealer": [
+            [
+              9,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "high_card",
+          "played": false,
+          "dealer_qualifies": false,
+          "return_e8": 0,
+          "staked_units": 1,
+          "result": "fold",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "2828e93f33b6384f18a31e592731b101afeb4f33b9494edf9ac2a610180e3000",
+      "clientSeed": "player_0",
+      "commitment": "c115fb08a36e41e9ead0fc02e2c06d74d3b2de7068421a453ea5713adb4fd965",
+      "nonce": 20,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 300000000,
+        "win": true,
+        "payoutMinor": 300000000,
+        "outcome": {
+          "player": [
+            [
+              1,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              3
+            ]
+          ],
+          "dealer": [
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "player_cat": "pair",
+          "dealer_cat": "high_card",
+          "played": true,
+          "dealer_qualifies": false,
+          "return_e8": 300000000,
+          "staked_units": 2,
+          "result": "dealer_no_qualify",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 300000000
+        }
+      }
+    },
+    {
+      "serverSeed": "08a6413689c99437b40c4c78321993b33e2a5234dac2f8aad30661aa790ddba1",
+      "clientSeed": "player_1",
+      "commitment": "e2cfb4511e48cb2cde39802e6e874b3d3493fadab9ef7bdf9f50e1d557a73c1b",
+      "nonce": 21,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 400000000,
+        "win": true,
+        "payoutMinor": 400000000,
+        "outcome": {
+          "player": [
+            [
+              2,
+              0
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "dealer": [
+            [
+              11,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "player_cat": "pair",
+          "dealer_cat": "high_card",
+          "played": true,
+          "dealer_qualifies": true,
+          "return_e8": 400000000,
+          "staked_units": 2,
+          "result": "win",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 400000000
+        }
+      }
+    },
+    {
+      "serverSeed": "336acc5df9142573bd599e31965685627c8f56100b76f2113b6b4804da305c55",
+      "clientSeed": "player_2",
+      "commitment": "c10ff86b52679895d77dc3f191e0aaa1be6f3d7b3b785ea44ff34c1066d312e6",
+      "nonce": 22,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 450000000,
+        "win": true,
+        "payoutMinor": 450000000,
+        "outcome": {
+          "player": [
+            [
+              7,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          "dealer": [
+            [
+              11,
+              3
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "player_cat": "flush",
+          "dealer_cat": "pair",
+          "played": true,
+          "dealer_qualifies": true,
+          "return_e8": 450000000,
+          "staked_units": 2,
+          "result": "win",
+          "ante_bonus_e8": 50000000,
+          "multiplier_e8": 450000000
+        }
+      }
+    },
+    {
+      "serverSeed": "f6492b98b35a5b950bb36bcf286a896936c537f56c11d9cee81538c7c6dadee1",
+      "clientSeed": "player_3",
+      "commitment": "e81d11253ced8ba75bf849a132b0417db1ec4b17adfad06ad04dcd4f62efaf5a",
+      "nonce": 23,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              10,
+              0
+            ]
+          ],
+          "dealer": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              9,
+              0
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "pair",
+          "played": false,
+          "dealer_qualifies": true,
+          "return_e8": 0,
+          "staked_units": 1,
+          "result": "fold",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "3fe00ffba2d8dd0646d91dfdef7f42ff3e876e34d6b7f7eb264b2ba88afa43f0",
+      "clientSeed": "player_4",
+      "commitment": "e357c6578d11924075ff188f3736449c533e3f59186465670d58570a7c5f724d",
+      "nonce": 24,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              9,
+              3
+            ]
+          ],
+          "dealer": [
+            [
+              6,
+              0
+            ],
+            [
+              12,
+              3
+            ],
+            [
+              12,
+              1
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "pair",
+          "played": false,
+          "dealer_qualifies": true,
+          "return_e8": 0,
+          "staked_units": 1,
+          "result": "fold",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "809037d3fb40eb29619944f1015af38303aa2781097c1733253494fcf424e663",
+      "clientSeed": "player_0",
+      "commitment": "63f4db52f3e288bc02eaa1a091142eaf18c8fe569cef755ecebf97b83857f9df",
+      "nonce": 25,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              6,
+              1
+            ],
+            [
+              9,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "dealer": [
+            [
+              1,
+              0
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "high_card",
+          "played": false,
+          "dealer_qualifies": true,
+          "return_e8": 0,
+          "staked_units": 1,
+          "result": "fold",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "08cf9a06d9975326340b308a2db2310ca21fe2c9e848fb0d320a4bdae03d0ef6",
+      "clientSeed": "player_1",
+      "commitment": "fb0e6c39dfb66f8f015e003d247eae96c77f75a0754c7e95d562a417a96b0290",
+      "nonce": 26,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 400000000,
+        "win": true,
+        "payoutMinor": 400000000,
+        "outcome": {
+          "player": [
+            [
+              0,
+              3
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              3
+            ]
+          ],
+          "dealer": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "player_cat": "pair",
+          "dealer_cat": "pair",
+          "played": true,
+          "dealer_qualifies": true,
+          "return_e8": 400000000,
+          "staked_units": 2,
+          "result": "win",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 400000000
+        }
+      }
+    },
+    {
+      "serverSeed": "726526a329bd4edb99883983d2a684f09341c48e84ed42377b943a37c72272f9",
+      "clientSeed": "player_2",
+      "commitment": "5216f8b632bacc873918d133c8132896c3182ac8c96420a022ddad879a1ccccd",
+      "nonce": 27,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              3,
+              2
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "dealer": [
+            [
+              6,
+              0
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "high_card",
+          "played": true,
+          "dealer_qualifies": true,
+          "return_e8": 0,
+          "staked_units": 2,
+          "result": "lose",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "1468373cdba1ab0ae32fc6449ca4ecb8ca9e1c113b93c6eceb9c889eca643faa",
+      "clientSeed": "player_3",
+      "commitment": "a60751b60c492f7f3aaf19b9f7299feb224d483604b51e1b68e8ee3287ce43b2",
+      "nonce": 28,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "dealer": [
+            [
+              10,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              12,
+              3
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "high_card",
+          "played": false,
+          "dealer_qualifies": true,
+          "return_e8": 0,
+          "staked_units": 1,
+          "result": "fold",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "fac4935c9ca5c37745712072feabb25924ad65d4ce6b05775d41b2f27d3872fd",
+      "clientSeed": "player_4",
+      "commitment": "f0bf83b6c91a25375e3dada1d1b06156fcbbd0488d02d33750feb907ea999e3d",
+      "nonce": 29,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 400000000,
+        "win": true,
+        "payoutMinor": 400000000,
+        "outcome": {
+          "player": [
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              12,
+              2
+            ]
+          ],
+          "dealer": [
+            [
+              10,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "player_cat": "high_card",
+          "dealer_cat": "high_card",
+          "played": true,
+          "dealer_qualifies": true,
+          "return_e8": 400000000,
+          "staked_units": 2,
+          "result": "win",
+          "ante_bonus_e8": 0,
+          "multiplier_e8": 400000000
+        }
+      }
+    }
+  ]
+}

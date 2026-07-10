@@ -1,0 +1,21 @@
+{
+  "game": "hilo",
+  "displayName": "Hilo",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "guesses",
+      "desc": "hi/lo/same per step"
+    },
+    {
+      "name": "start_card",
+      "desc": "[rank,suit] carried (opt)"
+    }
+  ],
+  "ranks": 13,
+  "aceLow": true,
+  "note": "card_i = (u_i mod 13, (u_i div 13) mod 4), ace low. Guess hi/lo/same; edge cards use strict hi/lo. multiplier = rtp·13^k / ∏ win_counts."
+}

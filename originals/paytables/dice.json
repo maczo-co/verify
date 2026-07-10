@@ -1,0 +1,20 @@
+{
+  "game": "dice",
+  "displayName": "Dice",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "target",
+      "desc": "roll threshold 0..9999 (0.00–99.99)"
+    },
+    {
+      "name": "direction",
+      "desc": "under / over"
+    }
+  ],
+  "rollRange": 10000,
+  "note": "roll = u mod 10000 (0.00–99.99); multiplier = floor(10000·rtp / winning_outcomes)."
+}

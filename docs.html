@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>maczo Lucky Spin — Provably Fair Docs</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         background: #0e0b1a; color: #eee; line-height: 1.6; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 28px 18px 60px; }
+  h1.page { font-size: 24px; margin: 0 0 4px; }
+  .sub { color: #9a93b5; font-size: 14px; margin: 0 0 18px; }
+  nav.toc { position: sticky; top: 0; z-index: 5; display: flex; gap: 8px; flex-wrap: wrap;
+         background: rgba(14,11,26,.95); backdrop-filter: blur(6px); padding: 10px 0 12px; margin-bottom: 10px;
+         border-bottom: 1px solid #2a2350; }
+  nav.toc a { padding: 7px 13px; border-radius: 999px; background: #17132b; border: 1px solid #2a2350;
+         color: #c9c3e6; text-decoration: none; font-size: 13px; font-weight: 700; }
+  nav.toc a:hover { border-color: #7c3aed; color: #fff; }
+  section.doc { background: #17132b; border: 1px solid #2a2350; border-radius: 14px;
+         padding: 6px 24px 18px; margin-bottom: 22px; scroll-margin-top: 70px; }
+  .md h1 { font-size: 22px; border-bottom: 1px solid #2a2350; padding-bottom: 8px; }
+  .md h2 { font-size: 17px; margin-top: 24px; color: #d9b3ff; }
+  .md h3 { font-size: 15px; color: #c9a0ff; }
+  .md code { background: #0f0c20; padding: 1px 6px; border-radius: 5px; font-size: 12.5px; }
+  .md pre { background: #0f0c20; border: 1px solid #2a2350; border-radius: 10px; padding: 14px; overflow-x: auto; }
+  .md pre code { background: none; padding: 0; }
+  .md table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+  .md th, .md td { border: 1px solid #2a2350; padding: 8px 10px; text-align: left; }
+  .md th { background: #0f0c20; }
+  .md a { color: #c9a0ff; }
+  footer { text-align: center; color: #9a93b5; font-size: 13px; padding-top: 6px; }
+  footer a { color: #c9a0ff; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 class="page">📖 Lucky Spin — Provably Fair Documentation</h1>
+  <p class="sub">Everything about how Lucky Spin outcomes are provably fair, and how to verify them yourself.</p>
+  <nav class="toc"><a href="#home">🏠 Overview</a><a href="#verify">🧮 Verifying Your Spins</a><a href="#algorithm">🔐 The Algorithm</a><a href="#faq">❓ FAQ</a><a href="./" style="margin-left:auto">🧮 Verifier tool</a></nav>
+  <section id="home" class="doc"><div class="md"><h1>maczo Lucky Spin — Provably Fair</h1>
+<p>Welcome. This wiki explains, in full, how the <strong>Lucky Spin</strong> wheel on <a href="https://maczo.co">maczo.co</a>
+proves every result is fair — and how <em>you</em> can verify it yourself, with no need to trust us.</p>
+<p>Lucky Spin uses a <strong>commit-first</strong> design: we lock in a secret <strong>server seed</strong> and publish its hash
+<em>before</em> you spin, so we can't change the outcome after seeing your bet. Every result is a pure
+function of three values you can inspect.</p>
+<h2>Quick links</h2>
+<ul>
+<li>🧮 <strong><a href="#verify">Verifying Your Spins</a></strong> — step-by-step, with the browser &amp; CLI tools</li>
+<li>🔐 <strong><a href="#algorithm">The Algorithm</a></strong> — the exact HMAC-SHA256 formula + rejection sampling</li>
+<li>❓ <strong><a href="#faq">FAQ</a></strong> — common questions</li>
+</ul>
+<h2>The three inputs</h2>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Who controls it</th>
+<th>When you see it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Server seed</strong></td>
+<td>maczo (secret)</td>
+<td>its <strong>SHA-256 hash</strong> is shown <em>before</em> you spin; the raw seed is revealed when you <strong>Rotate</strong></td>
+</tr>
+<tr>
+<td><strong>Client seed</strong></td>
+<td><strong>you</strong> (editable on the Lucky Spin page)</td>
+<td>always</td>
+</tr>
+<tr>
+<td><strong>Nonce</strong></td>
+<td>server counter, +1 per spin</td>
+<td>shown for each spin</td>
+</tr>
+</tbody>
+</table>
+<h2>Try the verifier now</h2>
+<ul>
+<li><strong>Live (offline in your browser):</strong> https://verify.maczo.co/</li>
+<li><strong>Source / Node CLI:</strong> https://github.com/maczo-co/lucky-spin</li>
+</ul>
+<p>Every <strong>Verify ↗</strong> link in your spin history on maczo.co opens the verifier pre-filled with that
+spin's data and computes the result instantly.</p></div></section><section id="verify" class="doc"><div class="md"><h1>Verifying Your Spins</h1>
+<p>You can verify any spin in three ways. All of them run <strong>the same math the server used</strong> — nothing is
+trusted, everything is recomputed.</p>
+<h2>What you need</h2>
+<p>From the Lucky Spin page (<strong>🧾 Spin history &amp; verify</strong>), each spin shows:
+- <strong>Server Seed Hash</strong> (commitment) — shown before the spin
+- <strong>Client Seed</strong> — yours
+- <strong>Nonce</strong> — the spin number
+- <strong>Server Seed</strong> — appears only after you press <strong>Rotate</strong> (which reveals it)</p>
+<p>To fully reproduce the <em>segment</em>, you also need the <strong>weights</strong> (segment odds). These are published in
+<a href="https://github.com/maczo-co/lucky-spin/blob/main/weights.maczo.json"><code>weights.maczo.json</code></a> and are
+embedded automatically in the site's <strong>Verify ↗</strong> links.</p>
+<h2>Method 1 — One-click (easiest)</h2>
+<p>On maczo.co open <strong>Lucky Spin → Spin history &amp; verify</strong>, press <strong>Rotate seed</strong> to reveal the server
+seed, then click <strong>Verify ↗</strong> next to any spin. It opens
+https://verify.maczo.co/ with everything filled in and computes instantly.</p>
+<h2>Method 2 — Browser, manual</h2>
+<ol>
+<li>Open https://verify.maczo.co/ (or <code>index.html</code> from the repo — works fully offline).</li>
+<li>Paste <strong>Server Seed</strong>, <strong>Commitment</strong>, <strong>Client Seed</strong>, <strong>Nonce</strong>, and the <strong>weights</strong> JSON.</li>
+<li>Press <strong>Verify spin</strong>. You'll see:</li>
+<li>✅/❌ whether <code>SHA-256(serverSeed)</code> matches the commitment</li>
+<li>the reproduced <strong>segment index</strong> and <strong>prize</strong></li>
+</ol>
+<h2>Method 3 — Node.js CLI</h2>
+<pre><code class="language-bash">git clone https://github.com/maczo-co/lucky-spin
+cd lucky-spin
+
+# verify one spin
+node verify.js \
+  --commit  &lt;serverSeedHash&gt; \
+  --server  &lt;revealed serverSeed&gt; \
+  --client  &lt;your clientSeed&gt; \
+  --nonce   &lt;n&gt; \
+  --weights @weights.maczo.json
+
+# confirm the code matches the spec with bundled known-answer vectors
+node verify.js --selftest
+</code></pre>
+<h2>What "verified" proves</h2>
+<ul>
+<li><strong>Commitment match</strong> → the server committed to this exact seed <em>before</em> you played; it could not have
+  been chosen after seeing your bet or client seed.</li>
+<li><strong>Reproduced segment</strong> → the published result is exactly what the algorithm produces from the seeds
+  and weights — not a number the operator picked.</li>
+</ul>
+<p>If either check fails, the result was tampered with. (It won't — that's the point.)</p></div></section><section id="algorithm" class="doc"><div class="md"><h1>The Algorithm</h1>
+<p>Lucky Spin's outcome is fully deterministic: the same
+<code>(serverSeed, clientSeed, nonce, weights)</code> always produces the same segment. Here is exactly what the
+server computes — the verifier in this repo reproduces it byte-for-byte.</p>
+<h2>1. Commitment</h2>
+<p>Before your first spin, the site shows:</p>
+<pre><code>commitment = SHA-256(serverSeed)      // 64 hex chars, lowercase
+</code></pre>
+<p>The raw <code>serverSeed</code> stays secret while it is active. The commitment proves the seed already existed
+and cannot be swapped later — any change would produce a different SHA-256.</p>
+<h2>2. Per-spin randomness</h2>
+<p>For each spin:</p>
+<pre><code>digest = HMAC-SHA256(key = serverSeed, message = &quot;clientSeed:nonce:cursor&quot;)   // cursor starts at 0
+</code></pre>
+<ul>
+<li><code>serverSeed</code> is the HMAC <strong>key</strong> (UTF-8 bytes).</li>
+<li><code>message</code> is the UTF-8 string <code>clientSeed</code> + <code>:</code> + <code>nonce</code> + <code>:</code> + <code>cursor</code>.</li>
+<li>The result is 32 bytes.</li>
+</ul>
+<h2>3. Unbiased mapping (rejection sampling)</h2>
+<p>The 32-byte digest is read as <strong>four 8-byte big-endian unsigned integers</strong> (<code>uint64</code>). To keep the odds
+exactly as configured we reject the small biased tail:</p>
+<pre><code>total  = sum(weights)
+limit  = 2^64 - (2^64 mod total)      // largest exact multiple of total
+</code></pre>
+<p>For each 8-byte word in order: if <code>word &gt;= limit</code>, skip it (biased — would distort odds); otherwise it
+is accepted. If all four words are skipped, increment <code>cursor</code> and re-HMAC (astronomically rare).</p>
+<h2>4. Segment selection</h2>
+<p>The accepted word is reduced and walked across the cumulative weights:</p>
+<pre><code>pick = acceptedWord mod total
+acc  = 0
+for i in 0..weights.length-1:
+    acc += weights[i]
+    if pick &lt; acc: return i        // this is the winning segment index
+</code></pre>
+<p><code>segmentIndex</code> indexes into the wheel's segment list (weight &gt; 0 only, in prize-table order). The prize
+shown is <code>segments[segmentIndex]</code>.</p>
+<h2>5. Reveal</h2>
+<p>When you <strong>Rotate</strong> the seed, the site permanently retires it and reveals the original <code>serverSeed</code>.
+You can then check <code>SHA-256(serverSeed) == commitment</code> and re-run every past spin under that seed.</p>
+<h2>Reference implementations (this repo)</h2>
+<ul>
+<li><code>verify.js</code> — Node.js (uses <code>crypto</code>), CLI + <code>--selftest</code></li>
+<li><code>index.html</code> — offline browser (Web Crypto <code>subtle.digest</code> / <code>subtle.sign</code>)</li>
+<li><code>test-vectors.json</code> — known-answer cases both must reproduce</li>
+</ul>
+<p>Both use <code>BigInt</code> for exact <code>uint64</code> arithmetic. See the server's <code>ProvablyFairWheel</code> for the canonical
+source.</p></div></section><section id="faq" class="doc"><div class="md"><h1>FAQ</h1>
+<h3>What does "provably fair" actually mean here?</h3>
+<p>The wheel result is a pure cryptographic function of a <strong>server seed</strong> (which we commit to <em>before</em> you
+spin), your <strong>client seed</strong>, and a <strong>nonce</strong>. Because the commitment is published first, we cannot change
+the outcome afterward. You can recompute every result yourself — see <a href="#verify">Verifying Your Spins</a>.</p>
+<h3>Why is the server seed hidden at first?</h3>
+<p>If we revealed it up front, the outcome of every future spin would be predictable. Instead we publish
+<code>SHA-256(serverSeed)</code> (the commitment). When you <strong>Rotate</strong>, the raw seed is revealed so you can verify
+the whole history — and the hash proves we never swapped it.</p>
+<h3>Can maczo change where the wheel lands?</h3>
+<p>No. The server seed is fixed and its hash is published before you spin. Changing the seed would break
+<code>SHA-256(serverSeed) == commitment</code>. The nonce is a server-owned counter that only ever increases, so
+no result can be replayed.</p>
+<h3>Do I have to trust maczo's website to verify?</h3>
+<p>No. The browser verifier (<code>index.html</code>) runs entirely offline — view source and confirm it makes no
+network calls. Or run the Node CLI. Or re-implement the <a href="#algorithm">algorithm</a> in any language.</p>
+<h3>What are the "weights"?</h3>
+<p>They are the relative frequency of each wheel segment (the paytable). They are published in full in
+<code>weights.maczo.json</code> and embedded in the site's verify links, so the exact segment can be reproduced.</p>
+<h3>Why does the verifier need weights but the site hides some numbers?</h3>
+<p>It doesn't hide them — the prize values are printed on the wheel and the weights are published. You need
+the weights only to map the random number to a segment; the cryptography above guarantees that mapping is
+honest.</p>
+<h3>The <code>cursor</code> in the formula is almost always 0 — why is it there?</h3>
+<p>It only advances in the extremely rare case that all four 8-byte words of one HMAC digest fall in the
+biased tail and are rejected. It guarantees the sampling never runs out of randomness while staying
+perfectly unbiased.</p>
+<h3>My verification failed — what now?</h3>
+<p>Double-check you used the <strong>revealed</strong> server seed (after Rotate), the exact client seed and nonce shown
+for that spin, and the published weights. If it still fails, contact support with the values — but the
+math is deterministic, so a correct input always reproduces the published result.</p>
+<h3>Is this a standard provably-fair method?</h3>
+<p>Yes — it uses the well-established HMAC-SHA256 commit-reveal family, with rejection sampling to remove modulo bias. The
+implementation is open source so anyone can audit it.</p></div></section>
+  <footer>
+    <a href="https://github.com/maczo-co/lucky-spin" target="_blank" rel="noopener noreferrer">github.com/maczo-co/lucky-spin</a>
+    &nbsp;·&nbsp; <a href="./">Verifier</a>
+    &nbsp;·&nbsp; <a href="https://maczo.co" target="_blank" rel="noopener noreferrer">maczo.co</a>
+  </footer>
+</div>
+</body>
+</html>

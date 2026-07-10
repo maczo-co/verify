@@ -1,0 +1,245 @@
+{
+  "game": "packs",
+  "vectors": [
+    {
+      "serverSeed": "0f3c5ee01cba5ab93bc182166102e7b93ec7b7c74905da414f596e869d36badf",
+      "clientSeed": "player_1",
+      "commitment": "1e62aca81d962870c5b1a6010d7f7c4f4ce8b71637d89a2f07a43ffec8952780",
+      "nonce": 1,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 35357142,
+        "win": false,
+        "payoutMinor": 35357142,
+        "outcome": {
+          "cards_e8": [
+            30306122,
+            1010204,
+            1010204,
+            2020408,
+            1010204
+          ],
+          "multiplier_e8": 35357142
+        }
+      }
+    },
+    {
+      "serverSeed": "cc5cb56b0f0dca81601515ad778237c51e760596e5b368ef44060602eab30b06",
+      "clientSeed": "player_2",
+      "commitment": "7774c13e20ab937214efb16d43f8f6bf6115dc6ebcabd021601bac0399f1f99c",
+      "nonce": 2,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 9091836,
+        "win": false,
+        "payoutMinor": 9091836,
+        "outcome": {
+          "cards_e8": [
+            3030612,
+            3030612,
+            1010204,
+            1010204,
+            1010204
+          ],
+          "multiplier_e8": 9091836
+        }
+      }
+    },
+    {
+      "serverSeed": "14d2df8585242b6e44b0b65e687e033e46f3e221abfe770e8f814de69374049d",
+      "clientSeed": "player_3",
+      "commitment": "73efe4dd40a98292675cd03e1b57c7ba4c910f95755fbefe46ab2657a77606e9",
+      "nonce": 3,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 410142856,
+        "win": true,
+        "payoutMinor": 410142856,
+        "outcome": {
+          "cards_e8": [
+            1010204,
+            2020408,
+            2020408,
+            1010204,
+            404081632
+          ],
+          "multiplier_e8": 410142856
+        }
+      }
+    },
+    {
+      "serverSeed": "2fbe044488aaa814d824d261e9a375758926f67b357230d002f38eea45560b6a",
+      "clientSeed": "player_4",
+      "commitment": "0b50155fc990f8dcd4a83c1e413b5ff094626ad1b3f44f49d91b28be640be2f1",
+      "nonce": 4,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10102040,
+        "win": false,
+        "payoutMinor": 10102040,
+        "outcome": {
+          "cards_e8": [
+            2020408,
+            2020408,
+            2020408,
+            2020408,
+            2020408
+          ],
+          "multiplier_e8": 10102040
+        }
+      }
+    },
+    {
+      "serverSeed": "f917b64ed1f7b3a1461c7fad4806c3719854fbc0978fcdf67d0ccf4e50192a19",
+      "clientSeed": "player_0",
+      "commitment": "9f9c3cc4ec01b9d9195a473c1fa2d2b0900e59b368b0ca27b47984d2110d1fec",
+      "nonce": 5,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 26265305,
+        "win": false,
+        "payoutMinor": 26265305,
+        "outcome": {
+          "cards_e8": [
+            1010204,
+            1010204,
+            3030612,
+            20204081,
+            1010204
+          ],
+          "multiplier_e8": 26265305
+        }
+      }
+    },
+    {
+      "serverSeed": "368b6c1a544c0f3a252c76cf2258feb2c1165d3e932922b91f07c2192798de1e",
+      "clientSeed": "player_1",
+      "commitment": "cea2f6d6a15684060e5c7e603efb324725cc57e31fb593a9258f4eb297ea8f1c",
+      "nonce": 6,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 6061224,
+        "win": false,
+        "payoutMinor": 6061224,
+        "outcome": {
+          "cards_e8": [
+            1010204,
+            1010204,
+            1010204,
+            2020408,
+            1010204
+          ],
+          "multiplier_e8": 6061224
+        }
+      }
+    },
+    {
+      "serverSeed": "d7dc31109cf82f4adbf7bbb7134b917023a4e418df3f325072c67021d3b6719a",
+      "clientSeed": "player_2",
+      "commitment": "a57c5880d12abe6b47a94642b909ef11c2418fa7dbfa733772d7f0f32c61adf4",
+      "nonce": 7,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 20204081,
+        "win": false,
+        "payoutMinor": 20204081,
+        "outcome": {
+          "cards_e8": [
+            1010204,
+            15153061,
+            1010204,
+            1010204,
+            2020408
+          ],
+          "multiplier_e8": 20204081
+        }
+      }
+    },
+    {
+      "serverSeed": "4da53c7e2023dcbcc2f8185fce87074e187af7d0f1a50dedf36d4816dc6f23e8",
+      "clientSeed": "player_3",
+      "commitment": "ecb099e2d10e80bb6c5d07b71d6351b42b58737114a858d8f05f4a4a6a19d6d9",
+      "nonce": 8,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 155571428,
+        "win": true,
+        "payoutMinor": 155571428,
+        "outcome": {
+          "cards_e8": [
+            50510204,
+            1010204,
+            2020408,
+            1010204,
+            101020408
+          ],
+          "multiplier_e8": 155571428
+        }
+      }
+    },
+    {
+      "serverSeed": "18ae13bf0f7e5be078a78398bb3940f38cf45434c0434bc67888d906f0cd881c",
+      "clientSeed": "player_4",
+      "commitment": "dacec5c1707522dbe4b15e5a9ae7a68f57c27f5c370556f8169614fc084162ba",
+      "nonce": 9,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 12122448,
+        "win": false,
+        "payoutMinor": 12122448,
+        "outcome": {
+          "cards_e8": [
+            3030612,
+            3030612,
+            2020408,
+            3030612,
+            1010204
+          ],
+          "multiplier_e8": 12122448
+        }
+      }
+    },
+    {
+      "serverSeed": "5c6d9951869770c208c469cea11677eab9fc3872fd3e4547eabd2140f85da28d",
+      "clientSeed": "player_0",
+      "commitment": "ef4347b9a8c3169e939ad8d07c55b7465bb008eac592fb0edc08a13cf4013e5c",
+      "nonce": 10,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 7071428,
+        "win": false,
+        "payoutMinor": 7071428,
+        "outcome": {
+          "cards_e8": [
+            1010204,
+            2020408,
+            1010204,
+            1010204,
+            2020408
+          ],
+          "multiplier_e8": 7071428
+        }
+      }
+    }
+  ]
+}

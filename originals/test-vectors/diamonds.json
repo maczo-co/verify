@@ -1,0 +1,255 @@
+{
+  "game": "diamonds",
+  "vectors": [
+    {
+      "serverSeed": "8f42895e476c4da818ab9c56d1c822078cfea43a3493c46ec73f729c8c3308e9",
+      "clientSeed": "player_1",
+      "commitment": "279052f5682806bae7a8a625fb6f4979cc54e52ab663488462e5b636c3aa21d0",
+      "nonce": 1,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10071991,
+        "win": true,
+        "payoutMinor": 10071991,
+        "outcome": {
+          "gems": [
+            3,
+            1,
+            0,
+            0,
+            4
+          ],
+          "pattern": "Pair",
+          "multiplier_e8": 10071991
+        }
+      }
+    },
+    {
+      "serverSeed": "305d1b7f8502abff1ee2f2bf3918d35c247a719d756e6fd4e6e042e73eb8e99e",
+      "clientSeed": "player_2",
+      "commitment": "fc12aec6ccc7bae3fc94e21b7ad97a44f26740c5d407a40e404a8c61c41a7e3b",
+      "nonce": 2,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10071991,
+        "win": true,
+        "payoutMinor": 10071991,
+        "outcome": {
+          "gems": [
+            6,
+            3,
+            6,
+            0,
+            4
+          ],
+          "pattern": "Pair",
+          "multiplier_e8": 10071991
+        }
+      }
+    },
+    {
+      "serverSeed": "bac7513b73b23a98d0a4268ceda5d2b41038a33695cd905c07dcdcd0d404fb47",
+      "clientSeed": "player_3",
+      "commitment": "7cc327d3f3aee2ddca6257aae51cbb2d845eed86cdb848fa27d5c8e6c34a8e39",
+      "nonce": 3,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 201439830,
+        "win": true,
+        "payoutMinor": 201439830,
+        "outcome": {
+          "gems": [
+            6,
+            2,
+            2,
+            3,
+            6
+          ],
+          "pattern": "Two pair",
+          "multiplier_e8": 201439830
+        }
+      }
+    },
+    {
+      "serverSeed": "d52ddb0b0479cc20a030e048b7f64666eb98489cad79a4edc16b59bfac97894a",
+      "clientSeed": "player_4",
+      "commitment": "c6459fd3ceab81e92d7c7f56c453fb2d99ce655b99a573c64a14f4a92f006355",
+      "nonce": 4,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10071991,
+        "win": true,
+        "payoutMinor": 10071991,
+        "outcome": {
+          "gems": [
+            6,
+            4,
+            3,
+            4,
+            1
+          ],
+          "pattern": "Pair",
+          "multiplier_e8": 10071991
+        }
+      }
+    },
+    {
+      "serverSeed": "ef3a59aaea1b1b32e947b8a68d867e788ad07045dd1ee1b8e692ba590f671f68",
+      "clientSeed": "player_0",
+      "commitment": "bc0c7d5769c0a72c370ff938a191ea6167ff034d8c6794f36d59bffb1c2b047e",
+      "nonce": 5,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 302159745,
+        "win": true,
+        "payoutMinor": 302159745,
+        "outcome": {
+          "gems": [
+            5,
+            0,
+            6,
+            0,
+            0
+          ],
+          "pattern": "Three of a kind",
+          "multiplier_e8": 302159745
+        }
+      }
+    },
+    {
+      "serverSeed": "65449c104fb014f80fd81084c38196d16710f82144e81bd6e9b324b8339e52b4",
+      "clientSeed": "player_1",
+      "commitment": "e398590fab45bc868656074e805cfee0a615e498367736d103eb907b06cf5246",
+      "nonce": 6,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10071991,
+        "win": true,
+        "payoutMinor": 10071991,
+        "outcome": {
+          "gems": [
+            4,
+            1,
+            0,
+            2,
+            2
+          ],
+          "pattern": "Pair",
+          "multiplier_e8": 10071991
+        }
+      }
+    },
+    {
+      "serverSeed": "d69c27d8cb8d38833cda7fd16c8bed7c48536d09dd56b8a674e202482416787c",
+      "clientSeed": "player_2",
+      "commitment": "b8004c8c7363ba01e335e097ab96600eda163fbaea9260548b76c0251be6bf3c",
+      "nonce": 7,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "gems": [
+            4,
+            5,
+            6,
+            3,
+            2
+          ],
+          "pattern": "No match",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "9e863409ae5f268c19f8231550639bba4db3c6874ba8e2a6c8568427f1cea364",
+      "clientSeed": "player_3",
+      "commitment": "d62306a6116daeeb9fe9a0b575bee473ed9acbac6d22f4dd07a387bae00063c2",
+      "nonce": 8,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 201439830,
+        "win": true,
+        "payoutMinor": 201439830,
+        "outcome": {
+          "gems": [
+            2,
+            0,
+            0,
+            2,
+            1
+          ],
+          "pattern": "Two pair",
+          "multiplier_e8": 201439830
+        }
+      }
+    },
+    {
+      "serverSeed": "e5cdf5b586ad3c0c6e721a1bd0b98d613e2ac11be439f5dde8f9f619f0c0cdae",
+      "clientSeed": "player_4",
+      "commitment": "70379b1b439da2be9760fb98974497e9adec5d04e994fcd8dbb086f408d18fc8",
+      "nonce": 9,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 201439830,
+        "win": true,
+        "payoutMinor": 201439830,
+        "outcome": {
+          "gems": [
+            6,
+            6,
+            1,
+            3,
+            3
+          ],
+          "pattern": "Two pair",
+          "multiplier_e8": 201439830
+        }
+      }
+    },
+    {
+      "serverSeed": "95176091e964f37489ce3cdc35c48e67ccf0adc1c2de9c66518b1479936d9920",
+      "clientSeed": "player_0",
+      "commitment": "2668b41052984ae150e8405cd87300742d245598df4323b22222bf4aed297e6d",
+      "nonce": 10,
+      "params": {},
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 201439830,
+        "win": true,
+        "payoutMinor": 201439830,
+        "outcome": {
+          "gems": [
+            1,
+            1,
+            0,
+            6,
+            0
+          ],
+          "pattern": "Two pair",
+          "multiplier_e8": 201439830
+        }
+      }
+    }
+  ]
+}

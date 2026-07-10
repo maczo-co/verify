@@ -1,0 +1,258 @@
+{
+  "game": "dice",
+  "vectors": [
+    {
+      "serverSeed": "3210d2e8a60320e93caa54fdce889eaac4613a05aad5c6c5e9c796859b1621ab",
+      "clientSeed": "player_1",
+      "commitment": "8726948d5f5d7d57ec2744a558a86722daf6091c36294582f1d948603d101b40",
+      "nonce": 1,
+      "params": {
+        "target": 2500,
+        "direction": "under"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "roll": 7535,
+          "direction": "under",
+          "target": 2500,
+          "win_count": 2500
+        }
+      }
+    },
+    {
+      "serverSeed": "76dbd0fdd8be6088cb397955bd71091c6116a46d35012798416f66d18869d211",
+      "clientSeed": "player_2",
+      "commitment": "e785d1ca58e8743ef544fd5233bd133942c9d73ac9f56352f877682883020b66",
+      "nonce": 2,
+      "params": {
+        "target": 5000,
+        "direction": "under"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198000000,
+        "win": true,
+        "payoutMinor": 198000000,
+        "outcome": {
+          "roll": 2735,
+          "direction": "under",
+          "target": 5000,
+          "win_count": 5000
+        }
+      }
+    },
+    {
+      "serverSeed": "675dee2a27a7aae780d661b4da56364113988b12c9a9cfd213f740c5f244286c",
+      "clientSeed": "player_3",
+      "commitment": "851b211c1ea4744d07b28dab59ab7cd635e3e3da1cd685095ca56c2a8a1c6001",
+      "nonce": 3,
+      "params": {
+        "target": 7500,
+        "direction": "under"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "roll": 9893,
+          "direction": "under",
+          "target": 7500,
+          "win_count": 7500
+        }
+      }
+    },
+    {
+      "serverSeed": "9622ddd44d36384e391fda57670cd14c141484cee2caec8eb952d2f0c0077d20",
+      "clientSeed": "player_4",
+      "commitment": "ef4f8ec2714b85532c506847e52cee745d941cb5ff3a77fc5c58293e4a753d40",
+      "nonce": 4,
+      "params": {
+        "target": 9900,
+        "direction": "under"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 100000000,
+        "win": true,
+        "payoutMinor": 100000000,
+        "outcome": {
+          "roll": 4593,
+          "direction": "under",
+          "target": 9900,
+          "win_count": 9900
+        }
+      }
+    },
+    {
+      "serverSeed": "4bf91f9aad308712041130f13f95c65dc3fdcb4400b776a4a90a8e7057191120",
+      "clientSeed": "player_0",
+      "commitment": "d00171aec22d27a7aed0e2d216145837261436cc17c9ce9ef1cdcb4684373a02",
+      "nonce": 5,
+      "params": {
+        "target": 100,
+        "direction": "under"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "roll": 3239,
+          "direction": "under",
+          "target": 100,
+          "win_count": 100
+        }
+      }
+    },
+    {
+      "serverSeed": "e2557ce604b14941b4313d72f35e415f0eda6f99117a1fbf9a232e0b67531122",
+      "clientSeed": "player_1",
+      "commitment": "046201095e9ffffb143b6a035d182b27d4bd9268a476e4093ceb75cdf2a8210e",
+      "nonce": 6,
+      "params": {
+        "target": 2500,
+        "direction": "over"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 132017602,
+        "win": true,
+        "payoutMinor": 132017602,
+        "outcome": {
+          "roll": 8440,
+          "direction": "over",
+          "target": 2500,
+          "win_count": 7499
+        }
+      }
+    },
+    {
+      "serverSeed": "1bfecc54c8dc96eb64203d0a28f6007a6cc362d04f9ce1fac15b7c6d6224b515",
+      "clientSeed": "player_2",
+      "commitment": "ea910083c9a5703c9bde04dd5801f1343de230ef67378ddbe6461762e328c143",
+      "nonce": 7,
+      "params": {
+        "target": 5000,
+        "direction": "over"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198039607,
+        "win": true,
+        "payoutMinor": 198039607,
+        "outcome": {
+          "roll": 6115,
+          "direction": "over",
+          "target": 5000,
+          "win_count": 4999
+        }
+      }
+    },
+    {
+      "serverSeed": "64a75e4c0e8d1f5731dd84c8e3f015873cabcb5e07491f2020577784fa109ace",
+      "clientSeed": "player_3",
+      "commitment": "63587cf7de5858e0bbbf5ae70a6bf6653075e559b09d7b3ae7e4274d4b803c62",
+      "nonce": 8,
+      "params": {
+        "target": 7500,
+        "direction": "over"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "roll": 3260,
+          "direction": "over",
+          "target": 7500,
+          "win_count": 2499
+        }
+      }
+    },
+    {
+      "serverSeed": "eac060c41d9cfccdbad26d3d3f1dfff3a0a42ab90b78beee9578fafb2754dd62",
+      "clientSeed": "player_4",
+      "commitment": "d718d526dba63b32aefb19a0c2af6b69d32eeadf159e2efa043106d10bed05c5",
+      "nonce": 9,
+      "params": {
+        "target": 9900,
+        "direction": "over"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "roll": 352,
+          "direction": "over",
+          "target": 9900,
+          "win_count": 99
+        }
+      }
+    },
+    {
+      "serverSeed": "c9cec9e68ab2be3ed4483220be054101282c9edc5486c91b7b43a7df3ac94d6c",
+      "clientSeed": "player_0",
+      "commitment": "092643365cb74f554c2073fcd7d36e11a0529484e762f7df6c0a7c50f2abf2b7",
+      "nonce": 10,
+      "params": {
+        "target": 100,
+        "direction": "over"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 100010102,
+        "win": true,
+        "payoutMinor": 100010102,
+        "outcome": {
+          "roll": 1377,
+          "direction": "over",
+          "target": 100,
+          "win_count": 9899
+        }
+      }
+    },
+    {
+      "serverSeed": "bbe4b0dd70e5dde1665d2accba94b1cd193c15f40d7fdd001ddeeddbdf04ddb2",
+      "clientSeed": "player_4",
+      "commitment": "82fc287bf494f434b210c10c09d6d6f564ee93f5f40c87f6f52e531520dea61b",
+      "nonce": 99,
+      "params": {
+        "target": 5000,
+        "direction": "under"
+      },
+      "betMinor": 123456789,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198000000,
+        "win": true,
+        "payoutMinor": 244444442,
+        "outcome": {
+          "roll": 4602,
+          "direction": "under",
+          "target": 5000,
+          "win_count": 5000
+        }
+      }
+    }
+  ]
+}

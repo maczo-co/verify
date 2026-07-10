@@ -1,0 +1,215 @@
+{
+  "game": "rps",
+  "vectors": [
+    {
+      "serverSeed": "e48bdfa2fec7dcde801a0a3ee35881884a6a150f2903610c374ef10424c56697",
+      "clientSeed": "player_1",
+      "commitment": "2458b30a53c9e0343c0b24e96dd21890c95ddc60ed1bd85aae81a120fcbb112a",
+      "nonce": 1,
+      "params": {
+        "guesses": [
+          "rock"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198000000,
+        "win": true,
+        "payoutMinor": 198000000,
+        "outcome": {
+          "guesses": [
+            "rock"
+          ],
+          "house": [
+            "scissors"
+          ],
+          "results": [
+            "win"
+          ],
+          "wins": 1,
+          "busted": false
+        }
+      }
+    },
+    {
+      "serverSeed": "2b8fc414e8d86df0acb9a4409288cb237455def9664f320da7376e5506f79de0",
+      "clientSeed": "player_2",
+      "commitment": "12c21a000ea15ab32496b7ac6944eade170b83c49d29cf5736886dab417ec15f",
+      "nonce": 2,
+      "params": {
+        "guesses": [
+          "rock",
+          "paper",
+          "scissors"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "guesses": [
+            "rock",
+            "paper",
+            "scissors"
+          ],
+          "house": [
+            "rock",
+            "scissors",
+            "paper"
+          ],
+          "results": [
+            "tie",
+            "lose",
+            "win"
+          ],
+          "wins": 1,
+          "busted": true
+        }
+      }
+    },
+    {
+      "serverSeed": "02702ae46b30056ba5894e8b11145b16cd8d4cd595a53ef2e1ee548e8510649b",
+      "clientSeed": "player_3",
+      "commitment": "2a5218af5ed4c96aee3bc8129c6cde22df1d04a1b0f58e04338c1dadd1925d9b",
+      "nonce": 3,
+      "params": {
+        "guesses": [
+          "rock",
+          "rock",
+          "rock",
+          "rock"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "guesses": [
+            "rock",
+            "rock",
+            "rock",
+            "rock"
+          ],
+          "house": [
+            "scissors",
+            "paper",
+            "rock",
+            "rock"
+          ],
+          "results": [
+            "win",
+            "lose",
+            "tie",
+            "tie"
+          ],
+          "wins": 1,
+          "busted": true
+        }
+      }
+    },
+    {
+      "serverSeed": "801dd1ed920e6c4fe22f50f4f7e81b0f222fc6ae707d2cb87956845045eee5e7",
+      "clientSeed": "player_4",
+      "commitment": "17fb2a1140aa60d4362b36689466d87ba373885e6d71f8289f5c27517cf3d84b",
+      "nonce": 4,
+      "params": {
+        "guesses": [
+          "scissors",
+          "scissors"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "guesses": [
+            "scissors",
+            "scissors"
+          ],
+          "house": [
+            "rock",
+            "scissors"
+          ],
+          "results": [
+            "lose",
+            "tie"
+          ],
+          "wins": 0,
+          "busted": true
+        }
+      }
+    },
+    {
+      "serverSeed": "67673cc0a38a293d41ee23cd2ef32a8c5d817dbf468871669b1a53d818997d09",
+      "clientSeed": "player_0",
+      "commitment": "b6a4540cb61645daa99b1cb70f3d5c46df4e9f87219853b482ee723233e72f2f",
+      "nonce": 20,
+      "params": {
+        "throws": [
+          "rock",
+          "paper",
+          "scissors",
+          "rock",
+          "paper"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "throws": [
+            "rock",
+            "paper",
+            "scissors",
+            "rock",
+            "paper"
+          ],
+          "house": [
+            "rock",
+            "scissors"
+          ],
+          "results": [
+            "tie",
+            "lose"
+          ],
+          "wins": 0,
+          "busted": true
+        }
+      }
+    },
+    {
+      "serverSeed": "56d61c77a44654daed25c7736546addd3ec6bf2105fe10ea0bec80f0ed640ab4",
+      "clientSeed": "player_1",
+      "commitment": "d0b8d9dd2b510f679ceee0b8658e2edb8659e9245197f26398ef356b935570da",
+      "nonce": 21,
+      "params": {
+        "throw": "rock"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "throw": "rock",
+          "house": "paper",
+          "result": "lose"
+        }
+      }
+    }
+  ]
+}

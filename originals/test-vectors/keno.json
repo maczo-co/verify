@@ -1,0 +1,569 @@
+{
+  "game": "keno",
+  "vectors": [
+    {
+      "serverSeed": "655a49dad18e9c0148ed22f61e67ef4126c673c230aa8a411660609a11f398b0",
+      "clientSeed": "player_1",
+      "commitment": "bc84d800bd684a3e31538999d8b6e448c2ecf27919a4f35c53a2de931b3baa4d",
+      "nonce": 1,
+      "params": {
+        "picks": [
+          7
+        ],
+        "difficulty": "classic"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "drawn": [
+            2,
+            6,
+            9,
+            13,
+            17,
+            18,
+            19,
+            25,
+            26,
+            36
+          ],
+          "picks": [
+            7
+          ],
+          "matches": 0,
+          "difficulty": "classic",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "0ff68ff8413702b4b269d28ca6056621fec4ce7632e316dc9e91d0d8c4859ce5",
+      "clientSeed": "player_2",
+      "commitment": "144e7ca701f92a486c08066c80f2ee2690fc3df2dd22aa6cd06524a226ac479e",
+      "nonce": 2,
+      "params": {
+        "picks": [
+          3,
+          11,
+          22,
+          40
+        ],
+        "difficulty": "classic"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "drawn": [
+            2,
+            6,
+            7,
+            12,
+            17,
+            18,
+            20,
+            25,
+            27,
+            35
+          ],
+          "picks": [
+            3,
+            11,
+            22,
+            40
+          ],
+          "matches": 0,
+          "difficulty": "classic",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "3ca8a72711f163f276fac34e52648f880abfdcb0dbcb510d9bda4dca61657b8e",
+      "clientSeed": "player_3",
+      "commitment": "c3627e49bd9b35279a9c3bf21a3195fc11e61b211a6d0e2b38dccf9a93e8a8cf",
+      "nonce": 3,
+      "params": {
+        "picks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "difficulty": "classic"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "drawn": [
+            9,
+            13,
+            14,
+            15,
+            17,
+            18,
+            22,
+            27,
+            32,
+            34
+          ],
+          "picks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matches": 1,
+          "difficulty": "classic",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "640a748d4e5c40434b19c70214c69c3e3e742049c79c5e46a60620caf5c2c9d7",
+      "clientSeed": "player_4",
+      "commitment": "81954db4cbff733d97beda8567d69fcaad01ffd6f9d9547ef4c0616e469af132",
+      "nonce": 4,
+      "params": {
+        "picks": [
+          7
+        ],
+        "difficulty": "low"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 70177215,
+        "win": true,
+        "payoutMinor": 70177215,
+        "outcome": {
+          "drawn": [
+            1,
+            2,
+            3,
+            15,
+            21,
+            23,
+            30,
+            37,
+            39,
+            40
+          ],
+          "picks": [
+            7
+          ],
+          "matches": 0,
+          "difficulty": "low",
+          "multiplier_e8": 70177215
+        }
+      }
+    },
+    {
+      "serverSeed": "9873d6c821b0ef425869ae882f83a13c21ffb6af21716afd066ae0116c376802",
+      "clientSeed": "player_0",
+      "commitment": "ebad710d7d3948b5d65c781474abdf1bfd7dac550e625081bb29100477d31598",
+      "nonce": 5,
+      "params": {
+        "picks": [
+          3,
+          11,
+          22,
+          40
+        ],
+        "difficulty": "low"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "drawn": [
+            1,
+            5,
+            11,
+            12,
+            15,
+            25,
+            26,
+            35,
+            36,
+            37
+          ],
+          "picks": [
+            3,
+            11,
+            22,
+            40
+          ],
+          "matches": 1,
+          "difficulty": "low",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "e2b71ccf0634e3f1d7f78a0d7694f36bbfea3a326cd7afff890338ec111777f1",
+      "clientSeed": "player_1",
+      "commitment": "8e28bca50fa9cce344df61931e6eac76506f9487251a9ee27d7ae1cc791eb31f",
+      "nonce": 6,
+      "params": {
+        "picks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "difficulty": "low"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 120291936,
+        "win": true,
+        "payoutMinor": 120291936,
+        "outcome": {
+          "drawn": [
+            1,
+            5,
+            9,
+            14,
+            18,
+            25,
+            33,
+            37,
+            38,
+            40
+          ],
+          "picks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matches": 3,
+          "difficulty": "low",
+          "multiplier_e8": 120291936
+        }
+      }
+    },
+    {
+      "serverSeed": "fb50f9980a6fd84c8adee26324711e4808388dac6fd984acd672feb3940b6e12",
+      "clientSeed": "player_2",
+      "commitment": "74a406363b665f1b7659fa2011fd21fff6554f103c7a4cb0f9619030571434d0",
+      "nonce": 7,
+      "params": {
+        "picks": [
+          7
+        ],
+        "difficulty": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 40101265,
+        "win": true,
+        "payoutMinor": 40101265,
+        "outcome": {
+          "drawn": [
+            3,
+            10,
+            11,
+            15,
+            18,
+            29,
+            30,
+            31,
+            33,
+            34
+          ],
+          "picks": [
+            7
+          ],
+          "matches": 0,
+          "difficulty": "medium",
+          "multiplier_e8": 40101265
+        }
+      }
+    },
+    {
+      "serverSeed": "672bc48c5c446af108dc14e3011d1f13d10f5c773928b7305dac8db9a677c04b",
+      "clientSeed": "player_3",
+      "commitment": "fd6878f321a61d74eb5d3901402f2653a89708b1b186a2a0713cb05705349115",
+      "nonce": 8,
+      "params": {
+        "picks": [
+          3,
+          11,
+          22,
+          40
+        ],
+        "difficulty": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "drawn": [
+            2,
+            8,
+            10,
+            12,
+            16,
+            22,
+            24,
+            27,
+            37,
+            38
+          ],
+          "picks": [
+            3,
+            11,
+            22,
+            40
+          ],
+          "matches": 1,
+          "difficulty": "medium",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "3453b558a633ae0248c90d792da07c8063326d064ba5bdc5ae5efc2f37451bb5",
+      "clientSeed": "player_4",
+      "commitment": "66c2e5bac6f8082be1970d819ecb6aa8b6c5e5ba7b8ceff23d8abd512a970bc9",
+      "nonce": 9,
+      "params": {
+        "picks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "difficulty": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "drawn": [
+            2,
+            15,
+            17,
+            18,
+            21,
+            23,
+            28,
+            29,
+            34,
+            38
+          ],
+          "picks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matches": 1,
+          "difficulty": "medium",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "9038970819cc3b2d1f776432512b8f7f92d693f4221ad47be837d3d6edb28777",
+      "clientSeed": "player_0",
+      "commitment": "2d0bfdd6fd7709a615cec3bcb686fcea0aba0a756a4d5a30931e46cf0bf359a4",
+      "nonce": 10,
+      "params": {
+        "picks": [
+          7
+        ],
+        "difficulty": "high"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 396000000,
+        "win": true,
+        "payoutMinor": 396000000,
+        "outcome": {
+          "drawn": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            13,
+            15,
+            28,
+            31
+          ],
+          "picks": [
+            7
+          ],
+          "matches": 1,
+          "difficulty": "high",
+          "multiplier_e8": 396000000
+        }
+      }
+    },
+    {
+      "serverSeed": "1d94406b09634c6e93272f1a21c06367193b495f41bec1dd0698b16149bd423e",
+      "clientSeed": "player_1",
+      "commitment": "570b185c0399e7350c57cb3d1cb42b0ae26f55b0af00e9978cbad700f90cbc0d",
+      "nonce": 11,
+      "params": {
+        "picks": [
+          3,
+          11,
+          22,
+          40
+        ],
+        "difficulty": "high"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "drawn": [
+            4,
+            8,
+            15,
+            19,
+            21,
+            23,
+            26,
+            30,
+            37,
+            38
+          ],
+          "picks": [
+            3,
+            11,
+            22,
+            40
+          ],
+          "matches": 0,
+          "difficulty": "high",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "04ea96a2e0fd65f54029ff094301a1d2b64976262467433397442d9060dbb986",
+      "clientSeed": "player_2",
+      "commitment": "6e6b7d0d9bdc3c9d9fdfff4db906a99e2a5a6656dfbdc97f1a3289ec401cce89",
+      "nonce": 12,
+      "params": {
+        "picks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "difficulty": "high"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "drawn": [
+            4,
+            6,
+            15,
+            17,
+            24,
+            29,
+            31,
+            32,
+            39,
+            40
+          ],
+          "picks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matches": 2,
+          "difficulty": "high",
+          "multiplier_e8": 0
+        }
+      }
+    }
+  ]
+}

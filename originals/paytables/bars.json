@@ -1,0 +1,718 @@
+{
+  "game": "bars",
+  "displayName": "Bars",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "easy/medium/hard/expert"
+    },
+    {
+      "name": "picks",
+      "desc": "1–5 cell indices"
+    }
+  ],
+  "grid": 30,
+  "slots": 1000000,
+  "maxPicks": 5,
+  "difficulty": {
+    "easy": {
+      "perPicks": {
+        "1": [
+          {
+            "multiplierE8": 40000000,
+            "weight": 336000
+          },
+          {
+            "multiplierE8": 60000000,
+            "weight": 356000
+          },
+          {
+            "multiplierE8": 120000000,
+            "weight": 150000
+          },
+          {
+            "multiplierE8": 150000000,
+            "weight": 80000
+          },
+          {
+            "multiplierE8": 300000000,
+            "weight": 60000
+          },
+          {
+            "multiplierE8": 900000000,
+            "weight": 18000
+          }
+        ],
+        "2": [
+          {
+            "multiplierE8": 20000000,
+            "weight": 336000
+          },
+          {
+            "multiplierE8": 30000000,
+            "weight": 356000
+          },
+          {
+            "multiplierE8": 60000000,
+            "weight": 150000
+          },
+          {
+            "multiplierE8": 75000000,
+            "weight": 80000
+          },
+          {
+            "multiplierE8": 150000000,
+            "weight": 60000
+          },
+          {
+            "multiplierE8": 450000000,
+            "weight": 18000
+          }
+        ],
+        "3": [
+          {
+            "multiplierE8": 13333333,
+            "weight": 336000
+          },
+          {
+            "multiplierE8": 20000000,
+            "weight": 356000
+          },
+          {
+            "multiplierE8": 40000000,
+            "weight": 150000
+          },
+          {
+            "multiplierE8": 50000000,
+            "weight": 80000
+          },
+          {
+            "multiplierE8": 100000000,
+            "weight": 60000
+          },
+          {
+            "multiplierE8": 300000000,
+            "weight": 18000
+          }
+        ],
+        "4": [
+          {
+            "multiplierE8": 10000000,
+            "weight": 336000
+          },
+          {
+            "multiplierE8": 15000000,
+            "weight": 356000
+          },
+          {
+            "multiplierE8": 30000000,
+            "weight": 150000
+          },
+          {
+            "multiplierE8": 37500000,
+            "weight": 80000
+          },
+          {
+            "multiplierE8": 75000000,
+            "weight": 60000
+          },
+          {
+            "multiplierE8": 225000000,
+            "weight": 18000
+          }
+        ],
+        "5": [
+          {
+            "multiplierE8": 8000000,
+            "weight": 336000
+          },
+          {
+            "multiplierE8": 12000000,
+            "weight": 356000
+          },
+          {
+            "multiplierE8": 24000000,
+            "weight": 150000
+          },
+          {
+            "multiplierE8": 30000000,
+            "weight": 80000
+          },
+          {
+            "multiplierE8": 60000000,
+            "weight": 60000
+          },
+          {
+            "multiplierE8": 180000000,
+            "weight": 18000
+          }
+        ]
+      },
+      "cum": [
+        336000,
+        692000,
+        842000,
+        922000,
+        982000,
+        1000000
+      ]
+    },
+    "medium": {
+      "perPicks": {
+        "1": [
+          {
+            "multiplierE8": 30000000,
+            "weight": 356000
+          },
+          {
+            "multiplierE8": 60000000,
+            "weight": 337000
+          },
+          {
+            "multiplierE8": 120000000,
+            "weight": 150000
+          },
+          {
+            "multiplierE8": 140000000,
+            "weight": 90000
+          },
+          {
+            "multiplierE8": 300000000,
+            "weight": 45000
+          },
+          {
+            "multiplierE8": 600000000,
+            "weight": 18000
+          },
+          {
+            "multiplierE8": 3300000000,
+            "weight": 4000
+          }
+        ],
+        "2": [
+          {
+            "multiplierE8": 15000000,
+            "weight": 356000
+          },
+          {
+            "multiplierE8": 30000000,
+            "weight": 337000
+          },
+          {
+            "multiplierE8": 60000000,
+            "weight": 150000
+          },
+          {
+            "multiplierE8": 70000000,
+            "weight": 90000
+          },
+          {
+            "multiplierE8": 150000000,
+            "weight": 45000
+          },
+          {
+            "multiplierE8": 300000000,
+            "weight": 18000
+          },
+          {
+            "multiplierE8": 1650000000,
+            "weight": 4000
+          }
+        ],
+        "3": [
+          {
+            "multiplierE8": 10000000,
+            "weight": 356000
+          },
+          {
+            "multiplierE8": 20000000,
+            "weight": 337000
+          },
+          {
+            "multiplierE8": 40000000,
+            "weight": 150000
+          },
+          {
+            "multiplierE8": 46666666,
+            "weight": 90000
+          },
+          {
+            "multiplierE8": 100000000,
+            "weight": 45000
+          },
+          {
+            "multiplierE8": 200000000,
+            "weight": 18000
+          },
+          {
+            "multiplierE8": 1100000000,
+            "weight": 4000
+          }
+        ],
+        "4": [
+          {
+            "multiplierE8": 7500000,
+            "weight": 356000
+          },
+          {
+            "multiplierE8": 15000000,
+            "weight": 337000
+          },
+          {
+            "multiplierE8": 30000000,
+            "weight": 150000
+          },
+          {
+            "multiplierE8": 35000000,
+            "weight": 90000
+          },
+          {
+            "multiplierE8": 75000000,
+            "weight": 45000
+          },
+          {
+            "multiplierE8": 150000000,
+            "weight": 18000
+          },
+          {
+            "multiplierE8": 825000000,
+            "weight": 4000
+          }
+        ],
+        "5": [
+          {
+            "multiplierE8": 6000000,
+            "weight": 356000
+          },
+          {
+            "multiplierE8": 12000000,
+            "weight": 337000
+          },
+          {
+            "multiplierE8": 24000000,
+            "weight": 150000
+          },
+          {
+            "multiplierE8": 28000000,
+            "weight": 90000
+          },
+          {
+            "multiplierE8": 60000000,
+            "weight": 45000
+          },
+          {
+            "multiplierE8": 120000000,
+            "weight": 18000
+          },
+          {
+            "multiplierE8": 660000000,
+            "weight": 4000
+          }
+        ]
+      },
+      "cum": [
+        356000,
+        693000,
+        843000,
+        933000,
+        978000,
+        996000,
+        1000000
+      ]
+    },
+    "hard": {
+      "perPicks": {
+        "1": [
+          {
+            "multiplierE8": 10000000,
+            "weight": 526275
+          },
+          {
+            "multiplierE8": 30000000,
+            "weight": 277075
+          },
+          {
+            "multiplierE8": 120000000,
+            "weight": 100000
+          },
+          {
+            "multiplierE8": 240000000,
+            "weight": 40000
+          },
+          {
+            "multiplierE8": 600000000,
+            "weight": 40000
+          },
+          {
+            "multiplierE8": 1200000000,
+            "weight": 15000
+          },
+          {
+            "multiplierE8": 7500000000,
+            "weight": 1500
+          },
+          {
+            "multiplierE8": 70500000000,
+            "weight": 150
+          }
+        ],
+        "2": [
+          {
+            "multiplierE8": 5000000,
+            "weight": 526275
+          },
+          {
+            "multiplierE8": 15000000,
+            "weight": 277075
+          },
+          {
+            "multiplierE8": 60000000,
+            "weight": 100000
+          },
+          {
+            "multiplierE8": 120000000,
+            "weight": 40000
+          },
+          {
+            "multiplierE8": 300000000,
+            "weight": 40000
+          },
+          {
+            "multiplierE8": 600000000,
+            "weight": 15000
+          },
+          {
+            "multiplierE8": 3750000000,
+            "weight": 1500
+          },
+          {
+            "multiplierE8": 35250000000,
+            "weight": 150
+          }
+        ],
+        "3": [
+          {
+            "multiplierE8": 3333333,
+            "weight": 526275
+          },
+          {
+            "multiplierE8": 10000000,
+            "weight": 277075
+          },
+          {
+            "multiplierE8": 40000000,
+            "weight": 100000
+          },
+          {
+            "multiplierE8": 80000000,
+            "weight": 40000
+          },
+          {
+            "multiplierE8": 200000000,
+            "weight": 40000
+          },
+          {
+            "multiplierE8": 400000000,
+            "weight": 15000
+          },
+          {
+            "multiplierE8": 2500000000,
+            "weight": 1500
+          },
+          {
+            "multiplierE8": 23500000000,
+            "weight": 150
+          }
+        ],
+        "4": [
+          {
+            "multiplierE8": 2500000,
+            "weight": 526275
+          },
+          {
+            "multiplierE8": 7500000,
+            "weight": 277075
+          },
+          {
+            "multiplierE8": 30000000,
+            "weight": 100000
+          },
+          {
+            "multiplierE8": 60000000,
+            "weight": 40000
+          },
+          {
+            "multiplierE8": 150000000,
+            "weight": 40000
+          },
+          {
+            "multiplierE8": 300000000,
+            "weight": 15000
+          },
+          {
+            "multiplierE8": 1875000000,
+            "weight": 1500
+          },
+          {
+            "multiplierE8": 17625000000,
+            "weight": 150
+          }
+        ],
+        "5": [
+          {
+            "multiplierE8": 2000000,
+            "weight": 526275
+          },
+          {
+            "multiplierE8": 6000000,
+            "weight": 277075
+          },
+          {
+            "multiplierE8": 24000000,
+            "weight": 100000
+          },
+          {
+            "multiplierE8": 48000000,
+            "weight": 40000
+          },
+          {
+            "multiplierE8": 120000000,
+            "weight": 40000
+          },
+          {
+            "multiplierE8": 240000000,
+            "weight": 15000
+          },
+          {
+            "multiplierE8": 1500000000,
+            "weight": 1500
+          },
+          {
+            "multiplierE8": 14100000000,
+            "weight": 150
+          }
+        ]
+      },
+      "cum": [
+        526275,
+        803350,
+        903350,
+        943350,
+        983350,
+        998350,
+        999850,
+        1000000
+      ]
+    },
+    "expert": {
+      "perPicks": {
+        "1": [
+          {
+            "multiplierE8": 0,
+            "weight": 470934
+          },
+          {
+            "multiplierE8": 20000000,
+            "weight": 390000
+          },
+          {
+            "multiplierE8": 150000000,
+            "weight": 88000
+          },
+          {
+            "multiplierE8": 600000000,
+            "weight": 26000
+          },
+          {
+            "multiplierE8": 900000000,
+            "weight": 16000
+          },
+          {
+            "multiplierE8": 3000000000,
+            "weight": 8000
+          },
+          {
+            "multiplierE8": 15000000000,
+            "weight": 1000
+          },
+          {
+            "multiplierE8": 120000000000,
+            "weight": 60
+          },
+          {
+            "multiplierE8": 300000000000,
+            "weight": 6
+          }
+        ],
+        "2": [
+          {
+            "multiplierE8": 0,
+            "weight": 470934
+          },
+          {
+            "multiplierE8": 10000000,
+            "weight": 390000
+          },
+          {
+            "multiplierE8": 75000000,
+            "weight": 88000
+          },
+          {
+            "multiplierE8": 300000000,
+            "weight": 26000
+          },
+          {
+            "multiplierE8": 450000000,
+            "weight": 16000
+          },
+          {
+            "multiplierE8": 1500000000,
+            "weight": 8000
+          },
+          {
+            "multiplierE8": 7500000000,
+            "weight": 1000
+          },
+          {
+            "multiplierE8": 60000000000,
+            "weight": 60
+          },
+          {
+            "multiplierE8": 150000000000,
+            "weight": 6
+          }
+        ],
+        "3": [
+          {
+            "multiplierE8": 0,
+            "weight": 470934
+          },
+          {
+            "multiplierE8": 6666666,
+            "weight": 390000
+          },
+          {
+            "multiplierE8": 50000000,
+            "weight": 88000
+          },
+          {
+            "multiplierE8": 200000000,
+            "weight": 26000
+          },
+          {
+            "multiplierE8": 300000000,
+            "weight": 16000
+          },
+          {
+            "multiplierE8": 1000000000,
+            "weight": 8000
+          },
+          {
+            "multiplierE8": 5000000000,
+            "weight": 1000
+          },
+          {
+            "multiplierE8": 40000000000,
+            "weight": 60
+          },
+          {
+            "multiplierE8": 100000000000,
+            "weight": 6
+          }
+        ],
+        "4": [
+          {
+            "multiplierE8": 0,
+            "weight": 470934
+          },
+          {
+            "multiplierE8": 5000000,
+            "weight": 390000
+          },
+          {
+            "multiplierE8": 37500000,
+            "weight": 88000
+          },
+          {
+            "multiplierE8": 150000000,
+            "weight": 26000
+          },
+          {
+            "multiplierE8": 225000000,
+            "weight": 16000
+          },
+          {
+            "multiplierE8": 750000000,
+            "weight": 8000
+          },
+          {
+            "multiplierE8": 3750000000,
+            "weight": 1000
+          },
+          {
+            "multiplierE8": 30000000000,
+            "weight": 60
+          },
+          {
+            "multiplierE8": 75000000000,
+            "weight": 6
+          }
+        ],
+        "5": [
+          {
+            "multiplierE8": 0,
+            "weight": 470934
+          },
+          {
+            "multiplierE8": 4000000,
+            "weight": 390000
+          },
+          {
+            "multiplierE8": 30000000,
+            "weight": 88000
+          },
+          {
+            "multiplierE8": 120000000,
+            "weight": 26000
+          },
+          {
+            "multiplierE8": 180000000,
+            "weight": 16000
+          },
+          {
+            "multiplierE8": 600000000,
+            "weight": 8000
+          },
+          {
+            "multiplierE8": 3000000000,
+            "weight": 1000
+          },
+          {
+            "multiplierE8": 24000000000,
+            "weight": 60
+          },
+          {
+            "multiplierE8": 60000000000,
+            "weight": 6
+          }
+        ]
+      },
+      "cum": [
+        470934,
+        860934,
+        948934,
+        974934,
+        990934,
+        998934,
+        999934,
+        999994,
+        1000000
+      ]
+    }
+  },
+  "note": "each of 30 cells: slot = u mod 1e6, tier via cumulative weights (cum), value = perPicks[K][tier] (K = number of picks). payout multiplier = sum over picked cells."
+}

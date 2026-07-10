@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>maczo Originals — Provably Fair Verifier</title>
+<!-- The bare `@maczo/originals-verify` specifier in each game's resolve.js resolves to the shared
+     engine here, so the copied resolvers are byte-identical to their per-game repos. -->
+<script type="importmap">
+{ "imports": { "@maczo/originals-verify": "./engine.js" } }
+</script>
+<style>
+  :root { --bg:#0F212E; --panel:#152C3B; --panel2:#0b1922; --line:#20455c; --fg:#dbe7ef; --mut:#8fa9ba;
+          --acc:#1FFF20; --blue:#1475E1; --bad:#ff5b5b; --warn:#ffcf5b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:15px/1.55 "Bai Jamjuree",system-ui,Segoe UI,Roboto,sans-serif; }
+  a { color:var(--blue); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:900px; margin:0 auto; padding:26px 18px 90px; }
+  header { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
+  h1 { font-size:22px; margin:0; } h1 .pill { color:var(--acc); }
+  .sub { color:var(--mut); font-size:13px; }
+  .links { margin-left:auto; font-size:13px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin-top:16px; }
+  label { display:block; font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--mut); margin:10px 0 4px; }
+  input, select, textarea { width:100%; background:var(--panel2); border:1px solid var(--line); color:var(--fg);
+    border-radius:8px; padding:9px 10px; font:14px ui-monospace,SFMono-Regular,Consolas,monospace; }
+  textarea { min-height:58px; resize:vertical; }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .row3 { display:grid; grid-template-columns:2fr 1fr; gap:12px; }
+  .btns { display:flex; gap:10px; margin-top:14px; flex-wrap:wrap; }
+  button { cursor:pointer; border:none; border-radius:8px; padding:10px 16px; font-weight:600; font-size:14px; }
+  .primary { background:var(--acc); color:#04240a; }
+  .ghost { background:transparent; border:1px solid var(--line); color:var(--fg); }
+  .result { display:none; }
+  .verdict { display:flex; align-items:center; gap:10px; font-size:17px; font-weight:700; }
+  .dot { width:11px; height:11px; border-radius:50%; display:inline-block; }
+  .ok { background:var(--acc); } .no { background:var(--bad); } .wait { background:var(--warn); }
+  .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:14px 0; }
+  .stat { background:var(--panel2); border:1px solid var(--line); border-radius:8px; padding:10px 12px; }
+  .stat .l { font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--mut); }
+  .stat .v { font-size:18px; font-weight:700; margin-top:2px; font-family:ui-monospace,Consolas,monospace; }
+  pre { background:var(--panel2); border:1px solid var(--line); border-radius:8px; padding:12px; overflow:auto;
+        font:12.5px ui-monospace,Consolas,monospace; color:#cfe; max-height:340px; }
+  .msg { color:var(--warn); font-size:13px; margin-top:8px; }
+  .err { color:var(--bad); }
+  .note { color:var(--mut); font-size:12.5px; margin-top:10px; }
+  code { font-family:ui-monospace,Consolas,monospace; color:#bfe; }
+  @media (max-width:640px){ .row,.row3,.stats { grid-template-columns:1fr; } .links{ margin-left:0; width:100%; } }
+</style>
+</head>
+<body>
+<nav style="max-width:920px;margin:0 auto;padding:12px 18px 0;font:13px/1.4 system-ui,Segoe UI,Roboto,sans-serif;"><span style="opacity:.55">maczo provably-fair verifiers &nbsp;·&nbsp; </span><a href="/" style="text-decoration:none;color:#8fa9ba;font-weight:600">🎡 Lucky Spin</a> &nbsp;·&nbsp; <a href="/originals/" style="text-decoration:none;color:#1FFF20;font-weight:700">🎲 Originals</a></nav>
+
+<div class="wrap">
+  <header>
+    <h1>maczo <span class="pill">Originals</span> — Provably Fair Verifier</h1>
+    <div class="links"><a href="./docs.html">Docs</a> · <a href="https://github.com/maczo-co/originals-verify">Engine (MIT)</a></div>
+  </header>
+  <p class="sub">Reproduce and verify any settled Originals bet — offline, entirely in your browser.
+     Nothing you enter leaves this page (view source to confirm). uint32 HMAC-SHA256 engine.</p>
+
+  <div class="card">
+    <label for="game">Game</label>
+    <div class="row3">
+      <select id="game"></select>
+      <button class="ghost" id="example" type="button">Load an example</button>
+    </div>
+    <div class="row">
+      <div><label for="server">Server seed (revealed)</label><input id="server" placeholder="revealed serverSeed (hex) — omit before reveal"></div>
+      <div><label for="commit">Commitment (SHA-256 of server seed)</label><input id="commit" placeholder="published commitment (hex)"></div>
+    </div>
+    <div class="row">
+      <div><label for="client">Client seed</label><input id="client" placeholder="clientSeed"></div>
+      <div><label for="nonce">Nonce</label><input id="nonce" type="number" min="0" value="1"></div>
+    </div>
+    <label for="params">Bet params (JSON)</label>
+    <textarea id="params" placeholder='e.g. {"target":50,"direction":"under"}'>{}</textarea>
+    <div class="btns">
+      <button class="primary" id="verify" type="button">Verify</button>
+      <button class="ghost" id="deeplink" type="button">Copy deep-link</button>
+    </div>
+    <div class="msg" id="msg"></div>
+  </div>
+
+  <div class="card result" id="result">
+    <div class="verdict"><span class="dot" id="vdot"></span><span id="vtext"></span></div>
+    <div class="stats">
+      <div class="stat"><div class="l">Commitment</div><div class="v" id="s-commit">—</div></div>
+      <div class="stat"><div class="l">Multiplier</div><div class="v" id="s-mult">—</div></div>
+      <div class="stat"><div class="l">Payout (minor)</div><div class="v" id="s-pay">—</div></div>
+    </div>
+    <label>Outcome (reproduced from the seed)</label>
+    <pre id="outcome"></pre>
+    <p class="note">Bias class: <b id="bias">—</b>. The odds come from
+      <a id="oddslink" href="#">this game's published paytable</a>; the resolver only indexes into it.</p>
+  </div>
+</div>
+
+<script type="module">
+import { uintStream, commit } from "./engine.js";
+
+const $ = (id) => document.getElementById(id);
+const sel = $("game");
+const msg = $("msg");
+let manifest = [];
+
+async function loadGames() {
+  const res = await fetch("./games.json");
+  manifest = (await res.json()).games;
+  sel.innerHTML = manifest.map((g) => `<option value="${g.id}">${g.displayName} — ${g.id}</option>`).join("");
+}
+
+function setMsg(text, err) { msg.textContent = text || ""; msg.className = err ? "msg err" : "msg"; }
+
+function readQuery() {
+  const q = new URLSearchParams(location.search);
+  if (q.get("game")) sel.value = q.get("game");
+  if (q.has("server")) $("server").value = q.get("server");
+  if (q.has("commit")) $("commit").value = q.get("commit");
+  if (q.has("client")) $("client").value = q.get("client");
+  if (q.has("nonce")) $("nonce").value = q.get("nonce");
+  const p = q.get("params") || q.get("p");
+  if (p) { try { $("params").value = JSON.stringify(JSON.parse(decodeURIComponent(p))); } catch { $("params").value = decodeURIComponent(p); } }
+  return q.has("game") && (q.has("server") || q.has("commit"));
+}
+
+async function loadExample() {
+  const game = sel.value;
+  setMsg("");
+  try {
+    const tv = await (await fetch(`./test-vectors/${game}.json`)).json();
+    const v = tv.vectors[Math.floor((tv.vectors.length) / 2)] || tv.vectors[0];
+    $("server").value = v.serverSeed;
+    $("commit").value = v.commitment;
+    $("client").value = v.clientSeed;
+    $("nonce").value = v.nonce;
+    $("params").value = JSON.stringify(v.params || {});
+    setMsg("Loaded a known-answer example — press Verify.");
+  } catch (e) { setMsg("Could not load an example: " + e.message, true); }
+}
+
+function deepLink() {
+  const game = sel.value;
+  const q = new URLSearchParams();
+  q.set("game", game);
+  if ($("server").value) q.set("server", $("server").value.trim());
+  if ($("commit").value) q.set("commit", $("commit").value.trim());
+  if ($("client").value) q.set("client", $("client").value.trim());
+  q.set("nonce", $("nonce").value || "1");
+  const params = ($("params").value || "").trim();
+  if (params && params !== "{}") q.set("params", encodeURIComponent(params));
+  const url = location.origin + location.pathname + "?" + q.toString();
+  navigator.clipboard?.writeText(url);
+  setMsg("Deep-link copied to clipboard.");
+}
+
+async function verify() {
+  setMsg("");
+  const game = sel.value;
+  const server = $("server").value.trim();
+  const commitHex = $("commit").value.trim().toLowerCase();
+  const client = $("client").value.trim();
+  const nonce = parseInt($("nonce").value, 10);
+  let params;
+  try { params = JSON.parse(($("params").value || "{}").trim() || "{}"); }
+  catch (e) { return setMsg("Params is not valid JSON: " + e.message, true); }
+
+  const meta = manifest.find((g) => g.id === game);
+  $("bias").textContent = meta ? meta.biasClass : "—";
+  $("oddslink").href = `./paytables/${game}.json`;
+
+  // Commitment check (works even before reveal, if we have the server seed).
+  let commitState = "unknown";
+  if (server) {
+    const c = await commit(server);
+    commitState = commitHex ? (c === commitHex ? "ok" : "bad") : "computed:" + c.slice(0, 12) + "…";
+  }
+
+  const result = $("result");
+  if (!server) {
+    // Pre-reveal: only the commitment is known; the outcome cannot be reproduced.
+    result.style.display = "block";
+    $("vdot").className = "dot wait";
+    $("vtext").textContent = "Awaiting reveal — provide the revealed server seed to reproduce the outcome.";
+    $("s-commit").textContent = commitHex ? "held (pre-reveal)" : "—";
+    $("s-mult").textContent = "—"; $("s-pay").textContent = "—"; $("outcome").textContent = "";
+    return;
+  }
+
+  let mod, paytable;
+  try {
+    mod = await import(`./resolvers/${game}.js`);
+    paytable = await (await fetch(`./paytables/${game}.json`)).json();
+  } catch (e) { return setMsg("Failed to load the game resolver/paytable: " + e.message, true); }
+
+  let r;
+  try {
+    const n = mod.uintsNeeded(params);
+    const uints = await uintStream(server, client, nonce, n);
+    r = mod.resolve(uints, params, paytable, {});
+  } catch (e) { return setMsg("Resolve failed: " + e.message, true); }
+
+  result.style.display = "block";
+  const commitOk = commitState === "ok" || (!commitHex && commitState.startsWith("computed"));
+  if (commitHex && commitState === "bad") {
+    $("vdot").className = "dot no";
+    $("vtext").textContent = "Commitment MISMATCH — this server seed does not match the published commitment.";
+  } else {
+    $("vdot").className = "dot ok";
+    $("vtext").textContent = "Verified — reproduced from the seed" + (commitHex ? ", commitment matches." : ".");
+  }
+  $("s-commit").textContent = commitHex ? (commitState === "ok" ? "✓ matches" : "✗ mismatch") : "seed → " + commitState.replace("computed:", "");
+  $("s-mult").textContent = (r.multiplierE8 / 1e8).toLocaleString(undefined, { maximumFractionDigits: 8 }) + "×";
+  $("s-pay").textContent = r.payoutMinor.toLocaleString();
+  $("outcome").textContent = JSON.stringify({ win: r.win, multiplierE8: r.multiplierE8, payoutMinor: r.payoutMinor, outcome: r.outcome }, null, 2);
+}
+
+$("verify").addEventListener("click", verify);
+$("example").addEventListener("click", loadExample);
+$("deeplink").addEventListener("click", deepLink);
+
+await loadGames();
+if (readQuery()) verify();
+</script>
+</body>
+</html>

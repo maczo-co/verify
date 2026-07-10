@@ -1,0 +1,30 @@
+{
+  "game": "baccarat",
+  "displayName": "Baccarat",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "bets",
+      "desc": "chips: {bet,stake_minor}"
+    },
+    {
+      "name": "bet",
+      "desc": "player/banker/tie (alt)"
+    }
+  ],
+  "prob": {
+    "banker": 4585974,
+    "player": 4462466,
+    "tie": 951560
+  },
+  "pScale": 10000000,
+  "bets": [
+    "player",
+    "banker",
+    "tie"
+  ],
+  "note": "cards dealt (value = rank+1 if rank≤8 else 0, from u mod 13); standard third-card rules pick the winner. tie mult = rtp·pScale/P(tie); player/banker mult = (rtp·pScale − P(tie)·1e8)/P(side), push on tie."
+}

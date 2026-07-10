@@ -1,0 +1,17 @@
+{
+  "game": "crash",
+  "displayName": "Crash",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "cashout_e8",
+      "desc": "auto cash-out multiplier ×1e8"
+    }
+  ],
+  "minCashoutE8": 101000000,
+  "maxMultE8": 100000000000000,
+  "note": "crash_e8 = floor(rtp·2^32/(2^32−u)) clamped [1.00×,1e6×]; win iff crash ≥ cashout; multiplier = cashout."
+}

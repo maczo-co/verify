@@ -1,0 +1,125 @@
+{
+  "game": "limbo",
+  "vectors": [
+    {
+      "serverSeed": "60fa29e62e43045fe3e25b79e5ec81cfa25960297c87fe0b84c6aa0de7cf82e8",
+      "clientSeed": "player_1",
+      "commitment": "89bb0638677f016bdf29473aa9a7a6ef2424371675e36f48be71140eea1b4fbd",
+      "nonce": 1,
+      "params": {
+        "target_e8": 150000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 150000000,
+        "win": true,
+        "payoutMinor": 150000000,
+        "outcome": {
+          "crash_e8": 472433657,
+          "target_e8": 150000000
+        }
+      }
+    },
+    {
+      "serverSeed": "32dc4f91bac8571af00fd658ac83ceb7bd59137747b27cdc4d2a7630a8a27674",
+      "clientSeed": "player_2",
+      "commitment": "845ef8555bc3be450e9dda8c061b681a4e80246dddd4e7568e4efbfc79899f78",
+      "nonce": 2,
+      "params": {
+        "target_e8": 200000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 200000000,
+        "outcome": {
+          "crash_e8": 236533421,
+          "target_e8": 200000000
+        }
+      }
+    },
+    {
+      "serverSeed": "937ad32cf72acdb643174efe193065946a45c61d56945dc3fcd307d6c01ebaff",
+      "clientSeed": "player_3",
+      "commitment": "336f14d2da8dfb2cbcab80b8bfa6c63744411a1ee0362938459b13ec4f432e6a",
+      "nonce": 3,
+      "params": {
+        "target_e8": 1000000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "crash_e8": 154422270,
+          "target_e8": 1000000000
+        }
+      }
+    },
+    {
+      "serverSeed": "763f813a5e4cdd69d0acd4d598977d1f11b9db5acaca094a8c3703899d968556",
+      "clientSeed": "player_4",
+      "commitment": "b1ad7219b24a80aa4acdc13c493355026c1e0dcbb0014285063f5e2699645e5d",
+      "nonce": 4,
+      "params": {
+        "target_e8": 5000000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "crash_e8": 123576262,
+          "target_e8": 5000000000
+        }
+      }
+    },
+    {
+      "serverSeed": "5734ae442e243851581cf1c7c7449e0ee0168450d1ba8bb75d58de6b0e68130d",
+      "clientSeed": "player_0",
+      "commitment": "1a21e7b7e58ae6d40863e59bd2af753de28f6c91a7cbb240611312f1ebfc98c3",
+      "nonce": 5,
+      "params": {
+        "target_e8": 101000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 101000000,
+        "win": true,
+        "payoutMinor": 101000000,
+        "outcome": {
+          "crash_e8": 198466519,
+          "target_e8": 101000000
+        }
+      }
+    },
+    {
+      "serverSeed": "0db4b9dbe24c0e37210c08d57ffb59542138ca9babb53f1d66a3fe5b48da83ba",
+      "clientSeed": "player_0",
+      "commitment": "db3d1292cd49b49624b4b54bacf3b563bf5f943420a6f8fbd5da457d9240e049",
+      "nonce": 20,
+      "params": {
+        "target_e8": 200000000
+      },
+      "betMinor": 123456789,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 246913578,
+        "outcome": {
+          "crash_e8": 213081901,
+          "target_e8": 200000000
+        }
+      }
+    }
+  ]
+}

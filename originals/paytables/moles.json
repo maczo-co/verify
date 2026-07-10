@@ -1,0 +1,32 @@
+{
+  "game": "moles",
+  "displayName": "Moles",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "moles",
+      "desc": "moles per row 1–6"
+    },
+    {
+      "name": "picks",
+      "desc": "hole per row"
+    }
+  ],
+  "holes": 7,
+  "moles": {
+    "min": 1,
+    "max": 6
+  },
+  "maxRows": {
+    "1": 8,
+    "2": 9,
+    "3": 9,
+    "4": 9,
+    "5": 9,
+    "6": 9
+  },
+  "note": "per row: shuffle(7)[:moles] are moles; whack a hole WITH a mole to climb, an empty hole busts; multiplier = rtp·7^k/moles^k."
+}

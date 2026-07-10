@@ -1,0 +1,302 @@
+{
+  "game": "cases",
+  "displayName": "Cases",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "easy/medium/hard/expert"
+    }
+  ],
+  "slots": 1000000,
+  "difficulty": {
+    "easy": {
+      "tiers": [
+        {
+          "multiplierE8": 2300000000,
+          "weight": 10000
+        },
+        {
+          "multiplierE8": 1000000000,
+          "weight": 20000
+        },
+        {
+          "multiplierE8": 300000000,
+          "weight": 40000
+        },
+        {
+          "multiplierE8": 200000000,
+          "weight": 76250
+        },
+        {
+          "multiplierE8": 109000000,
+          "weight": 100000
+        },
+        {
+          "multiplierE8": 40000000,
+          "weight": 343750
+        },
+        {
+          "multiplierE8": 10000000,
+          "weight": 410000
+        }
+      ],
+      "cum": [
+        10000,
+        30000,
+        70000,
+        146250,
+        246250,
+        590000,
+        1000000
+      ]
+    },
+    "medium": {
+      "tiers": [
+        {
+          "multiplierE8": 11500000000,
+          "weight": 1000
+        },
+        {
+          "multiplierE8": 4100000000,
+          "weight": 1500
+        },
+        {
+          "multiplierE8": 1500000000,
+          "weight": 4000
+        },
+        {
+          "multiplierE8": 1000000000,
+          "weight": 8500
+        },
+        {
+          "multiplierE8": 750000000,
+          "weight": 15000
+        },
+        {
+          "multiplierE8": 350000000,
+          "weight": 30000
+        },
+        {
+          "multiplierE8": 200000000,
+          "weight": 61250
+        },
+        {
+          "multiplierE8": 150000000,
+          "weight": 135000
+        },
+        {
+          "multiplierE8": 40000000,
+          "weight": 180000
+        },
+        {
+          "multiplierE8": 20000000,
+          "weight": 270000
+        },
+        {
+          "multiplierE8": 0,
+          "weight": 293750
+        }
+      ],
+      "cum": [
+        1000,
+        2500,
+        6500,
+        15000,
+        30000,
+        60000,
+        121250,
+        256250,
+        436250,
+        706250,
+        1000000
+      ]
+    },
+    "hard": {
+      "tiers": [
+        {
+          "multiplierE8": 100000000000,
+          "weight": 50
+        },
+        {
+          "multiplierE8": 49500000000,
+          "weight": 100
+        },
+        {
+          "multiplierE8": 25000000000,
+          "weight": 150
+        },
+        {
+          "multiplierE8": 10000000000,
+          "weight": 300
+        },
+        {
+          "multiplierE8": 5000000000,
+          "weight": 400
+        },
+        {
+          "multiplierE8": 3500000000,
+          "weight": 2000
+        },
+        {
+          "multiplierE8": 1500000000,
+          "weight": 3000
+        },
+        {
+          "multiplierE8": 1000000000,
+          "weight": 4000
+        },
+        {
+          "multiplierE8": 800000000,
+          "weight": 20000
+        },
+        {
+          "multiplierE8": 300000000,
+          "weight": 50000
+        },
+        {
+          "multiplierE8": 150000000,
+          "weight": 100000
+        },
+        {
+          "multiplierE8": 80000000,
+          "weight": 112500
+        },
+        {
+          "multiplierE8": 40000000,
+          "weight": 120000
+        },
+        {
+          "multiplierE8": 20000000,
+          "weight": 250000
+        },
+        {
+          "multiplierE8": 0,
+          "weight": 337500
+        }
+      ],
+      "cum": [
+        50,
+        150,
+        300,
+        600,
+        1000,
+        3000,
+        6000,
+        10000,
+        30000,
+        80000,
+        180000,
+        292500,
+        412500,
+        662500,
+        1000000
+      ]
+    },
+    "expert": {
+      "tiers": [
+        {
+          "multiplierE8": 1000000000000,
+          "weight": 2
+        },
+        {
+          "multiplierE8": 350000000000,
+          "weight": 6
+        },
+        {
+          "multiplierE8": 150000000000,
+          "weight": 12
+        },
+        {
+          "multiplierE8": 85000000000,
+          "weight": 30
+        },
+        {
+          "multiplierE8": 46000000000,
+          "weight": 50
+        },
+        {
+          "multiplierE8": 25000000000,
+          "weight": 100
+        },
+        {
+          "multiplierE8": 10000000000,
+          "weight": 200
+        },
+        {
+          "multiplierE8": 7500000000,
+          "weight": 300
+        },
+        {
+          "multiplierE8": 5000000000,
+          "weight": 400
+        },
+        {
+          "multiplierE8": 2000000000,
+          "weight": 2000
+        },
+        {
+          "multiplierE8": 1500000000,
+          "weight": 5000
+        },
+        {
+          "multiplierE8": 1000000000,
+          "weight": 8000
+        },
+        {
+          "multiplierE8": 700000000,
+          "weight": 20000
+        },
+        {
+          "multiplierE8": 500000000,
+          "weight": 32000
+        },
+        {
+          "multiplierE8": 150000000,
+          "weight": 80000
+        },
+        {
+          "multiplierE8": 70000000,
+          "weight": 150000
+        },
+        {
+          "multiplierE8": 30000000,
+          "weight": 150000
+        },
+        {
+          "multiplierE8": 15000000,
+          "weight": 200000
+        },
+        {
+          "multiplierE8": 0,
+          "weight": 351900
+        }
+      ],
+      "cum": [
+        2,
+        8,
+        20,
+        50,
+        100,
+        200,
+        400,
+        700,
+        1100,
+        3100,
+        8100,
+        16100,
+        36100,
+        68100,
+        148100,
+        298100,
+        448100,
+        648100,
+        1000000
+      ]
+    }
+  },
+  "note": "slot = u mod 1,000,000; walk cumulative weights (cum) to the tier; that tier's multiplier pays."
+}

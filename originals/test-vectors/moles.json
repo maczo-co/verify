@@ -1,0 +1,681 @@
+{
+  "game": "moles",
+  "vectors": [
+    {
+      "serverSeed": "23f73677761a6f691d12d90288b3a7cd51f32384eeb671922baf2917b8479d2b",
+      "clientSeed": "player_1",
+      "commitment": "6f3363a3f16fa9de2c1c03c0183522c8763d08b8c7dcf6a6bba03163390d270e",
+      "nonce": 1,
+      "params": {
+        "moles": 1,
+        "picks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "moles": 1,
+          "picks": [
+            0,
+            0,
+            0
+          ],
+          "reached": 0,
+          "busted": true,
+          "layout": [
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              3
+            ],
+            [
+              6
+            ],
+            [
+              1
+            ],
+            [
+              4
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "4e13c995f9015607e3b452092a2a1f8b90c7b0a781d7bc671830becc4ee4bb61",
+      "clientSeed": "player_2",
+      "commitment": "c1a47393944025d199287099080cebf6e4dd11c04e84a9d0be06158a65c706af",
+      "nonce": 2,
+      "params": {
+        "moles": 1,
+        "picks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "moles": 1,
+          "picks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            0,
+            1,
+            2
+          ],
+          "reached": 0,
+          "busted": true,
+          "layout": [
+            [
+              3
+            ],
+            [
+              6
+            ],
+            [
+              5
+            ],
+            [
+              4
+            ],
+            [
+              0
+            ],
+            [
+              6
+            ],
+            [
+              1
+            ],
+            [
+              4
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "19a1d90fded985462f110f92cc880e8a7207a055dccaad7f1807383fef34a32e",
+      "clientSeed": "player_3",
+      "commitment": "f8ae60af4c853721713be49c70f04e43c52ec7c5abf072c14fe4cab70ed4a87f",
+      "nonce": 3,
+      "params": {
+        "moles": 2,
+        "picks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "moles": 2,
+          "picks": [
+            0,
+            0,
+            0
+          ],
+          "reached": 2,
+          "busted": true,
+          "layout": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "643b655ed6259ffed5558b0ee18b97fa61c3827bd4e6f3c178b88a137c03e7e8",
+      "clientSeed": "player_4",
+      "commitment": "9dee0be5b55ece3c38db2ece193fe4247c33cd9ca6805b3f76435e2d400f3e79",
+      "nonce": 4,
+      "params": {
+        "moles": 2,
+        "picks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "moles": 2,
+          "picks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            0,
+            1,
+            2
+          ],
+          "reached": 0,
+          "busted": true,
+          "layout": [
+            [
+              2,
+              4
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              5
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "61a5f36bff492633536b752f5f9582c9415211d3ecb19036c9484c41685052e1",
+      "clientSeed": "player_0",
+      "commitment": "edb338b8474156bf84493592347a231c8293b5bd88f90feeeb93e1dfe3935973",
+      "nonce": 5,
+      "params": {
+        "moles": 4,
+        "picks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "moles": 4,
+          "picks": [
+            0,
+            0,
+            0
+          ],
+          "reached": 2,
+          "busted": true,
+          "layout": [
+            [
+              0,
+              2,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              6
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              5,
+              6
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              1,
+              3,
+              5,
+              6
+            ],
+            [
+              0,
+              4,
+              5,
+              6
+            ],
+            [
+              2,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              4,
+              5
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "e719cc8c37c36ccc6e2538c71aa0afcfd314a1c0f62212c59106b20845b1e905",
+      "clientSeed": "player_1",
+      "commitment": "768eaffe7b6fac5fd9c586d46c5192a9d420ab22e1bcd50863b9a43a9527ff1b",
+      "nonce": 6,
+      "params": {
+        "moles": 4,
+        "picks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "moles": 4,
+          "picks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            0,
+            1,
+            2
+          ],
+          "reached": 2,
+          "busted": true,
+          "layout": [
+            [
+              1,
+              2,
+              4,
+              5
+            ],
+            [
+              1,
+              2,
+              4,
+              5
+            ],
+            [
+              0,
+              1,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              3,
+              5
+            ],
+            [
+              0,
+              2,
+              4,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              5
+            ],
+            [
+              0,
+              1,
+              2,
+              6
+            ],
+            [
+              1,
+              2,
+              5,
+              6
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "bbc0c6fc99747e5e5eee4221a072201ef46142ad5684d83bc3c4d7637f314d28",
+      "clientSeed": "player_2",
+      "commitment": "c94fe541b57c53a17522b8dc00b8a14506fbd81f6744e6d292670d9f916af724",
+      "nonce": 7,
+      "params": {
+        "moles": 6,
+        "picks": [
+          0,
+          0,
+          0
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 157208333,
+        "win": true,
+        "payoutMinor": 157208333,
+        "outcome": {
+          "moles": 6,
+          "picks": [
+            0,
+            0,
+            0
+          ],
+          "reached": 3,
+          "busted": false,
+          "layout": [
+            [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "2ab99a1483a497b7234ede491f3827df778d4ef18f44aa51840ba6cbecd53f2a",
+      "clientSeed": "player_3",
+      "commitment": "b1aa32bdc56dab66eeeca1a5f7cd28ad880dfd83a99172398d98a4131b494407",
+      "nonce": 8,
+      "params": {
+        "moles": 6,
+        "picks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "moles": 6,
+          "picks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            0,
+            1,
+            2
+          ],
+          "reached": 2,
+          "busted": true,
+          "layout": [
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              6
+            ],
+            [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

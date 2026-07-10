@@ -1,0 +1,293 @@
+{
+  "game": "darts",
+  "vectors": [
+    {
+      "serverSeed": "67da753b71f317b62c9945522cb4f98d5f0d703c08274f0c37ce1276d902bfc4",
+      "clientSeed": "player_1",
+      "commitment": "6d1cd3bbcbd9d7d6f6f8f9e5de2ee612c5bacb71f73d786a07200e6d0acf0d98",
+      "nonce": 1,
+      "params": {
+        "difficulty": "easy"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 50542437,
+        "win": false,
+        "payoutMinor": 50542437,
+        "outcome": {
+          "difficulty": "easy",
+          "region": 0,
+          "regions": 6,
+          "distance_e8": 6773012,
+          "rotation_e8": 65641749,
+          "multiplier_e8": 50542437
+        }
+      }
+    },
+    {
+      "serverSeed": "9fce3f6780665f53f6ecb378e47c0ff6aa7f02c0e63f752f6b878051239dea2b",
+      "clientSeed": "player_2",
+      "commitment": "ff240393da55e684d1c56107197ce330d6f8fb5ad635d88bfe521e359d0a6e26",
+      "nonce": 2,
+      "params": {
+        "difficulty": "easy"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 272929164,
+        "win": true,
+        "payoutMinor": 272929164,
+        "outcome": {
+          "difficulty": "easy",
+          "region": 4,
+          "regions": 6,
+          "distance_e8": 97331171,
+          "rotation_e8": 46934065,
+          "multiplier_e8": 272929164
+        }
+      }
+    },
+    {
+      "serverSeed": "290af1aaca2d5b1fe2bb14eb8fc0855b2914d369f8bb6acc0d8dae301617ed94",
+      "clientSeed": "player_3",
+      "commitment": "c8b444896e7ecf59aa749d39a77967a206c2a3aa11255bb260fea8f03b2b8477",
+      "nonce": 3,
+      "params": {
+        "difficulty": "easy"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 80867900,
+        "win": false,
+        "payoutMinor": 80867900,
+        "outcome": {
+          "difficulty": "easy",
+          "region": 1,
+          "regions": 6,
+          "distance_e8": 50400703,
+          "rotation_e8": 85518970,
+          "multiplier_e8": 80867900
+        }
+      }
+    },
+    {
+      "serverSeed": "9906b94fd6c317b1a76f2c143d3095d67437cee9efcb6236bade3a78ec7c0777",
+      "clientSeed": "player_4",
+      "commitment": "df0dd80868022d243d01bedcdf0266a61c80cffb2c68583bb38c0f288ab33a15",
+      "nonce": 4,
+      "params": {
+        "difficulty": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 40401292,
+        "win": false,
+        "payoutMinor": 40401292,
+        "outcome": {
+          "difficulty": "medium",
+          "region": 0,
+          "regions": 6,
+          "distance_e8": 51363326,
+          "rotation_e8": 18785626,
+          "multiplier_e8": 40401292
+        }
+      }
+    },
+    {
+      "serverSeed": "bfe5e3f8bb4b44f624c4e44ca6bcf0946bd4a145281649949343e47644a09cf0",
+      "clientSeed": "player_0",
+      "commitment": "4300408b8d2cb015fdbaab691bbb264afb1d13ec502e281e6a46fb851f01a90b",
+      "nonce": 5,
+      "params": {
+        "difficulty": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 60601938,
+        "win": false,
+        "payoutMinor": 60601938,
+        "outcome": {
+          "difficulty": "medium",
+          "region": 1,
+          "regions": 6,
+          "distance_e8": 61693841,
+          "rotation_e8": 66410133,
+          "multiplier_e8": 60601938
+        }
+      }
+    },
+    {
+      "serverSeed": "605247b2d60eb1926e2149a0e836f7fdec1fb95b47d8490fe472675ca7c6ba91",
+      "clientSeed": "player_1",
+      "commitment": "a8d583d8bfe96167b57207a7aea8b0e43867c33d3b5059ed2a83d8fad7e1bc11",
+      "nonce": 6,
+      "params": {
+        "difficulty": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 40401292,
+        "win": false,
+        "payoutMinor": 40401292,
+        "outcome": {
+          "difficulty": "medium",
+          "region": 0,
+          "regions": 6,
+          "distance_e8": 5693220,
+          "rotation_e8": 77585254,
+          "multiplier_e8": 40401292
+        }
+      }
+    },
+    {
+      "serverSeed": "a404c4a4a5031828670fd8c1ad08574602f8f1cd021e2bc6ccfae40617b2b9bc",
+      "clientSeed": "player_2",
+      "commitment": "edaf02d8574c1f7b24721ac04e181d1b5592c6ec0dfbf56f7b076aace3303e10",
+      "nonce": 7,
+      "params": {
+        "difficulty": "hard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 20195735,
+        "win": false,
+        "payoutMinor": 20195735,
+        "outcome": {
+          "difficulty": "hard",
+          "region": 0,
+          "regions": 6,
+          "distance_e8": 47883551,
+          "rotation_e8": 43163391,
+          "multiplier_e8": 20195735
+        }
+      }
+    },
+    {
+      "serverSeed": "1b3fabedb4ad581b3bd1bfe3fed63ae587cfb756ef3a9725759dade23432b0d0",
+      "clientSeed": "player_3",
+      "commitment": "e51de71af4fd969a07c72ae69ae74795c1c05383fa66dc662a117b344e73f5f8",
+      "nonce": 8,
+      "params": {
+        "difficulty": "hard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 20195735,
+        "win": false,
+        "payoutMinor": 20195735,
+        "outcome": {
+          "difficulty": "hard",
+          "region": 0,
+          "regions": 6,
+          "distance_e8": 52567583,
+          "rotation_e8": 97165633,
+          "multiplier_e8": 20195735
+        }
+      }
+    },
+    {
+      "serverSeed": "7caa620035a79520be1696943d7f1ffc68508620c27004101dd16a1fe64f44d8",
+      "clientSeed": "player_4",
+      "commitment": "647be834040e715ad7d985fd45db8508312bcae8b63cdd8789ad090a039c5ba8",
+      "nonce": 9,
+      "params": {
+        "difficulty": "hard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 20195735,
+        "win": false,
+        "payoutMinor": 20195735,
+        "outcome": {
+          "difficulty": "hard",
+          "region": 0,
+          "regions": 6,
+          "distance_e8": 13059006,
+          "rotation_e8": 66473521,
+          "multiplier_e8": 20195735
+        }
+      }
+    },
+    {
+      "serverSeed": "d372019414e8e50821c0eb9c903360cd52922480fdfcac6161c02a8a713886c0",
+      "clientSeed": "player_0",
+      "commitment": "f090775488cbaaa787ce83302a2ff6c1a276262fa628e7b4eb27051b6c7f0b58",
+      "nonce": 10,
+      "params": {
+        "difficulty": "expert"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10104461,
+        "win": false,
+        "payoutMinor": 10104461,
+        "outcome": {
+          "difficulty": "expert",
+          "region": 0,
+          "regions": 6,
+          "distance_e8": 24480890,
+          "rotation_e8": 53317396,
+          "multiplier_e8": 10104461
+        }
+      }
+    },
+    {
+      "serverSeed": "ba7b76cef1b6c4e1857dcd92ff9db2a3173d1331c7019c7fb8b5234f355050ca",
+      "clientSeed": "player_1",
+      "commitment": "afbb3aec9f45033d8a9a08f9ee4663943e762bef0f933f5460c23267d341f487",
+      "nonce": 11,
+      "params": {
+        "difficulty": "expert"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 485014164,
+        "win": true,
+        "payoutMinor": 485014164,
+        "outcome": {
+          "difficulty": "expert",
+          "region": 2,
+          "regions": 6,
+          "distance_e8": 96037303,
+          "rotation_e8": 50414755,
+          "multiplier_e8": 485014164
+        }
+      }
+    },
+    {
+      "serverSeed": "4e658bfeaa6834881b5f8d467afff2d78aebd0638d6cf1c588a1219cc07692ed",
+      "clientSeed": "player_2",
+      "commitment": "e23766fc148a0a73134b59817f8d99b5ec7aaf7f155b24ddaf56116a86e47abd",
+      "nonce": 12,
+      "params": {
+        "difficulty": "expert"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10104461,
+        "win": false,
+        "payoutMinor": 10104461,
+        "outcome": {
+          "difficulty": "expert",
+          "region": 0,
+          "regions": 6,
+          "distance_e8": 10725789,
+          "rotation_e8": 93457144,
+          "multiplier_e8": 10104461
+        }
+      }
+    }
+  ]
+}

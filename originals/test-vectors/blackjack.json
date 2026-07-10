@@ -1,0 +1,587 @@
+{
+  "game": "blackjack",
+  "vectors": [
+    {
+      "serverSeed": "4a3090ef3012eb854a8affb62ab85cdceceba1bebb284aa20b303d18eb29c954",
+      "clientSeed": "player_1",
+      "commitment": "59319164b39bba3cddf4f768185dcfd05c363636e57be86874730016211e4847",
+      "nonce": 1,
+      "params": {
+        "actions": []
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 200000000,
+        "outcome": {
+          "player": [
+            12,
+            10
+          ],
+          "dealer": [
+            11,
+            4,
+            3
+          ],
+          "player_total": 20,
+          "dealer_total": 19,
+          "outcome": "win",
+          "multiplier_e8": 200000000,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "09ddb9bc59a6a0e9f69d0c7b6933fbc6c6135e0aa8e14fda806602b7886903c6",
+      "clientSeed": "player_2",
+      "commitment": "b10f1e06371eea78a5ae7152128392217d47f8e83369606a6aad94839979cd02",
+      "nonce": 2,
+      "params": {
+        "actions": [
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            0,
+            3
+          ],
+          "dealer": [
+            5,
+            4,
+            11
+          ],
+          "player_total": 15,
+          "dealer_total": 21,
+          "outcome": "lose",
+          "multiplier_e8": 0,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "6559956f89c814d9651498253d11497982747f1529bc75f4c6f2ced820bd9609",
+      "clientSeed": "player_3",
+      "commitment": "ffd7320f4ad01238ea58cd3498ad24c69d31a837ea729cfe11455a25754a1610",
+      "nonce": 3,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 200000000,
+        "outcome": {
+          "player": [
+            2,
+            0,
+            5
+          ],
+          "dealer": [
+            7,
+            7,
+            10
+          ],
+          "player_total": 20,
+          "dealer_total": 26,
+          "outcome": "win",
+          "multiplier_e8": 200000000,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "040b29501d9c4535334ff986077efcfa8caac2764ab8cee6b59ece96702f31c9",
+      "clientSeed": "player_4",
+      "commitment": "c9d0fe9b68418783103c30b0677c6a73f92dbc79c2bfcb857401516cae5f39ae",
+      "nonce": 4,
+      "params": {
+        "actions": [
+          "hit",
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 200000000,
+        "outcome": {
+          "player": [
+            2,
+            6,
+            12,
+            0
+          ],
+          "dealer": [
+            2,
+            6,
+            4,
+            4
+          ],
+          "player_total": 21,
+          "dealer_total": 20,
+          "outcome": "win",
+          "multiplier_e8": 200000000,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "980fe5ce07ebc30db7b2438d23cacc4871959fff58400b654a03f88520bc72aa",
+      "clientSeed": "player_0",
+      "commitment": "984219fed66131fdbdfa202d74a9f4c0cfba85ca93bf44289a13a16e4ae883d5",
+      "nonce": 5,
+      "params": {
+        "actions": [
+          "double"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            8,
+            8,
+            4
+          ],
+          "dealer": [
+            12,
+            7
+          ],
+          "player_total": 23,
+          "dealer_total": 18,
+          "outcome": "lose",
+          "multiplier_e8": 0,
+          "doubled": true,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "9453cbf7f6ba4e6370c18412640259e1890b82bab87b8e513e46343ef8d87ab2",
+      "clientSeed": "player_1",
+      "commitment": "633c866346d479ed1ee843125496feb045f3c87c6c23f68ca867ce42b6b9d6fe",
+      "nonce": 6,
+      "params": {
+        "actions": [
+          "noInsurance",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 250000000,
+        "win": true,
+        "payoutMinor": 250000000,
+        "outcome": {
+          "player": [
+            11,
+            0
+          ],
+          "dealer": [
+            8,
+            0
+          ],
+          "player_total": 21,
+          "dealer_total": 20,
+          "outcome": "blackjack",
+          "multiplier_e8": 250000000,
+          "doubled": false,
+          "insured": false
+        }
+      }
+    },
+    {
+      "serverSeed": "d8fed0d01700b97210062b2451d0c0b7aa5e2c56a1e724287f0549f21624bc69",
+      "clientSeed": "player_0",
+      "commitment": "ca8d8539e77d4a6bcf0620cf7aa0c9b0419db4f53d918b53a0363fb420a4a8fe",
+      "nonce": 20,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            8,
+            7,
+            4
+          ],
+          "dealer": [
+            2,
+            4
+          ],
+          "player_total": 22,
+          "dealer_total": 8,
+          "outcome": "lose",
+          "multiplier_e8": 0,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "97645fec4defcd8a5056fdcc1be2b4e9477074e8d37f68f0b58599222e5c53f6",
+      "clientSeed": "player_1",
+      "commitment": "d1833c1bf7d2cb29983b545e64b9a5a9d061f5758f470caba7f9d9beb9fb2d64",
+      "nonce": 21,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 200000000,
+        "outcome": {
+          "player": [
+            7,
+            8,
+            2
+          ],
+          "dealer": [
+            5,
+            9,
+            11
+          ],
+          "player_total": 20,
+          "dealer_total": 26,
+          "outcome": "win",
+          "multiplier_e8": 200000000,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "1cb70154386a1ee8592e871493d157e9b820dc59efb5777f9947e76f6fa5168e",
+      "clientSeed": "player_2",
+      "commitment": "c7f83cc809865123cf820fa969012e4447c948c0fdbaf0d723b7319e04b872cd",
+      "nonce": 22,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            6,
+            6,
+            8
+          ],
+          "dealer": [
+            11,
+            11
+          ],
+          "player_total": 23,
+          "dealer_total": 20,
+          "outcome": "lose",
+          "multiplier_e8": 0,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "faa1a312ac2f47d2c3fb793c89bbe16a933302419b722b2477181f690763f824",
+      "clientSeed": "player_3",
+      "commitment": "32e61ceb3753c4e869b2176f0f2740a7753ee4eae8c531b6a7627fcf853c1296",
+      "nonce": 23,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            12,
+            5,
+            0
+          ],
+          "dealer": [
+            3,
+            6,
+            10
+          ],
+          "player_total": 17,
+          "dealer_total": 21,
+          "outcome": "lose",
+          "multiplier_e8": 0,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "216069c147f5b8ca107ba71cdede87ae72183081e30f478aaeab454b7c4c54f5",
+      "clientSeed": "player_4",
+      "commitment": "abe7a207aa889bb1a11e088989acb3129971a5040308e34328e5b8ab386a8cc1",
+      "nonce": 24,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            4,
+            10
+          ],
+          "dealer": [
+            0,
+            10
+          ],
+          "player_total": 15,
+          "dealer_total": 21,
+          "outcome": "lose",
+          "multiplier_e8": 0,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "b6874b4141d0c80f561f12ddc18d590df2b9f30e01a2ee803655719f0a7baeb3",
+      "clientSeed": "player_0",
+      "commitment": "99fcbdc0398cf88e94fdaf5b9c606cf1aebb291cb1886a9be426b1328f38697b",
+      "nonce": 25,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 200000000,
+        "outcome": {
+          "player": [
+            5,
+            0,
+            5
+          ],
+          "dealer": [
+            11,
+            2,
+            11
+          ],
+          "player_total": 13,
+          "dealer_total": 23,
+          "outcome": "win",
+          "multiplier_e8": 200000000,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "ce03250b23daf20fb168f569b8fdeba3cdc0192bec0d6f119952bde0f4a2c8a7",
+      "clientSeed": "player_1",
+      "commitment": "0210527ca2d7c3c0956bd6a08267ea0489288c4b1352a6fff94c1d2f098744db",
+      "nonce": 26,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            10,
+            1,
+            0
+          ],
+          "dealer": [
+            3,
+            1,
+            4,
+            2,
+            2
+          ],
+          "player_total": 13,
+          "dealer_total": 17,
+          "outcome": "lose",
+          "multiplier_e8": 0,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "b0ca8ee4ad92ff31b63ea6843a797ed4a8bfdc1712153c5e420b8aac08f1b576",
+      "clientSeed": "player_2",
+      "commitment": "6a08aaac44184b7d2ae87ece18d96671433f0a7eb418c745a1f10231fe1870f2",
+      "nonce": 27,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            1,
+            2,
+            7
+          ],
+          "dealer": [
+            1,
+            6,
+            8
+          ],
+          "player_total": 13,
+          "dealer_total": 18,
+          "outcome": "lose",
+          "multiplier_e8": 0,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "1312e49a3fda308b956bf713ceb5fe594a7feb8f44f47c591a44a91a291ea36f",
+      "clientSeed": "player_3",
+      "commitment": "922399be2a54316c3b7282f7a9e946cc82eb20591257080ae775b38ac141bd97",
+      "nonce": 28,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "player": [
+            12,
+            9,
+            1
+          ],
+          "dealer": [
+            3,
+            0
+          ],
+          "player_total": 22,
+          "dealer_total": 15,
+          "outcome": "lose",
+          "multiplier_e8": 0,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    },
+    {
+      "serverSeed": "cc16210a6736cd9ce3ef46596adee3e1e199fe79d401b8e9efc878724add637b",
+      "clientSeed": "player_4",
+      "commitment": "7ffb6e88e89100d7ec24882431dcc92cc396a0eca7826d62b505219a69e0348d",
+      "nonce": 29,
+      "params": {
+        "actions": [
+          "hit",
+          "stand"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 200000000,
+        "outcome": {
+          "player": [
+            4,
+            0,
+            7
+          ],
+          "dealer": [
+            11,
+            1,
+            11
+          ],
+          "player_total": 14,
+          "dealer_total": 22,
+          "outcome": "win",
+          "multiplier_e8": 200000000,
+          "doubled": false,
+          "insured": null
+        }
+      }
+    }
+  ]
+}

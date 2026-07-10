@@ -1,0 +1,366 @@
+{
+  "game": "mines",
+  "vectors": [
+    {
+      "serverSeed": "3e4f2af49f1a62a560375d0499032c0d4834c9c28f29cce0f30d716367b1e43e",
+      "clientSeed": "player_1",
+      "commitment": "3f41d7ddf8f018d526fb73c122b29d393a01aa6dd353ea955674fcc315f0311f",
+      "nonce": 1,
+      "params": {
+        "mines": 1,
+        "picks": [
+          0,
+          1,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 112500000,
+        "win": true,
+        "payoutMinor": 112500000,
+        "outcome": {
+          "mines": 1,
+          "picks": [
+            0,
+            1,
+            2
+          ],
+          "bomb_set": [
+            24
+          ],
+          "hit": []
+        }
+      }
+    },
+    {
+      "serverSeed": "74ed3b8445a386d3683a56cae636347a3de8e8c4444174c1d9fb77e77eb052e7",
+      "clientSeed": "player_2",
+      "commitment": "0b877bfe7aca0dd4fddf4a2ca399dc1a6b3d7289d49377ed532c6d1922f83e46",
+      "nonce": 2,
+      "params": {
+        "mines": 1,
+        "picks": [
+          5,
+          12,
+          18,
+          24,
+          7
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 123750000,
+        "win": true,
+        "payoutMinor": 123750000,
+        "outcome": {
+          "mines": 1,
+          "picks": [
+            5,
+            7,
+            12,
+            18,
+            24
+          ],
+          "bomb_set": [
+            4
+          ],
+          "hit": []
+        }
+      }
+    },
+    {
+      "serverSeed": "dad20c9f1774b8ce3dbbff1d2312b84bfc8ecc10fff779edf29df403cbcec2e7",
+      "clientSeed": "player_3",
+      "commitment": "2bcb2d4aa07b470866e001fed5cfdd7533308221a03a3c46c3d5301f36d73d41",
+      "nonce": 3,
+      "params": {
+        "mines": 3,
+        "picks": [
+          0,
+          1,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 147857142,
+        "win": true,
+        "payoutMinor": 147857142,
+        "outcome": {
+          "mines": 3,
+          "picks": [
+            0,
+            1,
+            2
+          ],
+          "bomb_set": [
+            9,
+            18,
+            20
+          ],
+          "hit": []
+        }
+      }
+    },
+    {
+      "serverSeed": "f80ea48eecdb0f53404b9806dd7dea621fda22c346c0c9be50c7c8edbe8c822f",
+      "clientSeed": "player_4",
+      "commitment": "cf91c99e886d183f0a480d282ab62e1786b74c320ceaf3e573a2906efd6adf52",
+      "nonce": 4,
+      "params": {
+        "mines": 3,
+        "picks": [
+          5,
+          12,
+          18,
+          24,
+          7
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "mines": 3,
+          "picks": [
+            5,
+            7,
+            12,
+            18,
+            24
+          ],
+          "bomb_set": [
+            3,
+            17,
+            24
+          ],
+          "hit": [
+            24
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "5eb63def98dd8be62341920a51ee932eb87a348609853447b17143486488509a",
+      "clientSeed": "player_0",
+      "commitment": "16e863958673bd35bdbf8d1247781146e1a43a92d7f56f479d717b2a5cf172b2",
+      "nonce": 5,
+      "params": {
+        "mines": 5,
+        "picks": [
+          0,
+          1,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 199736842,
+        "win": true,
+        "payoutMinor": 199736842,
+        "outcome": {
+          "mines": 5,
+          "picks": [
+            0,
+            1,
+            2
+          ],
+          "bomb_set": [
+            3,
+            5,
+            13,
+            18,
+            22
+          ],
+          "hit": []
+        }
+      }
+    },
+    {
+      "serverSeed": "5428148e609f7903c5c88e83a94e55cfca1db1caa3f0a5c73df9205a728caf79",
+      "clientSeed": "player_1",
+      "commitment": "052baed58b1e25780df3f845396a448df3e5bf2adbafdd8d05e522a5ec16a3f9",
+      "nonce": 6,
+      "params": {
+        "mines": 5,
+        "picks": [
+          5,
+          12,
+          18,
+          24,
+          7
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "mines": 5,
+          "picks": [
+            5,
+            7,
+            12,
+            18,
+            24
+          ],
+          "bomb_set": [
+            3,
+            4,
+            7,
+            12,
+            23
+          ],
+          "hit": [
+            7,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "fa0ef0fedb7a34954d59fdbb63e71bbfe308365055b7cd6ece147f2aedf42e78",
+      "clientSeed": "player_2",
+      "commitment": "d33978b823cb3084f87df87387b9925b8f79a0a4371b8f42d138202a2c0dbe85",
+      "nonce": 7,
+      "params": {
+        "mines": 10,
+        "picks": [
+          0,
+          1,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "mines": 10,
+          "picks": [
+            0,
+            1,
+            2
+          ],
+          "bomb_set": [
+            2,
+            3,
+            4,
+            7,
+            8,
+            16,
+            18,
+            19,
+            22,
+            23
+          ],
+          "hit": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "8129a388f0c6ba7e8690d6189d13851195576826c9c97e3247f7d5314bdf14ad",
+      "clientSeed": "player_3",
+      "commitment": "6fc86caf70342da3db208fc4faed8620f26145ded83d5813bd0c4618189198a7",
+      "nonce": 8,
+      "params": {
+        "mines": 10,
+        "picks": [
+          5,
+          12,
+          18,
+          24,
+          7
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "mines": 10,
+          "picks": [
+            5,
+            7,
+            12,
+            18,
+            24
+          ],
+          "bomb_set": [
+            1,
+            4,
+            5,
+            10,
+            11,
+            17,
+            19,
+            21,
+            23,
+            24
+          ],
+          "hit": [
+            5,
+            24
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "f9df6b31978fe6f78bf24e451d1b864cae5d6afd639030bb3a60ce9318da5ab3",
+      "clientSeed": "player_0",
+      "commitment": "20e96dc79c3a099c20acb14219da166b04c9d47b54eedece9ae669a334ee1840",
+      "nonce": 50,
+      "params": {
+        "mines": 3,
+        "picks": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "betMinor": 123456789,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "mines": 3,
+          "picks": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "bomb_set": [
+            4,
+            13,
+            15
+          ],
+          "hit": [
+            4
+          ]
+        }
+      }
+    }
+  ]
+}

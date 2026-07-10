@@ -1,0 +1,377 @@
+{
+  "game": "baccarat",
+  "vectors": [
+    {
+      "serverSeed": "13e7ad89f14bd85214b4c0d15d96350b75821bd811bb1188bed8c927fa2daa03",
+      "clientSeed": "player_1",
+      "commitment": "8ef156748101e6b048dbfedd80a9fa05749f98f7f9bf105c4f49be7f9fdf89eb",
+      "nonce": 1,
+      "params": {
+        "bet": "player"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "player",
+          "result": "lose",
+          "player": [
+            0,
+            0,
+            3
+          ],
+          "banker": [
+            0,
+            5
+          ],
+          "player_total": 3,
+          "banker_total": 5,
+          "winner": "banker"
+        }
+      }
+    },
+    {
+      "serverSeed": "a09a3e07f766210a299d5ddbbf588d0486aaa16505c281aa132fba10312e169a",
+      "clientSeed": "player_2",
+      "commitment": "97aa5a98eb927dec3ea4831f476bce76a7f66f2bb38d6060a82dfc9043a2e845",
+      "nonce": 2,
+      "params": {
+        "bet": "banker"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 100000000,
+        "win": false,
+        "payoutMinor": 100000000,
+        "outcome": {
+          "bet": "banker",
+          "result": "push",
+          "player": [
+            5,
+            3
+          ],
+          "banker": [
+            6,
+            2
+          ],
+          "player_total": 8,
+          "banker_total": 8,
+          "winner": "tie"
+        }
+      }
+    },
+    {
+      "serverSeed": "33e5710f14236bda5237eccc0fca484b465d9569396768d115488672af922a5a",
+      "clientSeed": "player_3",
+      "commitment": "f405ec9164e53b13833d663d084b36fa107671c1a74e87677d0f63013daf40a8",
+      "nonce": 3,
+      "params": {
+        "bet": "tie"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "tie",
+          "result": "lose",
+          "player": [
+            9,
+            0
+          ],
+          "banker": [
+            5,
+            7
+          ],
+          "player_total": 9,
+          "banker_total": 2,
+          "winner": "player"
+        }
+      }
+    },
+    {
+      "serverSeed": "a99b75fa7dbb922b090655138936bb6b44bca900321b2edae53a91f749b8509c",
+      "clientSeed": "player_0",
+      "commitment": "4a4c6483519712d45c6e9d04ee38c6e85e617590b7ee94e0fd4d3b91c6655ab3",
+      "nonce": 10,
+      "params": {
+        "bets": [
+          {
+            "bet": "player",
+            "stake_minor": 100
+          },
+          {
+            "bet": "tie",
+            "stake_minor": 50
+          }
+        ]
+      },
+      "betMinor": 150,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bets": [
+            {
+              "bet": "player",
+              "stake_minor": 100,
+              "win": false,
+              "result": "lose",
+              "payout_minor": 0
+            },
+            {
+              "bet": "tie",
+              "stake_minor": 50,
+              "win": false,
+              "result": "lose",
+              "payout_minor": 0
+            }
+          ],
+          "total_stake_minor": 150,
+          "player": [
+            4,
+            8
+          ],
+          "banker": [
+            9,
+            0
+          ],
+          "player_total": 2,
+          "banker_total": 9,
+          "winner": "banker"
+        }
+      }
+    },
+    {
+      "serverSeed": "f621182b0edc9f4ceb0deb2cb2bb2cea5886ec906667cf5ad7b84a705fe6c6a3",
+      "clientSeed": "player_1",
+      "commitment": "53de63b7dbe4e5d8faf037dc53303ba036b177dcb73bfde475a8d9a034254cba",
+      "nonce": 11,
+      "params": {
+        "bet": "banker"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 195126269,
+        "win": true,
+        "payoutMinor": 195126269,
+        "outcome": {
+          "bet": "banker",
+          "result": "win",
+          "player": [
+            0,
+            5
+          ],
+          "banker": [
+            3,
+            5
+          ],
+          "player_total": 5,
+          "banker_total": 8,
+          "winner": "banker"
+        }
+      }
+    },
+    {
+      "serverSeed": "b112cbd9c8a541be45ef875952e1026781baa392f71a931be58835fd06389bb2",
+      "clientSeed": "player_2",
+      "commitment": "8d30e0b9ef1b4fdef3e89c2382b6eee30643c0e28842efd02af7d17799ee773f",
+      "nonce": 12,
+      "params": {
+        "bet": "banker"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "banker",
+          "result": "lose",
+          "player": [
+            1,
+            6
+          ],
+          "banker": [
+            2,
+            4
+          ],
+          "player_total": 7,
+          "banker_total": 6,
+          "winner": "player"
+        }
+      }
+    },
+    {
+      "serverSeed": "e639757f00337782b133ac3d8e9703644d33d7235436f10dc726b2a4193ed2f9",
+      "clientSeed": "player_3",
+      "commitment": "4781ab32bef358f3f46eec0c9c3cc993c65b98a82994f30acb7b83f989c5f413",
+      "nonce": 13,
+      "params": {
+        "bet": "banker"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 195126269,
+        "win": true,
+        "payoutMinor": 195126269,
+        "outcome": {
+          "bet": "banker",
+          "result": "win",
+          "player": [
+            4,
+            7,
+            0
+          ],
+          "banker": [
+            0,
+            2,
+            0
+          ],
+          "player_total": 1,
+          "banker_total": 2,
+          "winner": "banker"
+        }
+      }
+    },
+    {
+      "serverSeed": "4dcee889ceade35350005ca6f724b857105b2c775966a5eb680bd294d88eb7cb",
+      "clientSeed": "player_4",
+      "commitment": "3d720f791712be2a0e36122327ce38354750dfc65c918a344458a9daaed87132",
+      "nonce": 14,
+      "params": {
+        "bet": "banker"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 195126269,
+        "win": true,
+        "payoutMinor": 195126269,
+        "outcome": {
+          "bet": "banker",
+          "result": "win",
+          "player": [
+            5,
+            8
+          ],
+          "banker": [
+            1,
+            7
+          ],
+          "player_total": 3,
+          "banker_total": 8,
+          "winner": "banker"
+        }
+      }
+    },
+    {
+      "serverSeed": "6f994eb85e87ef815bef66c9914abfcc5011fa7ee663107329c8d5661e786b4d",
+      "clientSeed": "player_0",
+      "commitment": "f64c24b865f61b93350fbbd8d9fb323ef0db5bdaa89c15724143f421f6f281f2",
+      "nonce": 15,
+      "params": {
+        "bet": "banker"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 195126269,
+        "win": true,
+        "payoutMinor": 195126269,
+        "outcome": {
+          "bet": "banker",
+          "result": "win",
+          "player": [
+            4,
+            9
+          ],
+          "banker": [
+            8,
+            0
+          ],
+          "player_total": 3,
+          "banker_total": 8,
+          "winner": "banker"
+        }
+      }
+    },
+    {
+      "serverSeed": "86461ce99dba70633e423a4911b4044fb166aa0717834c0a5921455c4d2fdd3b",
+      "clientSeed": "player_1",
+      "commitment": "e22cabdb3ff7bd573ff7af86625b97a31034825fd4aa82bd07169fb905fc8d5e",
+      "nonce": 16,
+      "params": {
+        "bet": "banker"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "banker",
+          "result": "lose",
+          "player": [
+            4,
+            9,
+            5
+          ],
+          "banker": [
+            0,
+            4,
+            0
+          ],
+          "player_total": 8,
+          "banker_total": 4,
+          "winner": "player"
+        }
+      }
+    },
+    {
+      "serverSeed": "2aa568cb16e104bfa4c2ccd730ca5ebc3a7aa1a4ca0d21ed895893049c06a3b6",
+      "clientSeed": "player_2",
+      "commitment": "f3fa5eaa21e18a75759e146d124b4dcdeee74b0271d3fba3b9ce615db22dc89c",
+      "nonce": 17,
+      "params": {
+        "bet": "banker"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 195126269,
+        "win": true,
+        "payoutMinor": 195126269,
+        "outcome": {
+          "bet": "banker",
+          "result": "win",
+          "player": [
+            1,
+            0,
+            0
+          ],
+          "banker": [
+            3,
+            8,
+            4
+          ],
+          "player_total": 1,
+          "banker_total": 5,
+          "winner": "banker"
+        }
+      }
+    }
+  ]
+}

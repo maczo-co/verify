@@ -1,0 +1,28 @@
+{
+  "game": "blackjack",
+  "displayName": "Blackjack",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "actions",
+      "desc": "hit/stand/double (opt insurance)"
+    },
+    {
+      "name": "split",
+      "desc": "bool (alt)"
+    },
+    {
+      "name": "actions_a",
+      "desc": "split hand A"
+    },
+    {
+      "name": "actions_b",
+      "desc": "split hand B"
+    }
+  ],
+  "deck": 24,
+  "note": "24 ranks drawn (u mod 13); player=[0,2] dealer=[1,3]; hit/stand/double; dealer draws to 17. Fixed pays: lose 0, push 1×, win 2×, blackjack 2.5×; double ×2; insurance +1.5× on dealer natural."
+}

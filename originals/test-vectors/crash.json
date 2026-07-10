@@ -1,0 +1,85 @@
+{
+  "game": "crash",
+  "vectors": [
+    {
+      "serverSeed": "1674abef9751cb0216f6e5cf718f1ae279625a57c61bd4bfd51d87d750309d77",
+      "clientSeed": "player_1",
+      "commitment": "67b8302a06c2dde355d0e0f17d2634495e06baed1525f155f3f4b6c6479c5b44",
+      "nonce": 1,
+      "params": {
+        "cashout_e8": 150000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 150000000,
+        "win": true,
+        "payoutMinor": 150000000,
+        "outcome": {
+          "crash_e8": 158293333,
+          "cashout_e8": 150000000
+        }
+      }
+    },
+    {
+      "serverSeed": "6eda7bc27f05d19f3c322b0064cbbba531cf10fa491feaf657c4b2a39ee941a2",
+      "clientSeed": "player_2",
+      "commitment": "9d2c4da8ba1d042fca306d85417d578fbb58d388e95348d02d4805d2d4e43b4a",
+      "nonce": 2,
+      "params": {
+        "cashout_e8": 200000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 200000000,
+        "outcome": {
+          "crash_e8": 6170808226,
+          "cashout_e8": 200000000
+        }
+      }
+    },
+    {
+      "serverSeed": "f2cef5d650684a9bb6b1426b40ca2b3bfbc1fa4fc61e2683b25d9f2cf81ec578",
+      "clientSeed": "player_3",
+      "commitment": "0ddfb93e4297e98794b30d1fada44f5135707815669c95237a1b919b59b83672",
+      "nonce": 3,
+      "params": {
+        "cashout_e8": 1000000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "crash_e8": 104256847,
+          "cashout_e8": 1000000000
+        }
+      }
+    },
+    {
+      "serverSeed": "e632d16dbdc6a0734018361a915304ebd21e6285b0a834eb25b05566bbfcb40e",
+      "clientSeed": "player_4",
+      "commitment": "175a04ec1e4b481bbaf220e96304e68abbd57cf7e5291397cacb281b73823daa",
+      "nonce": 4,
+      "params": {
+        "cashout_e8": 101000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 101000000,
+        "win": true,
+        "payoutMinor": 101000000,
+        "outcome": {
+          "crash_e8": 190270690,
+          "cashout_e8": 101000000
+        }
+      }
+    }
+  ]
+}

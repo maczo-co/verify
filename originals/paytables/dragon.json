@@ -1,0 +1,42 @@
+{
+  "game": "dragon",
+  "displayName": "Dragon Tower",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "easy/medium/hard/expert/master"
+    },
+    {
+      "name": "picks",
+      "desc": "column per row"
+    }
+  ],
+  "rows": 9,
+  "difficulty": {
+    "easy": {
+      "tiles": 4,
+      "eggs": 1
+    },
+    "medium": {
+      "tiles": 3,
+      "eggs": 1
+    },
+    "hard": {
+      "tiles": 2,
+      "eggs": 1
+    },
+    "expert": {
+      "tiles": 3,
+      "eggs": 2
+    },
+    "master": {
+      "tiles": 4,
+      "eggs": 3
+    }
+  },
+  "note": "per row: shuffle(tiles) → first `eggs` are eggs; climb while the picked column is safe; multiplier = rtp·tiles^k/(tiles−eggs)^k."
+}

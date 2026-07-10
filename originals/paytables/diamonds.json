@@ -1,0 +1,42 @@
+{
+  "game": "diamonds",
+  "displayName": "Diamonds",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [],
+  "colors": 7,
+  "draw": 5,
+  "patterns": {
+    "5": {
+      "label": "Five of a kind",
+      "multiplierE8": 5035995762
+    },
+    "4-1": {
+      "label": "Four of a kind",
+      "multiplierE8": 503599576
+    },
+    "3-2": {
+      "label": "Full house",
+      "multiplierE8": 402879661
+    },
+    "3-1-1": {
+      "label": "Three of a kind",
+      "multiplierE8": 302159745
+    },
+    "2-2-1": {
+      "label": "Two pair",
+      "multiplierE8": 201439830
+    },
+    "2-1-1-1": {
+      "label": "Pair",
+      "multiplierE8": 10071991
+    },
+    "1-1-1-1-1": {
+      "label": "No match",
+      "multiplierE8": 0
+    }
+  },
+  "note": "gem_i = u_i mod 7; multiplicity pattern (sorted desc, joined by '-') selects the multiplier; e.g. '2-1-1-1' = one pair."
+}

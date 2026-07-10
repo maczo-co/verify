@@ -1,0 +1,301 @@
+{
+  "games": [
+    {
+      "id": "dice",
+      "displayName": "Dice",
+      "biasClass": "modulo",
+      "params": [
+        "target",
+        "direction"
+      ],
+      "vectorCount": 11
+    },
+    {
+      "id": "limbo",
+      "displayName": "Limbo",
+      "biasClass": "modulo",
+      "params": [
+        "target_e8"
+      ],
+      "vectorCount": 6
+    },
+    {
+      "id": "mines",
+      "displayName": "Mines",
+      "biasClass": "uniform",
+      "params": [
+        "mines",
+        "picks"
+      ],
+      "vectorCount": 9
+    },
+    {
+      "id": "plinko",
+      "displayName": "Plinko",
+      "biasClass": "uniform",
+      "params": [
+        "rows",
+        "risk"
+      ],
+      "vectorCount": 12
+    },
+    {
+      "id": "coinflip",
+      "displayName": "Coin Flip",
+      "biasClass": "modulo",
+      "params": [
+        "side",
+        "flips",
+        "guesses"
+      ],
+      "vectorCount": 8
+    },
+    {
+      "id": "keno",
+      "displayName": "Keno",
+      "biasClass": "uniform",
+      "params": [
+        "picks",
+        "difficulty"
+      ],
+      "vectorCount": 12
+    },
+    {
+      "id": "wheel",
+      "displayName": "Wheel",
+      "biasClass": "modulo",
+      "params": [
+        "segments",
+        "risk"
+      ],
+      "vectorCount": 9
+    },
+    {
+      "id": "dragon",
+      "displayName": "Dragon Tower",
+      "biasClass": "uniform",
+      "params": [
+        "difficulty",
+        "picks"
+      ],
+      "vectorCount": 10
+    },
+    {
+      "id": "hilo",
+      "displayName": "Hilo",
+      "biasClass": "modulo",
+      "params": [
+        "guesses",
+        "start_card"
+      ],
+      "vectorCount": 6
+    },
+    {
+      "id": "diamonds",
+      "displayName": "Diamonds",
+      "biasClass": "modulo",
+      "params": [],
+      "vectorCount": 10
+    },
+    {
+      "id": "slider",
+      "displayName": "Slider",
+      "biasClass": "modulo",
+      "params": [
+        "target_e8"
+      ],
+      "vectorCount": 4
+    },
+    {
+      "id": "roulette",
+      "displayName": "Roulette",
+      "biasClass": "modulo",
+      "params": [
+        "bets",
+        "bet",
+        "number"
+      ],
+      "vectorCount": 5
+    },
+    {
+      "id": "baccarat",
+      "displayName": "Baccarat",
+      "biasClass": "modulo",
+      "params": [
+        "bets",
+        "bet"
+      ],
+      "vectorCount": 11
+    },
+    {
+      "id": "crossroad",
+      "displayName": "Cross the Road",
+      "biasClass": "uniform",
+      "params": [
+        "difficulty",
+        "lanes"
+      ],
+      "vectorCount": 12
+    },
+    {
+      "id": "crash",
+      "displayName": "Crash",
+      "biasClass": "modulo",
+      "params": [
+        "cashout_e8"
+      ],
+      "vectorCount": 4
+    },
+    {
+      "id": "blackjack",
+      "displayName": "Blackjack",
+      "biasClass": "uniform",
+      "params": [
+        "actions",
+        "split",
+        "actions_a",
+        "actions_b"
+      ],
+      "vectorCount": 16
+    },
+    {
+      "id": "videopoker",
+      "displayName": "Video Poker",
+      "biasClass": "uniform",
+      "params": [
+        "holds"
+      ],
+      "vectorCount": 14
+    },
+    {
+      "id": "threecard",
+      "displayName": "Three Card Poker",
+      "biasClass": "uniform",
+      "params": [
+        "play"
+      ],
+      "vectorCount": 20
+    },
+    {
+      "id": "rps",
+      "displayName": "Rock Paper Scissors",
+      "biasClass": "modulo",
+      "params": [
+        "guesses",
+        "throws",
+        "throw"
+      ],
+      "vectorCount": 6
+    },
+    {
+      "id": "pump",
+      "displayName": "Pump",
+      "biasClass": "uniform",
+      "params": [
+        "difficulty",
+        "pumps"
+      ],
+      "vectorCount": 12
+    },
+    {
+      "id": "cases",
+      "displayName": "Cases",
+      "biasClass": "modulo",
+      "params": [
+        "difficulty"
+      ],
+      "vectorCount": 12
+    },
+    {
+      "id": "darts",
+      "displayName": "Darts",
+      "biasClass": "modulo",
+      "params": [
+        "difficulty"
+      ],
+      "vectorCount": 12
+    },
+    {
+      "id": "tarot",
+      "displayName": "Tarot",
+      "biasClass": "modulo",
+      "params": [
+        "difficulty"
+      ],
+      "vectorCount": 12
+    },
+    {
+      "id": "packs",
+      "displayName": "Packs",
+      "biasClass": "modulo",
+      "params": [],
+      "vectorCount": 10
+    },
+    {
+      "id": "moles",
+      "displayName": "Moles",
+      "biasClass": "uniform",
+      "params": [
+        "moles",
+        "picks"
+      ],
+      "vectorCount": 8
+    },
+    {
+      "id": "drill",
+      "displayName": "Drill",
+      "biasClass": "modulo",
+      "params": [
+        "target_e8",
+        "shape"
+      ],
+      "vectorCount": 6
+    },
+    {
+      "id": "snakes",
+      "displayName": "Snakes",
+      "biasClass": "modulo",
+      "params": [
+        "difficulty",
+        "rolls"
+      ],
+      "vectorCount": 15
+    },
+    {
+      "id": "bars",
+      "displayName": "Bars",
+      "biasClass": "modulo",
+      "params": [
+        "difficulty",
+        "picks"
+      ],
+      "vectorCount": 12
+    },
+    {
+      "id": "slots",
+      "displayName": "Slots",
+      "biasClass": "modulo",
+      "params": [],
+      "vectorCount": 15
+    },
+    {
+      "id": "tome-of-life",
+      "displayName": "Crystal Codex",
+      "biasClass": "modulo",
+      "params": [
+        "lines",
+        "bonus_buy"
+      ],
+      "vectorCount": 20
+    },
+    {
+      "id": "slots-samurai",
+      "displayName": "Ronin Reels",
+      "biasClass": "modulo",
+      "params": [
+        "bonus_buy"
+      ],
+      "vectorCount": 20
+    }
+  ]
+}

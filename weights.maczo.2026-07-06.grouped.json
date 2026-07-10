@@ -1,0 +1,162 @@
+[
+  {
+    "value": 0.1,
+    "weight": 1000
+  },
+  {
+    "value": 0.1,
+    "weight": 1000
+  },
+  {
+    "value": 0.1,
+    "weight": 1000
+  },
+  {
+    "value": 0.1,
+    "weight": 1000
+  },
+  {
+    "value": 0.1,
+    "weight": 1000
+  },
+  {
+    "value": 0.1,
+    "weight": 1000
+  },
+  {
+    "value": 0.1,
+    "weight": 1000
+  },
+  {
+    "value": 0.1,
+    "weight": 1000
+  },
+  {
+    "value": 0.1,
+    "weight": 1000
+  },
+  {
+    "value": 0.1,
+    "weight": 1000
+  },
+  {
+    "value": 0.2,
+    "weight": 700
+  },
+  {
+    "value": 0.2,
+    "weight": 700
+  },
+  {
+    "value": 0.2,
+    "weight": 700
+  },
+  {
+    "value": 0.2,
+    "weight": 700
+  },
+  {
+    "value": 0.2,
+    "weight": 700
+  },
+  {
+    "value": 0.2,
+    "weight": 700
+  },
+  {
+    "value": 0.2,
+    "weight": 700
+  },
+  {
+    "value": 0.2,
+    "weight": 700
+  },
+  {
+    "value": 0.3,
+    "weight": 450
+  },
+  {
+    "value": 0.3,
+    "weight": 450
+  },
+  {
+    "value": 0.3,
+    "weight": 450
+  },
+  {
+    "value": 0.3,
+    "weight": 450
+  },
+  {
+    "value": 0.3,
+    "weight": 450
+  },
+  {
+    "value": 0.3,
+    "weight": 450
+  },
+  {
+    "value": 0.5,
+    "weight": 250
+  },
+  {
+    "value": 0.5,
+    "weight": 250
+  },
+  {
+    "value": 0.5,
+    "weight": 250
+  },
+  {
+    "value": 0.5,
+    "weight": 250
+  },
+  {
+    "value": 0.5,
+    "weight": 250
+  },
+  {
+    "value": 1.0,
+    "weight": 100
+  },
+  {
+    "value": 1.0,
+    "weight": 100
+  },
+  {
+    "value": 1.0,
+    "weight": 100
+  },
+  {
+    "value": 1.0,
+    "weight": 100
+  },
+  {
+    "value": 2.0,
+    "weight": 35
+  },
+  {
+    "value": 2.0,
+    "weight": 35
+  },
+  {
+    "value": 2.0,
+    "weight": 35
+  },
+  {
+    "value": 5.0,
+    "weight": 8
+  },
+  {
+    "value": 5.0,
+    "weight": 8
+  },
+  {
+    "value": 10.0,
+    "weight": 2
+  },
+  {
+    "value": 20.0,
+    "weight": 1
+  }
+]

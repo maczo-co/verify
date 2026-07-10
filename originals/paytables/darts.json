@@ -1,0 +1,162 @@
+{
+  "game": "darts",
+  "displayName": "Darts",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "easy/medium/hard/expert"
+    }
+  ],
+  "regions": 6,
+  "difficulty": {
+    "easy": {
+      "tiers": [
+        {
+          "multiplierE8": 50542437,
+          "count": 3052
+        },
+        {
+          "multiplierE8": 80867900,
+          "count": 1664
+        },
+        {
+          "multiplierE8": 121301850,
+          "count": 792
+        },
+        {
+          "multiplierE8": 151627313,
+          "count": 440
+        },
+        {
+          "multiplierE8": 272929164,
+          "count": 352
+        },
+        {
+          "multiplierE8": 859221442,
+          "count": 100
+        }
+      ],
+      "thresholds": [
+        2048162529,
+        3164854026,
+        3696356229,
+        3991635230,
+        4227858432,
+        4294967296
+      ]
+    },
+    "medium": {
+      "tiers": [
+        {
+          "multiplierE8": 40401292,
+          "count": 663
+        },
+        {
+          "multiplierE8": 60601938,
+          "count": 345
+        },
+        {
+          "multiplierE8": 131304199,
+          "count": 90
+        },
+        {
+          "multiplierE8": 313110015,
+          "count": 50
+        },
+        {
+          "multiplierE8": 606019384,
+          "count": 40
+        },
+        {
+          "multiplierE8": 1616051691,
+          "count": 12
+        }
+      ],
+      "thresholds": [
+        2372969431,
+        3607772528,
+        3929895075,
+        4108852046,
+        4252017623,
+        4294967296
+      ]
+    },
+    "hard": {
+      "tiers": [
+        {
+          "multiplierE8": 20195735,
+          "count": 11878
+        },
+        {
+          "multiplierE8": 50489338,
+          "count": 5512
+        },
+        {
+          "multiplierE8": 252446692,
+          "count": 1269
+        },
+        {
+          "multiplierE8": 363523237,
+          "count": 846
+        },
+        {
+          "multiplierE8": 888612359,
+          "count": 423
+        },
+        {
+          "multiplierE8": 6361656662,
+          "count": 72
+        }
+      ],
+      "thresholds": [
+        2550781077,
+        3734474063,
+        4006989738,
+        4188666855,
+        4279505413,
+        4294967296
+      ]
+    },
+    "expert": {
+      "tiers": [
+        {
+          "multiplierE8": 10104461,
+          "count": 687100
+        },
+        {
+          "multiplierE8": 50522308,
+          "count": 254100
+        },
+        {
+          "multiplierE8": 485014164,
+          "count": 38933
+        },
+        {
+          "multiplierE8": 970028329,
+          "count": 12978
+        },
+        {
+          "multiplierE8": 4243873940,
+          "count": 6489
+        },
+        {
+          "multiplierE8": 50522308814,
+          "count": 400
+        }
+      ],
+      "thresholds": [
+        2951072029,
+        4042423218,
+        4209639180,
+        4265379266,
+        4293249309,
+        4294967296
+      ]
+    }
+  },
+  "note": "distance_u = uints[0]; region = first i with distance_u < thresholds[i]; that region's multiplier pays. rotation_u = uints[1] is visual only."
+}

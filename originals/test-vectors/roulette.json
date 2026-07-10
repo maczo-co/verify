@@ -1,0 +1,141 @@
+{
+  "game": "roulette",
+  "vectors": [
+    {
+      "serverSeed": "1fae76c303bb0e58a642c0905ba1a32724f828cbf8f5f89b7ec365e827afb429",
+      "clientSeed": "player_1",
+      "commitment": "9539c3a30c020ab5df215e8dfbb2325307b6eedf8a78d065152786c5676097bd",
+      "nonce": 1,
+      "params": {
+        "bet": "red"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "pocket": 8,
+          "color": "black",
+          "bet": "red",
+          "number": null
+        }
+      }
+    },
+    {
+      "serverSeed": "53db8c1675fdabc76296f772eadd3a9e667309a77454f1c7d814e5a0dda1e0b7",
+      "clientSeed": "player_2",
+      "commitment": "64d560417070ae2c295522ad93822d8e5e91644428f2024f371b1dfcca833203",
+      "nonce": 2,
+      "params": {
+        "bet": "straight",
+        "number": 17
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "pocket": 5,
+          "color": "red",
+          "bet": "straight",
+          "number": 17
+        }
+      }
+    },
+    {
+      "serverSeed": "1bebd7513599ce9b4dbd4902436cd247adeb6c17bf6482a80472a9e4077600d2",
+      "clientSeed": "player_3",
+      "commitment": "15035b38b6bf42490c8930f26cb55c34f3f97fad3ddf4d9b6bb5d86af157c496",
+      "nonce": 3,
+      "params": {
+        "bet": "dozen1"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "pocket": 18,
+          "color": "red",
+          "bet": "dozen1",
+          "number": null
+        }
+      }
+    },
+    {
+      "serverSeed": "e12be75d47e5f86c79805e58d847b080cb28d40c7c2efd25f9ee845baf6cf9b6",
+      "clientSeed": "player_4",
+      "commitment": "bbb57ea31e2c23e5b812c8130531bf05ca27af07ef0128cb2ed46ae15430a92c",
+      "nonce": 4,
+      "params": {
+        "bet": "col2"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "pocket": 28,
+          "color": "black",
+          "bet": "col2",
+          "number": null
+        }
+      }
+    },
+    {
+      "serverSeed": "16acaf66dbf2570f8586ab4ff4b34f2421eea308dbf10675405895f604abf99d",
+      "clientSeed": "player_0",
+      "commitment": "3490c4b5f7e85e7e907e6d40c524c95727a6ebfbac8f54ef46aac7c9883fe356",
+      "nonce": 30,
+      "params": {
+        "bets": [
+          {
+            "bet": "red",
+            "stake_minor": 100
+          },
+          {
+            "bet": "straight",
+            "number": 7,
+            "stake_minor": 200
+          }
+        ]
+      },
+      "betMinor": 300,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 67666666,
+        "win": true,
+        "payoutMinor": 203,
+        "outcome": {
+          "pocket": 12,
+          "color": "red",
+          "bets": [
+            {
+              "bet": "red",
+              "number": null,
+              "stake_minor": 100,
+              "win": true,
+              "payout_minor": 203
+            },
+            {
+              "bet": "straight",
+              "number": 7,
+              "stake_minor": 200,
+              "win": false,
+              "payout_minor": 0
+            }
+          ],
+          "total_stake_minor": 300
+        }
+      }
+    }
+  ]
+}

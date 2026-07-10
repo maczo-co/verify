@@ -1,0 +1,34 @@
+{
+  "game": "crossroad",
+  "displayName": "Cross the Road",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "easy/medium/hard/daredevil"
+    },
+    {
+      "name": "lanes",
+      "desc": "lanes crossed"
+    }
+  ],
+  "slots": 20,
+  "difficulty": {
+    "easy": {
+      "deaths": 1
+    },
+    "medium": {
+      "deaths": 3
+    },
+    "hard": {
+      "deaths": 5
+    },
+    "daredevil": {
+      "deaths": 10
+    }
+  },
+  "note": "death-set = shuffle(20)[:deaths]; cross lanes 0..k−1 until a death index is hit; multiplier = rtp·∏(20−i)/(20−deaths−i)."
+}

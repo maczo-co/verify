@@ -1,0 +1,287 @@
+{
+  "game": "coinflip",
+  "vectors": [
+    {
+      "serverSeed": "94c193a742a5718bbf2dd22da5ce342e4cd0bf80367857a95eb60672c6f21320",
+      "clientSeed": "player_1",
+      "commitment": "f1b04169bd8e3b5f838cdb061f2d77c237604fb4737f860cb94c06fb890312d0",
+      "nonce": 1,
+      "params": {
+        "side": "heads",
+        "flips": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198000000,
+        "win": true,
+        "payoutMinor": 198000000,
+        "outcome": {
+          "result": "heads",
+          "results": [
+            "heads"
+          ],
+          "side": "heads",
+          "flips": 1
+        }
+      }
+    },
+    {
+      "serverSeed": "1500654aa6e5a7f2c9a3f2580e42a03ba8543a7aaa5c3c8a6cce90c585e24c3e",
+      "clientSeed": "player_2",
+      "commitment": "b0a025e2356922b9b3f9078ed33ccd706dd3dd99dee2087671045ebe52769426",
+      "nonce": 2,
+      "params": {
+        "side": "heads",
+        "flips": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "result": "tails",
+          "results": [
+            "tails",
+            "tails",
+            "tails"
+          ],
+          "side": "heads",
+          "flips": 3
+        }
+      }
+    },
+    {
+      "serverSeed": "2a585adac1af283d9a598f3d23a103d980c4d0a485814c563c6ef3d3da07dcc6",
+      "clientSeed": "player_3",
+      "commitment": "776e6bcb20cb610587d0a22d88d88a56885b84a5a784a301c6da2431bd37850d",
+      "nonce": 3,
+      "params": {
+        "side": "heads",
+        "flips": 10
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "result": "heads",
+          "results": [
+            "heads",
+            "heads",
+            "heads",
+            "heads",
+            "tails",
+            "heads",
+            "tails",
+            "heads",
+            "tails",
+            "tails"
+          ],
+          "side": "heads",
+          "flips": 10
+        }
+      }
+    },
+    {
+      "serverSeed": "7cd19859978a31141b8c2d9b076991d553d87056eb44290c98a049cb04d9d9f2",
+      "clientSeed": "player_4",
+      "commitment": "e900801b037109760a87696728179eada60a2017602a1e251e47d7feb1f6ec35",
+      "nonce": 4,
+      "params": {
+        "side": "tails",
+        "flips": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198000000,
+        "win": true,
+        "payoutMinor": 198000000,
+        "outcome": {
+          "result": "tails",
+          "results": [
+            "tails"
+          ],
+          "side": "tails",
+          "flips": 1
+        }
+      }
+    },
+    {
+      "serverSeed": "cc7a3dfb5f278685ebc6032313679802403abcb77acc31f7225657796ac04817",
+      "clientSeed": "player_0",
+      "commitment": "f44f07df8dd8f599ffdb9b37980ff6ddbb8ac8547f8713eae44edf5301699665",
+      "nonce": 5,
+      "params": {
+        "side": "tails",
+        "flips": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "result": "heads",
+          "results": [
+            "heads",
+            "tails",
+            "tails"
+          ],
+          "side": "tails",
+          "flips": 3
+        }
+      }
+    },
+    {
+      "serverSeed": "3fdcbf8901d9808dd1ae1cf2c8a17dd2f8e13d76a8496e2835557791d62329cd",
+      "clientSeed": "player_1",
+      "commitment": "a245220975c252c22d3b083ac610008ec2188cce097bcd11f9c827f638fec762",
+      "nonce": 6,
+      "params": {
+        "side": "tails",
+        "flips": 10
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "result": "tails",
+          "results": [
+            "tails",
+            "tails",
+            "tails",
+            "heads",
+            "tails",
+            "tails",
+            "heads",
+            "heads",
+            "heads",
+            "heads"
+          ],
+          "side": "tails",
+          "flips": 10
+        }
+      }
+    },
+    {
+      "serverSeed": "43d5f84ec618539099cc0f231eefa0a4ca51939f42fe25ae1eee4c6db9b99563",
+      "clientSeed": "player_0",
+      "commitment": "3f4540fbdaefe6bcb45b169cee7ff1844c7758aeebe1b1205862117a511789c0",
+      "nonce": 20,
+      "params": {
+        "guesses": [
+          "heads",
+          "heads",
+          "tails"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "streak": true,
+          "guesses": [
+            "heads"
+          ],
+          "results": [
+            "tails"
+          ],
+          "wins": 0,
+          "busted": true,
+          "trail": [
+            "tails",
+            "heads",
+            "tails",
+            "heads",
+            "tails",
+            "heads",
+            "tails",
+            "heads",
+            "heads",
+            "heads",
+            "heads",
+            "heads",
+            "heads",
+            "tails",
+            "tails",
+            "tails",
+            "tails",
+            "heads",
+            "tails",
+            "tails"
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "ec5e029dfbd87872dbaad90f639f77e3e6fcfea39b563d0d4697c1627e239218",
+      "clientSeed": "player_1",
+      "commitment": "c66f55d8b5cdcf7dafb12709b547693b91bb70ea4a762dc4a52ff5d07303ec48",
+      "nonce": 21,
+      "params": {
+        "guesses": [
+          "heads",
+          "tails",
+          "heads",
+          "tails",
+          "heads"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "streak": true,
+          "guesses": [
+            "heads",
+            "tails"
+          ],
+          "results": [
+            "heads",
+            "heads"
+          ],
+          "wins": 1,
+          "busted": true,
+          "trail": [
+            "heads",
+            "heads",
+            "tails",
+            "tails",
+            "heads",
+            "tails",
+            "heads",
+            "heads",
+            "tails",
+            "tails",
+            "tails",
+            "tails",
+            "heads",
+            "tails",
+            "tails",
+            "tails",
+            "tails",
+            "heads",
+            "heads",
+            "tails"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "maczo-luckyspin-provably-fair-verifier",
+  "version": "1.0.0",
+  "description": "Offline verifier for maczo Lucky Spin provably-fair results (HMAC-SHA256 commit-first).",
+  "main": "verify.js",
+  "type": "commonjs",
+  "scripts": { "test": "node verify.js --selftest" },
+  "license": "MIT",
+  "keywords": ["provably-fair", "hmac-sha256", "casino", "verifier", "maczo", "lucky-spin"]
+}

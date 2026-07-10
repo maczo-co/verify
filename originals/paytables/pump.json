@@ -1,0 +1,34 @@
+{
+  "game": "pump",
+  "displayName": "Pump",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "easy/medium/hard/expert"
+    },
+    {
+      "name": "pumps",
+      "desc": "pumps made"
+    }
+  ],
+  "slots": 25,
+  "difficulty": {
+    "easy": {
+      "pops": 1
+    },
+    "medium": {
+      "pops": 3
+    },
+    "hard": {
+      "pops": 5
+    },
+    "expert": {
+      "pops": 10
+    }
+  },
+  "note": "pop-set = shuffle(25)[:pops]; pump slots 0..k−1 until a pop index is hit; multiplier = rtp·∏(25−i)/(25−pops−i)."
+}

@@ -1,0 +1,117 @@
+{
+  "game": "snakes",
+  "displayName": "Snakes",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "easy/medium/hard/expert/master"
+    },
+    {
+      "name": "rolls",
+      "desc": "rolls 1–5"
+    }
+  ],
+  "maxRolls": 5,
+  "difficulty": {
+    "easy": {
+      "snakes": [
+        7
+      ],
+      "tiles": {
+        "2": 2000,
+        "3": 1300,
+        "4": 1200,
+        "5": 1100,
+        "6": 1044
+      },
+      "lowest": [
+        6,
+        8
+      ],
+      "upgrade": 1080
+    },
+    "medium": {
+      "snakes": [
+        6,
+        7,
+        8
+      ],
+      "tiles": {
+        "2": 4000,
+        "3": 2500,
+        "4": 1400,
+        "5": 1155
+      },
+      "lowest": [
+        5,
+        9
+      ],
+      "upgrade": 1200
+    },
+    "hard": {
+      "snakes": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tiles": {
+        "2": 7500,
+        "3": 3000,
+        "4": 1440
+      },
+      "lowest": [
+        4,
+        10
+      ],
+      "upgrade": 1500
+    },
+    "expert": {
+      "snakes": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "tiles": {
+        "2": 10000,
+        "3": 3910
+      },
+      "lowest": [
+        3,
+        11
+      ],
+      "upgrade": 4000
+    },
+    "master": {
+      "snakes": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "tiles": {
+        "2": 17820
+      },
+      "lowest": [
+        2,
+        12
+      ],
+      "upgrade": 18000
+    }
+  },
+  "note": "die = 1 + u mod 6 (two per roll); tile value by sum (mirror s→14−s, snake sums pay 0); after the first roll the lowest tier upgrades. multiplier_e8 = rtp·∏tiles_e3·1e8/(99e6·1000^k)."
+}

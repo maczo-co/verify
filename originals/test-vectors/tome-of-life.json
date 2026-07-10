@@ -1,0 +1,4959 @@
+{
+  "game": "tome-of-life",
+  "vectors": [
+    {
+      "serverSeed": "531b485684ab6af72ff053904cdbc37fd997895b5b421604965b651ab0ffd5ec",
+      "clientSeed": "player_1",
+      "commitment": "88cc2872c2813889a8fcb9462bea563a9f15d32f61cd6dbcb474337b535fe4b5",
+      "nonce": 1,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 550000000,
+        "win": true,
+        "payoutMinor": 550000000,
+        "outcome": {
+          "reels": [
+            [
+              4,
+              5,
+              2
+            ],
+            [
+              5,
+              5,
+              2
+            ],
+            [
+              9,
+              5,
+              9
+            ],
+            [
+              10,
+              11,
+              1
+            ],
+            [
+              2,
+              8,
+              4
+            ]
+          ],
+          "lines": [
+            {
+              "line": 0,
+              "sym": 5,
+              "run": 4,
+              "pay": 100,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  1
+                ]
+              ],
+              "multiplier_e8": 500000000
+            },
+            {
+              "line": 11,
+              "sym": 5,
+              "run": 3,
+              "pay": 10,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  1
+                ]
+              ],
+              "multiplier_e8": 50000000
+            }
+          ],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 0,
+          "scatter_cells": [],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 550000000
+        }
+      }
+    },
+    {
+      "serverSeed": "a3f2a6f357457cae0c9b0a85fa4dd9bd153305ca58d5ca9a7de40e1d131e8208",
+      "clientSeed": "player_2",
+      "commitment": "ffd5b89be0a9c24363ff9ae321ad16679e273b0a1cd880e790737d6dde49b563",
+      "nonce": 2,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 500000000,
+        "win": true,
+        "payoutMinor": 500000000,
+        "outcome": {
+          "reels": [
+            [
+              12,
+              2,
+              5
+            ],
+            [
+              2,
+              2,
+              4
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              11,
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              1
+            ]
+          ],
+          "lines": [
+            {
+              "line": 18,
+              "sym": 2,
+              "run": 5,
+              "pay": 100,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  2
+                ],
+                [
+                  3,
+                  1
+                ],
+                [
+                  4,
+                  1
+                ]
+              ],
+              "multiplier_e8": 500000000
+            }
+          ],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 1,
+          "scatter_cells": [
+            [
+              0,
+              0
+            ]
+          ],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 500000000
+        }
+      }
+    },
+    {
+      "serverSeed": "b356a4cbfead255966d31fec520b1131752df12ed423165eed738be0f76c9d32",
+      "clientSeed": "player_3",
+      "commitment": "a3f2ea3ae3489a080759f4c9818f89dd4d52a868d60d09313eac24cbc978c7b9",
+      "nonce": 3,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 70000000,
+        "win": true,
+        "payoutMinor": 70000000,
+        "outcome": {
+          "reels": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              11
+            ],
+            [
+              4,
+              5,
+              5
+            ],
+            [
+              6,
+              3,
+              0
+            ],
+            [
+              0,
+              3,
+              12
+            ]
+          ],
+          "lines": [
+            {
+              "line": 0,
+              "sym": 0,
+              "run": 2,
+              "pay": 2,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "multiplier_e8": 10000000
+            },
+            {
+              "line": 8,
+              "sym": 0,
+              "run": 2,
+              "pay": 4,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ]
+              ],
+              "multiplier_e8": 20000000
+            },
+            {
+              "line": 12,
+              "sym": 0,
+              "run": 2,
+              "pay": 4,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ]
+              ],
+              "multiplier_e8": 20000000
+            },
+            {
+              "line": 17,
+              "sym": 0,
+              "run": 2,
+              "pay": 2,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "multiplier_e8": 10000000
+            },
+            {
+              "line": 18,
+              "sym": 0,
+              "run": 2,
+              "pay": 2,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "multiplier_e8": 10000000
+            }
+          ],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 1,
+          "scatter_cells": [
+            [
+              4,
+              2
+            ]
+          ],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 70000000
+        }
+      }
+    },
+    {
+      "serverSeed": "b4528edb802bb5493ee8448d1c0bb7a989879569291c8d17327049a6e5877364",
+      "clientSeed": "player_4",
+      "commitment": "4bd88b76e026b80427f4007911209aac0b59e4e42d5be52b1e0d17acdc649147",
+      "nonce": 4,
+      "params": {
+        "lines": 10
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "reels": [
+            [
+              9,
+              3,
+              11
+            ],
+            [
+              4,
+              4,
+              12
+            ],
+            [
+              2,
+              0,
+              3
+            ],
+            [
+              3,
+              10,
+              2
+            ],
+            [
+              0,
+              2,
+              6
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          "lines_active": 10,
+          "scatter": 1,
+          "scatter_cells": [
+            [
+              1,
+              2
+            ]
+          ],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "5203bed9cfb2816b9c8049fcac9b92feea439fe2088eeb257bfee687f9da3397",
+      "clientSeed": "player_0",
+      "commitment": "551d7e2c6a121cbcfadb2f03588b682c68c185afa78d6a248e384790a323acd1",
+      "nonce": 5,
+      "params": {
+        "lines": 10
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 80000000,
+        "win": true,
+        "payoutMinor": 80000000,
+        "outcome": {
+          "reels": [
+            [
+              11,
+              3,
+              7
+            ],
+            [
+              7,
+              3,
+              0
+            ],
+            [
+              5,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              4
+            ],
+            [
+              0,
+              3,
+              5
+            ]
+          ],
+          "lines": [
+            {
+              "line": 1,
+              "sym": 7,
+              "run": 2,
+              "pay": 4,
+              "cells": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "multiplier_e8": 40000000
+            },
+            {
+              "line": 5,
+              "sym": 7,
+              "run": 2,
+              "pay": 4,
+              "cells": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "multiplier_e8": 40000000
+            }
+          ],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          "lines_active": 10,
+          "scatter": 0,
+          "scatter_cells": [],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 80000000
+        }
+      }
+    },
+    {
+      "serverSeed": "d6c5ee4616b5b8a9fe5e8b6c18c31e67b840c5f7148c61726a1c5c9b11496c5e",
+      "clientSeed": "player_1",
+      "commitment": "0b378a4decc40f90f2e3595a95ca319ade901833ab9f1b05179f1229612c68f1",
+      "nonce": 6,
+      "params": {
+        "lines": 10
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "reels": [
+            [
+              9,
+              2,
+              9
+            ],
+            [
+              6,
+              1,
+              12
+            ],
+            [
+              2,
+              4,
+              0
+            ],
+            [
+              1,
+              1,
+              7
+            ],
+            [
+              8,
+              1,
+              8
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          "lines_active": 10,
+          "scatter": 1,
+          "scatter_cells": [
+            [
+              1,
+              2
+            ]
+          ],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "9b593d71230765269d653161c9612c7746719590ba1cb574e4871a59514e34cc",
+      "clientSeed": "player_2",
+      "commitment": "5c8b45b1a5f8b09de452468f109266c2c40e1fd9f002a693ac07dd81dfcbdc64",
+      "nonce": 7,
+      "params": {
+        "lines": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 400000000,
+        "win": true,
+        "payoutMinor": 400000000,
+        "outcome": {
+          "reels": [
+            [
+              0,
+              11,
+              7
+            ],
+            [
+              4,
+              0,
+              9
+            ],
+            [
+              9,
+              1,
+              2
+            ],
+            [
+              7,
+              2,
+              9
+            ],
+            [
+              5,
+              5,
+              5
+            ]
+          ],
+          "lines": [
+            {
+              "line": 0,
+              "sym": 0,
+              "run": 2,
+              "pay": 4,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "multiplier_e8": 400000000
+            }
+          ],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "lines_active": 1,
+          "scatter": 0,
+          "scatter_cells": [],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 400000000
+        }
+      }
+    },
+    {
+      "serverSeed": "88ae1841cfb466b98cc56ccc03d76c5fc05e2cf1b1486cf2b961853bafb94acc",
+      "clientSeed": "player_3",
+      "commitment": "99825437b2dd9784c12623f6de40df52430c502458ce73d7136b3b5f18e65b00",
+      "nonce": 8,
+      "params": {
+        "lines": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 3000000000,
+        "win": true,
+        "payoutMinor": 3000000000,
+        "outcome": {
+          "reels": [
+            [
+              4,
+              4,
+              5
+            ],
+            [
+              8,
+              12,
+              9
+            ],
+            [
+              0,
+              12,
+              6
+            ],
+            [
+              2,
+              12,
+              2
+            ],
+            [
+              8,
+              4,
+              8
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "lines_active": 1,
+          "scatter": 3,
+          "scatter_cells": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "scatter_multiplier_e8": 600000000,
+          "free_spins": [
+            {
+              "reels": [
+                [
+                  7,
+                  3,
+                  0
+                ],
+                [
+                  3,
+                  0,
+                  12
+                ],
+                [
+                  1,
+                  4,
+                  10
+                ],
+                [
+                  9,
+                  5,
+                  11
+                ],
+                [
+                  0,
+                  12,
+                  6
+                ]
+              ],
+              "lines": [],
+              "scatter": 2,
+              "retriggered": false,
+              "multiplier_e8": 600000000
+            },
+            {
+              "reels": [
+                [
+                  1,
+                  2,
+                  10
+                ],
+                [
+                  9,
+                  4,
+                  4
+                ],
+                [
+                  5,
+                  4,
+                  8
+                ],
+                [
+                  10,
+                  5,
+                  1
+                ],
+                [
+                  2,
+                  0,
+                  7
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  9,
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  4,
+                  12
+                ],
+                [
+                  7,
+                  8,
+                  0
+                ],
+                [
+                  0,
+                  7,
+                  4
+                ],
+                [
+                  10,
+                  11,
+                  0
+                ]
+              ],
+              "lines": [],
+              "scatter": 1,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  0,
+                  5,
+                  1
+                ],
+                [
+                  10,
+                  6,
+                  10
+                ],
+                [
+                  0,
+                  10,
+                  0
+                ],
+                [
+                  8,
+                  0,
+                  5
+                ],
+                [
+                  1,
+                  3,
+                  1
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  4,
+                  5,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  9
+                ],
+                [
+                  9,
+                  2,
+                  8
+                ],
+                [
+                  2,
+                  2,
+                  8
+                ],
+                [
+                  11,
+                  2,
+                  5
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  4,
+                  4,
+                  10
+                ],
+                [
+                  9,
+                  7,
+                  1
+                ],
+                [
+                  1,
+                  11,
+                  6
+                ],
+                [
+                  0,
+                  4,
+                  1
+                ],
+                [
+                  5,
+                  2,
+                  0
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  1,
+                  4,
+                  6
+                ],
+                [
+                  10,
+                  2,
+                  4
+                ],
+                [
+                  4,
+                  4,
+                  2
+                ],
+                [
+                  6,
+                  5,
+                  1
+                ],
+                [
+                  2,
+                  4,
+                  1
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  5,
+                  8,
+                  5
+                ],
+                [
+                  9,
+                  4,
+                  2
+                ],
+                [
+                  1,
+                  5,
+                  5
+                ],
+                [
+                  4,
+                  6,
+                  3
+                ],
+                [
+                  11,
+                  2,
+                  9
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  12,
+                  5,
+                  7
+                ],
+                [
+                  9,
+                  0,
+                  5
+                ],
+                [
+                  5,
+                  3,
+                  1
+                ],
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  9,
+                  0
+                ]
+              ],
+              "lines": [],
+              "scatter": 1,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  12,
+                  2,
+                  10
+                ],
+                [
+                  0,
+                  3,
+                  12
+                ],
+                [
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  11,
+                  8
+                ],
+                [
+                  4,
+                  9,
+                  4
+                ]
+              ],
+              "lines": [],
+              "scatter": 2,
+              "retriggered": false,
+              "multiplier_e8": 600000000
+            },
+            {
+              "reels": [
+                [
+                  1,
+                  5,
+                  2
+                ],
+                [
+                  1,
+                  12,
+                  10
+                ],
+                [
+                  8,
+                  2,
+                  2
+                ],
+                [
+                  12,
+                  0,
+                  8
+                ],
+                [
+                  8,
+                  8,
+                  1
+                ]
+              ],
+              "lines": [],
+              "scatter": 2,
+              "retriggered": false,
+              "multiplier_e8": 600000000
+            },
+            {
+              "reels": [
+                [
+                  11,
+                  5,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  3
+                ],
+                [
+                  5,
+                  1,
+                  3
+                ],
+                [
+                  5,
+                  0,
+                  10
+                ],
+                [
+                  3,
+                  9,
+                  5
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  2,
+                  1,
+                  8
+                ],
+                [
+                  5,
+                  3,
+                  2
+                ],
+                [
+                  0,
+                  1,
+                  6
+                ],
+                [
+                  11,
+                  12,
+                  3
+                ],
+                [
+                  11,
+                  9,
+                  5
+                ]
+              ],
+              "lines": [],
+              "scatter": 1,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  6,
+                  5,
+                  7
+                ],
+                [
+                  6,
+                  2,
+                  0
+                ],
+                [
+                  4,
+                  0,
+                  4
+                ],
+                [
+                  11,
+                  2,
+                  0
+                ],
+                [
+                  4,
+                  12,
+                  4
+                ]
+              ],
+              "lines": [],
+              "scatter": 1,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  4,
+                  8,
+                  8
+                ],
+                [
+                  2,
+                  8,
+                  7
+                ],
+                [
+                  1,
+                  3,
+                  4
+                ],
+                [
+                  9,
+                  2,
+                  1
+                ],
+                [
+                  12,
+                  8,
+                  12
+                ]
+              ],
+              "lines": [],
+              "scatter": 2,
+              "retriggered": false,
+              "multiplier_e8": 600000000
+            }
+          ],
+          "fs_triggered": true,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 3000000000
+        }
+      }
+    },
+    {
+      "serverSeed": "c9306afee94617fb2c12baa8e4851839d8ef7f081f6fe7c7c4887205767b18bc",
+      "clientSeed": "player_4",
+      "commitment": "6f1d7504e2168d5ef602d52380f4ff93edf25e111f98ae9eee45c1d4b0873c66",
+      "nonce": 9,
+      "params": {
+        "lines": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "reels": [
+            [
+              2,
+              10,
+              7
+            ],
+            [
+              2,
+              3,
+              8
+            ],
+            [
+              2,
+              4,
+              0
+            ],
+            [
+              0,
+              2,
+              0
+            ],
+            [
+              10,
+              12,
+              1
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "lines_active": 1,
+          "scatter": 1,
+          "scatter_cells": [
+            [
+              4,
+              1
+            ]
+          ],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "93e98bc66f1944ba0a690ffeebf170605cbfa6f70509ab5b6de224af08f73222",
+      "clientSeed": "player_0",
+      "commitment": "7ebd521d5210ab7c91929e897dbb07c94071e10b7de586430bf8b6720d149df9",
+      "nonce": 30,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 100000000,
+        "win": true,
+        "payoutMinor": 100000000,
+        "outcome": {
+          "reels": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              11,
+              11,
+              2
+            ],
+            [
+              7,
+              10,
+              2
+            ],
+            [
+              5,
+              12,
+              7
+            ],
+            [
+              3,
+              4,
+              10
+            ]
+          ],
+          "lines": [
+            {
+              "line": 0,
+              "sym": 0,
+              "run": 2,
+              "pay": 4,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "multiplier_e8": 20000000
+            },
+            {
+              "line": 7,
+              "sym": 0,
+              "run": 2,
+              "pay": 4,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "multiplier_e8": 20000000
+            },
+            {
+              "line": 11,
+              "sym": 0,
+              "run": 2,
+              "pay": 4,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ]
+              ],
+              "multiplier_e8": 20000000
+            },
+            {
+              "line": 17,
+              "sym": 0,
+              "run": 2,
+              "pay": 4,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "multiplier_e8": 20000000
+            },
+            {
+              "line": 18,
+              "sym": 0,
+              "run": 2,
+              "pay": 4,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "multiplier_e8": 20000000
+            }
+          ],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 1,
+          "scatter_cells": [
+            [
+              3,
+              1
+            ]
+          ],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 100000000
+        }
+      }
+    },
+    {
+      "serverSeed": "01d6e0d093540f581145aa84017aac82ffa123e4a08b6debfc465f0de057828e",
+      "clientSeed": "player_1",
+      "commitment": "75742cfd49866ce596a58235fdcf9e5d69a5d1df537299611f916f8e225a1070",
+      "nonce": 31,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 50000000,
+        "win": true,
+        "payoutMinor": 50000000,
+        "outcome": {
+          "reels": [
+            [
+              4,
+              1,
+              4
+            ],
+            [
+              8,
+              1,
+              1
+            ],
+            [
+              3,
+              1,
+              2
+            ],
+            [
+              9,
+              9,
+              0
+            ],
+            [
+              4,
+              1,
+              1
+            ]
+          ],
+          "lines": [
+            {
+              "line": 0,
+              "sym": 1,
+              "run": 3,
+              "pay": 5,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  2,
+                  1
+                ]
+              ],
+              "multiplier_e8": 25000000
+            },
+            {
+              "line": 12,
+              "sym": 1,
+              "run": 3,
+              "pay": 5,
+              "cells": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  1
+                ]
+              ],
+              "multiplier_e8": 25000000
+            }
+          ],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 0,
+          "scatter_cells": [],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 50000000
+        }
+      }
+    },
+    {
+      "serverSeed": "81b13df3406f187c085c86d1683fedfb0241c2c9bcf6e1050155582adb6f5b8e",
+      "clientSeed": "player_2",
+      "commitment": "9870a26ab85bfb8365ef3fffdc6bc0e52f9bf2d763de58097898aca14d3fe031",
+      "nonce": 32,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "reels": [
+            [
+              7,
+              5,
+              1
+            ],
+            [
+              0,
+              2,
+              8
+            ],
+            [
+              2,
+              0,
+              5
+            ],
+            [
+              0,
+              10,
+              2
+            ],
+            [
+              2,
+              2,
+              7
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 0,
+          "scatter_cells": [],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "90833a7396bab160e46bcf4753cb82b4ae24b4280442d5c4b62371ba7d73c29f",
+      "clientSeed": "player_3",
+      "commitment": "e86cc832a8246e95467f7538758196606e8c1e2239cc1215e73d17e511984eae",
+      "nonce": 33,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "reels": [
+            [
+              3,
+              0,
+              10
+            ],
+            [
+              4,
+              8,
+              1
+            ],
+            [
+              3,
+              8,
+              6
+            ],
+            [
+              1,
+              8,
+              5
+            ],
+            [
+              2,
+              8,
+              5
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 0,
+          "scatter_cells": [],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "f3521c4f9a49eb1c2c4c11ff42f78d2bb62954568a176dbc1d8fb212e4b38b45",
+      "clientSeed": "player_4",
+      "commitment": "bcf2d1f3f0ace2d4d833110c6e1fe52bd98ceb15962827ba192566e79d6cc5c1",
+      "nonce": 34,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 200000000,
+        "outcome": {
+          "reels": [
+            [
+              0,
+              9,
+              1
+            ],
+            [
+              1,
+              12,
+              1
+            ],
+            [
+              4,
+              0,
+              12
+            ],
+            [
+              8,
+              8,
+              5
+            ],
+            [
+              4,
+              3,
+              11
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 2,
+          "scatter_cells": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "scatter_multiplier_e8": 200000000,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 200000000
+        }
+      }
+    },
+    {
+      "serverSeed": "8a1d638de784e349e7f996a358ee5f4582bb995ccebf7724121778ceb20852c8",
+      "clientSeed": "player_0",
+      "commitment": "0c93e4de653483ecea7d138184e1923b653e25c7489f7e89c66ed84a061a58a0",
+      "nonce": 35,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200000000,
+        "win": true,
+        "payoutMinor": 200000000,
+        "outcome": {
+          "reels": [
+            [
+              12,
+              1,
+              11
+            ],
+            [
+              9,
+              8,
+              2
+            ],
+            [
+              1,
+              12,
+              9
+            ],
+            [
+              5,
+              9,
+              0
+            ],
+            [
+              1,
+              4,
+              2
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 2,
+          "scatter_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "scatter_multiplier_e8": 200000000,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 200000000
+        }
+      }
+    },
+    {
+      "serverSeed": "6824ecc5d8b94ae62ec5e50db912fd7edbb166754ccced190661fb5c8fc5bc65",
+      "clientSeed": "player_1",
+      "commitment": "f9edf00c7c12377070d00fdcbc1ad7f4cd77d0e117e9814f843451d841324944",
+      "nonce": 36,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "reels": [
+            [
+              2,
+              2,
+              0
+            ],
+            [
+              0,
+              8,
+              7
+            ],
+            [
+              0,
+              5,
+              3
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              9,
+              3
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 0,
+          "scatter_cells": [],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "9ff7f5f66efc060fd6e9a78b76cf06ae766940296b8f993bc00d5fcbf98242bd",
+      "clientSeed": "player_2",
+      "commitment": "86b34c4a3b6c9739940b16f8697449d1c34571dabf5b40f1bed4708c755fb12f",
+      "nonce": 37,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "reels": [
+            [
+              4,
+              1,
+              4
+            ],
+            [
+              2,
+              11,
+              0
+            ],
+            [
+              7,
+              0,
+              6
+            ],
+            [
+              4,
+              1,
+              2
+            ],
+            [
+              1,
+              7,
+              5
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 0,
+          "scatter_cells": [],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "4f71525a1430ec049beb1bca1dd229c42672f66a31d74a0caaa678d4e8d776fc",
+      "clientSeed": "player_3",
+      "commitment": "f0c1ffec2cc1c3fc92d988300e77541f4dbbe6a672f49894deee7c45639c128a",
+      "nonce": 38,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "reels": [
+            [
+              10,
+              9,
+              3
+            ],
+            [
+              10,
+              4,
+              2
+            ],
+            [
+              2,
+              6,
+              3
+            ],
+            [
+              0,
+              7,
+              9
+            ],
+            [
+              5,
+              3,
+              8
+            ]
+          ],
+          "lines": [],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 0,
+          "scatter_cells": [],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "2a13b70cbb1a295f2228da6dc7ca9043503dbcf3998d6c705eb2199f51b26bd6",
+      "clientSeed": "player_4",
+      "commitment": "b26397e60d53a05f1568ff4a7d4c4a8d2ddf819cc91760dfa536e252444137a7",
+      "nonce": 39,
+      "params": {
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 50000000,
+        "win": true,
+        "payoutMinor": 50000000,
+        "outcome": {
+          "reels": [
+            [
+              3,
+              9,
+              1
+            ],
+            [
+              8,
+              8,
+              1
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              1,
+              8
+            ],
+            [
+              1,
+              9,
+              6
+            ]
+          ],
+          "lines": [
+            {
+              "line": 6,
+              "sym": 1,
+              "run": 3,
+              "pay": 5,
+              "cells": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  1
+                ]
+              ],
+              "multiplier_e8": 25000000
+            },
+            {
+              "line": 16,
+              "sym": 1,
+              "run": 3,
+              "pay": 5,
+              "cells": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  1
+                ]
+              ],
+              "multiplier_e8": 25000000
+            }
+          ],
+          "paylines": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "lines_active": 20,
+          "scatter": 0,
+          "scatter_cells": [],
+          "scatter_multiplier_e8": 0,
+          "free_spins": [],
+          "fs_triggered": false,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 50000000
+        }
+      }
+    },
+    {
+      "serverSeed": "6e2203e21a455744972c0c697c1779699919c97d7d6458b8e901cdf07dbb7c6f",
+      "clientSeed": "player_0",
+      "commitment": "00ce792b4f394611f728be1dee00689a6c32256d3467b06cc2be0464ed22fa32",
+      "nonce": 50,
+      "params": {
+        "bonus_buy": true,
+        "lines": 20
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 123648648,
+        "win": true,
+        "payoutMinor": 123648648,
+        "outcome": {
+          "bonus_buy": true,
+          "price_mult": 37,
+          "lines_active": 20,
+          "free_spins": [
+            {
+              "reels": [
+                [
+                  11,
+                  1,
+                  5
+                ],
+                [
+                  3,
+                  8,
+                  8
+                ],
+                [
+                  7,
+                  4,
+                  0
+                ],
+                [
+                  0,
+                  2,
+                  8
+                ],
+                [
+                  1,
+                  11,
+                  4
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  11,
+                  4,
+                  9
+                ],
+                [
+                  3,
+                  11,
+                  4
+                ],
+                [
+                  9,
+                  1,
+                  1
+                ],
+                [
+                  10,
+                  2,
+                  4
+                ],
+                [
+                  3,
+                  4,
+                  1
+                ]
+              ],
+              "lines": [
+                {
+                  "line": 3,
+                  "sym": 1,
+                  "run": 3,
+                  "pay": 10,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      2
+                    ]
+                  ]
+                },
+                {
+                  "line": 4,
+                  "sym": 9,
+                  "run": 3,
+                  "pay": 20,
+                  "cells": [
+                    [
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      0
+                    ]
+                  ]
+                },
+                {
+                  "line": 9,
+                  "sym": 1,
+                  "run": 3,
+                  "pay": 10,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      1
+                    ]
+                  ]
+                },
+                {
+                  "line": 13,
+                  "sym": 9,
+                  "run": 3,
+                  "pay": 20,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      0
+                    ]
+                  ]
+                }
+              ],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 900000000
+            },
+            {
+              "reels": [
+                [
+                  11,
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  7,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  3
+                ],
+                [
+                  5,
+                  1,
+                  11
+                ]
+              ],
+              "lines": [
+                {
+                  "line": 3,
+                  "sym": 1,
+                  "run": 4,
+                  "pay": 50,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      2
+                    ],
+                    [
+                      3,
+                      1
+                    ]
+                  ]
+                }
+              ],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 750000000
+            },
+            {
+              "reels": [
+                [
+                  11,
+                  2,
+                  11
+                ],
+                [
+                  5,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  5
+                ],
+                [
+                  2,
+                  1,
+                  3
+                ],
+                [
+                  5,
+                  3,
+                  5
+                ]
+              ],
+              "lines": [
+                {
+                  "line": 6,
+                  "sym": 1,
+                  "run": 3,
+                  "pay": 10,
+                  "cells": [
+                    [
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      1
+                    ]
+                  ]
+                },
+                {
+                  "line": 9,
+                  "sym": 1,
+                  "run": 4,
+                  "pay": 50,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      1
+                    ],
+                    [
+                      3,
+                      1
+                    ]
+                  ]
+                },
+                {
+                  "line": 10,
+                  "sym": 1,
+                  "run": 4,
+                  "pay": 50,
+                  "cells": [
+                    [
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      1
+                    ],
+                    [
+                      3,
+                      1
+                    ]
+                  ]
+                },
+                {
+                  "line": 16,
+                  "sym": 1,
+                  "run": 3,
+                  "pay": 10,
+                  "cells": [
+                    [
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      1
+                    ]
+                  ]
+                }
+              ],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 1800000000
+            },
+            {
+              "reels": [
+                [
+                  11,
+                  1,
+                  0
+                ],
+                [
+                  7,
+                  5,
+                  9
+                ],
+                [
+                  1,
+                  4,
+                  9
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  7,
+                  0
+                ]
+              ],
+              "lines": [
+                {
+                  "line": 1,
+                  "sym": 7,
+                  "run": 2,
+                  "pay": 4,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                {
+                  "line": 5,
+                  "sym": 7,
+                  "run": 2,
+                  "pay": 4,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                },
+                {
+                  "line": 15,
+                  "sym": 7,
+                  "run": 2,
+                  "pay": 4,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0
+                    ]
+                  ]
+                }
+              ],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 180000000
+            },
+            {
+              "reels": [
+                [
+                  4,
+                  3,
+                  0
+                ],
+                [
+                  11,
+                  2,
+                  8
+                ],
+                [
+                  10,
+                  3,
+                  10
+                ],
+                [
+                  3,
+                  5,
+                  10
+                ],
+                [
+                  3,
+                  10,
+                  2
+                ]
+              ],
+              "lines": [
+                {
+                  "line": 11,
+                  "sym": 3,
+                  "run": 3,
+                  "pay": 10,
+                  "cells": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      0
+                    ],
+                    [
+                      2,
+                      1
+                    ]
+                  ]
+                }
+              ],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 150000000
+            },
+            {
+              "reels": [
+                [
+                  10,
+                  10,
+                  9
+                ],
+                [
+                  9,
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  0,
+                  8
+                ],
+                [
+                  2,
+                  1,
+                  3
+                ],
+                [
+                  8,
+                  2,
+                  1
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  2,
+                  8,
+                  1
+                ],
+                [
+                  6,
+                  6,
+                  1
+                ],
+                [
+                  9,
+                  12,
+                  8
+                ],
+                [
+                  3,
+                  10,
+                  4
+                ],
+                [
+                  4,
+                  12,
+                  1
+                ]
+              ],
+              "lines": [],
+              "scatter": 2,
+              "retriggered": false,
+              "multiplier_e8": 600000000
+            },
+            {
+              "reels": [
+                [
+                  7,
+                  0,
+                  10
+                ],
+                [
+                  1,
+                  7,
+                  6
+                ],
+                [
+                  1,
+                  4,
+                  6
+                ],
+                [
+                  4,
+                  11,
+                  1
+                ],
+                [
+                  0,
+                  4,
+                  1
+                ]
+              ],
+              "lines": [
+                {
+                  "line": 3,
+                  "sym": 7,
+                  "run": 2,
+                  "pay": 2,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ]
+                },
+                {
+                  "line": 9,
+                  "sym": 7,
+                  "run": 2,
+                  "pay": 2,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ]
+                },
+                {
+                  "line": 13,
+                  "sym": 7,
+                  "run": 2,
+                  "pay": 2,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ]
+                }
+              ],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 90000000
+            },
+            {
+              "reels": [
+                [
+                  1,
+                  3,
+                  2
+                ],
+                [
+                  1,
+                  5,
+                  1
+                ],
+                [
+                  4,
+                  3,
+                  0
+                ],
+                [
+                  4,
+                  8,
+                  0
+                ],
+                [
+                  1,
+                  5,
+                  10
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  0,
+                  4,
+                  2
+                ],
+                [
+                  10,
+                  2,
+                  0
+                ],
+                [
+                  2,
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  10,
+                  9
+                ]
+              ],
+              "lines": [
+                {
+                  "line": 4,
+                  "sym": 2,
+                  "run": 3,
+                  "pay": 5,
+                  "cells": [
+                    [
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1
+                    ],
+                    [
+                      2,
+                      0
+                    ]
+                  ]
+                },
+                {
+                  "line": 19,
+                  "sym": 0,
+                  "run": 2,
+                  "pay": 2,
+                  "cells": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ]
+                }
+              ],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 105000000
+            },
+            {
+              "reels": [
+                [
+                  5,
+                  5,
+                  3
+                ],
+                [
+                  0,
+                  8,
+                  8
+                ],
+                [
+                  3,
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  8,
+                  1
+                ],
+                [
+                  4,
+                  9,
+                  5
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  2,
+                  10,
+                  0
+                ],
+                [
+                  0,
+                  4,
+                  4
+                ],
+                [
+                  6,
+                  0,
+                  1
+                ],
+                [
+                  10,
+                  3,
+                  10
+                ],
+                [
+                  1,
+                  10,
+                  3
+                ]
+              ],
+              "lines": [],
+              "scatter": 0,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  5,
+                  12,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  10
+                ],
+                [
+                  8,
+                  3,
+                  1
+                ],
+                [
+                  5,
+                  11,
+                  1
+                ],
+                [
+                  9,
+                  9,
+                  5
+                ]
+              ],
+              "lines": [],
+              "scatter": 1,
+              "retriggered": false,
+              "multiplier_e8": 0
+            },
+            {
+              "reels": [
+                [
+                  2,
+                  9,
+                  0
+                ],
+                [
+                  7,
+                  3,
+                  3
+                ],
+                [
+                  4,
+                  12,
+                  4
+                ],
+                [
+                  4,
+                  1,
+                  9
+                ],
+                [
+                  2,
+                  2,
+                  9
+                ]
+              ],
+              "lines": [],
+              "scatter": 1,
+              "retriggered": false,
+              "multiplier_e8": 0
+            }
+          ],
+          "spins_total": 15,
+          "total_rel_e8": 4575000000,
+          "wild": 11,
+          "scatter_sym": 12,
+          "multiplier_e8": 123648648
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>maczo — Lucky Spin Provably-Fair Verifier</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         background: #0e0b1a; color: #eee; line-height: 1.55; }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 28px 18px 60px; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  .sub { color: #9a93b5; font-size: 14px; margin: 0 0 24px; }
+  .card { background: #17132b; border: 1px solid #2a2350; border-radius: 14px; padding: 18px; margin-bottom: 18px; }
+  label { display: block; font-size: 13px; font-weight: 700; color: #b8b0d8; margin: 12px 0 5px; }
+  input, textarea { width: 100%; padding: 10px 12px; border-radius: 9px; border: 1px solid #342c60;
+         background: #0f0c20; color: #fff; font-family: ui-monospace, Menlo, monospace; font-size: 13px; }
+  textarea { min-height: 96px; resize: vertical; }
+  button { margin-top: 16px; width: 100%; padding: 14px; border: none; border-radius: 11px; cursor: pointer;
+         background: linear-gradient(135deg,#7c3aed,#db2777); color: #fff; font-size: 16px; font-weight: 800; }
+  button.sec { background: #241d47; margin-top: 8px; font-size: 14px; }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .row > div { flex: 1 1 160px; }
+  .res { margin-top: 18px; padding: 16px; border-radius: 12px; font-size: 15px; display: none; }
+  .res.ok { background: rgba(48,209,88,.12); border: 1px solid rgba(48,209,88,.4); }
+  .res.bad { background: rgba(255,69,58,.12); border: 1px solid rgba(255,69,58,.5); }
+  .res .big { font-size: 20px; font-weight: 800; margin-bottom: 6px; }
+  .mono { font-family: ui-monospace, Menlo, monospace; font-size: 12px; word-break: break-all; }
+  .muted { color: #9a93b5; font-size: 13px; }
+  code { background: #0f0c20; padding: 1px 5px; border-radius: 5px; font-size: 12px; }
+  details { margin-top: 10px; } summary { cursor: pointer; font-weight: 700; color: #b8b0d8; }
+  .steps li { margin-bottom: 6px; }
+  a { color: #c9a0ff; }
+
+  /* ── step-by-step breakdown (why THIS result) ── */
+  #bd { display: none; }
+  .bd-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 26px 0 12px; }
+  .bd-head h2 { font-size: 19px; margin: 0; }
+  .langbtns { display: flex; gap: 6px; }
+  .langbtns button { margin: 0; width: auto; padding: 5px 12px; font-size: 12px; font-weight: 700;
+        border-radius: 8px; background: #241d47; color: #b8b0d8; }
+  .langbtns button.on { background: linear-gradient(135deg,#7c3aed,#db2777); color: #fff; }
+  .step { background: #17132b; border: 1px solid #2a2350; border-radius: 14px; padding: 16px 18px 18px; margin-bottom: 12px; }
+  .step h3 { margin: 0 0 8px; font-size: 15px; display: flex; align-items: center; gap: 9px; }
+  .stepnum { flex: 0 0 auto; width: 26px; height: 26px; border-radius: 50%; display: inline-flex; align-items: center;
+        justify-content: center; font-size: 13px; font-weight: 800; background: linear-gradient(135deg,#7c3aed,#db2777); }
+  .step p { margin: 6px 0; font-size: 13.5px; color: #cfc9e8; }
+  .kv { background: #0f0c20; border: 1px solid #342c60; border-radius: 9px; padding: 9px 11px; margin: 8px 0;
+        font-family: ui-monospace, Menlo, monospace; font-size: 12px; word-break: break-all; }
+  .kv b { color: #b8b0d8; font-family: system-ui, sans-serif; font-size: 11.5px; display: block; margin-bottom: 2px; }
+  .okline { color: #30d158; font-weight: 700; font-size: 13.5px; }
+  .badline { color: #ff453a; font-weight: 700; font-size: 13.5px; }
+  .hl { background: rgba(219,39,119,.3); color: #ff9ecb; border-radius: 3px; font-weight: 700; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
+  .chip { background: #0f0c20; border: 1px solid #342c60; border-radius: 999px; padding: 6px 12px; font-size: 12px; }
+  .chip .mono { font-size: 11px; }
+  .arrow { text-align: center; color: #7c6fae; font-size: 17px; margin: 2px 0; }
+  .bignum { font-size: 16px; font-weight: 800; color: #fff; font-family: ui-monospace, Menlo, monospace; word-break: break-all; }
+  /* ticket bar */
+  .pfbar { display: flex; height: 38px; border-radius: 9px; overflow: hidden; margin: 26px 0 6px; border: 1px solid #342c60; }
+  .pfbar i { display: block; height: 100%; min-width: 2px; opacity: .38; position: relative; }
+  .pfbar i.win { opacity: 1; outline: 2px solid #fff; outline-offset: -2px; z-index: 2;
+        box-shadow: 0 0 14px 2px rgba(255,255,255,.35); }
+  .pfbar i.win .tick { position: absolute; top: -24px; transform: translateX(-50%); font-size: 17px; line-height: 1; }
+  .pfbar i.win .tickline { position: absolute; top: -6px; bottom: -6px; width: 2px; background: #fff; transform: translateX(-50%); }
+  .barlabels { display: flex; justify-content: space-between; color: #7c6fae; font-size: 11px;
+        font-family: ui-monospace, Menlo, monospace; }
+  .winbox { margin-top: 12px; background: rgba(48,209,88,.1); border: 1px solid rgba(48,209,88,.35);
+        border-radius: 10px; padding: 10px 13px; font-size: 13.5px; }
+  /* odds */
+  .odds { margin-top: 4px; }
+  .oddsrow { display: flex; align-items: center; gap: 9px; margin: 5px 0; font-size: 12.5px; }
+  .oddsrow .val { flex: 0 0 66px; text-align: right; font-weight: 700; font-family: ui-monospace, Menlo, monospace; }
+  .oddsrow .track { flex: 1; height: 13px; background: #0f0c20; border-radius: 999px; overflow: hidden; }
+  .oddsrow .fill { height: 100%; border-radius: 999px; }
+  .oddsrow .pct { flex: 0 0 118px; color: #9a93b5; font-family: ui-monospace, Menlo, monospace; font-size: 11.5px; }
+  .oddsrow.winrow .val, .oddsrow.winrow .pct { color: #30d158; }
+  table.ranges { width: 100%; border-collapse: collapse; font-size: 12px; font-family: ui-monospace, Menlo, monospace; }
+  table.ranges th, table.ranges td { padding: 4px 8px; text-align: right; border-bottom: 1px solid #241d47; }
+  table.ranges th { color: #b8b0d8; font-family: system-ui, sans-serif; }
+  table.ranges tr.win td { background: rgba(48,209,88,.13); color: #30d158; font-weight: 700; }
+  .trybox { background: #241d47; border-radius: 10px; padding: 10px 13px; font-size: 13px; color: #cfc9e8; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+<nav style="max-width:920px;margin:0 auto;padding:12px 18px 0;font:13px/1.4 system-ui,Segoe UI,Roboto,sans-serif;"><span style="opacity:.55">maczo provably-fair verifiers &nbsp;·&nbsp; </span><a href="/" style="text-decoration:none;color:#1FFF20;font-weight:700">🎡 Lucky Spin</a> &nbsp;·&nbsp; <a href="/originals/" style="text-decoration:none;color:#8fa9ba;font-weight:600">🎲 Originals</a></nav>
+
+<div class="wrap">
+  <h1>🎡 Lucky Spin — Provably-Fair Verifier</h1>
+  <p class="sub">100% offline. Nothing leaves your browser — view source to confirm. Reproduces maczo's exact
+     server algorithm from your revealed seeds.</p>
+
+  <div class="card">
+    <label>Server Seed (revealed — after you "Rotate" on the Lucky Spin page)</label>
+    <input id="server" placeholder="e.g. 4583aafe22399f36ab7cb57944824b1916e4f351072772c56ec7ec976dd78f61" />
+
+    <label>Server Seed Hash / Commitment (shown BEFORE you spun — optional but recommended)</label>
+    <input id="commit" placeholder="e.g. 8ecf55c927bfaaf8883d1ced695cda86ab85f65abb315cc8eee5aecfae071e9c" />
+
+    <div class="row">
+      <div>
+        <label>Client Seed</label>
+        <input id="client" placeholder="your client seed" />
+      </div>
+      <div>
+        <label>Nonce (the spin number, 0-based)</label>
+        <input id="nonce" type="number" min="0" value="0" />
+      </div>
+    </div>
+
+    <label>Wheel Segments — weight&gt;0, in prize-table order (JSON)</label>
+    <textarea id="weights" placeholder='[{"value":0.1,"weight":300},{"value":0.2,"weight":250}, ...]'></textarea>
+
+    <button id="go">Verify spin</button>
+    <button class="sec" id="rand">🎲 Random test</button>
+    <button class="sec" id="demo">Load demo values</button>
+
+    <div id="res" class="res"></div>
+  </div>
+
+  <!-- ── step-by-step visual: why THIS exact result ── -->
+  <div id="bd"></div>
+
+  <div class="card">
+    <details open>
+      <summary>How it works</summary>
+      <p class="muted">Every Lucky Spin outcome is fixed by a value we commit to <b>before</b> you spin:</p>
+      <ol class="steps muted">
+        <li><b>Commitment.</b> Before your first spin the site shows <code>SHA-256(serverSeed)</code>. The seed
+            stays secret, but this hash proves it already existed and can't be swapped later.</li>
+        <li><b>Outcome.</b> For each spin: <code>HMAC-SHA256(serverSeed, "clientSeed:nonce:cursor")</code> →
+            read 8-byte big-endian words → <b>rejection sampling</b> over the total weight (removes modulo bias)
+            → cumulative-weight walk → the winning segment.</li>
+        <li><b>Reveal.</b> When you "Rotate" the seed on the Lucky Spin page, the site reveals the original
+            <code>serverSeed</code>. Paste it here with your client seed and each nonce to reproduce every spin,
+            and confirm <code>SHA-256(serverSeed)</code> equals the commitment you saw earlier.</li>
+      </ol>
+      <p class="muted">Cross-check this page against the official Node reference (<code>verify.js --selftest</code>)
+         and the published <code>test-vectors.json</code>. Same algorithm as the server (<code>ProvablyFairWheel</code>).</p>
+    </details>
+  </div>
+
+  <footer style="text-align:center;padding:8px 0 4px;color:#9a93b5;font-size:13px">
+    <p style="margin:0 0 6px">📖 Open source — audit, fork, or re-implement it:</p>
+    <p style="margin:0">
+      <a href="https://github.com/maczo-co/lucky-spin" target="_blank" rel="noopener noreferrer"
+         style="color:#c9a0ff;font-weight:700">github.com/maczo-co/lucky-spin</a>
+      &nbsp;·&nbsp;
+      <a href="./docs.html" style="color:#c9a0ff">Docs / Wiki</a>
+      &nbsp;·&nbsp;
+      <a href="https://maczo.co" target="_blank" rel="noopener noreferrer" style="color:#c9a0ff">maczo.co</a>
+    </p>
+  </footer>
+</div>
+
+<script>
+"use strict";
+const enc = new TextEncoder();
+
+async function sha256Hex(str) {
+  const d = await crypto.subtle.digest("SHA-256", enc.encode(str));
+  return [...new Uint8Array(d)].map(b => b.toString(16).padStart(2, "0")).join("");
+}
+async function hmacSha256(keyStr, msgStr) {
+  const key = await crypto.subtle.importKey("raw", enc.encode(keyStr), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const sig = await crypto.subtle.sign("HMAC", key, enc.encode(msgStr));
+  return new Uint8Array(sig); // 32 bytes
+}
+// Identical logic to verify.js / ProvablyFairWheel.cs (BigInt uint64) — plus a full trace of every
+// intermediate value so the breakdown below can SHOW why this exact segment won.
+async function selectSegmentTrace(server, client, nonce, weights) {
+  let total = 0n;
+  for (const w of weights) { const b = BigInt(w); if (b < 0n) throw new Error("weight < 0"); total += b; }
+  if (total <= 0n) throw new Error("total weight must be > 0");
+  if (weights.length === 1)
+    return { idx: 0, total, ticket: 0n, word: 0n, cursor: 0, off: 0, hashHex: "", rejected: 0, single: true };
+  const MAX = (1n << 64n) - 1n, limit = MAX - (MAX % total);
+  let rejected = 0;
+  for (let cursor = 0; cursor < 1024; cursor++) {
+    const h = await hmacSha256(server, client + ":" + nonce + ":" + cursor);
+    const hex = [...h].map(b => b.toString(16).padStart(2, "0")).join("");
+    for (let off = 0; off + 8 <= h.length; off += 8) {
+      let word = 0n;
+      for (let b = 0; b < 8; b++) word = (word << 8n) | BigInt(h[off + b]);
+      if (word >= limit) { rejected++; continue; }
+      const pick = word % total;
+      let acc = 0n;
+      let idx = weights.length - 1;
+      for (let i = 0; i < weights.length; i++) { acc += BigInt(weights[i]); if (pick < acc) { idx = i; break; } }
+      return { idx, total, ticket: pick, word, cursor, off, hashHex: hex, rejected, single: false };
+    }
+  }
+  throw new Error("entropy exhausted");
+}
+
+const $ = id => document.getElementById(id);
+
+// maczo's current Lucky Spin segments (weight>0, prize-table order) — same data as weights.maczo.json.
+// Pre-filled as the default so the verifier reproduces real spins out of the box.
+const MACZO_WEIGHTS = [{"value":0.1,"weight":1000},{"value":0.2,"weight":700},{"value":0.1,"weight":1000},{"value":0.3,"weight":450},{"value":0.2,"weight":700},{"value":0.1,"weight":1000},{"value":0.5,"weight":250},{"value":0.2,"weight":700},{"value":0.1,"weight":1000},{"value":1,"weight":100},{"value":0.3,"weight":450},{"value":0.1,"weight":1000},{"value":0.2,"weight":700},{"value":5,"weight":8},{"value":0.1,"weight":1000},{"value":0.3,"weight":450},{"value":0.2,"weight":700},{"value":1,"weight":100},{"value":0.1,"weight":1000},{"value":0.5,"weight":250},{"value":0.3,"weight":450},{"value":2,"weight":35},{"value":0.1,"weight":1000},{"value":0.2,"weight":700},{"value":10,"weight":2},{"value":0.5,"weight":250},{"value":0.1,"weight":1000},{"value":0.3,"weight":450},{"value":1,"weight":100},{"value":0.2,"weight":700},{"value":20,"weight":1},{"value":0.5,"weight":250},{"value":0.1,"weight":1000},{"value":2,"weight":35},{"value":0.3,"weight":450},{"value":0.2,"weight":700},{"value":1,"weight":100},{"value":0.5,"weight":250},{"value":2,"weight":35},{"value":5,"weight":8}];
+
+// default-fill the segments box (URL ?w= overrides below)
+$("weights").value = JSON.stringify(MACZO_WEIGHTS);
+
+$("demo").onclick = () => {
+  $("server").value = "4583aafe22399f36ab7cb57944824b1916e4f351072772c56ec7ec976dd78f61";
+  $("commit").value = "8ecf55c927bfaaf8883d1ced695cda86ab85f65abb315cc8eee5aecfae071e9c";
+  $("client").value = "maczo_demo_client";
+  $("nonce").value = "0";
+  $("weights").value = JSON.stringify(MACZO_WEIGHTS);
+};
+
+// 🎲 Random test — สร้าง seed สุ่มใหม่ + คำนวณ commitment ให้ตรงเสมอ แล้ว verify ทันที
+// (พิสูจน์สด ๆ ว่าอัลกอริทึมทำงาน: commitment = SHA-256(serverSeed) ตรงเสมอ, ได้ segment ตามน้ำหนักจริง)
+const randHex = (n) => [...crypto.getRandomValues(new Uint8Array(n))].map(b => b.toString(16).padStart(2, "0")).join("");
+$("rand").onclick = async () => {
+  const server = randHex(32);
+  $("server").value = server;
+  $("commit").value = await sha256Hex(server);          // commit ที่ถูกต้องของ seed นี้
+  $("client").value = "test_" + randHex(4);
+  $("nonce").value = String(crypto.getRandomValues(new Uint32Array(1))[0] % 100);
+  $("weights").value = JSON.stringify(MACZO_WEIGHTS);
+  runVerify();
+};
+
+/* ═══════════════ step-by-step breakdown (bilingual TH/EN) ═══════════════ */
+
+const I18N = {
+  th: {
+    title: "🔍 ทำไมถึงได้ผลนี้ — อธิบายทีละขั้น",
+    s1t: "ซองปิดผนึก — เว็บล็อกคำตอบไว้ “ก่อน” คุณหมุน",
+    s1p: "ก่อนหมุน เว็บโชว์ “ลายนิ้วมือ” (commitment) ของเลขลับไว้ล่วงหน้า โดยไม่บอกตัวเลขลับ. ตอนนี้เลขลับ (Server Seed) ถูกเปิดเผยแล้ว — เราเอามาย่อยด้วย SHA-256 ต่อหน้าคุณ ในเครื่องคุณเอง:",
+    s1seed: "Server Seed (เลขลับที่เพิ่งเปิดเผย)",
+    s1hash: "SHA-256(Server Seed) — คำนวณสด ๆ ตอนนี้",
+    s1commit: "Commitment ที่เว็บโชว์ไว้ก่อนหมุน",
+    s1ok: "ตรงกันทุกตัวอักษร ✅ — แปลว่าเลขลับตัวนี้ถูก “ล็อกไว้แล้ว” ก่อนคุณหมุนจริง เว็บย้อนกลับไปเปลี่ยนผลไม่ได้",
+    s1bad: "ไม่ตรงกัน ❌ — seed นี้ไม่ใช่ตัวที่ commit ไว้! ผลด้านล่างเชื่อถือไม่ได้",
+    s1none: "(คุณไม่ได้กรอก commitment — ข้ามการเช็คข้อนี้)",
+    s2t: "ผสมเลขสุ่มจากส่วนผสม 3 อย่าง",
+    s2p: "เลขสุ่มของสปินนี้ไม่ได้มาจากใครคนเดียว — มันถูกผสมจาก 3 อย่างด้วยสูตร HMAC-SHA256: เว็บโกงไม่ได้เพราะ seed ของเว็บถูกล็อกไว้แล้ว (ขั้น 1) และตอน commit เว็บยังไม่รู้ seed ของคุณ",
+    s2a: "🔒 Server Seed (ของเว็บ — ล็อกแล้ว)",
+    s2b: "🙋 Client Seed (ของคุณ)",
+    s2c: "🔢 Nonce (หมุนครั้งที่)",
+    s2out: "ผลที่ได้ = เลขฐานสิบหก 64 ตัว (32 ไบต์) — ใช้ 8 ไบต์แรก (ไฮไลต์สีชมพู):",
+    s3t: "เปลี่ยนเป็น “หมายเลขสลาก”",
+    s3p1: "อ่าน 8 ไบต์ที่ไฮไลต์เป็นตัวเลขจำนวนเต็ม 1 ตัว:",
+    s3total: (T) => `วงล้อนี้มีสลากทั้งหมด <b class="bignum">${T}</b> ใบ (= ผลรวมน้ำหนักทุกช่อง)` ,
+    s3mod: (W, T, t) => `เอาเลขใหญ่ข้างบนหารด้วย ${T} แล้วดูเศษ → ได้ <b>สลากใบที่ ${t}</b>`,
+    s3rej: (n) => `หมายเหตุ: มี ${n} ค่าที่ถูกทิ้งก่อนหน้า (rejection sampling — ตัดหางเลขที่จะทำให้ไม่ยุติธรรมออก แล้วอ่านค่าถัดไป)`,
+    s4t: (t) => `สลากใบที่ ${t} ตกอยู่ช่องไหน?`,
+    s4p: "ทุกช่องบนวงล้อถือสลากเป็นช่วงต่อเนื่องตามน้ำหนักของมัน — ช่องรางวัลเล็กถือสลากเยอะ (แถบกว้าง = ออกบ่อย) แจ็คพอตถือไม่กี่ใบ (แถบบางจนแทบมองไม่เห็น = ออกยาก). เส้นสีขาวคือตำแหน่งสลากของคุณ:",
+    s4win: (i, a, b, w, t, v) => `🎯 ช่อง #${i} ถือสลากใบที่ <b>${a} – ${b}</b> (${w} ใบ) — สลากของคุณคือใบที่ <b>${t}</b> ซึ่งอยู่ในช่วงนี้พอดี → รางวัล <b>${v} MC</b>`,
+    oddst: "โอกาสของแต่ละรางวัล (รวมทุกช่องที่ให้รางวัลเท่ากัน)",
+    oddsp: (v, p) => `นี่คือเหตุผลที่คุณได้ ${v} MC — รางวัลนี้ถือสลากรวม ${p} ของทั้งวงล้อ`,
+    ranges: "ดูตารางช่วงสลากครบทุกช่อง",
+    rgSeg: "ช่อง", rgPrize: "รางวัล", rgRange: "ช่วงสลาก", rgCount: "จำนวนใบ", rgPct: "โอกาส",
+    tryit: "🧪 พิสูจน์เองได้เลย: ลองเปลี่ยน Nonce เป็นเลขอื่นแล้วกด Verify ใหม่ — ผลจะเปลี่ยนทันที เพราะส่วนผสมเปลี่ยนแม้แต่ตัวเดียว เลขสุ่มก็เปลี่ยนทั้งหมด",
+    ticketLbl: (t) => `🎟️ ใบที่ ${t}`,
+  },
+  en: {
+    title: "🔍 Why this exact result — step by step",
+    s1t: "The sealed envelope — locked BEFORE you spun",
+    s1p: "Before the spin, the site showed a “fingerprint” (commitment) of a secret number — without revealing it. The secret (Server Seed) is now revealed — we hash it with SHA-256 right here, in your browser:",
+    s1seed: "Server Seed (the just-revealed secret)",
+    s1hash: "SHA-256(Server Seed) — computed live right now",
+    s1commit: "Commitment shown before you spun",
+    s1ok: "Identical, character for character ✅ — the secret was locked in before your spin; the site cannot rewrite the outcome after the fact",
+    s1bad: "MISMATCH ❌ — this seed is NOT the committed one! Do not trust the result below",
+    s1none: "(no commitment entered — this check was skipped)",
+    s2t: "Mixing the random number from 3 ingredients",
+    s2p: "This spin's random number doesn't come from one party — it's mixed from 3 ingredients with HMAC-SHA256. The site can't cheat: its seed was already locked (step 1) and it didn't know your seed at commit time.",
+    s2a: "🔒 Server Seed (site's — locked)",
+    s2b: "🙋 Client Seed (yours)",
+    s2c: "🔢 Nonce (spin number)",
+    s2out: "The mix produces 64 hex characters (32 bytes) — the first 8 bytes are used (highlighted pink):",
+    s3t: "Turning it into a “raffle ticket number”",
+    s3p1: "Read the highlighted 8 bytes as one big integer:",
+    s3total: (T) => `This wheel has <b class="bignum">${T}</b> raffle tickets in total (= sum of all segment weights)`,
+    s3mod: (W, T, t) => `Divide the big number by ${T} and take the remainder → <b>ticket #${t}</b>`,
+    s3rej: (n) => `Note: ${n} value(s) were discarded first (rejection sampling — trims the biased tail so every ticket is exactly equally likely)`,
+    s4t: (t) => `Which segment holds ticket #${t}?`,
+    s4p: "Each wheel segment owns a contiguous range of tickets proportional to its weight — small prizes own many tickets (wide bands = frequent), jackpots own a few (nearly invisible slivers = rare). The white line marks your ticket:",
+    s4win: (i, a, b, w, t, v) => `🎯 Segment #${i} owns tickets <b>${a} – ${b}</b> (${w} tickets) — your ticket <b>${t}</b> falls inside this range → prize <b>${v} MC</b>`,
+    oddst: "Odds per prize (all segments with the same prize combined)",
+    oddsp: (v, p) => `This is why you got ${v} MC — that prize owns ${p} of all tickets on the wheel`,
+    ranges: "Show the full ticket-range table",
+    rgSeg: "Segment", rgPrize: "Prize", rgRange: "Ticket range", rgCount: "Tickets", rgPct: "Chance",
+    tryit: "🧪 Prove it yourself: change the Nonce and hit Verify again — the result changes instantly, because changing any single ingredient changes the whole random number",
+    ticketLbl: (t) => `🎟️ #${t}`,
+  },
+};
+
+let bdLang = localStorage.getItem("pfLang") || ((navigator.language || "").toLowerCase().startsWith("th") ? "th" : "en");
+let lastCtx = null; // { trace, segs, server, client, nonce, commit, calcCommit, commitOk }
+
+const fmt = (x) => Number(x).toLocaleString("en-US");
+const esc = (s) => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+// distinct colour per prize value — cool/muted for common prizes, hot for rare ones
+function prizeColors(segs) {
+  const vals = [...new Set(segs.map(s => Number(s.value)))].sort((a, b) => a - b);
+  const palette = ["#6b6485", "#2f9e63", "#2b8ccc", "#7a5cff", "#c44bd1", "#ff9500", "#ff453a", "#ffd60a", "#ff2d55", "#30d158", "#5ac8fa"];
+  const map = {};
+  vals.forEach((v, i) => map[v] = palette[i % palette.length]);
+  return map;
+}
+
+function renderBreakdown() {
+  const bd = $("bd");
+  if (!lastCtx) { bd.style.display = "none"; return; }
+  const L = I18N[bdLang];
+  const { trace, segs, server, client, nonce, commit, calcCommit, commitOk } = lastCtx;
+  const total = Number(trace.total), ticket = Number(trace.ticket);
+  const colors = prizeColors(segs);
+
+  // cumulative ranges
+  let acc = 0;
+  const ranges = segs.map((s, i) => {
+    const w = Number(s.weight ?? s);
+    const r = { i, v: Number(s.value ?? i), w, a: acc, b: acc + w - 1 };
+    acc += w;
+    return r;
+  });
+  const win = ranges[trace.idx];
+
+  // step 1 — commitment
+  const commitBlock = commit
+    ? `<div class="kv"><b>${L.s1commit}</b>${esc(commit)}</div>
+       <div class="${commitOk ? "okline" : "badline"}">${commitOk ? L.s1ok : L.s1bad}</div>`
+    : `<div class="muted">${L.s1none}</div>`;
+
+  // step 2 — hash with first-8-bytes highlight
+  const hex = trace.hashHex || "";
+  const hlHex = hex
+    ? `<span class="hl">${hex.slice(trace.off * 2, trace.off * 2 + 16)}</span>${esc(hex.slice(trace.off * 2 + 16))}` +
+      (trace.off > 0 ? "" : "")
+    : "";
+  const hexShown = trace.off > 0
+    ? `${esc(hex.slice(0, trace.off * 2))}<span class="hl">${hex.slice(trace.off * 2, trace.off * 2 + 16)}</span>${esc(hex.slice(trace.off * 2 + 16))}`
+    : `<span class="hl">${hex.slice(0, 16)}</span>${esc(hex.slice(16))}`;
+
+  // step 4 — ticket bar (marker positioned inside the winning block at its exact fraction)
+  const withinPct = win.w > 0 ? ((ticket - win.a) / win.w) * 100 : 50;
+  const bar = ranges.map(r =>
+    `<i style="flex-grow:${r.w};background:${colors[r.v]}" class="${r.i === trace.idx ? "win" : ""}" title="#${r.i} — ${r.v} MC (${fmt(r.w)})">` +
+    (r.i === trace.idx
+      ? `<span class="tick" style="left:${withinPct}%">🎟️</span><span class="tickline" style="left:${withinPct}%"></span>`
+      : "") +
+    `</i>`).join("");
+
+  // odds grouped by prize value
+  const byVal = {};
+  ranges.forEach(r => { byVal[r.v] = (byVal[r.v] || 0) + r.w; });
+  const oddsRows = Object.entries(byVal)
+    .sort((a, b) => b[1] - a[1])
+    .map(([v, w]) => {
+      const pct = (w / total) * 100;
+      const isWin = Number(v) === win.v;
+      return `<div class="oddsrow ${isWin ? "winrow" : ""}">
+        <span class="val">${v} MC</span>
+        <span class="track"><span class="fill" style="width:${Math.max(pct, .4)}%;background:${colors[v]}"></span></span>
+        <span class="pct">${fmt(w)} / ${fmt(total)} = ${pct.toFixed(2)}%</span></div>`;
+    }).join("");
+  const winPct = ((byVal[win.v] / total) * 100).toFixed(2) + "%";
+
+  const tableRows = ranges.map(r =>
+    `<tr class="${r.i === trace.idx ? "win" : ""}"><td>#${r.i}</td><td>${r.v} MC</td>` +
+    `<td>${fmt(r.a)} – ${fmt(r.b)}</td><td>${fmt(r.w)}</td><td>${((r.w / total) * 100).toFixed(3)}%</td></tr>`).join("");
+
+  bd.innerHTML = `
+    <div class="bd-head">
+      <h2>${L.title}</h2>
+      <div class="langbtns">
+        <button class="${bdLang === "th" ? "on" : ""}" data-lang="th">ไทย</button>
+        <button class="${bdLang === "en" ? "on" : ""}" data-lang="en">EN</button>
+      </div>
+    </div>
+
+    <div class="step">
+      <h3><span class="stepnum">1</span> ${L.s1t}</h3>
+      <p>${L.s1p}</p>
+      <div class="kv"><b>${L.s1seed}</b>${esc(server)}</div>
+      <div class="arrow">↓ SHA-256</div>
+      <div class="kv"><b>${L.s1hash}</b>${esc(calcCommit)}</div>
+      ${commitBlock}
+    </div>
+
+    <div class="step">
+      <h3><span class="stepnum">2</span> ${L.s2t}</h3>
+      <p>${L.s2p}</p>
+      <div class="chips">
+        <span class="chip">${L.s2a}<br><span class="mono muted">${esc(server.slice(0, 18))}…</span></span>
+        <span class="chip">${L.s2b}<br><span class="mono muted">${esc(client)}</span></span>
+        <span class="chip">${L.s2c}<br><span class="mono muted">${esc(nonce)}</span></span>
+      </div>
+      <div class="arrow">↓ HMAC-SHA256</div>
+      <p>${L.s2out}</p>
+      <div class="kv mono">${hexShown}</div>
+    </div>
+
+    <div class="step">
+      <h3><span class="stepnum">3</span> ${L.s3t}</h3>
+      <p>${L.s3p1}</p>
+      <div class="kv"><span class="bignum">${fmt(trace.word)}</span></div>
+      <p>${L.s3total(fmt(total))}</p>
+      <div class="kv">${fmt(trace.word)} mod ${fmt(total)} = <span class="bignum" style="color:#30d158">${fmt(ticket)}</span></div>
+      <p>${L.s3mod(fmt(trace.word), fmt(total), fmt(ticket))}</p>
+      ${trace.rejected > 0 ? `<p class="muted">${L.s3rej(trace.rejected)}</p>` : ""}
+    </div>
+
+    <div class="step">
+      <h3><span class="stepnum">4</span> ${L.s4t(fmt(ticket))}</h3>
+      <p>${L.s4p}</p>
+      <div class="pfbar">${bar}</div>
+      <div class="barlabels"><span>0</span><span>${fmt(total - 1)}</span></div>
+      <div class="winbox">${L.s4win(win.i, fmt(win.a), fmt(win.b), fmt(win.w), fmt(ticket), win.v)}</div>
+      <details><summary>${L.ranges}</summary>
+        <table class="ranges"><tr><th>${L.rgSeg}</th><th>${L.rgPrize}</th><th>${L.rgRange}</th><th>${L.rgCount}</th><th>${L.rgPct}</th></tr>${tableRows}</table>
+      </details>
+    </div>
+
+    <div class="step odds">
+      <h3><span class="stepnum">5</span> ${L.oddst}</h3>
+      ${oddsRows}
+      <p style="margin-top:10px">${L.oddsp(win.v, winPct)}</p>
+    </div>
+
+    <div class="trybox">${L.tryit}</div>`;
+
+  bd.style.display = "block";
+  bd.querySelectorAll(".langbtns button").forEach(b => b.onclick = () => {
+    bdLang = b.dataset.lang; localStorage.setItem("pfLang", bdLang); renderBreakdown();
+  });
+}
+
+async function runVerify() {
+  const res = $("res"); res.style.display = "block"; res.className = "res";
+  $("bd").style.display = "none"; lastCtx = null;
+  try {
+    const server = $("server").value.trim();
+    const commit = $("commit").value.trim();
+    const client = $("client").value.trim();
+    const nonce = parseInt($("nonce").value, 10);
+    const segs = JSON.parse($("weights").value);
+    if (!server || !client || !Array.isArray(segs) || isNaN(nonce)) throw new Error("Fill in server seed, client seed, nonce and a segments JSON array.");
+    const weights = segs.map(s => typeof s === "object" ? Number(s.weight) : Number(s));
+    const calcCommit = await sha256Hex(server);
+    const commitOk = !commit || calcCommit.toLowerCase() === commit.toLowerCase();
+    const trace = await selectSegmentTrace(server, client, nonce, weights);
+    const idx = trace.idx;
+    const seg = segs[idx];
+    res.className = "res " + (commitOk ? "ok" : "bad");
+    res.innerHTML =
+      `<div class="big">${commitOk ? "✅" : "❌"} Segment #${idx}${(seg && seg.value !== undefined) ? ` — ${seg.value} MC` : ""}</div>` +
+      `<div class="muted">Commitment: ${commit ? (commitOk ? "✅ matches" : "❌ MISMATCH — seed does not hash to the commitment!") : "(not provided)"}</div>` +
+      `<div class="mono" style="margin-top:8px">SHA-256(serverSeed) = ${calcCommit}</div>` +
+      `<div class="muted" style="margin-top:8px">⬇️ ${bdLang === "th" ? "เลื่อนลงเพื่อดูว่าเลขพวกนี้กลายเป็นรางวัลของคุณได้ยังไง ทีละขั้น" : "Scroll down to see exactly how these numbers became your prize, step by step"}</div>`;
+    if (!trace.single) {
+      lastCtx = { trace, segs, server, client, nonce, commit, calcCommit, commitOk };
+      renderBreakdown();
+    }
+  } catch (e) {
+    res.className = "res bad";
+    res.innerHTML = `<div class="big">⚠️ ${e.message}</div>`;
+  }
+}
+$("go").onclick = runVerify;
+
+// Auto-fill + auto-compute from URL query — makes deep-links from the site compute instantly.
+// ?server=&commit=&client=&nonce=&w=<URL-encoded JSON weights>  (alias: weights)
+(function () {
+  const p = new URLSearchParams(location.search);
+  const set = (id, key) => { const v = p.get(key); if (v != null) $(id).value = v; };
+  set("server", "server"); set("commit", "commit"); set("client", "client"); set("nonce", "nonce");
+  const w = p.get("w") || p.get("weights");
+  if (w) { try { $("weights").value = JSON.stringify(JSON.parse(w)); } catch { $("weights").value = w; } }
+  if (p.get("server") || w) runVerify(); // compute immediately when a link carries the spin data
+})();
+</script>
+</body>
+</html>

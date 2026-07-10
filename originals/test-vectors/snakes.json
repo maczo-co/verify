@@ -1,0 +1,587 @@
+{
+  "game": "snakes",
+  "vectors": [
+    {
+      "serverSeed": "9a8164ad7ac28437997014d321d89cefc1c3307d6e8b7dec8c4545e5f183276c",
+      "clientSeed": "player_1",
+      "commitment": "239091670befaa943f7e59262eabc739b0e219b0cf793b485b2785aab583f9c5",
+      "nonce": 1,
+      "params": {
+        "difficulty": "easy",
+        "rolls": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 110000000,
+        "win": true,
+        "payoutMinor": 110000000,
+        "outcome": {
+          "difficulty": "easy",
+          "rolls": 1,
+          "made": 1,
+          "dice": [
+            [
+              5,
+              4
+            ]
+          ],
+          "sums": [
+            9
+          ],
+          "tiles_e3": [
+            1100
+          ],
+          "busted": false,
+          "upgraded": true
+        }
+      }
+    },
+    {
+      "serverSeed": "7a50dd243c4d15acf33ab03955f5f65da3b73ad4572da9fcbe86d571bcfe3a64",
+      "clientSeed": "player_2",
+      "commitment": "3ab0bfac25d99662ef9f2ef905a25bbddb81adccd7db2af9773a9f4f543f371b",
+      "nonce": 2,
+      "params": {
+        "difficulty": "easy",
+        "rolls": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 146577600,
+        "win": true,
+        "payoutMinor": 146577600,
+        "outcome": {
+          "difficulty": "easy",
+          "rolls": 3,
+          "made": 3,
+          "dice": [
+            [
+              3,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "sums": [
+            6,
+            6,
+            3
+          ],
+          "tiles_e3": [
+            1044,
+            1080,
+            1300
+          ],
+          "busted": false,
+          "upgraded": true
+        }
+      }
+    },
+    {
+      "serverSeed": "876fade7f177eabc4e957292f4a059962784cd913967f3c28b62d7ed8eddf4aa",
+      "clientSeed": "player_3",
+      "commitment": "ce26ab216098395b1816a917cfa712bea1631f2089d7d90999fd7b885b66bc06",
+      "nonce": 3,
+      "params": {
+        "difficulty": "easy",
+        "rolls": 5
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 196515072,
+        "win": true,
+        "payoutMinor": 196515072,
+        "outcome": {
+          "difficulty": "easy",
+          "rolls": 5,
+          "made": 5,
+          "dice": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "sums": [
+            3,
+            6,
+            8,
+            8,
+            4
+          ],
+          "tiles_e3": [
+            1300,
+            1080,
+            1080,
+            1080,
+            1200
+          ],
+          "busted": false,
+          "upgraded": true
+        }
+      }
+    },
+    {
+      "serverSeed": "3ecb5894ea3212b00b7f42522a16e9c2101f8bb98e1e40ab2523a9874129275e",
+      "clientSeed": "player_4",
+      "commitment": "693215907c15d4d0a903677f08ee1dd0fb0f2f640bbc864ea7966988d742a0aa",
+      "nonce": 4,
+      "params": {
+        "difficulty": "medium",
+        "rolls": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "rolls": 1,
+          "made": 0,
+          "dice": [
+            [
+              6,
+              2
+            ]
+          ],
+          "sums": [
+            8
+          ],
+          "tiles_e3": [
+            0
+          ],
+          "busted": true,
+          "upgraded": false
+        }
+      }
+    },
+    {
+      "serverSeed": "b5c523598c942b46451d52fe6350ac06e6da2e1c41460493a1ddeec962067081",
+      "clientSeed": "player_0",
+      "commitment": "d42fad74e1343f449deb7f2b4dfb25eae02dee5155dd610a7c2bd2409d1aafef",
+      "nonce": 5,
+      "params": {
+        "difficulty": "medium",
+        "rolls": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "rolls": 3,
+          "made": 0,
+          "dice": [
+            [
+              3,
+              5
+            ]
+          ],
+          "sums": [
+            8
+          ],
+          "tiles_e3": [
+            0
+          ],
+          "busted": true,
+          "upgraded": false
+        }
+      }
+    },
+    {
+      "serverSeed": "12aa234d5fc266134a37a0dc3db3ace28cb40fee59285e461fe460550d3d01da",
+      "clientSeed": "player_1",
+      "commitment": "40686feff720ba4fa588d1d43b4348bccbd876ec7992f62f647484f20b011823",
+      "nonce": 6,
+      "params": {
+        "difficulty": "medium",
+        "rolls": 5
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "rolls": 5,
+          "made": 1,
+          "dice": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "sums": [
+            4,
+            7
+          ],
+          "tiles_e3": [
+            1400,
+            0
+          ],
+          "busted": true,
+          "upgraded": true
+        }
+      }
+    },
+    {
+      "serverSeed": "fa948a43ebf292992450cfda12ea808ae74f213ffac2055ee71c3ab9a5932d6a",
+      "clientSeed": "player_2",
+      "commitment": "48baf6db96534162ee571a168d7bc96c329cae70ddcd0f0091c9330a1e1c9253",
+      "nonce": 7,
+      "params": {
+        "difficulty": "hard",
+        "rolls": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 300000000,
+        "win": true,
+        "payoutMinor": 300000000,
+        "outcome": {
+          "difficulty": "hard",
+          "rolls": 1,
+          "made": 1,
+          "dice": [
+            [
+              2,
+              1
+            ]
+          ],
+          "sums": [
+            3
+          ],
+          "tiles_e3": [
+            3000
+          ],
+          "busted": false,
+          "upgraded": true
+        }
+      }
+    },
+    {
+      "serverSeed": "79ec30b84efbf5808f9663d740d345046a5e81f673a52afee1a1e2f16b0c897f",
+      "clientSeed": "player_3",
+      "commitment": "73b43a87405cf18cad98ff9920ef6659a9036bbdc0f29e93d1d13c00af70fb03",
+      "nonce": 8,
+      "params": {
+        "difficulty": "hard",
+        "rolls": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "hard",
+          "rolls": 3,
+          "made": 0,
+          "dice": [
+            [
+              4,
+              4
+            ]
+          ],
+          "sums": [
+            8
+          ],
+          "tiles_e3": [
+            0
+          ],
+          "busted": true,
+          "upgraded": false
+        }
+      }
+    },
+    {
+      "serverSeed": "b3c951a4e984a9bb9eb6a9f8fd0b0f1bd26f87bf802d6834ba698fa78510d710",
+      "clientSeed": "player_4",
+      "commitment": "33217ca3aeed65c17dc03abfce2632d9e935513bda79ad8578080d2fa8cfef18",
+      "nonce": 9,
+      "params": {
+        "difficulty": "hard",
+        "rolls": 5
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "hard",
+          "rolls": 5,
+          "made": 0,
+          "dice": [
+            [
+              3,
+              3
+            ]
+          ],
+          "sums": [
+            6
+          ],
+          "tiles_e3": [
+            0
+          ],
+          "busted": true,
+          "upgraded": false
+        }
+      }
+    },
+    {
+      "serverSeed": "fe4bedd573d6f2e82e87e1f3ac45c18e004330a1c71de684e9dd51c4d8057c17",
+      "clientSeed": "player_0",
+      "commitment": "e000c72172c25566bf063fe872d4488ac8dc76390310acfdb5115ab61718850f",
+      "nonce": 10,
+      "params": {
+        "difficulty": "expert",
+        "rolls": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "expert",
+          "rolls": 1,
+          "made": 0,
+          "dice": [
+            [
+              5,
+              5
+            ]
+          ],
+          "sums": [
+            10
+          ],
+          "tiles_e3": [
+            0
+          ],
+          "busted": true,
+          "upgraded": false
+        }
+      }
+    },
+    {
+      "serverSeed": "9c87598712b053f0ae37bcc85b9d57d45062e193c437747a7009276c4f47c735",
+      "clientSeed": "player_1",
+      "commitment": "fe86dbf9235c3d86535cf92922bb6a9b041817f0aa5cb2f495681345a1bccc1d",
+      "nonce": 11,
+      "params": {
+        "difficulty": "expert",
+        "rolls": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "expert",
+          "rolls": 3,
+          "made": 0,
+          "dice": [
+            [
+              6,
+              4
+            ]
+          ],
+          "sums": [
+            10
+          ],
+          "tiles_e3": [
+            0
+          ],
+          "busted": true,
+          "upgraded": false
+        }
+      }
+    },
+    {
+      "serverSeed": "17ae059ea9e29e2afb58dbfb2d32bb71950d52fd00ffac288113653c2655d7fc",
+      "clientSeed": "player_2",
+      "commitment": "86a0d55af84d44c5904e7e2c0996fcf3fc29be146b3f18869bdce9561322836a",
+      "nonce": 12,
+      "params": {
+        "difficulty": "expert",
+        "rolls": 5
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "expert",
+          "rolls": 5,
+          "made": 0,
+          "dice": [
+            [
+              4,
+              3
+            ]
+          ],
+          "sums": [
+            7
+          ],
+          "tiles_e3": [
+            0
+          ],
+          "busted": true,
+          "upgraded": false
+        }
+      }
+    },
+    {
+      "serverSeed": "acf78a04543d79f7baadf9dd124bcaacb853251758639f9a4a62e82cc4ea0f0f",
+      "clientSeed": "player_3",
+      "commitment": "e5647784b62b0d686fcd4eb5e8f0ef88a9fcb00c1b73d8352055cba098c341fd",
+      "nonce": 13,
+      "params": {
+        "difficulty": "master",
+        "rolls": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "master",
+          "rolls": 1,
+          "made": 0,
+          "dice": [
+            [
+              4,
+              4
+            ]
+          ],
+          "sums": [
+            8
+          ],
+          "tiles_e3": [
+            0
+          ],
+          "busted": true,
+          "upgraded": false
+        }
+      }
+    },
+    {
+      "serverSeed": "65ba101886a1ae7aeb4e8b3de3b514b527a3d323afdc1a535c7cde24aaf65eac",
+      "clientSeed": "player_4",
+      "commitment": "343e07bc3ec5daf088b91cd5b430dcb9ead111c3f681e1e96e107ff7a5192a05",
+      "nonce": 14,
+      "params": {
+        "difficulty": "master",
+        "rolls": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "master",
+          "rolls": 3,
+          "made": 0,
+          "dice": [
+            [
+              2,
+              5
+            ]
+          ],
+          "sums": [
+            7
+          ],
+          "tiles_e3": [
+            0
+          ],
+          "busted": true,
+          "upgraded": false
+        }
+      }
+    },
+    {
+      "serverSeed": "09912482d1a77fc3d374cd112b49a853f96c79418533cb3addacb541a46b17ab",
+      "clientSeed": "player_0",
+      "commitment": "49fb9cb03d7541c8af40c56a85547385d0e58fdb52dabd1f0a3ae47b02152b39",
+      "nonce": 15,
+      "params": {
+        "difficulty": "master",
+        "rolls": 5
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "master",
+          "rolls": 5,
+          "made": 0,
+          "dice": [
+            [
+              1,
+              5
+            ]
+          ],
+          "sums": [
+            6
+          ],
+          "tiles_e3": [
+            0
+          ],
+          "busted": true,
+          "upgraded": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "game": "tarot",
+  "vectors": [
+    {
+      "serverSeed": "9b0e7a880e97a44457d0975be3edeb8e41040d676b2431cf3fc4e57f5e3d79d6",
+      "clientSeed": "player_1",
+      "commitment": "20c7310559aac4c79771ac2cf1700676fe4788be8bdb70f031c597ae19a7a3ae",
+      "nonce": 1,
+      "params": {
+        "difficulty": "easy"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 60000000,
+        "win": true,
+        "payoutMinor": 60000000,
+        "outcome": {
+          "difficulty": "easy",
+          "middle_e2": 100,
+          "left_e2": 150,
+          "right_e2": 40,
+          "ids": {
+            "middle": 12,
+            "left": 60,
+            "right": 35
+          },
+          "bust": false,
+          "multiplier_e8": 60000000
+        }
+      }
+    },
+    {
+      "serverSeed": "3c89ccc78f8e7140939c189ba2a9c030559e692097f2d1a579868a12ddbc3e45",
+      "clientSeed": "player_2",
+      "commitment": "230d04172d14b9b7ee769ba307cba099b3977af2f7513765a2a0c254214b08cc",
+      "nonce": 2,
+      "params": {
+        "difficulty": "easy"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 88000000,
+        "win": true,
+        "payoutMinor": 88000000,
+        "outcome": {
+          "difficulty": "easy",
+          "middle_e2": 200,
+          "left_e2": 40,
+          "right_e2": 110,
+          "ids": {
+            "middle": 5,
+            "left": 52,
+            "right": 66
+          },
+          "bust": false,
+          "multiplier_e8": 88000000
+        }
+      }
+    },
+    {
+      "serverSeed": "7f0bfbc876d568d506ce9e12c44cf414e9fe656b1418d06e9822bf6afe5b8ac5",
+      "clientSeed": "player_3",
+      "commitment": "95b1e2e3e2a96ac06e16d3b9a755877d04142ce5189f756609a40e1a95e46159",
+      "nonce": 3,
+      "params": {
+        "difficulty": "easy"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 88000000,
+        "win": true,
+        "payoutMinor": 88000000,
+        "outcome": {
+          "difficulty": "easy",
+          "middle_e2": 200,
+          "left_e2": 40,
+          "right_e2": 110,
+          "ids": {
+            "middle": 2,
+            "left": 59,
+            "right": 32
+          },
+          "bust": false,
+          "multiplier_e8": 88000000
+        }
+      }
+    },
+    {
+      "serverSeed": "97553a680775e0c437d22825b4044d076e34e1f4b529c731695daf9c53e0abe2",
+      "clientSeed": "player_4",
+      "commitment": "5b2ce1e2ea9003e7d9b44778a7baa695115833b086241b0cdad9087a09ecc13b",
+      "nonce": 4,
+      "params": {
+        "difficulty": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "middle_e2": 100,
+          "left_e2": 400,
+          "right_e2": 0,
+          "ids": {
+            "middle": 12,
+            "left": 74,
+            "right": 63
+          },
+          "bust": true,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "232f510c907adf9c5e9e2decebe65255baaf94ecb9123eabe877f2beab13e5d6",
+      "clientSeed": "player_0",
+      "commitment": "dcade9a3bec7332bab9d236836030952e0c77ed45323ff5a13c5daa8588f46f8",
+      "nonce": 5,
+      "params": {
+        "difficulty": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 120000000,
+        "win": true,
+        "payoutMinor": 120000000,
+        "outcome": {
+          "difficulty": "medium",
+          "middle_e2": 100,
+          "left_e2": 30,
+          "right_e2": 400,
+          "ids": {
+            "middle": 22,
+            "left": 45,
+            "right": 41
+          },
+          "bust": false,
+          "multiplier_e8": 120000000
+        }
+      }
+    },
+    {
+      "serverSeed": "1f63c2a8b86b08d7642bc0acf62f19c78146caeb882cbf319c3dbe66d638ef63",
+      "clientSeed": "player_1",
+      "commitment": "944794f9628b74aa55f7f74229e55da0f43ba69ad59d283f5488a23d3b6aebcc",
+      "nonce": 6,
+      "params": {
+        "difficulty": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 9000000,
+        "win": true,
+        "payoutMinor": 9000000,
+        "outcome": {
+          "difficulty": "medium",
+          "middle_e2": 100,
+          "left_e2": 30,
+          "right_e2": 30,
+          "ids": {
+            "middle": 10,
+            "left": 42,
+            "right": 43
+          },
+          "bust": false,
+          "multiplier_e8": 9000000
+        }
+      }
+    },
+    {
+      "serverSeed": "5cbf5381628d6bc089752689bb316a7828804a98d2d40f8e6f023be216df6b60",
+      "clientSeed": "player_2",
+      "commitment": "db90d8e049ee990bb1b17239d7108cba570000cd6565defbd531fc824fafbc1d",
+      "nonce": 7,
+      "params": {
+        "difficulty": "hard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "hard",
+          "middle_e2": 400,
+          "left_e2": 15,
+          "right_e2": 0,
+          "ids": {
+            "middle": 5,
+            "left": 56,
+            "right": 78
+          },
+          "bust": true,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "fe476fcb0012bbc2fe84bb1b4c4e2c1f98ea3480150a02d6dce5c31a817935ff",
+      "clientSeed": "player_3",
+      "commitment": "8529441409ce1d429611aeb4aaab3cf395afd8122b9f5917780850974fcb7d05",
+      "nonce": 8,
+      "params": {
+        "difficulty": "hard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "hard",
+          "middle_e2": 100,
+          "left_e2": 0,
+          "right_e2": 55,
+          "ids": {
+            "middle": 12,
+            "left": 77,
+            "right": 59
+          },
+          "bust": true,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "bb2c2b0d193c5505a84837d2d02c27f8d4242c3e55a89509e4e19925b8cca62a",
+      "clientSeed": "player_4",
+      "commitment": "678c1bcd822610916aa4b431270d440a8d5e0eb19a3bce0b0a9fe278d9a3ca07",
+      "nonce": 9,
+      "params": {
+        "difficulty": "hard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 121000000,
+        "win": true,
+        "payoutMinor": 121000000,
+        "outcome": {
+          "difficulty": "hard",
+          "middle_e2": 400,
+          "left_e2": 55,
+          "right_e2": 55,
+          "ids": {
+            "middle": 18,
+            "left": 54,
+            "right": 29
+          },
+          "bust": false,
+          "multiplier_e8": 121000000
+        }
+      }
+    },
+    {
+      "serverSeed": "d3bfdbc09ad9e00aafc62444e697eaa8bc61c682a1ba29a47f6a27fd72558130",
+      "clientSeed": "player_0",
+      "commitment": "d3a844a18ede3a88fd5fc7777f268c836b0a5a53e784d1b6a13e5ca03d0bdfaa",
+      "nonce": 10,
+      "params": {
+        "difficulty": "expert"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "expert",
+          "middle_e2": 500,
+          "left_e2": 15,
+          "right_e2": 0,
+          "ids": {
+            "middle": 6,
+            "left": 44,
+            "right": 72
+          },
+          "bust": true,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "9f9efbc5a7385101ddab8d688ee944b57b6ab2140aeb46648c7106fdfa13b4ee",
+      "clientSeed": "player_1",
+      "commitment": "96bc386a7d42ec319c9c4639d56e3586d502d8462572e09bdb32ac9fb85c88b2",
+      "nonce": 11,
+      "params": {
+        "difficulty": "expert"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "expert",
+          "middle_e2": 100,
+          "left_e2": 0,
+          "right_e2": 0,
+          "ids": {
+            "middle": 21,
+            "left": 58,
+            "right": 34
+          },
+          "bust": true,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "140837e47a0cd0347c60683350800c5e4c0363c26a4527c95ad9253af072f181",
+      "clientSeed": "player_2",
+      "commitment": "b3209898e9aa6ef0d2479e9c7619763c0fdadca9be81f54c9263ce8bed0d1b27",
+      "nonce": 12,
+      "params": {
+        "difficulty": "expert"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "expert",
+          "middle_e2": 100,
+          "left_e2": 15,
+          "right_e2": 0,
+          "ids": {
+            "middle": 17,
+            "left": 77,
+            "right": 67
+          },
+          "bust": true,
+          "multiplier_e8": 0
+        }
+      }
+    }
+  ]
+}

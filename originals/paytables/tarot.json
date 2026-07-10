@@ -1,0 +1,205 @@
+{
+  "game": "tarot",
+  "displayName": "Tarot",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "easy/medium/hard/expert"
+    }
+  ],
+  "majorScale": 9800,
+  "minorScale": 10000,
+  "majorIds": 22,
+  "minorIds": 56,
+  "difficulty": {
+    "easy": {
+      "major": [
+        {
+          "valueE2": 500,
+          "weight": 686
+        },
+        {
+          "valueE2": 400,
+          "weight": 980
+        },
+        {
+          "valueE2": 300,
+          "weight": 980
+        },
+        {
+          "valueE2": 200,
+          "weight": 2356
+        },
+        {
+          "valueE2": 100,
+          "weight": 4798
+        }
+      ],
+      "minor": [
+        {
+          "valueE2": 200,
+          "weight": 1000
+        },
+        {
+          "valueE2": 150,
+          "weight": 1000
+        },
+        {
+          "valueE2": 110,
+          "weight": 1000
+        },
+        {
+          "valueE2": 40,
+          "weight": 6000
+        },
+        {
+          "valueE2": 0,
+          "weight": 1000
+        }
+      ]
+    },
+    "medium": {
+      "major": [
+        {
+          "valueE2": 1000,
+          "weight": 294
+        },
+        {
+          "valueE2": 500,
+          "weight": 588
+        },
+        {
+          "valueE2": 300,
+          "weight": 1274
+        },
+        {
+          "valueE2": 200,
+          "weight": 2454
+        },
+        {
+          "valueE2": 100,
+          "weight": 5190
+        }
+      ],
+      "minor": [
+        {
+          "valueE2": 400,
+          "weight": 700
+        },
+        {
+          "valueE2": 200,
+          "weight": 900
+        },
+        {
+          "valueE2": 60,
+          "weight": 1500
+        },
+        {
+          "valueE2": 30,
+          "weight": 5000
+        },
+        {
+          "valueE2": 0,
+          "weight": 1900
+        }
+      ]
+    },
+    "hard": {
+      "major": [
+        {
+          "valueE2": 2400,
+          "weight": 98
+        },
+        {
+          "valueE2": 800,
+          "weight": 294
+        },
+        {
+          "valueE2": 400,
+          "weight": 980
+        },
+        {
+          "valueE2": 200,
+          "weight": 2748
+        },
+        {
+          "valueE2": 100,
+          "weight": 5680
+        }
+      ],
+      "minor": [
+        {
+          "valueE2": 700,
+          "weight": 500
+        },
+        {
+          "valueE2": 200,
+          "weight": 900
+        },
+        {
+          "valueE2": 55,
+          "weight": 2000
+        },
+        {
+          "valueE2": 15,
+          "weight": 4000
+        },
+        {
+          "valueE2": 0,
+          "weight": 2600
+        }
+      ]
+    },
+    "expert": {
+      "major": [
+        {
+          "valueE2": 5000,
+          "weight": 49
+        },
+        {
+          "valueE2": 1000,
+          "weight": 147
+        },
+        {
+          "valueE2": 500,
+          "weight": 784
+        },
+        {
+          "valueE2": 200,
+          "weight": 3140
+        },
+        {
+          "valueE2": 100,
+          "weight": 5680
+        }
+      ],
+      "minor": [
+        {
+          "valueE2": 1000,
+          "weight": 300
+        },
+        {
+          "valueE2": 300,
+          "weight": 1000
+        },
+        {
+          "valueE2": 35,
+          "weight": 2000
+        },
+        {
+          "valueE2": 15,
+          "weight": 2000
+        },
+        {
+          "valueE2": 0,
+          "weight": 4700
+        }
+      ]
+    }
+  },
+  "note": "middle draws MAJOR by CDF over (u0 mod 9800); left/right draw MINOR over (u1,u2 mod 10000). multiplier_e8 = rtp·middle·left·right·1e8 / (99e6·100^3). ids: u3..u5 (display only)."
+}

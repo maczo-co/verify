@@ -1,0 +1,85 @@
+{
+  "game": "slider",
+  "vectors": [
+    {
+      "serverSeed": "3a8aad0dd9909f6b1c359698b7460646ee46be9f2aa56f7140061a0490a4d5a4",
+      "clientSeed": "player_1",
+      "commitment": "9aaf652de1da7b437071800b90038e6a896e0b9b500eadaeb0d294b03d62a951",
+      "nonce": 1,
+      "params": {
+        "target_e8": 150000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 150000000,
+        "win": true,
+        "payoutMinor": 150000000,
+        "outcome": {
+          "result_e8": 251960921,
+          "target_e8": 150000000
+        }
+      }
+    },
+    {
+      "serverSeed": "9808f604cc6ec6e5c4c62fb248d84ebf234caa2bc96de193f5c958a2a348f65d",
+      "clientSeed": "player_2",
+      "commitment": "0b5e138e5cb5bc24530b9d12c0210b2d5c370187af699c05eb8107903d6e0621",
+      "nonce": 2,
+      "params": {
+        "target_e8": 300000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "result_e8": 104086448,
+          "target_e8": 300000000
+        }
+      }
+    },
+    {
+      "serverSeed": "b847f35b6fe53c9ee095c432bba841da3d5866c648b72500d33bea9c902c1cc1",
+      "clientSeed": "player_3",
+      "commitment": "ce3f2d9d158dba8f7ded31fbf1ae44b223eb752370ecaeffaa4cd3eb2bee9ebf",
+      "nonce": 3,
+      "params": {
+        "target_e8": 2000000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "result_e8": 101698379,
+          "target_e8": 2000000000
+        }
+      }
+    },
+    {
+      "serverSeed": "a9a06f6ccbbc9c9cf161615cfd9b203bfec893fb92aa76061ab5a5ec5a748de1",
+      "clientSeed": "player_4",
+      "commitment": "6d4e8ebd6293bc6bd6efd475de678893fffe5bc82bdf65b15070a43e02ec76c1",
+      "nonce": 4,
+      "params": {
+        "target_e8": 101000000
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 101000000,
+        "win": true,
+        "payoutMinor": 101000000,
+        "outcome": {
+          "result_e8": 161368312,
+          "target_e8": 101000000
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "game": "drill",
+  "vectors": [
+    {
+      "serverSeed": "7cae61064d7acdce3b2227ba4aebd515dceae86a527c6e89cd72eda0d744ef51",
+      "clientSeed": "player_1",
+      "commitment": "2c4e3a448d19145fc785f96b52ceeb30764e92a06e0cec5873208daf11a86116",
+      "nonce": 1,
+      "params": {
+        "target_e8": 150000000,
+        "shape": "diamond"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "target_e8": 150000000,
+          "shape": "diamond",
+          "lane": 0,
+          "lanes_e8": [
+            106690932,
+            1956566728,
+            127290641
+          ],
+          "mine_e8": 106690932
+        }
+      }
+    },
+    {
+      "serverSeed": "515086ad84014357f8e3b61568a98cab076ee61655c0f9b2dc51c2838b8d5baf",
+      "clientSeed": "player_2",
+      "commitment": "eafa1545a17e69094fa81a401151816c33f61698d875a01fcf7b6372ecf11710",
+      "nonce": 2,
+      "params": {
+        "target_e8": 500000000,
+        "shape": "diamond"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "target_e8": 500000000,
+          "shape": "diamond",
+          "lane": 0,
+          "lanes_e8": [
+            447675844,
+            3341913356,
+            151002351
+          ],
+          "mine_e8": 447675844
+        }
+      }
+    },
+    {
+      "serverSeed": "a09611e520e5c33e3abb9fc931f0757f0ce614b54b6535130a8c21545ef83d02",
+      "clientSeed": "player_3",
+      "commitment": "4a3e591482317311ca524ced1f3a199fd0ae364aec76555f175d158f13855f8a",
+      "nonce": 3,
+      "params": {
+        "target_e8": 150000000,
+        "shape": "circle"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 150000000,
+        "win": true,
+        "payoutMinor": 150000000,
+        "outcome": {
+          "target_e8": 150000000,
+          "shape": "circle",
+          "lane": 1,
+          "lanes_e8": [
+            100000000,
+            480105085,
+            146053075
+          ],
+          "mine_e8": 480105085
+        }
+      }
+    },
+    {
+      "serverSeed": "1ee57f5eccaae9f873c3563df12b94bd12b756e16e71879f4f053e1d5a677672",
+      "clientSeed": "player_4",
+      "commitment": "475be9d3ab9dfdac81047221c9b98578f4777618546caf23ac1ea5b14c8185dd",
+      "nonce": 4,
+      "params": {
+        "target_e8": 500000000,
+        "shape": "circle"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 500000000,
+        "win": true,
+        "payoutMinor": 500000000,
+        "outcome": {
+          "target_e8": 500000000,
+          "shape": "circle",
+          "lane": 1,
+          "lanes_e8": [
+            201370420,
+            624552861,
+            2691945353
+          ],
+          "mine_e8": 624552861
+        }
+      }
+    },
+    {
+      "serverSeed": "edc137291c0961ca4d2523b903f9ef59b996c61efe6377e1b8b9041390bf8284",
+      "clientSeed": "player_0",
+      "commitment": "97598b0fcd38b7759acbea312fcb1ac30c4ebd2c63474dfb5f7adffc1973ac60",
+      "nonce": 5,
+      "params": {
+        "target_e8": 150000000,
+        "shape": "triangle"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 150000000,
+        "win": true,
+        "payoutMinor": 150000000,
+        "outcome": {
+          "target_e8": 150000000,
+          "shape": "triangle",
+          "lane": 2,
+          "lanes_e8": [
+            333553463,
+            100426621,
+            279792682
+          ],
+          "mine_e8": 279792682
+        }
+      }
+    },
+    {
+      "serverSeed": "0200fe56f94c2e5b8288271bd3191e467d1d8db387ddcb89f4caf3b0f37f0129",
+      "clientSeed": "player_1",
+      "commitment": "dfb6dc309af5d96c6503542c43ea0665a3803917c3f8a596c4972b8151c815ea",
+      "nonce": 6,
+      "params": {
+        "target_e8": 500000000,
+        "shape": "triangle"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 500000000,
+        "win": true,
+        "payoutMinor": 500000000,
+        "outcome": {
+          "target_e8": 500000000,
+          "shape": "triangle",
+          "lane": 2,
+          "lanes_e8": [
+            242090245,
+            147180432,
+            8868224492
+          ],
+          "mine_e8": 8868224492
+        }
+      }
+    }
+  ]
+}
