@@ -1,0 +1,102 @@
+{
+  "game": "dragon-3d",
+  "displayName": "Dragon Tower 3D",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "pedestals / skulls per row: easy 4/1, medium 3/1, hard 2/1, expert 3/2, master 4/3"
+    },
+    {
+      "name": "picks",
+      "desc": "the pedestal chosen on each row in order, 0 = leftmost (empty = abandoned before the first pick)"
+    }
+  ],
+  "rows": 9,
+  "difficulty": {
+    "easy": {
+      "tiles": 4,
+      "hazards": 1,
+      "ladderE8": [
+        100000000,
+        132000000,
+        176000000,
+        234666666,
+        312888888,
+        417185185,
+        556246913,
+        741662551,
+        988883401,
+        1318511202
+      ]
+    },
+    "medium": {
+      "tiles": 3,
+      "hazards": 1,
+      "ladderE8": [
+        100000000,
+        148500000,
+        222750000,
+        334125000,
+        501187500,
+        751781250,
+        1127671875,
+        1691507812,
+        2537261718,
+        3805892578
+      ]
+    },
+    "hard": {
+      "tiles": 2,
+      "hazards": 1,
+      "ladderE8": [
+        100000000,
+        198000000,
+        396000000,
+        792000000,
+        1584000000,
+        3168000000,
+        6336000000,
+        12672000000,
+        25344000000,
+        50688000000
+      ]
+    },
+    "expert": {
+      "tiles": 3,
+      "hazards": 2,
+      "ladderE8": [
+        100000000,
+        297000000,
+        891000000,
+        2673000000,
+        8019000000,
+        24057000000,
+        72171000000,
+        216513000000,
+        649539000000,
+        1948617000000
+      ]
+    },
+    "master": {
+      "tiles": 4,
+      "hazards": 3,
+      "ladderE8": [
+        100000000,
+        396000000,
+        1584000000,
+        6336000000,
+        25344000000,
+        101376000000,
+        405504000000,
+        1622016000000,
+        6488064000000,
+        25952256000000
+      ]
+    }
+  },
+  "note": "per row r: shuffle(tiles) driven by uints[r·(tiles−1) .. (r+1)·(tiles−1)) → the first `hazards` entries are the skulls, every other pedestal holds a jade dragon egg (safe). Walk the picks: a skull busts, an egg climbs. multiplier = floor(rtp · tiles^k / (tiles−hazards)^k) after k safe rows."
+}

@@ -1,0 +1,636 @@
+{
+  "game": "triad",
+  "vectors": [
+    {
+      "serverSeed": "743f78861e4548203c0789b10739f33b57783327baabd6468d53ddfbbb345808",
+      "clientSeed": "player_0",
+      "commitment": "05d778307b4eb652a934ec40947a588b4001b7afc62152367f3da95ebb7efa70",
+      "nonce": 5,
+      "params": {
+        "bet": "small"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 203657142,
+        "win": true,
+        "payoutMinor": 203657142,
+        "outcome": {
+          "bet": "small",
+          "pick": 0,
+          "dice": [
+            4,
+            1,
+            2
+          ],
+          "sum": 7,
+          "matches": 0,
+          "multiplier_e8": 203657142
+        }
+      }
+    },
+    {
+      "serverSeed": "e2b4be2627a605a0d7a897544ee61808c8df65897b3ebc6a0432ed6f08acfed2",
+      "clientSeed": "player_1",
+      "commitment": "0987f59b86c1a21902863a9f80ba7bf6a8e1a09b6c6deb2c58253cb1e7a90dd6",
+      "nonce": 1,
+      "params": {
+        "bet": "small"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "small",
+          "pick": 0,
+          "dice": [
+            6,
+            5,
+            2
+          ],
+          "sum": 13,
+          "matches": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "34379b4a352923e11a4b694b66e8f9a188d388c3c4926f58e4ea0561fb5c3700",
+      "clientSeed": "player_1",
+      "commitment": "9bfd24ac4fe6be292dafceb2d74a26fcd5cd3068ff77b3280813dd8bbb3d29af",
+      "nonce": 216,
+      "params": {
+        "bet": "small"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "small",
+          "pick": 0,
+          "dice": [
+            2,
+            2,
+            2
+          ],
+          "sum": 6,
+          "matches": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "e2b4be2627a605a0d7a897544ee61808c8df65897b3ebc6a0432ed6f08acfed2",
+      "clientSeed": "player_1",
+      "commitment": "0987f59b86c1a21902863a9f80ba7bf6a8e1a09b6c6deb2c58253cb1e7a90dd6",
+      "nonce": 1,
+      "params": {
+        "bet": "big"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 203657142,
+        "win": true,
+        "payoutMinor": 203657142,
+        "outcome": {
+          "bet": "big",
+          "pick": 0,
+          "dice": [
+            6,
+            5,
+            2
+          ],
+          "sum": 13,
+          "matches": 0,
+          "multiplier_e8": 203657142
+        }
+      }
+    },
+    {
+      "serverSeed": "73f40417ee0a961a78fa071ddb65766b2e0a2b29a21782334d5adbcb0437a546",
+      "clientSeed": "player_0",
+      "commitment": "ac0d52ad50a1c94fd99e4da143e751fd679535f0258b71c5fee2937474feacaa",
+      "nonce": 45,
+      "params": {
+        "bet": "big"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "big",
+          "pick": 0,
+          "dice": [
+            4,
+            4,
+            4
+          ],
+          "sum": 12,
+          "matches": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "68a4c54875370c6fa19b3b6f289a3af80546b169e6e1615e4c50c77a59c1d99c",
+      "clientSeed": "player_4",
+      "commitment": "ddb1010c597149b38c0fa7c6da6d5aff79da2d8dc231e7fb1d621b20243def8b",
+      "nonce": 84,
+      "params": {
+        "bet": "any_triple"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 3564000000,
+        "win": true,
+        "payoutMinor": 3564000000,
+        "outcome": {
+          "bet": "any_triple",
+          "pick": 0,
+          "dice": [
+            6,
+            6,
+            6
+          ],
+          "sum": 18,
+          "matches": 0,
+          "multiplier_e8": 3564000000
+        }
+      }
+    },
+    {
+      "serverSeed": "e2b4be2627a605a0d7a897544ee61808c8df65897b3ebc6a0432ed6f08acfed2",
+      "clientSeed": "player_1",
+      "commitment": "0987f59b86c1a21902863a9f80ba7bf6a8e1a09b6c6deb2c58253cb1e7a90dd6",
+      "nonce": 1,
+      "params": {
+        "bet": "any_triple"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "any_triple",
+          "pick": 0,
+          "dice": [
+            6,
+            5,
+            2
+          ],
+          "sum": 13,
+          "matches": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "73f40417ee0a961a78fa071ddb65766b2e0a2b29a21782334d5adbcb0437a546",
+      "clientSeed": "player_0",
+      "commitment": "ac0d52ad50a1c94fd99e4da143e751fd679535f0258b71c5fee2937474feacaa",
+      "nonce": 45,
+      "params": {
+        "bet": "triple",
+        "pick": 4
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 21384000000,
+        "win": true,
+        "payoutMinor": 21384000000,
+        "outcome": {
+          "bet": "triple",
+          "pick": 4,
+          "dice": [
+            4,
+            4,
+            4
+          ],
+          "sum": 12,
+          "matches": 0,
+          "multiplier_e8": 21384000000
+        }
+      }
+    },
+    {
+      "serverSeed": "73f40417ee0a961a78fa071ddb65766b2e0a2b29a21782334d5adbcb0437a546",
+      "clientSeed": "player_0",
+      "commitment": "ac0d52ad50a1c94fd99e4da143e751fd679535f0258b71c5fee2937474feacaa",
+      "nonce": 45,
+      "params": {
+        "bet": "triple",
+        "pick": 6
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "triple",
+          "pick": 6,
+          "dice": [
+            4,
+            4,
+            4
+          ],
+          "sum": 12,
+          "matches": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "73f40417ee0a961a78fa071ddb65766b2e0a2b29a21782334d5adbcb0437a546",
+      "clientSeed": "player_0",
+      "commitment": "ac0d52ad50a1c94fd99e4da143e751fd679535f0258b71c5fee2937474feacaa",
+      "nonce": 45,
+      "params": {
+        "bet": "double",
+        "pick": 4
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 1336500000,
+        "win": true,
+        "payoutMinor": 1336500000,
+        "outcome": {
+          "bet": "double",
+          "pick": 4,
+          "dice": [
+            4,
+            4,
+            4
+          ],
+          "sum": 12,
+          "matches": 0,
+          "multiplier_e8": 1336500000
+        }
+      }
+    },
+    {
+      "serverSeed": "e4ced74f5c71a7bd79506fc8e8d43b92052d494f85eae0b5fb49f5734cb5e0b9",
+      "clientSeed": "player_4",
+      "commitment": "0cceb8e38d6bc30489227b1a29203e5bdd06f4252294c72df9454f0728146694",
+      "nonce": 9,
+      "params": {
+        "bet": "double",
+        "pick": 2
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 1336500000,
+        "win": true,
+        "payoutMinor": 1336500000,
+        "outcome": {
+          "bet": "double",
+          "pick": 2,
+          "dice": [
+            1,
+            2,
+            2
+          ],
+          "sum": 5,
+          "matches": 0,
+          "multiplier_e8": 1336500000
+        }
+      }
+    },
+    {
+      "serverSeed": "e2b4be2627a605a0d7a897544ee61808c8df65897b3ebc6a0432ed6f08acfed2",
+      "clientSeed": "player_1",
+      "commitment": "0987f59b86c1a21902863a9f80ba7bf6a8e1a09b6c6deb2c58253cb1e7a90dd6",
+      "nonce": 1,
+      "params": {
+        "bet": "double",
+        "pick": 6
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "double",
+          "pick": 6,
+          "dice": [
+            6,
+            5,
+            2
+          ],
+          "sum": 13,
+          "matches": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "dba98f4f1b4971dc8da7b03f045a0a0dfbb8bcdf74ed4c20e9e614221fdce30e",
+      "clientSeed": "player_0",
+      "commitment": "2f6b2c82604801a58f7fef7a46bdced26fa6abc0619827c3658766cb38f5227f",
+      "nonce": 215,
+      "params": {
+        "bet": "total",
+        "pick": 4
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 7128000000,
+        "win": true,
+        "payoutMinor": 7128000000,
+        "outcome": {
+          "bet": "total",
+          "pick": 4,
+          "dice": [
+            1,
+            2,
+            1
+          ],
+          "sum": 4,
+          "matches": 0,
+          "multiplier_e8": 7128000000
+        }
+      }
+    },
+    {
+      "serverSeed": "28563654faf33caa9a7050279625830b2f95f06a769ffb62dcf2b045c8439c5f",
+      "clientSeed": "player_4",
+      "commitment": "1d62ad16fec4094a5ed59e8c70f9dbc0ffe13d7f2458cd9b4266461e15888cb6",
+      "nonce": 34,
+      "params": {
+        "bet": "total",
+        "pick": 17
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 7128000000,
+        "win": true,
+        "payoutMinor": 7128000000,
+        "outcome": {
+          "bet": "total",
+          "pick": 17,
+          "dice": [
+            6,
+            5,
+            6
+          ],
+          "sum": 17,
+          "matches": 0,
+          "multiplier_e8": 7128000000
+        }
+      }
+    },
+    {
+      "serverSeed": "08f157c62072861f9e5368468c0856905e8e18329ee3af61fd80ca48a009bb34",
+      "clientSeed": "player_1",
+      "commitment": "c37ea1413c0213096760051313247633c2fe6497a6cb0c90244176c4724a7c0f",
+      "nonce": 6,
+      "params": {
+        "bet": "total",
+        "pick": 10
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 792000000,
+        "win": true,
+        "payoutMinor": 792000000,
+        "outcome": {
+          "bet": "total",
+          "pick": 10,
+          "dice": [
+            4,
+            5,
+            1
+          ],
+          "sum": 10,
+          "matches": 0,
+          "multiplier_e8": 792000000
+        }
+      }
+    },
+    {
+      "serverSeed": "e2b4be2627a605a0d7a897544ee61808c8df65897b3ebc6a0432ed6f08acfed2",
+      "clientSeed": "player_1",
+      "commitment": "0987f59b86c1a21902863a9f80ba7bf6a8e1a09b6c6deb2c58253cb1e7a90dd6",
+      "nonce": 1,
+      "params": {
+        "bet": "total",
+        "pick": 12
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "total",
+          "pick": 12,
+          "dice": [
+            6,
+            5,
+            2
+          ],
+          "sum": 13,
+          "matches": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "76dcadf98b840e4e2721d5e7be2dd8f2aa59cebe2829eaf60cb30be4b4652551",
+      "clientSeed": "player_3",
+      "commitment": "753ba91e18a352f81baa2501d40bd9613ff6f45b3e7afba58c73edb2f0909df1",
+      "nonce": 3,
+      "params": {
+        "bet": "single",
+        "pick": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 214914572,
+        "win": true,
+        "payoutMinor": 214914572,
+        "outcome": {
+          "bet": "single",
+          "pick": 1,
+          "dice": [
+            1,
+            4,
+            6
+          ],
+          "sum": 11,
+          "matches": 1,
+          "multiplier_e8": 214914572
+        }
+      }
+    },
+    {
+      "serverSeed": "e4ced74f5c71a7bd79506fc8e8d43b92052d494f85eae0b5fb49f5734cb5e0b9",
+      "clientSeed": "player_4",
+      "commitment": "0cceb8e38d6bc30489227b1a29203e5bdd06f4252294c72df9454f0728146694",
+      "nonce": 9,
+      "params": {
+        "bet": "single",
+        "pick": 2
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 322371858,
+        "win": true,
+        "payoutMinor": 322371858,
+        "outcome": {
+          "bet": "single",
+          "pick": 2,
+          "dice": [
+            1,
+            2,
+            2
+          ],
+          "sum": 5,
+          "matches": 2,
+          "multiplier_e8": 322371858
+        }
+      }
+    },
+    {
+      "serverSeed": "73f40417ee0a961a78fa071ddb65766b2e0a2b29a21782334d5adbcb0437a546",
+      "clientSeed": "player_0",
+      "commitment": "ac0d52ad50a1c94fd99e4da143e751fd679535f0258b71c5fee2937474feacaa",
+      "nonce": 45,
+      "params": {
+        "bet": "single",
+        "pick": 4
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 429829144,
+        "win": true,
+        "payoutMinor": 429829144,
+        "outcome": {
+          "bet": "single",
+          "pick": 4,
+          "dice": [
+            4,
+            4,
+            4
+          ],
+          "sum": 12,
+          "matches": 3,
+          "multiplier_e8": 429829144
+        }
+      }
+    },
+    {
+      "serverSeed": "e2b4be2627a605a0d7a897544ee61808c8df65897b3ebc6a0432ed6f08acfed2",
+      "clientSeed": "player_1",
+      "commitment": "0987f59b86c1a21902863a9f80ba7bf6a8e1a09b6c6deb2c58253cb1e7a90dd6",
+      "nonce": 1,
+      "params": {
+        "bet": "single",
+        "pick": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "single",
+          "pick": 3,
+          "dice": [
+            6,
+            5,
+            2
+          ],
+          "sum": 13,
+          "matches": 0,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "08f157c62072861f9e5368468c0856905e8e18329ee3af61fd80ca48a009bb34",
+      "clientSeed": "player_1",
+      "commitment": "c37ea1413c0213096760051313247633c2fe6497a6cb0c90244176c4724a7c0f",
+      "nonce": 6,
+      "params": {
+        "bet": "total",
+        "pick": 10
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 792000000,
+        "win": true,
+        "payoutMinor": 26399997,
+        "outcome": {
+          "bet": "total",
+          "pick": 10,
+          "dice": [
+            4,
+            5,
+            1
+          ],
+          "sum": 10,
+          "matches": 0,
+          "multiplier_e8": 792000000
+        }
+      }
+    },
+    {
+      "serverSeed": "e4ced74f5c71a7bd79506fc8e8d43b92052d494f85eae0b5fb49f5734cb5e0b9",
+      "clientSeed": "player_4",
+      "commitment": "0cceb8e38d6bc30489227b1a29203e5bdd06f4252294c72df9454f0728146694",
+      "nonce": 9,
+      "params": {
+        "bet": "single",
+        "pick": 2
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 322371858,
+        "win": true,
+        "payoutMinor": 10745727,
+        "outcome": {
+          "bet": "single",
+          "pick": 2,
+          "dice": [
+            1,
+            2,
+            2
+          ],
+          "sum": 5,
+          "matches": 2,
+          "multiplier_e8": 322371858
+        }
+      }
+    }
+  ]
+}

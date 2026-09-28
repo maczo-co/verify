@@ -1,0 +1,313 @@
+{
+  "game": "abyss-palace",
+  "displayName": "Abyss Palace",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "tiles / sharks per row: easy 4/1, medium 3/1, hard 2/1, expert 3/2, master 4/3"
+    },
+    {
+      "name": "picks",
+      "desc": "the tile chosen on each row in order, 0 = leftmost (empty = abandoned before the first pick)"
+    }
+  ],
+  "rows": 9,
+  "wordsPerRow": 3,
+  "difficulty": {
+    "easy": {
+      "tiles": 4,
+      "traps": 1,
+      "odds": [
+        {
+          "num": "1",
+          "den": "1"
+        },
+        {
+          "num": "4",
+          "den": "3"
+        },
+        {
+          "num": "16",
+          "den": "9"
+        },
+        {
+          "num": "64",
+          "den": "27"
+        },
+        {
+          "num": "256",
+          "den": "81"
+        },
+        {
+          "num": "1024",
+          "den": "243"
+        },
+        {
+          "num": "4096",
+          "den": "729"
+        },
+        {
+          "num": "16384",
+          "den": "2187"
+        },
+        {
+          "num": "65536",
+          "den": "6561"
+        },
+        {
+          "num": "262144",
+          "den": "19683"
+        }
+      ],
+      "ladderE8": [
+        100000000,
+        132000000,
+        176000000,
+        234666666,
+        312888888,
+        417185185,
+        556246913,
+        741662551,
+        988883401,
+        1318511202
+      ]
+    },
+    "medium": {
+      "tiles": 3,
+      "traps": 1,
+      "odds": [
+        {
+          "num": "1",
+          "den": "1"
+        },
+        {
+          "num": "3",
+          "den": "2"
+        },
+        {
+          "num": "9",
+          "den": "4"
+        },
+        {
+          "num": "27",
+          "den": "8"
+        },
+        {
+          "num": "81",
+          "den": "16"
+        },
+        {
+          "num": "243",
+          "den": "32"
+        },
+        {
+          "num": "729",
+          "den": "64"
+        },
+        {
+          "num": "2187",
+          "den": "128"
+        },
+        {
+          "num": "6561",
+          "den": "256"
+        },
+        {
+          "num": "19683",
+          "den": "512"
+        }
+      ],
+      "ladderE8": [
+        100000000,
+        148500000,
+        222750000,
+        334125000,
+        501187500,
+        751781250,
+        1127671875,
+        1691507812,
+        2537261718,
+        3805892578
+      ]
+    },
+    "hard": {
+      "tiles": 2,
+      "traps": 1,
+      "odds": [
+        {
+          "num": "1",
+          "den": "1"
+        },
+        {
+          "num": "2",
+          "den": "1"
+        },
+        {
+          "num": "4",
+          "den": "1"
+        },
+        {
+          "num": "8",
+          "den": "1"
+        },
+        {
+          "num": "16",
+          "den": "1"
+        },
+        {
+          "num": "32",
+          "den": "1"
+        },
+        {
+          "num": "64",
+          "den": "1"
+        },
+        {
+          "num": "128",
+          "den": "1"
+        },
+        {
+          "num": "256",
+          "den": "1"
+        },
+        {
+          "num": "512",
+          "den": "1"
+        }
+      ],
+      "ladderE8": [
+        100000000,
+        198000000,
+        396000000,
+        792000000,
+        1584000000,
+        3168000000,
+        6336000000,
+        12672000000,
+        25344000000,
+        50688000000
+      ]
+    },
+    "expert": {
+      "tiles": 3,
+      "traps": 2,
+      "odds": [
+        {
+          "num": "1",
+          "den": "1"
+        },
+        {
+          "num": "3",
+          "den": "1"
+        },
+        {
+          "num": "9",
+          "den": "1"
+        },
+        {
+          "num": "27",
+          "den": "1"
+        },
+        {
+          "num": "81",
+          "den": "1"
+        },
+        {
+          "num": "243",
+          "den": "1"
+        },
+        {
+          "num": "729",
+          "den": "1"
+        },
+        {
+          "num": "2187",
+          "den": "1"
+        },
+        {
+          "num": "6561",
+          "den": "1"
+        },
+        {
+          "num": "19683",
+          "den": "1"
+        }
+      ],
+      "ladderE8": [
+        100000000,
+        297000000,
+        891000000,
+        2673000000,
+        8019000000,
+        24057000000,
+        72171000000,
+        216513000000,
+        649539000000,
+        1948617000000
+      ]
+    },
+    "master": {
+      "tiles": 4,
+      "traps": 3,
+      "odds": [
+        {
+          "num": "1",
+          "den": "1"
+        },
+        {
+          "num": "4",
+          "den": "1"
+        },
+        {
+          "num": "16",
+          "den": "1"
+        },
+        {
+          "num": "64",
+          "den": "1"
+        },
+        {
+          "num": "256",
+          "den": "1"
+        },
+        {
+          "num": "1024",
+          "den": "1"
+        },
+        {
+          "num": "4096",
+          "den": "1"
+        },
+        {
+          "num": "16384",
+          "den": "1"
+        },
+        {
+          "num": "65536",
+          "den": "1"
+        },
+        {
+          "num": "262144",
+          "den": "1"
+        }
+      ],
+      "ladderE8": [
+        100000000,
+        396000000,
+        1584000000,
+        6336000000,
+        25344000000,
+        101376000000,
+        405504000000,
+        1622016000000,
+        6488064000000,
+        25952256000000
+      ]
+    }
+  },
+  "note": "row r reads uints[3r..3r+2] (a fixed window for every difficulty): sharks = first `traps` of Fisher-Yates shuffle(tiles) driven by the first tiles-1 words. Walk the picks: a shark busts, a safe tile climbs one row. No bonus tiles. multiplier = floor(rtp · odds[k].num / odds[k].den) = rtp·tiles^k / safe^k after k safe rows."
+}

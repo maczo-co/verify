@@ -1,0 +1,141 @@
+{
+  "game": "claw",
+  "displayName": "Claw",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "risk",
+      "desc": "machine: gentle/standard/wild"
+    }
+  ],
+  "ppm": 1000000,
+  "gripDen": 8,
+  "grip": [
+    {
+      "num": 0,
+      "weight": 100000
+    },
+    {
+      "num": 2,
+      "weight": 200000
+    },
+    {
+      "num": 4,
+      "weight": 400000
+    },
+    {
+      "num": 6,
+      "weight": 200000
+    },
+    {
+      "num": 8,
+      "weight": 100000
+    }
+  ],
+  "gripCum": [
+    100000,
+    300000,
+    700000,
+    900000,
+    1000000
+  ],
+  "risk": {
+    "gentle": {
+      "prizes": [
+        {
+          "prizeE8": 45648408,
+          "weight": 250000
+        },
+        {
+          "prizeE8": 171181552,
+          "weight": 470000
+        },
+        {
+          "prizeE8": 285302592,
+          "weight": 220000
+        },
+        {
+          "prizeE8": 570605184,
+          "weight": 52000
+        },
+        {
+          "prizeE8": 1711815560,
+          "weight": 8000
+        }
+      ],
+      "cum": [
+        250000,
+        720000,
+        940000,
+        992000,
+        1000000
+      ]
+    },
+    "standard": {
+      "prizes": [
+        {
+          "prizeE8": 0,
+          "weight": 340000
+        },
+        {
+          "prizeE8": 144174752,
+          "weight": 430000
+        },
+        {
+          "prizeE8": 360436888,
+          "weight": 180000
+        },
+        {
+          "prizeE8": 961165048,
+          "weight": 44000
+        },
+        {
+          "prizeE8": 4805825240,
+          "weight": 6000
+        }
+      ],
+      "cum": [
+        340000,
+        770000,
+        950000,
+        994000,
+        1000000
+      ]
+    },
+    "wild": {
+      "prizes": [
+        {
+          "prizeE8": 0,
+          "weight": 470000
+        },
+        {
+          "prizeE8": 120364736,
+          "weight": 400000
+        },
+        {
+          "prizeE8": 601823704,
+          "weight": 110000
+        },
+        {
+          "prizeE8": 3009118536,
+          "weight": 18800
+        },
+        {
+          "prizeE8": 22568389056,
+          "weight": 1200
+        }
+      ],
+      "cum": [
+        470000,
+        870000,
+        980000,
+        998800,
+        1000000
+      ]
+    }
+  },
+  "note": "u0 mod 1,000,000 walks the risk tier's cumulative prize weights to a prize face (e8, already a multiple of 8); u1 mod 1,000,000 walks GRIP the same way to a grip numerator f of 8; multiplier = prize_e8 · f // 8."
+}

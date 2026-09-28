@@ -1,0 +1,143 @@
+{
+  "game": "shootout",
+  "displayName": "Shootout",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "shots",
+      "desc": "shot count: 3 / 5 / 7"
+    },
+    {
+      "name": "range",
+      "desc": "range tier setting the make chance: close (70%) / mid (55%) / far (40%)"
+    }
+  ],
+  "note": "each of the `shots` words MAKES iff u < threshold (threshold = pct*2^32 // 100, so the make chance is exactly threshold/2^32, NOT pct/100); the make count then indexes the baked per-(range,shots) e8 ladder — 0 below floorMakes, a 9/5 geometric rise above it and a x4 jackpot kick on a perfect run, exact-rationally rescaled against the exact binomial so the ladder returns the published RTP.",
+  "uintRange": 4294967296,
+  "shots": [
+    3,
+    5,
+    7
+  ],
+  "tiers": {
+    "close": {
+      "pct": 70,
+      "threshold": 3006477107,
+      "makeProbability": "3006477107/4294967296"
+    },
+    "mid": {
+      "pct": 55,
+      "threshold": 2362232012,
+      "makeProbability": "2362232012/4294967296"
+    },
+    "far": {
+      "pct": 40,
+      "threshold": 1717986918,
+      "makeProbability": "1717986918/4294967296"
+    }
+  },
+  "variants": {
+    "close/3": {
+      "floorMakes": 2,
+      "ladder": [
+        0,
+        0,
+        34013605,
+        244897959
+      ]
+    },
+    "mid/3": {
+      "floorMakes": 2,
+      "ladder": [
+        0,
+        0,
+        61633282,
+        443759630
+      ]
+    },
+    "far/3": {
+      "floorMakes": 2,
+      "ladder": [
+        0,
+        0,
+        132211538,
+        951923077
+      ]
+    },
+    "close/5": {
+      "floorMakes": 3,
+      "ladder": [
+        0,
+        0,
+        0,
+        31577363,
+        56839255,
+        409242637
+      ]
+    },
+    "mid/5": {
+      "floorMakes": 3,
+      "ladder": [
+        0,
+        0,
+        0,
+        72806632,
+        131051937,
+        943573951
+      ]
+    },
+    "far/5": {
+      "floorMakes": 3,
+      "ladder": [
+        0,
+        0,
+        0,
+        197466682,
+        355440027,
+        2559168200
+      ]
+    },
+    "close/7": {
+      "floorMakes": 4,
+      "ladder": [
+        0,
+        0,
+        0,
+        0,
+        28122494,
+        50620490,
+        91116883,
+        656041562
+      ]
+    },
+    "mid/7": {
+      "floorMakes": 4,
+      "ladder": [
+        0,
+        0,
+        0,
+        0,
+        75299539,
+        135539170,
+        243970507,
+        1756587653
+      ]
+    },
+    "far/7": {
+      "floorMakes": 4,
+      "ladder": [
+        0,
+        0,
+        0,
+        0,
+        231936545,
+        417485782,
+        751474408,
+        5410615741
+      ]
+    }
+  }
+}

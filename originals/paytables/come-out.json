@@ -1,0 +1,46 @@
+{
+  "game": "come-out",
+  "displayName": "Come Out",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "bet",
+      "desc": "pass / dont_pass / field / any_seven / any_craps"
+    }
+  ],
+  "nPairs": 64,
+  "bets": [
+    "pass",
+    "dont_pass",
+    "field",
+    "any_seven",
+    "any_craps"
+  ],
+  "points": [
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "multsE8": {
+    "pass": 200840163,
+    "dont_pass": 200758693,
+    "any_seven": 594000000,
+    "any_craps": 891000000,
+    "field": {
+      "2": 314470588,
+      "3": 209647058,
+      "4": 209647058,
+      "9": 209647058,
+      "10": 209647058,
+      "11": 209647058,
+      "12": 314470588
+    }
+  },
+  "note": "each throw is two dice from the stream (die = 1 + u mod 6, 2 uints per throw, throw 0 = the come-out); field/any_seven/any_craps settle on the come-out alone, pass/dont_pass then walk the same stream from throw 1 until the point or a 7 shows (cap nPairs throws → stake back); every multiplier is read from the baked multsE8, and a push pays exactly 1.00x (not a win)."
+}

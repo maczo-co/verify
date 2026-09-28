@@ -1,0 +1,547 @@
+{
+  "game": "shootout",
+  "vectors": [
+    {
+      "serverSeed": "6c0c67c8399b6a3cd12480ed535134c9e13d89ae510c3e72653cb305293fa046",
+      "clientSeed": "player_1",
+      "commitment": "d2f2a131f5dd820fc3d92e963702050954faa107c849a449d49c8759ec8a69d3",
+      "nonce": 1,
+      "params": {
+        "shots": 3,
+        "range": "close"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "shots": 3,
+          "range": "close",
+          "makes": 1,
+          "shots_result": [
+            true,
+            false,
+            false
+          ],
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "d95cdd493a698c947f29228621a2ad071080111217036969aacf9e6fbcd4b48f",
+      "clientSeed": "player_2",
+      "commitment": "683a622f129e2b4d31fb3da4c074ad3136c8ccb203a666609599df300f60606f",
+      "nonce": 2,
+      "params": {
+        "shots": 3,
+        "range": "mid"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "shots": 3,
+          "range": "mid",
+          "makes": 1,
+          "shots_result": [
+            false,
+            false,
+            true
+          ],
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "a610351d01eb09822dcae8683d916f9bf3c428a036e3da7556b4df6f2092fd7c",
+      "clientSeed": "player_3",
+      "commitment": "288fb96b3d06fa1d5199beaed12f59cc8136de14d54cdc59f5d4cebffe1cbc73",
+      "nonce": 3,
+      "params": {
+        "shots": 3,
+        "range": "far"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "shots": 3,
+          "range": "far",
+          "makes": 1,
+          "shots_result": [
+            false,
+            false,
+            true
+          ],
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "05063f5fbf6efc6d8f1ca050a83d9204cf78e6024d8b54751c4fcf4660939c84",
+      "clientSeed": "player_4",
+      "commitment": "91a17e2ce629a2d12c1a46cbc0d1e90bc244f52535203bca7a4dac70b4f5955a",
+      "nonce": 4,
+      "params": {
+        "shots": 5,
+        "range": "close"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 31577363,
+        "win": true,
+        "payoutMinor": 31577363,
+        "outcome": {
+          "shots": 5,
+          "range": "close",
+          "makes": 3,
+          "shots_result": [
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          "multiplier_e8": 31577363
+        }
+      }
+    },
+    {
+      "serverSeed": "cd26a94a60934aaa5e59d2db84d66a9ca232172776377c5cc12e6ed0cd24a762",
+      "clientSeed": "player_0",
+      "commitment": "7799fbc391cdd48c9b863cef3dafacc5fe3d3836ce3106bb1ae48cefb59aa5c8",
+      "nonce": 5,
+      "params": {
+        "shots": 5,
+        "range": "mid"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 943573951,
+        "win": true,
+        "payoutMinor": 943573951,
+        "outcome": {
+          "shots": 5,
+          "range": "mid",
+          "makes": 5,
+          "shots_result": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "multiplier_e8": 943573951
+        }
+      }
+    },
+    {
+      "serverSeed": "81f4efe49fc90f0d15feb1d2882600af56da80c72660b88183d8038a4f7c9256",
+      "clientSeed": "player_1",
+      "commitment": "c984ae7ade94c41c40b67235ebbf409bf7f9363dc58c7dd1548449f47ee12237",
+      "nonce": 6,
+      "params": {
+        "shots": 5,
+        "range": "far"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "shots": 5,
+          "range": "far",
+          "makes": 2,
+          "shots_result": [
+            true,
+            false,
+            false,
+            true,
+            false
+          ],
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "dad3d043e810a64c698b94e5d48dda8cf4cb3b7ddd9e697b7e3f4f9aa1dccb29",
+      "clientSeed": "player_2",
+      "commitment": "69f887d46527a4e680127ede818e284b991f0f81d001331ce8c675243c7963f9",
+      "nonce": 7,
+      "params": {
+        "shots": 7,
+        "range": "close"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "shots": 7,
+          "range": "close",
+          "makes": 2,
+          "shots_result": [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "b05012ec1ae72bbeae12523c8dbb360df9ef7178a71a367a8eb82c9c0d081532",
+      "clientSeed": "player_3",
+      "commitment": "b075eb51c2a6211d1960817777b863f66aaed8b65255a09e2c639c266f867130",
+      "nonce": 8,
+      "params": {
+        "shots": 7,
+        "range": "mid"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "shots": 7,
+          "range": "mid",
+          "makes": 3,
+          "shots_result": [
+            true,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "36b2465a4724ad6a12ec05ca7df5181b10e6afa626e9d67b20a03d1ed6baf251",
+      "clientSeed": "player_4",
+      "commitment": "6cd2bd8a463bd312e0f3711d64519f7ee9ecc1f7b5a97d4b549e8a65c0be514f",
+      "nonce": 9,
+      "params": {
+        "shots": 7,
+        "range": "far"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 231936545,
+        "win": true,
+        "payoutMinor": 231936545,
+        "outcome": {
+          "shots": 7,
+          "range": "far",
+          "makes": 4,
+          "shots_result": [
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "multiplier_e8": 231936545
+        }
+      }
+    },
+    {
+      "serverSeed": "ca045dad5b0e9a3b7f804bda0cff87005c46ec7c240562baf30e7360cedcd334",
+      "clientSeed": "player_0",
+      "commitment": "b4e171bb65e7acf10553c96f3f5ad59e896b2d10957f302b777d8f00619ac125",
+      "nonce": 100,
+      "params": {
+        "shots": 3,
+        "range": "close"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 244897959,
+        "win": true,
+        "payoutMinor": 244897959,
+        "outcome": {
+          "shots": 3,
+          "range": "close",
+          "makes": 3,
+          "shots_result": [
+            true,
+            true,
+            true
+          ],
+          "multiplier_e8": 244897959
+        }
+      }
+    },
+    {
+      "serverSeed": "4c2aa0839090ed1113f043ce9dfd1dd94a6fd9c42472003208424f697c2ab61b",
+      "clientSeed": "player_4",
+      "commitment": "5f78f85f11e93a9403e6fe9db3476361928658d7c0eb93f9a11e29f62f3d7b93",
+      "nonce": 209,
+      "params": {
+        "shots": 3,
+        "range": "close"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "shots": 3,
+          "range": "close",
+          "makes": 1,
+          "shots_result": [
+            true,
+            false,
+            false
+          ],
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "5392623d8c01bfcac94057f95460adfcb84ed2425116062cac65a408b8cfdad8",
+      "clientSeed": "player_4",
+      "commitment": "930eaf30b2bec7f345dfdfa9e98687a4336b9fb4d86ebb7a354545c0070133c9",
+      "nonce": 304,
+      "params": {
+        "shots": 5,
+        "range": "mid"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 72806632,
+        "win": true,
+        "payoutMinor": 72806632,
+        "outcome": {
+          "shots": 5,
+          "range": "mid",
+          "makes": 3,
+          "shots_result": [
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          "multiplier_e8": 72806632
+        }
+      }
+    },
+    {
+      "serverSeed": "ef0a967064d46136f66308417f817051744f476a5f7958708bd97811cc573aae",
+      "clientSeed": "player_4",
+      "commitment": "0284383896783660f677755d95a25e910c084d953ae7692ca539276487cfc8d7",
+      "nonce": 1759,
+      "params": {
+        "shots": 7,
+        "range": "far"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 5410615741,
+        "win": true,
+        "payoutMinor": 5410615741,
+        "outcome": {
+          "shots": 7,
+          "range": "far",
+          "makes": 7,
+          "shots_result": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "multiplier_e8": 5410615741
+        }
+      }
+    },
+    {
+      "serverSeed": "70557bf4f569a7bd4d79b456a9c19093f01903b3c6088a63b41cc291917d1b24",
+      "clientSeed": "player_0",
+      "commitment": "16e0e2197605f141871f6f26431aec59391a40b9ffa669754ce7995576859264",
+      "nonce": 500,
+      "params": {
+        "shots": 3,
+        "range": "far"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 132211538,
+        "win": true,
+        "payoutMinor": 132211538,
+        "outcome": {
+          "shots": 3,
+          "range": "far",
+          "makes": 2,
+          "shots_result": [
+            true,
+            true,
+            false
+          ],
+          "multiplier_e8": 132211538
+        }
+      }
+    },
+    {
+      "serverSeed": "cb2b13757212481f35721861c5d5dc00df6c1d8901215864ae904401cbe5699c",
+      "clientSeed": "player_1",
+      "commitment": "bc83b8790f0d8004a6805bf456d8786322b4b3d4f8bd7c1a7710791094936605",
+      "nonce": 611,
+      "params": {
+        "shots": 7,
+        "range": "close"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 91116883,
+        "win": true,
+        "payoutMinor": 91116883,
+        "outcome": {
+          "shots": 7,
+          "range": "close",
+          "makes": 6,
+          "shots_result": [
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "multiplier_e8": 91116883
+        }
+      }
+    },
+    {
+      "serverSeed": "5c0ff0027f66b45d32f790690b833dc68573954a5ab4e0e7316a32834521fee7",
+      "clientSeed": "player_4",
+      "commitment": "215f2b5a403da7ba36ebaeb85f989365c076c723eca3111e5c8229cc860d9946",
+      "nonce": 854,
+      "params": {
+        "shots": 7,
+        "range": "mid"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 1756587653,
+        "win": true,
+        "payoutMinor": 1756587653,
+        "outcome": {
+          "shots": 7,
+          "range": "mid",
+          "makes": 7,
+          "shots_result": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "multiplier_e8": 1756587653
+        }
+      }
+    },
+    {
+      "serverSeed": "84b310e796e507c6a746244affa43de6fd8cac00710efc402e03c7d771b7e9c1",
+      "clientSeed": "player_3",
+      "commitment": "d47a38ba37d128d5398b552f89ee97ea1eb278c592ad98cbf9575519cfb9260c",
+      "nonce": 40203,
+      "params": {
+        "shots": 7,
+        "range": "far"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 5410615741,
+        "win": true,
+        "payoutMinor": 180353839,
+        "outcome": {
+          "shots": 7,
+          "range": "far",
+          "makes": 7,
+          "shots_result": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "multiplier_e8": 5410615741
+        }
+      }
+    },
+    {
+      "serverSeed": "4246d3a9dc8e863885a992e984af26f5bbabd07f91db8c4d217c5b422b4844af",
+      "clientSeed": "player_0",
+      "commitment": "0876913ee2be424c34aae5b4e580ba215309a5d51ba984d243c62c6b5e54cbf0",
+      "nonce": 700,
+      "params": {
+        "shots": 5,
+        "range": "mid"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 72806632,
+        "win": true,
+        "payoutMinor": 2426887,
+        "outcome": {
+          "shots": 5,
+          "range": "mid",
+          "makes": 3,
+          "shots_result": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "multiplier_e8": 72806632
+        }
+      }
+    }
+  ]
+}

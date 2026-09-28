@@ -1,0 +1,938 @@
+{
+  "game": "ascend",
+  "vectors": [
+    {
+      "serverSeed": "0a81ede3757952ab7717ca056e684ab9887c286bed9d0ed0a34758e986b663cf",
+      "clientSeed": "player_1",
+      "commitment": "2025d2af642008c7c0eb419ecdbe1c2ccbc16726fbc39f4d55ea68e18355ada4",
+      "nonce": 1,
+      "params": {
+        "counts": []
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "counts": [],
+          "reached": 0,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": []
+        }
+      }
+    },
+    {
+      "serverSeed": "16a46766a50f2320179da17d2d77bbc67109af7e1f2ab4a8c704dfb19611bdb7",
+      "clientSeed": "player_4",
+      "commitment": "c2a08478d2d924c04c6c0b3949719dfc877da66383ab4e2ec807044bf2dad35d",
+      "nonce": 49,
+      "params": {
+        "counts": [
+          50
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 1980000000,
+        "win": true,
+        "payoutMinor": 1980000000,
+        "outcome": {
+          "counts": [
+            50
+          ],
+          "reached": 1,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 50,
+              "r": 21,
+              "landed": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "9832af8ce7ad0cf2efeb736a4db98ae654125e7a3692f48b8767c12085885373",
+      "clientSeed": "player_2",
+      "commitment": "b0249f02708aac22eb2e29bd77462da28f296f4f58286431294309a4bf2f7972",
+      "nonce": 2,
+      "params": {
+        "counts": [
+          50
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "counts": [
+            50
+          ],
+          "reached": 0,
+          "busted": true,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 50,
+              "r": 925,
+              "landed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "485dbfc4d75bf4c791f8e1912d642512fc656127fcc9316f1bddc055d53874d0",
+      "clientSeed": "player_3",
+      "commitment": "3b0c9cae3e2b15271e06aa9103db6627b5b16d2848f23197d7fb735a6b7a47f4",
+      "nonce": 3,
+      "params": {
+        "counts": [
+          950
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 104210526,
+        "win": true,
+        "payoutMinor": 104210526,
+        "outcome": {
+          "counts": [
+            950
+          ],
+          "reached": 1,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 950,
+              "r": 296,
+              "landed": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "fbf8acd6f26950c4556a44353d5449692452983582c4e5fdcdbd2d26df3493da",
+      "clientSeed": "player_2",
+      "commitment": "b8251db0be41b23341889fbcf4c512511a9600713ce4298224a59d9e3ba8e6b2",
+      "nonce": 22,
+      "params": {
+        "counts": [
+          950
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "counts": [
+            950
+          ],
+          "reached": 0,
+          "busted": true,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 950,
+              "r": 991,
+              "landed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "d0a05b79628077c1e1e081fa8da66f7cc12103e982d89c82070fe2929bf06d04",
+      "clientSeed": "player_1",
+      "commitment": "4e62bf8605916d10ff4bf397bc7bd99be15104db5abdc34434b34ae0b2a4b3e2",
+      "nonce": 6,
+      "params": {
+        "counts": [
+          500
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198000000,
+        "win": true,
+        "payoutMinor": 198000000,
+        "outcome": {
+          "counts": [
+            500
+          ],
+          "reached": 1,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 500,
+              "r": 364,
+              "landed": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "d92d340fe33155d4ad813400e309cca2bd44f78eada2790c236430bac2cfabf0",
+      "clientSeed": "player_3",
+      "commitment": "4ad1770a3f99fe67e478ce5652e1595f7ca0d5433ba7bee5cbd548a274798be6",
+      "nonce": 83,
+      "params": {
+        "counts": [
+          50,
+          950
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 2084210526,
+        "win": true,
+        "payoutMinor": 2084210526,
+        "outcome": {
+          "counts": [
+            50,
+            950
+          ],
+          "reached": 2,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 50,
+              "r": 18,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 333,
+              "landed": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "e00664b8fd8c20db83055d36b2bce82d031847f313095928a9ce473cad45dd5d",
+      "clientSeed": "player_4",
+      "commitment": "589a32f3073e91bf364d37753b9bf10ea4e8f19d8f129351233838c61b26296c",
+      "nonce": 9,
+      "params": {
+        "counts": [
+          900,
+          900,
+          900,
+          900,
+          900
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "counts": [
+            900,
+            900,
+            900,
+            900,
+            900
+          ],
+          "reached": 4,
+          "busted": true,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 900,
+              "r": 566,
+              "landed": true
+            },
+            {
+              "c": 900,
+              "r": 335,
+              "landed": true
+            },
+            {
+              "c": 900,
+              "r": 276,
+              "landed": true
+            },
+            {
+              "c": 900,
+              "r": 246,
+              "landed": true
+            },
+            {
+              "c": 900,
+              "r": 932,
+              "landed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "c8c4cc4c81c02b221dcc137bc43b6a3413852151799c7a3674aa8e33ee1b36e9",
+      "clientSeed": "player_4",
+      "commitment": "b267a0e45809e45f9b8c2e457fcc4ec8a97171c03d3179822c5df95474857801",
+      "nonce": 79,
+      "params": {
+        "counts": [
+          950,
+          800,
+          650,
+          500,
+          350,
+          200
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 5725853094,
+        "win": true,
+        "payoutMinor": 5725853094,
+        "outcome": {
+          "counts": [
+            950,
+            800,
+            650,
+            500,
+            350,
+            200
+          ],
+          "reached": 6,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 950,
+              "r": 856,
+              "landed": true
+            },
+            {
+              "c": 800,
+              "r": 59,
+              "landed": true
+            },
+            {
+              "c": 650,
+              "r": 429,
+              "landed": true
+            },
+            {
+              "c": 500,
+              "r": 404,
+              "landed": true
+            },
+            {
+              "c": 350,
+              "r": 290,
+              "landed": true
+            },
+            {
+              "c": 200,
+              "r": 114,
+              "landed": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "ae38dadb5c62823767036271d701ebef730022c4b108d0839b10071036d26578",
+      "clientSeed": "player_3",
+      "commitment": "796d13d30d2cab8ebf57d34f413ac951cb27ad749cd35ed6f7deadf858862639",
+      "nonce": 9378,
+      "params": {
+        "counts": [
+          100,
+          100,
+          100,
+          100
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 990000000000,
+        "win": true,
+        "payoutMinor": 990000000000,
+        "outcome": {
+          "counts": [
+            100,
+            100,
+            100,
+            100
+          ],
+          "reached": 4,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 100,
+              "r": 14,
+              "landed": true
+            },
+            {
+              "c": 100,
+              "r": 21,
+              "landed": true
+            },
+            {
+              "c": 100,
+              "r": 42,
+              "landed": true
+            },
+            {
+              "c": 100,
+              "r": 58,
+              "landed": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "63105a241365f14265c04b987c29b95ec6faebf3bffa3c8e936f603f62c74646",
+      "clientSeed": "player_4",
+      "commitment": "08436f189efd50e105c02918851c3628e271ce486a04d4171aaf2f6a7f19baec",
+      "nonce": 4,
+      "params": {
+        "counts": [
+          950,
+          950,
+          950,
+          950,
+          950,
+          950,
+          950,
+          950,
+          950,
+          950,
+          950,
+          950,
+          950,
+          950,
+          950
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 213688482,
+        "win": true,
+        "payoutMinor": 213688482,
+        "outcome": {
+          "counts": [
+            950,
+            950,
+            950,
+            950,
+            950,
+            950,
+            950,
+            950,
+            950,
+            950,
+            950,
+            950,
+            950,
+            950,
+            950
+          ],
+          "reached": 15,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 950,
+              "r": 526,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 887,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 436,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 798,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 651,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 939,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 526,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 441,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 125,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 143,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 48,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 188,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 929,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 133,
+              "landed": true
+            },
+            {
+              "c": 950,
+              "r": 506,
+              "landed": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "7d0e28aed4040b66c9699d013bfde6aa09436c1996e4a7ce8ee4677f9309e1d9",
+      "clientSeed": "player_0",
+      "commitment": "cb4971c09f4838c7acd446dbb4594ecc22550af1dc1eb510d3995ec7d6c51aab",
+      "nonce": 5,
+      "params": {
+        "counts": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "counts": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "reached": 0,
+          "busted": true,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 50,
+              "r": 614,
+              "landed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "41a0dbe7ec9a0924e4add4a37a4e1c3cb2d79d240ecee1080bf264c930205d99",
+      "clientSeed": "player_4",
+      "commitment": "1f70f8af952ef9f932aa6a083c61b043a1022c54abb65fb8db55535e93d90aab",
+      "nonce": 2939,
+      "params": {
+        "counts": [
+          106,
+          758,
+          50,
+          400,
+          730,
+          808,
+          153,
+          192,
+          834,
+          71,
+          95,
+          50,
+          50,
+          216,
+          50
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 23409464481113268494,
+        "win": true,
+        "payoutMinor": 23409464481113268494,
+        "outcome": {
+          "counts": [
+            106,
+            758,
+            50,
+            400,
+            730,
+            808,
+            153,
+            192,
+            834,
+            71,
+            95,
+            50,
+            50,
+            216,
+            50
+          ],
+          "reached": 15,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 106,
+              "r": 105,
+              "landed": true
+            },
+            {
+              "c": 758,
+              "r": 757,
+              "landed": true
+            },
+            {
+              "c": 50,
+              "r": 4,
+              "landed": true
+            },
+            {
+              "c": 400,
+              "r": 399,
+              "landed": true
+            },
+            {
+              "c": 730,
+              "r": 729,
+              "landed": true
+            },
+            {
+              "c": 808,
+              "r": 807,
+              "landed": true
+            },
+            {
+              "c": 153,
+              "r": 152,
+              "landed": true
+            },
+            {
+              "c": 192,
+              "r": 191,
+              "landed": true
+            },
+            {
+              "c": 834,
+              "r": 833,
+              "landed": true
+            },
+            {
+              "c": 71,
+              "r": 70,
+              "landed": true
+            },
+            {
+              "c": 95,
+              "r": 94,
+              "landed": true
+            },
+            {
+              "c": 50,
+              "r": 35,
+              "landed": true
+            },
+            {
+              "c": 50,
+              "r": 41,
+              "landed": true
+            },
+            {
+              "c": 216,
+              "r": 215,
+              "landed": true
+            },
+            {
+              "c": 50,
+              "r": 39,
+              "landed": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "c8c4cc4c81c02b221dcc137bc43b6a3413852151799c7a3674aa8e33ee1b36e9",
+      "clientSeed": "player_4",
+      "commitment": "b267a0e45809e45f9b8c2e457fcc4ec8a97171c03d3179822c5df95474857801",
+      "nonce": 79,
+      "params": {
+        "counts": [
+          950,
+          800,
+          650,
+          500,
+          350,
+          200
+        ]
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 5725853094,
+        "win": true,
+        "payoutMinor": 190861750,
+        "outcome": {
+          "counts": [
+            950,
+            800,
+            650,
+            500,
+            350,
+            200
+          ],
+          "reached": 6,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 950,
+              "r": 856,
+              "landed": true
+            },
+            {
+              "c": 800,
+              "r": 59,
+              "landed": true
+            },
+            {
+              "c": 650,
+              "r": 429,
+              "landed": true
+            },
+            {
+              "c": 500,
+              "r": 404,
+              "landed": true
+            },
+            {
+              "c": 350,
+              "r": 290,
+              "landed": true
+            },
+            {
+              "c": 200,
+              "r": 114,
+              "landed": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "41a0dbe7ec9a0924e4add4a37a4e1c3cb2d79d240ecee1080bf264c930205d99",
+      "clientSeed": "player_4",
+      "commitment": "1f70f8af952ef9f932aa6a083c61b043a1022c54abb65fb8db55535e93d90aab",
+      "nonce": 2939,
+      "params": {
+        "counts": [
+          106,
+          758,
+          50,
+          400,
+          730,
+          808,
+          153,
+          192,
+          834,
+          71,
+          95,
+          50,
+          50,
+          216,
+          50
+        ]
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 23409464481113268494,
+        "win": true,
+        "payoutMinor": 780315404672227346,
+        "outcome": {
+          "counts": [
+            106,
+            758,
+            50,
+            400,
+            730,
+            808,
+            153,
+            192,
+            834,
+            71,
+            95,
+            50,
+            50,
+            216,
+            50
+          ],
+          "reached": 15,
+          "busted": false,
+          "DEN": 1000,
+          "rungs": [
+            {
+              "c": 106,
+              "r": 105,
+              "landed": true
+            },
+            {
+              "c": 758,
+              "r": 757,
+              "landed": true
+            },
+            {
+              "c": 50,
+              "r": 4,
+              "landed": true
+            },
+            {
+              "c": 400,
+              "r": 399,
+              "landed": true
+            },
+            {
+              "c": 730,
+              "r": 729,
+              "landed": true
+            },
+            {
+              "c": 808,
+              "r": 807,
+              "landed": true
+            },
+            {
+              "c": 153,
+              "r": 152,
+              "landed": true
+            },
+            {
+              "c": 192,
+              "r": 191,
+              "landed": true
+            },
+            {
+              "c": 834,
+              "r": 833,
+              "landed": true
+            },
+            {
+              "c": 71,
+              "r": 70,
+              "landed": true
+            },
+            {
+              "c": 95,
+              "r": 94,
+              "landed": true
+            },
+            {
+              "c": 50,
+              "r": 35,
+              "landed": true
+            },
+            {
+              "c": 50,
+              "r": 41,
+              "landed": true
+            },
+            {
+              "c": 216,
+              "r": 215,
+              "landed": true
+            },
+            {
+              "c": 50,
+              "r": 39,
+              "landed": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

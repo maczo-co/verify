@@ -1,0 +1,177 @@
+{
+  "game": "hive",
+  "displayName": "Hive",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "colour count C: easy=2 / medium=3 / hard=4 / insane=5"
+    }
+  ],
+  "cells": 9,
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "difficulty": {
+    "easy": {
+      "C": 2,
+      "tableE8": [
+        0,
+        0,
+        17946890,
+        44867225,
+        62814115,
+        101699044,
+        191433494,
+        538406703,
+        1555397143
+      ],
+      "sizeCounts": [
+        2,
+        8,
+        56,
+        120,
+        138,
+        104,
+        64,
+        18,
+        2
+      ],
+      "totalGrids": 512,
+      "evE8": 98999999
+    },
+    "medium": {
+      "C": 3,
+      "tableE8": [
+        0,
+        5368534,
+        30198007,
+        70462016,
+        147634701,
+        335533411,
+        872386870,
+        3221120753,
+        12750269650
+      ],
+      "sizeCounts": [
+        246,
+        3180,
+        6624,
+        5160,
+        2832,
+        1200,
+        384,
+        54,
+        3
+      ],
+      "totalGrids": 19683,
+      "evE8": 98999999
+    },
+    "hard": {
+      "C": 4,
+      "tableE8": [
+        0,
+        11592842,
+        48303512,
+        130419482,
+        318803180,
+        821159707,
+        2511782635,
+        9660702442,
+        42507090748
+      ],
+      "sizeCounts": [
+        9612,
+        85728,
+        95184,
+        46992,
+        18036,
+        5328,
+        1152,
+        108,
+        4
+      ],
+      "totalGrids": 262144,
+      "evE8": 98999999
+    },
+    "insane": {
+      "C": 5,
+      "tableE8": [
+        0,
+        17174883,
+        70989519,
+        217548527,
+        595395968,
+        1602989146,
+        5037965888,
+        20037364330,
+        100759317777
+      ],
+      "sizeCounts": [
+        142820,
+        859400,
+        631280,
+        232080,
+        69120,
+        15680,
+        2560,
+        180,
+        5
+      ],
+      "totalGrids": 1953125,
+      "evE8": 98999999
+    }
+  },
+  "ladderIndex": "tableE8[size - 1], size = 1..9",
+  "note": "cell_i colour = u_i mod C (C = 2/3/4/5 by difficulty); flood-fill the 3×3 comb over the 12 undirected edges and take the SIZE of the largest same-colour cluster (ties keep the lowest-rooted one); multiplier_e8 = tableE8[size−1], the published ladder — an exact-rational rescale of the frozen base shape against the exact size distribution (sizeCounts over C^9 grids) so EV == rtp before a single floor. Small sizes are baked 0 = loss."
+}

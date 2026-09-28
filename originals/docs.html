@@ -312,6 +312,110 @@ for cursor = 0, 1, 2, …:                                 # advance when a game
          <a href="https://github.com/maczo-co/originals-slots-samurai">💻 source</a> ·
          <a href="./paytables/slots-samurai.json">⚖️ odds</a></p>
     </section>
+    <section id="abyss-palace" class="game">
+      <h3>Abyss Palace <span class="gid">abyss-palace</span></h3>
+      <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>
+      <p><span class="k">Resolve</span> row r reads uints[3r..3r+2] (a fixed window for every difficulty): sharks = first `traps` of Fisher-Yates shuffle(tiles) driven by the first tiles-1 words. Walk the picks: a shark busts, a safe tile climbs one row. No bonus tiles. multiplier = floor(rtp · odds[k].num / odds[k].den) = rtp·tiles^k / safe^k after k safe rows.</p>
+      <p class="links"><a href="./?game=abyss-palace">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-abyss-palace">💻 source</a> ·
+         <a href="./paytables/abyss-palace.json">⚖️ odds</a></p>
+    </section>
+    <section id="ascend" class="game">
+      <h3>Ascend <span class="gid">ascend</span></h3>
+      <p><span class="k">Bias class</span> <b>modulo</b> — reduces a uint32 by modulo, carrying a documented-negligible bias (< ~1e-5).</p>
+      <p><span class="k">Resolve</span> one uint32 word per attempted rung: rung i lands iff (u_i mod 1000) < c_i, the player's chosen win-count for that leap (c in [50, 950], at most 15 rungs). The climb ends at the first miss; a bust — and a 0-rung round — pays nothing. A full climb of k rungs pays a SINGLE floor of the fair product: multiplier_e8 = floor(rtp_e8 · 1000^k / (c_1·…·c_k)), so every rung's fair factor is exact and the edge is charged once.</p>
+      <p class="links"><a href="./?game=ascend">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-ascend">💻 source</a> ·
+         <a href="./paytables/ascend.json">⚖️ odds</a></p>
+    </section>
+    <section id="claw" class="game">
+      <h3>Claw <span class="gid">claw</span></h3>
+      <p><span class="k">Bias class</span> <b>modulo</b> — reduces a uint32 by modulo, carrying a documented-negligible bias (< ~1e-5).</p>
+      <p><span class="k">Resolve</span> u0 mod 1,000,000 walks the risk tier's cumulative prize weights to a prize face (e8, already a multiple of 8); u1 mod 1,000,000 walks GRIP the same way to a grip numerator f of 8; multiplier = prize_e8 · f // 8.</p>
+      <p class="links"><a href="./?game=claw">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-claw">💻 source</a> ·
+         <a href="./paytables/claw.json">⚖️ odds</a></p>
+    </section>
+    <section id="come-out" class="game">
+      <h3>Come Out <span class="gid">come-out</span></h3>
+      <p><span class="k">Bias class</span> <b>modulo</b> — reduces a uint32 by modulo, carrying a documented-negligible bias (< ~1e-5).</p>
+      <p><span class="k">Resolve</span> each throw is two dice from the stream (die = 1 + u mod 6, 2 uints per throw, throw 0 = the come-out); field/any_seven/any_craps settle on the come-out alone, pass/dont_pass then walk the same stream from throw 1 until the point or a 7 shows (cap nPairs throws → stake back); every multiplier is read from the baked multsE8, and a push pays exactly 1.00x (not a win).</p>
+      <p class="links"><a href="./?game=come-out">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-come-out">💻 source</a> ·
+         <a href="./paytables/come-out.json">⚖️ odds</a></p>
+    </section>
+    <section id="dragon-3d" class="game">
+      <h3>Dragon Tower 3D <span class="gid">dragon-3d</span></h3>
+      <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>
+      <p><span class="k">Resolve</span> per row r: shuffle(tiles) driven by uints[r·(tiles−1) .. (r+1)·(tiles−1)) → the first `hazards` entries are the skulls, every other pedestal holds a jade dragon egg (safe). Walk the picks: a skull busts, an egg climbs. multiplier = floor(rtp · tiles^k / (tiles−hazards)^k) after k safe rows.</p>
+      <p class="links"><a href="./?game=dragon-3d">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-dragon-3d">💻 source</a> ·
+         <a href="./paytables/dragon-3d.json">⚖️ odds</a></p>
+    </section>
+    <section id="flood" class="game">
+      <h3>Flood <span class="gid">flood</span></h3>
+      <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>
+      <p><span class="k">Resolve</span> rocks = the first B of others[perm[i]], where others = the 15 non-start cells and perm = shuffle(15) (so the rock subset is uniform over C(15,B) and the start is always open); water floods the connected open region containing the start over the 4x4 adjacency, and the flooded size indexes the baked (density, start-class) e8 ladder.</p>
+      <p class="links"><a href="./?game=flood">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-flood">💻 source</a> ·
+         <a href="./paytables/flood.json">⚖️ odds</a></p>
+    </section>
+    <section id="golden-monkey" class="game">
+      <h3>Golden Monkey <span class="gid">golden-monkey</span></h3>
+      <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>
+      <p><span class="k">Resolve</span> row r reads uints[3r..3r+2]: cobras = first `traps` of Fisher-Yates shuffle(tiles) driven by the first tiles-1 words. Walk the picks: a cobra busts, a safe tile climbs; no bonus of any kind. multiplier = floor(rtp · odds[k].num / odds[k].den) = rtp·tiles^k / safe^k.</p>
+      <p class="links"><a href="./?game=golden-monkey">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-golden-monkey">💻 source</a> ·
+         <a href="./paytables/golden-monkey.json">⚖️ odds</a></p>
+    </section>
+    <section id="hive" class="game">
+      <h3>Hive <span class="gid">hive</span></h3>
+      <p><span class="k">Bias class</span> <b>modulo</b> — reduces a uint32 by modulo, carrying a documented-negligible bias (< ~1e-5).</p>
+      <p><span class="k">Resolve</span> cell_i colour = u_i mod C (C = 2/3/4/5 by difficulty); flood-fill the 3×3 comb over the 12 undirected edges and take the SIZE of the largest same-colour cluster (ties keep the lowest-rooted one); multiplier_e8 = tableE8[size−1], the published ladder — an exact-rational rescale of the frozen base shape against the exact size distribution (sizeCounts over C^9 grids) so EV == rtp before a single floor. Small sizes are baked 0 = loss.</p>
+      <p class="links"><a href="./?game=hive">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-hive">💻 source</a> ·
+         <a href="./paytables/hive.json">⚖️ odds</a></p>
+    </section>
+    <section id="menagerie" class="game">
+      <h3>Menagerie <span class="gid">menagerie</span></h3>
+      <p><span class="k">Bias class</span> <b>modulo</b> — reduces a uint32 by modulo, carrying a documented-negligible bias (< ~1e-5).</p>
+      <p><span class="k">Resolve</span> species_i = u_i mod S (S = 4..8 by difficulty); a brand-new species climbs, the FIRST repeat busts; d distinct species pay multiplier = floor(rtp * S^(d-1) * (S-d)! / (S-1)!) — read off the baked fairNumer[d]/fairDenom ratio (== ladderE8[d] at the published RTP).</p>
+      <p class="links"><a href="./?game=menagerie">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-menagerie">💻 source</a> ·
+         <a href="./paytables/menagerie.json">⚖️ odds</a></p>
+    </section>
+    <section id="shootout" class="game">
+      <h3>Shootout <span class="gid">shootout</span></h3>
+      <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>
+      <p><span class="k">Resolve</span> each of the `shots` words MAKES iff u < threshold (threshold = pct*2^32 // 100, so the make chance is exactly threshold/2^32, NOT pct/100); the make count then indexes the baked per-(range,shots) e8 ladder — 0 below floorMakes, a 9/5 geometric rise above it and a x4 jackpot kick on a perfect run, exact-rationally rescaled against the exact binomial so the ladder returns the published RTP.</p>
+      <p class="links"><a href="./?game=shootout">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-shootout">💻 source</a> ·
+         <a href="./paytables/shootout.json">⚖️ odds</a></p>
+    </section>
+    <section id="stack" class="game">
+      <h3>Stack <span class="gid">stack</span></h3>
+      <p><span class="k">Bias class</span> <b>modulo</b> — reduces a uint32 by modulo, carrying a documented-negligible bias (< ~1e-5).</p>
+      <p><span class="k">Resolve</span> one uint32 per played floor gives r = u mod D (D = 8 divides 2^32, so the reduction is exactly uniform — zero modulo bias); the lean survives iff r is in that side's baked w-residue window (left {0..w-1}, right {D-w..D-1}), the window's dead-centre residue is a 'perfect' that keeps the width while any other catch trims it to nextEdge (min 1), and the multiplier is one floor over the baked per-floor odds: floor(rtp · ∏ stepNum / ∏ stepDen) = rtp·D^k // (w_1·…·w_k).</p>
+      <p class="links"><a href="./?game=stack">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-stack">💻 source</a> ·
+         <a href="./paytables/stack.json">⚖️ odds</a></p>
+    </section>
+    <section id="stepping" class="game">
+      <h3>Stepping Stones <span class="gid">stepping</span></h3>
+      <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>
+      <p><span class="k">Resolve</span> sinker-set = Fisher-Yates shuffle(15) driven by the 14 uints, first D entries (== derive_bomb_set); each leap of j clears stones [reached..reached+j-1] all-or-nothing and busts the round if ANY of them is a sinker (no partial credit); the multiplier depends only on the total stones cleared k: floor(rtp · odds[k].num / odds[k].den) = rtp · C(15,D)/C(15-k,D).</p>
+      <p class="links"><a href="./?game=stepping">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-stepping">💻 source</a> ·
+         <a href="./paytables/stepping.json">⚖️ odds</a></p>
+    </section>
+    <section id="triad" class="game">
+      <h3>Triad Dice <span class="gid">triad</span></h3>
+      <p><span class="k">Bias class</span> <b>modulo</b> — reduces a uint32 by modulo, carrying a documented-negligible bias (< ~1e-5).</p>
+      <p><span class="k">Resolve</span> die = 1 + u mod 6 for each of 3 words -> one of 216 equally-likely ordered rolls; a flat bet pays floor(216·rtp / winCount[bet][pick]) and Single pays (matches+1)·floor(216·rtp / singleWeight).</p>
+      <p class="links"><a href="./?game=triad">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-triad">💻 source</a> ·
+         <a href="./paytables/triad.json">⚖️ odds</a></p>
+    </section>
 </div>
 </body>
 </html>

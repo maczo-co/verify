@@ -1,0 +1,1685 @@
+{
+  "game": "stack",
+  "vectors": [
+    {
+      "serverSeed": "b7590c78339b27f9b5a167616ccf4b41e1d5d52348a0bad5737f0f502971c493",
+      "clientSeed": "player_4",
+      "commitment": "b15870f2f828cedf0effe7ff34e22c02dfc15b93ee41613f37a336b7a0b17e88",
+      "nonce": 2889,
+      "params": {
+        "difficulty": "easy",
+        "sides": [
+          "left",
+          "left",
+          "right",
+          "right",
+          "left",
+          "right",
+          "right",
+          "left",
+          "right",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 349960298192592,
+        "win": true,
+        "payoutMinor": 349960298192592,
+        "outcome": {
+          "difficulty": "easy",
+          "sides": [
+            "left",
+            "left",
+            "right",
+            "right",
+            "left",
+            "right",
+            "right",
+            "left",
+            "right",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 12,
+          "busted": false,
+          "D": 8,
+          "w0": 6,
+          "floors": [
+            {
+              "side": "left",
+              "r": 5,
+              "w": 6,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 4,
+              "w": 5,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 4,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 5,
+              "w": 3,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 2,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "000b5d9b8e7a4abbe3cc515b2bedab861c214cc1c85f0f31c2ba8c7dd50dd6a4",
+      "clientSeed": "player_4",
+      "commitment": "3349d76c719cd3826bebf916a28cd9fa62e9d6b1c4072c7e46b1f484933cf5c4",
+      "nonce": 2474,
+      "params": {
+        "difficulty": "easy",
+        "sides": [
+          "left",
+          "left",
+          "left",
+          "left",
+          "right",
+          "left",
+          "right",
+          "right",
+          "right",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 41995235783111,
+        "win": true,
+        "payoutMinor": 41995235783111,
+        "outcome": {
+          "difficulty": "easy",
+          "sides": [
+            "left",
+            "left",
+            "left",
+            "left",
+            "right",
+            "left",
+            "right",
+            "right",
+            "right",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 12,
+          "busted": false,
+          "D": 8,
+          "w0": 6,
+          "floors": [
+            {
+              "side": "left",
+              "r": 1,
+              "w": 6,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 2,
+              "w": 5,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 2,
+              "w": 5,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 5,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 4,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 5,
+              "w": 3,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 2,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "51f83a315a22303031e6cb46caa0b333635428844bb8cf4af2f886a7906450cc",
+      "clientSeed": "player_2",
+      "commitment": "f03057183d7ceb0d56218c4a984d2e82f7f98788f692cb542338d744974f19b7",
+      "nonce": 2,
+      "params": {
+        "difficulty": "easy",
+        "sides": [
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 337920000,
+        "win": true,
+        "payoutMinor": 337920000,
+        "outcome": {
+          "difficulty": "easy",
+          "sides": [
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 3,
+          "busted": false,
+          "D": 8,
+          "w0": 6,
+          "floors": [
+            {
+              "side": "left",
+              "r": 3,
+              "w": 6,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 2,
+              "w": 5,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 3,
+              "w": 5,
+              "survived": true,
+              "perfect": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "51f83a315a22303031e6cb46caa0b333635428844bb8cf4af2f886a7906450cc",
+      "clientSeed": "player_2",
+      "commitment": "f03057183d7ceb0d56218c4a984d2e82f7f98788f692cb542338d744974f19b7",
+      "nonce": 2,
+      "params": {
+        "difficulty": "easy",
+        "sides": [
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "sides": [
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 3,
+          "busted": true,
+          "D": 8,
+          "w0": 6,
+          "floors": [
+            {
+              "side": "left",
+              "r": 3,
+              "w": 6,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 2,
+              "w": 5,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 3,
+              "w": 5,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 7,
+              "w": 4,
+              "survived": false,
+              "perfect": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "7744beb7156c5f9e3203513bbf8cb13ae44cca7edab6fbd471286ea6c0d46672",
+      "clientSeed": "player_2",
+      "commitment": "8fada81843fee4a6abc94706fbce17b46f62629c4ed0b093a1d3407b6e841536",
+      "nonce": 7,
+      "params": {
+        "difficulty": "easy",
+        "sides": [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 750933333,
+        "win": true,
+        "payoutMinor": 750933333,
+        "outcome": {
+          "difficulty": "easy",
+          "sides": [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right"
+          ],
+          "reached": 5,
+          "busted": false,
+          "D": 8,
+          "w0": 6,
+          "floors": [
+            {
+              "side": "right",
+              "r": 4,
+              "w": 6,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 4,
+              "w": 6,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 2,
+              "w": 6,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 4,
+              "w": 5,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 5,
+              "w": 4,
+              "survived": true,
+              "perfect": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "7744beb7156c5f9e3203513bbf8cb13ae44cca7edab6fbd471286ea6c0d46672",
+      "clientSeed": "player_2",
+      "commitment": "8fada81843fee4a6abc94706fbce17b46f62629c4ed0b093a1d3407b6e841536",
+      "nonce": 7,
+      "params": {
+        "difficulty": "easy",
+        "sides": [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "sides": [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right"
+          ],
+          "reached": 5,
+          "busted": true,
+          "D": 8,
+          "w0": 6,
+          "floors": [
+            {
+              "side": "right",
+              "r": 4,
+              "w": 6,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 4,
+              "w": 6,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 2,
+              "w": 6,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 4,
+              "w": 5,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 5,
+              "w": 4,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 0,
+              "w": 4,
+              "survived": false,
+              "perfect": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "282ae4e2d474ccc961f409373a2ca4eb25a09f81ea9d3319a337eccee85fe642",
+      "clientSeed": "player_4",
+      "commitment": "71821f123e2ca46302aa0dc54c81a995203869860a637373e28781129d762e4e",
+      "nonce": 4,
+      "params": {
+        "difficulty": "easy",
+        "sides": [
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "sides": [
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 0,
+          "busted": true,
+          "D": 8,
+          "w0": 6,
+          "floors": [
+            {
+              "side": "left",
+              "r": 7,
+              "w": 6,
+              "survived": false,
+              "perfect": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "f1a2fed9ee00b68a9cdc9bc50bb42229da79b6604c20d1bb7bb5d484391b035a",
+      "clientSeed": "player_4",
+      "commitment": "3040a4c79deb8c077688589a9c20694df4aae06d255cbb762d96a28ac926e7d2",
+      "nonce": 1304,
+      "params": {
+        "difficulty": "medium",
+        "sides": [
+          "right",
+          "left",
+          "right",
+          "right",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 4556774716049,
+        "win": true,
+        "payoutMinor": 4556774716049,
+        "outcome": {
+          "difficulty": "medium",
+          "sides": [
+            "right",
+            "left",
+            "right",
+            "right",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 10,
+          "busted": false,
+          "D": 8,
+          "w0": 4,
+          "floors": [
+            {
+              "side": "right",
+              "r": 6,
+              "w": 4,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 3,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "f1a2fed9ee00b68a9cdc9bc50bb42229da79b6604c20d1bb7bb5d484391b035a",
+      "clientSeed": "player_4",
+      "commitment": "3040a4c79deb8c077688589a9c20694df4aae06d255cbb762d96a28ac926e7d2",
+      "nonce": 1304,
+      "params": {
+        "difficulty": "medium",
+        "sides": [
+          "right",
+          "left",
+          "right",
+          "right",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "sides": [
+            "right",
+            "left",
+            "right",
+            "right",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 10,
+          "busted": true,
+          "D": 8,
+          "w0": 4,
+          "floors": [
+            {
+              "side": "right",
+              "r": 6,
+              "w": 4,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 3,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 2,
+              "w": 2,
+              "survived": false,
+              "perfect": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "78814b74c2fb19c63b2f3d193613f4bec02dd26005003cf64d88afea02e06c4c",
+      "clientSeed": "player_1",
+      "commitment": "ec5160365703190f838835d9033aabe2d16447def161505df0298eb871207289",
+      "nonce": 2441,
+      "params": {
+        "difficulty": "medium",
+        "sides": [
+          "left",
+          "left",
+          "right",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 5767168000000,
+        "win": true,
+        "payoutMinor": 5767168000000,
+        "outcome": {
+          "difficulty": "medium",
+          "sides": [
+            "left",
+            "left",
+            "right",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 8,
+          "busted": false,
+          "D": 8,
+          "w0": 4,
+          "floors": [
+            {
+              "side": "left",
+              "r": 2,
+              "w": 4,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 3,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 2,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "6587aaa7126139554ee40567d9f3b73b5759e72dc5d49de3566b5a9087fb417c",
+      "clientSeed": "player_3",
+      "commitment": "dd4f3b570c890c45e6c562a4906ffe798a8315d5331ac5b65bdff5dd3b22e0cc",
+      "nonce": 13,
+      "params": {
+        "difficulty": "medium",
+        "sides": [
+          "right",
+          "right",
+          "right",
+          "right"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 4224000000,
+        "win": true,
+        "payoutMinor": 4224000000,
+        "outcome": {
+          "difficulty": "medium",
+          "sides": [
+            "right",
+            "right",
+            "right",
+            "right"
+          ],
+          "reached": 4,
+          "busted": false,
+          "D": 8,
+          "w0": 4,
+          "floors": [
+            {
+              "side": "right",
+              "r": 5,
+              "w": 4,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 4,
+              "w": 4,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 5,
+              "w": 3,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 2,
+              "survived": true,
+              "perfect": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "c0c765a6b08a2342b526a53f4cfe5782e89af84ac2619722f59c516bd7b9dd6a",
+      "clientSeed": "player_2",
+      "commitment": "af879a0712584f5e8a26f6e685004f763b9368b7663002d55fe500ea77dcbbc2",
+      "nonce": 32,
+      "params": {
+        "difficulty": "medium",
+        "sides": [
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "sides": [
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 3,
+          "busted": true,
+          "D": 8,
+          "w0": 4,
+          "floors": [
+            {
+              "side": "left",
+              "r": 3,
+              "w": 4,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 2,
+              "w": 3,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 4,
+              "w": 2,
+              "survived": false,
+              "perfect": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "12f5968a63d8c14a53a6c4f126ba97e5014e7ea48e1b8cbf9b729c6fa3f762fc",
+      "clientSeed": "player_1",
+      "commitment": "a79802bc30f2e4a2b0b24501f90c03db9e65063ba27927393f0f33486def56fa",
+      "nonce": 1,
+      "params": {
+        "difficulty": "medium",
+        "sides": []
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "sides": [],
+          "reached": 0,
+          "busted": false,
+          "D": 8,
+          "w0": 4,
+          "floors": []
+        }
+      }
+    },
+    {
+      "serverSeed": "f1a2fed9ee00b68a9cdc9bc50bb42229da79b6604c20d1bb7bb5d484391b035a",
+      "clientSeed": "player_4",
+      "commitment": "3040a4c79deb8c077688589a9c20694df4aae06d255cbb762d96a28ac926e7d2",
+      "nonce": 1304,
+      "params": {
+        "difficulty": "hard",
+        "sides": [
+          "right",
+          "left",
+          "right",
+          "right",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 6075699621399,
+        "win": true,
+        "payoutMinor": 6075699621399,
+        "outcome": {
+          "difficulty": "hard",
+          "sides": [
+            "right",
+            "left",
+            "right",
+            "right",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 10,
+          "busted": false,
+          "D": 8,
+          "w0": 3,
+          "floors": [
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 3,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "4f700b27cbe37c0e1ce8652bbf2c9bcb110a6cb0391cf5cbf5452fecfcdc8940",
+      "clientSeed": "player_0",
+      "commitment": "366e48e279fa29859df44fa82c2d15c790898319fd835142147e84d9c32bd4c8",
+      "nonce": 2555,
+      "params": {
+        "difficulty": "hard",
+        "sides": [
+          "right",
+          "left",
+          "left",
+          "right",
+          "right",
+          "left",
+          "right",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 5126371555555,
+        "win": true,
+        "payoutMinor": 5126371555555,
+        "outcome": {
+          "difficulty": "hard",
+          "sides": [
+            "right",
+            "left",
+            "left",
+            "right",
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "reached": 8,
+          "busted": false,
+          "D": 8,
+          "w0": 3,
+          "floors": [
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 3,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 2,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "e992130979970f24aee4f01bacbceffe264a11cc90ece21ec05b0ea52d5799d3",
+      "clientSeed": "player_3",
+      "commitment": "00818ceb456875252b7f98d10cd2e15dfe23dccf0bc70ce11973280c1907333a",
+      "nonce": 2013,
+      "params": {
+        "difficulty": "insane",
+        "sides": [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 51904512000000,
+        "win": true,
+        "payoutMinor": 51904512000000,
+        "outcome": {
+          "difficulty": "insane",
+          "sides": [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "left",
+            "left"
+          ],
+          "reached": 7,
+          "busted": false,
+          "D": 8,
+          "w0": 2,
+          "floors": [
+            {
+              "side": "right",
+              "r": 6,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 2,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "e992130979970f24aee4f01bacbceffe264a11cc90ece21ec05b0ea52d5799d3",
+      "clientSeed": "player_3",
+      "commitment": "00818ceb456875252b7f98d10cd2e15dfe23dccf0bc70ce11973280c1907333a",
+      "nonce": 2013,
+      "params": {
+        "difficulty": "insane",
+        "sides": [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "insane",
+          "sides": [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 7,
+          "busted": true,
+          "D": 8,
+          "w0": 2,
+          "floors": [
+            {
+              "side": "right",
+              "r": 6,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 2,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 7,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 1,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 3,
+              "w": 1,
+              "survived": false,
+              "perfect": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "12f5968a63d8c14a53a6c4f126ba97e5014e7ea48e1b8cbf9b729c6fa3f762fc",
+      "clientSeed": "player_1",
+      "commitment": "a79802bc30f2e4a2b0b24501f90c03db9e65063ba27927393f0f33486def56fa",
+      "nonce": 1,
+      "params": {
+        "difficulty": "insane",
+        "sides": [
+          "left"
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 396000000,
+        "win": true,
+        "payoutMinor": 396000000,
+        "outcome": {
+          "difficulty": "insane",
+          "sides": [
+            "left"
+          ],
+          "reached": 1,
+          "busted": false,
+          "D": 8,
+          "w0": 2,
+          "floors": [
+            {
+              "side": "left",
+              "r": 1,
+              "w": 2,
+              "survived": true,
+              "perfect": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "f1a2fed9ee00b68a9cdc9bc50bb42229da79b6604c20d1bb7bb5d484391b035a",
+      "clientSeed": "player_4",
+      "commitment": "3040a4c79deb8c077688589a9c20694df4aae06d255cbb762d96a28ac926e7d2",
+      "nonce": 1304,
+      "params": {
+        "difficulty": "hard",
+        "sides": [
+          "right",
+          "left",
+          "right",
+          "right",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 6075699621399,
+        "win": true,
+        "payoutMinor": 202523300460,
+        "outcome": {
+          "difficulty": "hard",
+          "sides": [
+            "right",
+            "left",
+            "right",
+            "right",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          "reached": 10,
+          "busted": false,
+          "D": 8,
+          "w0": 3,
+          "floors": [
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "right",
+              "r": 6,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 1,
+              "w": 3,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 3,
+              "survived": true,
+              "perfect": false
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            },
+            {
+              "side": "left",
+              "r": 0,
+              "w": 2,
+              "survived": true,
+              "perfect": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,731 @@
+{
+  "game": "stepping",
+  "vectors": [
+    {
+      "serverSeed": "a1e623a388a49f5d0a79ef8da382d6c626bc63cc54b41d8660dee2b8274bde23",
+      "clientSeed": "player_1",
+      "commitment": "116849a2e94751eeab52e2f0e4fc65441398cfaa3d0a461fccafd43e3ae4311b",
+      "nonce": 1,
+      "params": {
+        "difficulty": "easy",
+        "strides": [
+          1,
+          1,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 157500000,
+        "win": true,
+        "payoutMinor": 157500000,
+        "outcome": {
+          "difficulty": "easy",
+          "D": 2,
+          "strides": [
+            1,
+            1,
+            1
+          ],
+          "reached": 3,
+          "busted": false,
+          "pit_set": [
+            6,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "c3f7c7863a4c5dd66a5dbf9de1596d85629f6da43ec371d8f842762b62a9d435",
+      "clientSeed": "player_2",
+      "commitment": "bfdd0e6e8cee0741d9879959adc266f0dfddaf8831d06fec852e5d6685dd4318",
+      "nonce": 2,
+      "params": {
+        "difficulty": "easy",
+        "strides": [
+          3,
+          3,
+          3
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 693000000,
+        "win": true,
+        "payoutMinor": 693000000,
+        "outcome": {
+          "difficulty": "easy",
+          "D": 2,
+          "strides": [
+            3,
+            3,
+            3
+          ],
+          "reached": 9,
+          "busted": false,
+          "pit_set": [
+            9,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "88b95b79a5809e017862615cc9a2f0b715ba56460c5b673991fbda3b1135f2b8",
+      "clientSeed": "player_3",
+      "commitment": "41b80af2e19492331d0de0c3d83326232a1e08b4fa2bcb11b9ef7126ce3c553f",
+      "nonce": 3,
+      "params": {
+        "difficulty": "easy",
+        "strides": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "D": 2,
+          "strides": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "reached": 8,
+          "busted": true,
+          "pit_set": [
+            8,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "59eaf07deee18dc341774022e806bf51eb1373953bef396e364176f39826c0f6",
+      "clientSeed": "player_0",
+      "commitment": "59adfd9b6b6a516d42d210ddf5bfbfa3fad3e4e9a30c50e5e36c3b7e928ef898",
+      "nonce": 5,
+      "params": {
+        "difficulty": "easy",
+        "strides": [
+          3
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "D": 2,
+          "strides": [
+            3
+          ],
+          "reached": 0,
+          "busted": true,
+          "pit_set": [
+            1,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "d344ba6b326634e2783858d58e1f72c46dd1c53ea07a4b7fab2aa57f8c191059",
+      "clientSeed": "player_3",
+      "commitment": "0208ecc275a122315153efaacba65a56535a77a8815d3d07ab30e5a63f159eca",
+      "nonce": 13,
+      "params": {
+        "difficulty": "easy",
+        "strides": [
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "D": 2,
+          "strides": [
+            1
+          ],
+          "reached": 0,
+          "busted": true,
+          "pit_set": [
+            0,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "374eadbac7b2c2a40abb1b2d10508add477b0d6c60fc84a89ebb566890c4893a",
+      "clientSeed": "player_2",
+      "commitment": "cde200bb3506805f2adf060ddd67931f568d32a797ba7ae332afe58ffa8812ea",
+      "nonce": 7,
+      "params": {
+        "difficulty": "easy",
+        "strides": []
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "D": 2,
+          "strides": [],
+          "reached": 0,
+          "busted": false,
+          "pit_set": [
+            1,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "5b661e8ac60554a5e3ca0f003931d888bfcd62a6741dc4107b0d80226c3150c1",
+      "clientSeed": "player_1",
+      "commitment": "75ae468eaeb90327c7908bfa75ea50a13a8852a24b90bd08b271e16ed59a62db",
+      "nonce": 81,
+      "params": {
+        "difficulty": "easy",
+        "strides": [
+          3,
+          3,
+          3,
+          3,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10395000000,
+        "win": true,
+        "payoutMinor": 10395000000,
+        "outcome": {
+          "difficulty": "easy",
+          "D": 2,
+          "strides": [
+            3,
+            3,
+            3,
+            3,
+            1
+          ],
+          "reached": 13,
+          "busted": false,
+          "pit_set": [
+            13,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "bdd0978c8a41f502d467bb080eaa5d83055069ed9a16b17eae81f679f40a535c",
+      "clientSeed": "player_0",
+      "commitment": "101e0aff32b59560421279efca4d471943e99c0c676c22a44caff4665b1cf1cb",
+      "nonce": 110,
+      "params": {
+        "difficulty": "easy",
+        "strides": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10395000000,
+        "win": true,
+        "payoutMinor": 10395000000,
+        "outcome": {
+          "difficulty": "easy",
+          "D": 2,
+          "strides": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "reached": 13,
+          "busted": false,
+          "pit_set": [
+            13,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "469ebc17b782168f4fbe94cff409d62b705a2457f5d4a0a4058a7776952db3f2",
+      "clientSeed": "player_1",
+      "commitment": "948d0f778baf9ca383e8b993c9e642e381416f0ecf0e15eb0d70d6f01ed6dbdf",
+      "nonce": 11,
+      "params": {
+        "difficulty": "medium",
+        "strides": [
+          2,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 273000000,
+        "win": true,
+        "payoutMinor": 273000000,
+        "outcome": {
+          "difficulty": "medium",
+          "D": 4,
+          "strides": [
+            2,
+            1
+          ],
+          "reached": 3,
+          "busted": false,
+          "pit_set": [
+            3,
+            6,
+            9,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "fee97eb7dd5eb14e6c23f03c4d73301fec0096ff44e3812ec6b3fd37af2fdde5",
+      "clientSeed": "player_2",
+      "commitment": "17bb5ba031e81414659fd18f71c2a5aaf111a77790f83fc4d7f3cd4166932f81",
+      "nonce": 12,
+      "params": {
+        "difficulty": "medium",
+        "strides": [
+          2,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 409500000,
+        "win": true,
+        "payoutMinor": 409500000,
+        "outcome": {
+          "difficulty": "medium",
+          "D": 4,
+          "strides": [
+            2,
+            2
+          ],
+          "reached": 4,
+          "busted": false,
+          "pit_set": [
+            4,
+            7,
+            9,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "3101e0e738c2d929ccd2cac649095d2244c5b3d61f7f3135edb85bcaabd10461",
+      "clientSeed": "player_4",
+      "commitment": "7d72e38899e79328a642b8378aebeba1abbb7fa3fa46a219679dd3cea4dcf5fb",
+      "nonce": 14,
+      "params": {
+        "difficulty": "medium",
+        "strides": [
+          3
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "D": 4,
+          "strides": [
+            3
+          ],
+          "reached": 0,
+          "busted": true,
+          "pit_set": [
+            2,
+            10,
+            13,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "99b4ddf5b0774362d2ed355bd51e36ccbc204d2a5138b161414ddd7722caf93d",
+      "clientSeed": "player_2",
+      "commitment": "7989c5b00bb859465713326e08dc92a6119f7b02ff7e449d9bb469d8c8400d7b",
+      "nonce": 6212,
+      "params": {
+        "difficulty": "medium",
+        "strides": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 135135000000,
+        "win": true,
+        "payoutMinor": 135135000000,
+        "outcome": {
+          "difficulty": "medium",
+          "D": 4,
+          "strides": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "reached": 11,
+          "busted": false,
+          "pit_set": [
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "22f0c01702150e217a4a2e4dc6d4027b85c73b7a048c7df78d48985bde18c5d0",
+      "clientSeed": "player_4",
+      "commitment": "9957daa0539efa8ed6c1487c49124a60ecbc8c1125c038ba46c43fdcdd663aae",
+      "nonce": 9,
+      "params": {
+        "difficulty": "hard",
+        "strides": [
+          2,
+          2,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 2359500000,
+        "win": true,
+        "payoutMinor": 2359500000,
+        "outcome": {
+          "difficulty": "hard",
+          "D": 6,
+          "strides": [
+            2,
+            2,
+            1
+          ],
+          "reached": 5,
+          "busted": false,
+          "pit_set": [
+            5,
+            6,
+            9,
+            11,
+            12,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "8deaf44b929401ea3360f06af65dc2042cd687082244ead98355ec7b50608817",
+      "clientSeed": "player_4",
+      "commitment": "1b892f4fb4f52afec4d27166de4957ce5efdb50289d00c593633d8d64eca86a2",
+      "nonce": 19,
+      "params": {
+        "difficulty": "hard",
+        "strides": [
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "hard",
+          "D": 6,
+          "strides": [
+            1
+          ],
+          "reached": 0,
+          "busted": true,
+          "pit_set": [
+            0,
+            7,
+            8,
+            10,
+            12,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "681918c1706ef3b940634ee0f9180a117c9a76cb71cf06fc21d9992c0ba7feba",
+      "clientSeed": "player_2",
+      "commitment": "eb62aa336edc37d94f185c0d6598ef7dcdf7a4054e90a5e0aa11fc75bc963d00",
+      "nonce": 22,
+      "params": {
+        "difficulty": "hard",
+        "strides": [
+          3,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "hard",
+          "D": 6,
+          "strides": [
+            3,
+            2
+          ],
+          "reached": 3,
+          "busted": true,
+          "pit_set": [
+            3,
+            6,
+            8,
+            10,
+            12,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "305537a274afe82c565188f490db7f0b33ccf3cf3267321d9494aa1b70e835fd",
+      "clientSeed": "player_2",
+      "commitment": "d1333487c7e4f9a30c7d1532416e0b3af4cf671103f1f604ea778507649548e4",
+      "nonce": 10062,
+      "params": {
+        "difficulty": "hard",
+        "strides": [
+          3,
+          3,
+          3
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 495495000000,
+        "win": true,
+        "payoutMinor": 495495000000,
+        "outcome": {
+          "difficulty": "hard",
+          "D": 6,
+          "strides": [
+            3,
+            3,
+            3
+          ],
+          "reached": 9,
+          "busted": false,
+          "pit_set": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "269ad1a5a9f537e74015d2b376c7b813ec79a23c125efddfb8301a8e852e53e6",
+      "clientSeed": "player_1",
+      "commitment": "72b8069a48b37c82b2c303c36d7eab2bcbe60c4a867ae245d5d963e0f7344ff8",
+      "nonce": 901,
+      "params": {
+        "difficulty": "easy",
+        "strides": [
+          1,
+          1,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "D": 2,
+          "strides": [
+            1,
+            1,
+            1
+          ],
+          "reached": 2,
+          "busted": true,
+          "pit_set": [
+            2,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "e8f1f225a956f929f3e625e8acb3478616046479c02855525efed38a74402bc4",
+      "clientSeed": "player_0",
+      "commitment": "ac1118e4ebc5844881c0a8636dfacd1d7afec38a433164c64ef789453b71bd62",
+      "nonce": 900,
+      "params": {
+        "difficulty": "easy",
+        "strides": [
+          1,
+          1,
+          1
+        ]
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 157500000,
+        "win": true,
+        "payoutMinor": 5249999,
+        "outcome": {
+          "difficulty": "easy",
+          "D": 2,
+          "strides": [
+            1,
+            1,
+            1
+          ],
+          "reached": 3,
+          "busted": false,
+          "pit_set": [
+            5,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "bc65ed4870e6baf96caeab65716d9c9f3ed72911f80395c6f85cf56a5aeedea3",
+      "clientSeed": "player_2",
+      "commitment": "74e62672a3e2d645cd82038c0e02346c5aa228f51389d0ebb653ce591ab9166d",
+      "nonce": 14282,
+      "params": {
+        "difficulty": "hard",
+        "strides": [
+          3,
+          3,
+          3
+        ]
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 495495000000,
+        "win": true,
+        "payoutMinor": 16516498348,
+        "outcome": {
+          "difficulty": "hard",
+          "D": 6,
+          "strides": [
+            3,
+            3,
+            3
+          ],
+          "reached": 9,
+          "busted": false,
+          "pit_set": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      }
+    }
+  ]
+}

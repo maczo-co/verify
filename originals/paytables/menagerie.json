@@ -1,0 +1,132 @@
+{
+  "game": "menagerie",
+  "displayName": "Menagerie",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "species count S: easy 4 / medium 5 / hard 6 / expert 7 / master 8"
+    },
+    {
+      "name": "reveals",
+      "desc": "tiles revealed, 0..S (0 = the round was abandoned before its first reveal)"
+    }
+  ],
+  "difficulty": {
+    "easy": {
+      "S": 4,
+      "fairNumer": [
+        null,
+        6,
+        8,
+        16,
+        64
+      ],
+      "fairDenom": 6,
+      "ladderE8": [
+        100000000,
+        99000000,
+        132000000,
+        264000000,
+        1056000000
+      ]
+    },
+    "medium": {
+      "S": 5,
+      "fairNumer": [
+        null,
+        24,
+        30,
+        50,
+        125,
+        625
+      ],
+      "fairDenom": 24,
+      "ladderE8": [
+        100000000,
+        99000000,
+        123750000,
+        206250000,
+        515625000,
+        2578125000
+      ]
+    },
+    "hard": {
+      "S": 6,
+      "fairNumer": [
+        null,
+        120,
+        144,
+        216,
+        432,
+        1296,
+        7776
+      ],
+      "fairDenom": 120,
+      "ladderE8": [
+        100000000,
+        99000000,
+        118800000,
+        178200000,
+        356400000,
+        1069200000,
+        6415200000
+      ]
+    },
+    "expert": {
+      "S": 7,
+      "fairNumer": [
+        null,
+        720,
+        840,
+        1176,
+        2058,
+        4802,
+        16807,
+        117649
+      ],
+      "fairDenom": 720,
+      "ladderE8": [
+        100000000,
+        99000000,
+        115500000,
+        161700000,
+        282975000,
+        660275000,
+        2310962500,
+        16176737500
+      ]
+    },
+    "master": {
+      "S": 8,
+      "fairNumer": [
+        null,
+        5040,
+        5760,
+        7680,
+        12288,
+        24576,
+        65536,
+        262144,
+        2097152
+      ],
+      "fairDenom": 5040,
+      "ladderE8": [
+        100000000,
+        99000000,
+        113142857,
+        150857142,
+        241371428,
+        482742857,
+        1287314285,
+        5149257142,
+        41194057142
+      ]
+    }
+  },
+  "maxReveals": 8,
+  "note": "species_i = u_i mod S (S = 4..8 by difficulty); a brand-new species climbs, the FIRST repeat busts; d distinct species pay multiplier = floor(rtp * S^(d-1) * (S-d)! / (S-1)!) — read off the baked fairNumer[d]/fairDenom ratio (== ladderE8[d] at the published RTP)."
+}

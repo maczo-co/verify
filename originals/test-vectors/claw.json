@@ -1,0 +1,465 @@
+{
+  "game": "claw",
+  "vectors": [
+    {
+      "serverSeed": "8eb4b9c2cc1d12f4c077055c1593358c2f268a2d8b9a24b71cca42b884b3fe79",
+      "clientSeed": "player_2",
+      "commitment": "8e8f0fd071598da7a80a16e0f37536ed8aaa53f824e45b78600951ab0557bf14",
+      "nonce": 2,
+      "params": {
+        "risk": "gentle"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 22824204,
+        "win": true,
+        "payoutMinor": 22824204,
+        "outcome": {
+          "risk": "gentle",
+          "prize_e8": 45648408,
+          "grip_num": 4,
+          "grip_den": 8,
+          "multiplier_e8": 22824204
+        }
+      }
+    },
+    {
+      "serverSeed": "805fe4f43156b5d25678024a75730e39e9a046653e1d7dfa635d204e147e90d4",
+      "clientSeed": "player_2",
+      "commitment": "bc97f339446bda3e7affdf076db24120a96e7c39a4776d32c879d510367afbf8",
+      "nonce": 7,
+      "params": {
+        "risk": "gentle"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "risk": "gentle",
+          "prize_e8": 45648408,
+          "grip_num": 0,
+          "grip_den": 8,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "ded165009a5390f371c2e6962104f156fdc36fc2eb905187da7b6921906f1113",
+      "clientSeed": "player_3",
+      "commitment": "d8aee0475b2bb2400146ab6a517dd31b974dc4c6e07692e6304d7d4429bb3074",
+      "nonce": 3,
+      "params": {
+        "risk": "gentle"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 171181552,
+        "win": true,
+        "payoutMinor": 171181552,
+        "outcome": {
+          "risk": "gentle",
+          "prize_e8": 171181552,
+          "grip_num": 8,
+          "grip_den": 8,
+          "multiplier_e8": 171181552
+        }
+      }
+    },
+    {
+      "serverSeed": "cdf433c118b2b2e8dafa5e1cf10cc6821554ccf9a6b8d72fd4626f370c3aaba8",
+      "clientSeed": "player_0",
+      "commitment": "f3eb097a5ad534a0506b4779e62deb3e2562e9658279abb74579c2b1f48a1a53",
+      "nonce": 30,
+      "params": {
+        "risk": "gentle"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 71325648,
+        "win": true,
+        "payoutMinor": 71325648,
+        "outcome": {
+          "risk": "gentle",
+          "prize_e8": 285302592,
+          "grip_num": 2,
+          "grip_den": 8,
+          "multiplier_e8": 71325648
+        }
+      }
+    },
+    {
+      "serverSeed": "202090e5815d07c76c29cd6811c470d43286e9f0da2e7900a05fa118a5b249ab",
+      "clientSeed": "player_2",
+      "commitment": "3648e87805e4915b4fdbe6b3c2d518958ca1f630eceaeddc2aabdc6894484981",
+      "nonce": 72,
+      "params": {
+        "risk": "gentle"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 570605184,
+        "win": true,
+        "payoutMinor": 570605184,
+        "outcome": {
+          "risk": "gentle",
+          "prize_e8": 570605184,
+          "grip_num": 8,
+          "grip_den": 8,
+          "multiplier_e8": 570605184
+        }
+      }
+    },
+    {
+      "serverSeed": "b2fdf9a49583cd94862240cb6128aadfd73a754f02a99efbeb5909159eafb9fe",
+      "clientSeed": "player_3",
+      "commitment": "22adb12af8ffcde2628d52f24247d3b3abec702dde016c17a9d93022d45831b1",
+      "nonce": 763,
+      "params": {
+        "risk": "gentle"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 1711815560,
+        "win": true,
+        "payoutMinor": 1711815560,
+        "outcome": {
+          "risk": "gentle",
+          "prize_e8": 1711815560,
+          "grip_num": 8,
+          "grip_den": 8,
+          "multiplier_e8": 1711815560
+        }
+      }
+    },
+    {
+      "serverSeed": "8eb4b9c2cc1d12f4c077055c1593358c2f268a2d8b9a24b71cca42b884b3fe79",
+      "clientSeed": "player_2",
+      "commitment": "8e8f0fd071598da7a80a16e0f37536ed8aaa53f824e45b78600951ab0557bf14",
+      "nonce": 2,
+      "params": {
+        "risk": "standard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "risk": "standard",
+          "prize_e8": 0,
+          "grip_num": 4,
+          "grip_den": 8,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "609f9e693423e54c69ec3697199d55302a4833a252b7e8631221439f5c099140",
+      "clientSeed": "player_3",
+      "commitment": "b10580cca9a04a06d21766afb5a78aa612f128932eb72e7e90c086003de200ce",
+      "nonce": 13,
+      "params": {
+        "risk": "standard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "risk": "standard",
+          "prize_e8": 144174752,
+          "grip_num": 0,
+          "grip_den": 8,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "52f4b8ea24ff0717aa2686817738e1d4f5b76e7d82e23711193bc5c21764c7ba",
+      "clientSeed": "player_0",
+      "commitment": "eb440ba8cf329d2a549c7fc3763ddb0cee5b086c2d273bed76edab5519b75102",
+      "nonce": 5,
+      "params": {
+        "risk": "standard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 108131064,
+        "win": true,
+        "payoutMinor": 108131064,
+        "outcome": {
+          "risk": "standard",
+          "prize_e8": 144174752,
+          "grip_num": 6,
+          "grip_den": 8,
+          "multiplier_e8": 108131064
+        }
+      }
+    },
+    {
+      "serverSeed": "9b2da4465bc49e5ad3e060227727c1b7cd653a67900ba4abb95ce75ee9236319",
+      "clientSeed": "player_3",
+      "commitment": "c5a9d6f4d7e871b05392be97344232cc902b2e74a613da4b9990e1770e4c76cf",
+      "nonce": 28,
+      "params": {
+        "risk": "standard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 270327666,
+        "win": true,
+        "payoutMinor": 270327666,
+        "outcome": {
+          "risk": "standard",
+          "prize_e8": 360436888,
+          "grip_num": 6,
+          "grip_den": 8,
+          "multiplier_e8": 270327666
+        }
+      }
+    },
+    {
+      "serverSeed": "452fbeff69e404077c82f9cf74e897941b5d79c18903bb96c1b090cd33483542",
+      "clientSeed": "player_0",
+      "commitment": "fbefc2ac3dfe18a372e4cde273bb07bfd428afa2c7fb33caad138917749882c6",
+      "nonce": 80,
+      "params": {
+        "risk": "standard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 961165048,
+        "win": true,
+        "payoutMinor": 961165048,
+        "outcome": {
+          "risk": "standard",
+          "prize_e8": 961165048,
+          "grip_num": 8,
+          "grip_den": 8,
+          "multiplier_e8": 961165048
+        }
+      }
+    },
+    {
+      "serverSeed": "b2fdf9a49583cd94862240cb6128aadfd73a754f02a99efbeb5909159eafb9fe",
+      "clientSeed": "player_3",
+      "commitment": "22adb12af8ffcde2628d52f24247d3b3abec702dde016c17a9d93022d45831b1",
+      "nonce": 763,
+      "params": {
+        "risk": "standard"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 4805825240,
+        "win": true,
+        "payoutMinor": 4805825240,
+        "outcome": {
+          "risk": "standard",
+          "prize_e8": 4805825240,
+          "grip_num": 8,
+          "grip_den": 8,
+          "multiplier_e8": 4805825240
+        }
+      }
+    },
+    {
+      "serverSeed": "ded165009a5390f371c2e6962104f156fdc36fc2eb905187da7b6921906f1113",
+      "clientSeed": "player_3",
+      "commitment": "d8aee0475b2bb2400146ab6a517dd31b974dc4c6e07692e6304d7d4429bb3074",
+      "nonce": 3,
+      "params": {
+        "risk": "wild"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "risk": "wild",
+          "prize_e8": 0,
+          "grip_num": 8,
+          "grip_den": 8,
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "c7a25bc0536108357439493468034db41bf6e31cc0e3e4662643e04fb1921f07",
+      "clientSeed": "player_1",
+      "commitment": "0d69bbd299039ed363b2203415a1f0b5e55a50f49161284710ee0e49dc0b9037",
+      "nonce": 1,
+      "params": {
+        "risk": "wild"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 30091184,
+        "win": true,
+        "payoutMinor": 30091184,
+        "outcome": {
+          "risk": "wild",
+          "prize_e8": 120364736,
+          "grip_num": 2,
+          "grip_den": 8,
+          "multiplier_e8": 30091184
+        }
+      }
+    },
+    {
+      "serverSeed": "47cc8e98916e7783a457c79310e5de9178b3cdf7aed189ed9f290b73ac1bd36b",
+      "clientSeed": "player_4",
+      "commitment": "4843d5bcba750d8fddc6d2ef0823788725ef90605d35952e2de5ec7ce2b9ba2a",
+      "nonce": 384,
+      "params": {
+        "risk": "wild"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 1504559268,
+        "win": true,
+        "payoutMinor": 1504559268,
+        "outcome": {
+          "risk": "wild",
+          "prize_e8": 3009118536,
+          "grip_num": 4,
+          "grip_den": 8,
+          "multiplier_e8": 1504559268
+        }
+      }
+    },
+    {
+      "serverSeed": "202090e5815d07c76c29cd6811c470d43286e9f0da2e7900a05fa118a5b249ab",
+      "clientSeed": "player_2",
+      "commitment": "3648e87805e4915b4fdbe6b3c2d518958ca1f630eceaeddc2aabdc6894484981",
+      "nonce": 72,
+      "params": {
+        "risk": "wild"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 601823704,
+        "win": true,
+        "payoutMinor": 601823704,
+        "outcome": {
+          "risk": "wild",
+          "prize_e8": 601823704,
+          "grip_num": 8,
+          "grip_den": 8,
+          "multiplier_e8": 601823704
+        }
+      }
+    },
+    {
+      "serverSeed": "f256939a00cffaefdfeab40dd419052c6be318e7ba86edcce210177089a2aa1a",
+      "clientSeed": "player_4",
+      "commitment": "5d16ca2d460545e0cbebd9cc84200f00602d70cfa2a033171be29527e2043f07",
+      "nonce": 5659,
+      "params": {
+        "risk": "wild"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 16926291792,
+        "win": true,
+        "payoutMinor": 16926291792,
+        "outcome": {
+          "risk": "wild",
+          "prize_e8": 22568389056,
+          "grip_num": 6,
+          "grip_den": 8,
+          "multiplier_e8": 16926291792
+        }
+      }
+    },
+    {
+      "serverSeed": "e532dcbb942fe3afa1671980594bd73911a7da22824f318dc12e1f8de65cba36",
+      "clientSeed": "player_3",
+      "commitment": "2ac04fb0a7563d4dd5c62b743de5c3c888c84deb930e39c9f506348c7c50ae35",
+      "nonce": 6088,
+      "params": {
+        "risk": "wild"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 22568389056,
+        "win": true,
+        "payoutMinor": 22568389056,
+        "outcome": {
+          "risk": "wild",
+          "prize_e8": 22568389056,
+          "grip_num": 8,
+          "grip_den": 8,
+          "multiplier_e8": 22568389056
+        }
+      }
+    },
+    {
+      "serverSeed": "518b9eee00362fcbf9df5e917b5f3815fe4081cc01723de4da31928cf072db2a",
+      "clientSeed": "player_4",
+      "commitment": "fb322169ada0b8a0a2f308e40265b00c934a796866a40aef4f9b62d657aa8848",
+      "nonce": 2099,
+      "params": {
+        "risk": "gentle"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 427953890,
+        "win": true,
+        "payoutMinor": 14265128,
+        "outcome": {
+          "risk": "gentle",
+          "prize_e8": 1711815560,
+          "grip_num": 2,
+          "grip_den": 8,
+          "multiplier_e8": 427953890
+        }
+      }
+    },
+    {
+      "serverSeed": "e532dcbb942fe3afa1671980594bd73911a7da22824f318dc12e1f8de65cba36",
+      "clientSeed": "player_3",
+      "commitment": "2ac04fb0a7563d4dd5c62b743de5c3c888c84deb930e39c9f506348c7c50ae35",
+      "nonce": 6088,
+      "params": {
+        "risk": "wild"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 22568389056,
+        "win": true,
+        "payoutMinor": 752279559,
+        "outcome": {
+          "risk": "wild",
+          "prize_e8": 22568389056,
+          "grip_num": 8,
+          "grip_den": 8,
+          "multiplier_e8": 22568389056
+        }
+      }
+    }
+  ]
+}

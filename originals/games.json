@@ -296,6 +296,132 @@
         "bonus_buy"
       ],
       "vectorCount": 20
+    },
+    {
+      "id": "abyss-palace",
+      "displayName": "Abyss Palace",
+      "biasClass": "uniform",
+      "params": [
+        "difficulty",
+        "picks"
+      ],
+      "vectorCount": 28
+    },
+    {
+      "id": "ascend",
+      "displayName": "Ascend",
+      "biasClass": "modulo",
+      "params": [
+        "counts"
+      ],
+      "vectorCount": 15
+    },
+    {
+      "id": "claw",
+      "displayName": "Claw",
+      "biasClass": "modulo",
+      "params": [
+        "risk"
+      ],
+      "vectorCount": 20
+    },
+    {
+      "id": "come-out",
+      "displayName": "Come Out",
+      "biasClass": "modulo",
+      "params": [
+        "bet"
+      ],
+      "vectorCount": 21
+    },
+    {
+      "id": "dragon-3d",
+      "displayName": "Dragon Tower 3D",
+      "biasClass": "uniform",
+      "params": [
+        "difficulty",
+        "picks"
+      ],
+      "vectorCount": 24
+    },
+    {
+      "id": "flood",
+      "displayName": "Flood",
+      "biasClass": "uniform",
+      "params": [
+        "density",
+        "start"
+      ],
+      "vectorCount": 19
+    },
+    {
+      "id": "golden-monkey",
+      "displayName": "Golden Monkey",
+      "biasClass": "uniform",
+      "params": [
+        "difficulty",
+        "picks"
+      ],
+      "vectorCount": 21
+    },
+    {
+      "id": "hive",
+      "displayName": "Hive",
+      "biasClass": "modulo",
+      "params": [
+        "difficulty"
+      ],
+      "vectorCount": 20
+    },
+    {
+      "id": "menagerie",
+      "displayName": "Menagerie",
+      "biasClass": "modulo",
+      "params": [
+        "difficulty",
+        "reveals"
+      ],
+      "vectorCount": 20
+    },
+    {
+      "id": "shootout",
+      "displayName": "Shootout",
+      "biasClass": "uniform",
+      "params": [
+        "shots",
+        "range"
+      ],
+      "vectorCount": 18
+    },
+    {
+      "id": "stack",
+      "displayName": "Stack",
+      "biasClass": "modulo",
+      "params": [
+        "difficulty",
+        "sides"
+      ],
+      "vectorCount": 19
+    },
+    {
+      "id": "stepping",
+      "displayName": "Stepping Stones",
+      "biasClass": "uniform",
+      "params": [
+        "difficulty",
+        "strides"
+      ],
+      "vectorCount": 19
+    },
+    {
+      "id": "triad",
+      "displayName": "Triad Dice",
+      "biasClass": "modulo",
+      "params": [
+        "bet",
+        "pick"
+      ],
+      "vectorCount": 22
     }
   ]
 }

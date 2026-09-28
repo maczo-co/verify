@@ -1,0 +1,19 @@
+{
+  "game": "ascend",
+  "displayName": "Ascend",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "counts",
+      "desc": "the leap win-count c out of 1000 chosen on each attempted rung — 0..15 ints in [50, 950]"
+    }
+  ],
+  "den": 1000,
+  "cMin": 50,
+  "cMax": 950,
+  "maxRungs": 15,
+  "note": "one uint32 word per attempted rung: rung i lands iff (u_i mod 1000) < c_i, the player's chosen win-count for that leap (c in [50, 950], at most 15 rungs). The climb ends at the first miss; a bust — and a 0-rung round — pays nothing. A full climb of k rungs pays a SINGLE floor of the fair product: multiplier_e8 = floor(rtp_e8 · 1000^k / (c_1·…·c_k)), so every rung's fair factor is exact and the edge is charged once."
+}

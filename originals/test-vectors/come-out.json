@@ -1,0 +1,1172 @@
+{
+  "game": "come-out",
+  "vectors": [
+    {
+      "serverSeed": "aa53f294f5484aa55ec3beb5407e00f35d9fff468e32d305e99916a30d66874b",
+      "clientSeed": "player_2",
+      "commitment": "daf88c0bbdb81f234344277de016c569ca1110c3fa11bb239000a9bcf825faf1",
+      "nonce": 2,
+      "params": {
+        "bet": "pass"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200840163,
+        "win": true,
+        "payoutMinor": 200840163,
+        "outcome": {
+          "bet": "pass",
+          "come_out": 7,
+          "point": null,
+          "rolls": [
+            7
+          ],
+          "dice": [
+            [
+              1,
+              6
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 200840163
+        }
+      }
+    },
+    {
+      "serverSeed": "deebdc85ee0c5ad83fe7a1ada16296b124e590bf624950bdca59df8a3de881b3",
+      "clientSeed": "player_2",
+      "commitment": "e43d80520957468e9edb0cdacdee23b49b14bfcbed7f922fc37ba777414e7d53",
+      "nonce": 32,
+      "params": {
+        "bet": "pass"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "pass",
+          "come_out": 12,
+          "point": null,
+          "rolls": [
+            12
+          ],
+          "dice": [
+            [
+              6,
+              6
+            ]
+          ],
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "61d39572d5f9701947d49004fac42cec5b4d955ddcfc285932c2f58d810e324a",
+      "clientSeed": "player_2",
+      "commitment": "827c7f8cd79f8e782a89bfd791d79075e3ca338239999deac23f2f828067ae86",
+      "nonce": 247,
+      "params": {
+        "bet": "pass"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200840163,
+        "win": true,
+        "payoutMinor": 200840163,
+        "outcome": {
+          "bet": "pass",
+          "come_out": 4,
+          "point": 4,
+          "rolls": [
+            4,
+            8,
+            6,
+            3,
+            8,
+            9,
+            8,
+            9,
+            9,
+            5,
+            11,
+            5,
+            5,
+            8,
+            10,
+            8,
+            5,
+            9,
+            8,
+            6,
+            10,
+            10,
+            5,
+            11,
+            5,
+            3,
+            6,
+            8,
+            4
+          ],
+          "dice": [
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 200840163
+        }
+      }
+    },
+    {
+      "serverSeed": "b1591a25b5ff3075c244606211a61cbe211d93363811ff46de5994c307e976a5",
+      "clientSeed": "player_1",
+      "commitment": "3a311dfe4cd0290b6ab0e13e0e754cd4061372b3d2d386929d98f3c8c75fb770",
+      "nonce": 1,
+      "params": {
+        "bet": "pass"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "pass",
+          "come_out": 8,
+          "point": 8,
+          "rolls": [
+            8,
+            4,
+            6,
+            6,
+            11,
+            11,
+            9,
+            5,
+            5,
+            2,
+            9,
+            3,
+            9,
+            4,
+            11,
+            7
+          ],
+          "dice": [
+            [
+              6,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "75de00629d5ad2b60213f806c453a287d05a7fa796e005680cf886ada6bfde65",
+      "clientSeed": "player_4",
+      "commitment": "dcf962b62a21b6ff5458490f4da8a9b9fc8deaf6b79374b0a37f392548b76674",
+      "nonce": 24,
+      "params": {
+        "bet": "dont_pass"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200758693,
+        "win": true,
+        "payoutMinor": 200758693,
+        "outcome": {
+          "bet": "dont_pass",
+          "come_out": 2,
+          "point": null,
+          "rolls": [
+            2
+          ],
+          "dice": [
+            [
+              1,
+              1
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 200758693
+        }
+      }
+    },
+    {
+      "serverSeed": "aa53f294f5484aa55ec3beb5407e00f35d9fff468e32d305e99916a30d66874b",
+      "clientSeed": "player_2",
+      "commitment": "daf88c0bbdb81f234344277de016c569ca1110c3fa11bb239000a9bcf825faf1",
+      "nonce": 2,
+      "params": {
+        "bet": "dont_pass"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "dont_pass",
+          "come_out": 7,
+          "point": null,
+          "rolls": [
+            7
+          ],
+          "dice": [
+            [
+              1,
+              6
+            ]
+          ],
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "2e4e5cec07d02740c13e48105a5c6e76b0aa261853a50058414964236bfdec87",
+      "clientSeed": "player_3",
+      "commitment": "edf49691544f1f8c95367e8b9066b3e372dc92568b2c428f3a8d9d8a2a93c7c6",
+      "nonce": 18,
+      "params": {
+        "bet": "dont_pass"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "dont_pass",
+          "come_out": 11,
+          "point": null,
+          "rolls": [
+            11
+          ],
+          "dice": [
+            [
+              6,
+              5
+            ]
+          ],
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "deebdc85ee0c5ad83fe7a1ada16296b124e590bf624950bdca59df8a3de881b3",
+      "clientSeed": "player_2",
+      "commitment": "e43d80520957468e9edb0cdacdee23b49b14bfcbed7f922fc37ba777414e7d53",
+      "nonce": 32,
+      "params": {
+        "bet": "dont_pass"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 100000000,
+        "win": false,
+        "payoutMinor": 100000000,
+        "outcome": {
+          "bet": "dont_pass",
+          "come_out": 12,
+          "point": null,
+          "rolls": [
+            12
+          ],
+          "dice": [
+            [
+              6,
+              6
+            ]
+          ],
+          "result": "push",
+          "multiplier_e8": 100000000
+        }
+      }
+    },
+    {
+      "serverSeed": "b1591a25b5ff3075c244606211a61cbe211d93363811ff46de5994c307e976a5",
+      "clientSeed": "player_1",
+      "commitment": "3a311dfe4cd0290b6ab0e13e0e754cd4061372b3d2d386929d98f3c8c75fb770",
+      "nonce": 1,
+      "params": {
+        "bet": "dont_pass"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200758693,
+        "win": true,
+        "payoutMinor": 200758693,
+        "outcome": {
+          "bet": "dont_pass",
+          "come_out": 8,
+          "point": 8,
+          "rolls": [
+            8,
+            4,
+            6,
+            6,
+            11,
+            11,
+            9,
+            5,
+            5,
+            2,
+            9,
+            3,
+            9,
+            4,
+            11,
+            7
+          ],
+          "dice": [
+            [
+              6,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 200758693
+        }
+      }
+    },
+    {
+      "serverSeed": "4688698b563caa2f8dd03aef1800f4a6fe1fe5d35fd759f5e0b6a3c2a47ab850",
+      "clientSeed": "player_2",
+      "commitment": "6f13f253563b3a63fa32bc3fabed861f6ec97e025e73b3b4ce2809e2b33699f5",
+      "nonce": 12,
+      "params": {
+        "bet": "dont_pass"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "dont_pass",
+          "come_out": 4,
+          "point": 4,
+          "rolls": [
+            4,
+            5,
+            5,
+            5,
+            8,
+            8,
+            6,
+            9,
+            8,
+            3,
+            3,
+            3,
+            6,
+            4
+          ],
+          "dice": [
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "75de00629d5ad2b60213f806c453a287d05a7fa796e005680cf886ada6bfde65",
+      "clientSeed": "player_4",
+      "commitment": "dcf962b62a21b6ff5458490f4da8a9b9fc8deaf6b79374b0a37f392548b76674",
+      "nonce": 24,
+      "params": {
+        "bet": "field"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 314470588,
+        "win": true,
+        "payoutMinor": 314470588,
+        "outcome": {
+          "bet": "field",
+          "come_out": 2,
+          "point": null,
+          "rolls": [
+            2
+          ],
+          "dice": [
+            [
+              1,
+              1
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 314470588
+        }
+      }
+    },
+    {
+      "serverSeed": "deebdc85ee0c5ad83fe7a1ada16296b124e590bf624950bdca59df8a3de881b3",
+      "clientSeed": "player_2",
+      "commitment": "e43d80520957468e9edb0cdacdee23b49b14bfcbed7f922fc37ba777414e7d53",
+      "nonce": 32,
+      "params": {
+        "bet": "field"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 314470588,
+        "win": true,
+        "payoutMinor": 314470588,
+        "outcome": {
+          "bet": "field",
+          "come_out": 12,
+          "point": null,
+          "rolls": [
+            12
+          ],
+          "dice": [
+            [
+              6,
+              6
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 314470588
+        }
+      }
+    },
+    {
+      "serverSeed": "2e4e5cec07d02740c13e48105a5c6e76b0aa261853a50058414964236bfdec87",
+      "clientSeed": "player_3",
+      "commitment": "edf49691544f1f8c95367e8b9066b3e372dc92568b2c428f3a8d9d8a2a93c7c6",
+      "nonce": 18,
+      "params": {
+        "bet": "field"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 209647058,
+        "win": true,
+        "payoutMinor": 209647058,
+        "outcome": {
+          "bet": "field",
+          "come_out": 11,
+          "point": null,
+          "rolls": [
+            11
+          ],
+          "dice": [
+            [
+              6,
+              5
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 209647058
+        }
+      }
+    },
+    {
+      "serverSeed": "5e1b0071ffc2eb199a6e3c92373b06755f7f44749349385e7e0b4b13989f35f5",
+      "clientSeed": "player_3",
+      "commitment": "0ed549e728d52f64206004c5d5c2db9f6fc61f65fe649322b262906006e96e81",
+      "nonce": 13,
+      "params": {
+        "bet": "field"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "field",
+          "come_out": 5,
+          "point": null,
+          "rolls": [
+            5
+          ],
+          "dice": [
+            [
+              2,
+              3
+            ]
+          ],
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "aa53f294f5484aa55ec3beb5407e00f35d9fff468e32d305e99916a30d66874b",
+      "clientSeed": "player_2",
+      "commitment": "daf88c0bbdb81f234344277de016c569ca1110c3fa11bb239000a9bcf825faf1",
+      "nonce": 2,
+      "params": {
+        "bet": "any_seven"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 594000000,
+        "win": true,
+        "payoutMinor": 594000000,
+        "outcome": {
+          "bet": "any_seven",
+          "come_out": 7,
+          "point": null,
+          "rolls": [
+            7
+          ],
+          "dice": [
+            [
+              1,
+              6
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 594000000
+        }
+      }
+    },
+    {
+      "serverSeed": "5e1b0071ffc2eb199a6e3c92373b06755f7f44749349385e7e0b4b13989f35f5",
+      "clientSeed": "player_3",
+      "commitment": "0ed549e728d52f64206004c5d5c2db9f6fc61f65fe649322b262906006e96e81",
+      "nonce": 13,
+      "params": {
+        "bet": "any_seven"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "any_seven",
+          "come_out": 5,
+          "point": null,
+          "rolls": [
+            5
+          ],
+          "dice": [
+            [
+              2,
+              3
+            ]
+          ],
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "26a6577c218bbf0b55521aa8b27b65fc2a4df0f5dc75ca3d82685f4a9f00591e",
+      "clientSeed": "player_0",
+      "commitment": "87797a994e75831c94ceeadf08aed90feff5b50f1b9d0342d91731266fa30d4a",
+      "nonce": 10,
+      "params": {
+        "bet": "any_craps"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 891000000,
+        "win": true,
+        "payoutMinor": 891000000,
+        "outcome": {
+          "bet": "any_craps",
+          "come_out": 3,
+          "point": null,
+          "rolls": [
+            3
+          ],
+          "dice": [
+            [
+              2,
+              1
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 891000000
+        }
+      }
+    },
+    {
+      "serverSeed": "aa53f294f5484aa55ec3beb5407e00f35d9fff468e32d305e99916a30d66874b",
+      "clientSeed": "player_2",
+      "commitment": "daf88c0bbdb81f234344277de016c569ca1110c3fa11bb239000a9bcf825faf1",
+      "nonce": 2,
+      "params": {
+        "bet": "any_craps"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "any_craps",
+          "come_out": 7,
+          "point": null,
+          "rolls": [
+            7
+          ],
+          "dice": [
+            [
+              1,
+              6
+            ]
+          ],
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "61d39572d5f9701947d49004fac42cec5b4d955ddcfc285932c2f58d810e324a",
+      "clientSeed": "player_2",
+      "commitment": "827c7f8cd79f8e782a89bfd791d79075e3ca338239999deac23f2f828067ae86",
+      "nonce": 247,
+      "params": {
+        "bet": "pass"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200840163,
+        "win": true,
+        "payoutMinor": 6694671,
+        "outcome": {
+          "bet": "pass",
+          "come_out": 4,
+          "point": 4,
+          "rolls": [
+            4,
+            8,
+            6,
+            3,
+            8,
+            9,
+            8,
+            9,
+            9,
+            5,
+            11,
+            5,
+            5,
+            8,
+            10,
+            8,
+            5,
+            9,
+            8,
+            6,
+            10,
+            10,
+            5,
+            11,
+            5,
+            3,
+            6,
+            8,
+            4
+          ],
+          "dice": [
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 200840163
+        }
+      }
+    },
+    {
+      "serverSeed": "75de00629d5ad2b60213f806c453a287d05a7fa796e005680cf886ada6bfde65",
+      "clientSeed": "player_4",
+      "commitment": "dcf962b62a21b6ff5458490f4da8a9b9fc8deaf6b79374b0a37f392548b76674",
+      "nonce": 24,
+      "params": {
+        "bet": "field"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 314470588,
+        "win": true,
+        "payoutMinor": 10482351,
+        "outcome": {
+          "bet": "field",
+          "come_out": 2,
+          "point": null,
+          "rolls": [
+            2
+          ],
+          "dice": [
+            [
+              1,
+              1
+            ]
+          ],
+          "result": "win",
+          "multiplier_e8": 314470588
+        }
+      }
+    },
+    {
+      "serverSeed": "deebdc85ee0c5ad83fe7a1ada16296b124e590bf624950bdca59df8a3de881b3",
+      "clientSeed": "player_2",
+      "commitment": "e43d80520957468e9edb0cdacdee23b49b14bfcbed7f922fc37ba777414e7d53",
+      "nonce": 32,
+      "params": {
+        "bet": "dont_pass"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 100000000,
+        "win": false,
+        "payoutMinor": 3333333,
+        "outcome": {
+          "bet": "dont_pass",
+          "come_out": 12,
+          "point": null,
+          "rolls": [
+            12
+          ],
+          "dice": [
+            [
+              6,
+              6
+            ]
+          ],
+          "result": "push",
+          "multiplier_e8": 100000000
+        }
+      }
+    }
+  ]
+}
