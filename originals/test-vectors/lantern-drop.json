@@ -1,0 +1,488 @@
+{
+  "game": "lantern-drop",
+  "vectors": [
+    {
+      "serverSeed": "a4a9e0aea0abf827d1b98103d2dcd8417024c24046cedc4068b6adf0525de19e",
+      "clientSeed": "player_1",
+      "commitment": "1f0d594573d17dd94181d32504ba412539b9f9a25ab100e95ed84baa4fad87f7",
+      "nonce": 1,
+      "params": {
+        "rows": 8,
+        "risk": "low"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 110000000,
+        "win": true,
+        "payoutMinor": 110000000,
+        "outcome": {
+          "rows": 8,
+          "risk": "low",
+          "path": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "bucket": 2,
+          "multiplier_e8": 110000000
+        }
+      }
+    },
+    {
+      "serverSeed": "7c1890bb5470940ce96697591954332391508932788154b9a1d33b946ed14c1f",
+      "clientSeed": "player_2",
+      "commitment": "e7b8633b650ce09a22ceecd79f351a8fa9fb73b95f5d21f74b31c3a62a849e4a",
+      "nonce": 2,
+      "params": {
+        "rows": 12,
+        "risk": "low"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 50090909,
+        "win": false,
+        "payoutMinor": 50090909,
+        "outcome": {
+          "rows": 12,
+          "risk": "low",
+          "path": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "bucket": 6,
+          "multiplier_e8": 50090909
+        }
+      }
+    },
+    {
+      "serverSeed": "01396e254df2af752ae8855f9d765baad4fce0aa5ab250e4b49386744a455e41",
+      "clientSeed": "player_3",
+      "commitment": "dd8a15973c72b33578829e58440b04e134702f772a40879fd9393cd5da8987c1",
+      "nonce": 3,
+      "params": {
+        "rows": 16,
+        "risk": "low"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 50006526,
+        "win": false,
+        "payoutMinor": 50006526,
+        "outcome": {
+          "rows": 16,
+          "risk": "low",
+          "path": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "bucket": 8,
+          "multiplier_e8": 50006526
+        }
+      }
+    },
+    {
+      "serverSeed": "5a175527815f5a7c4aeae95f2e6a2c6a70797419adeeffffc832390e5f8797b9",
+      "clientSeed": "player_4",
+      "commitment": "65c2361b2f08e6265c990ad49109289d99b6d05d1db9e2bc953b6579423693e0",
+      "nonce": 4,
+      "params": {
+        "rows": 8,
+        "risk": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 300000000,
+        "win": true,
+        "payoutMinor": 300000000,
+        "outcome": {
+          "rows": 8,
+          "risk": "medium",
+          "path": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "bucket": 1,
+          "multiplier_e8": 300000000
+        }
+      }
+    },
+    {
+      "serverSeed": "1665968d96b59301b8d1d0ae5448738653dcf44beb4fc9dd72ec76b3318edf02",
+      "clientSeed": "player_0",
+      "commitment": "a02696cc5ebb229b56652f55c1b61ee8b079a20e5c02416fe2ca712df04348d1",
+      "nonce": 5,
+      "params": {
+        "rows": 12,
+        "risk": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 110000000,
+        "win": true,
+        "payoutMinor": 110000000,
+        "outcome": {
+          "rows": 12,
+          "risk": "medium",
+          "path": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "bucket": 4,
+          "multiplier_e8": 110000000
+        }
+      }
+    },
+    {
+      "serverSeed": "440cab897f8fb5bb77560697608a25772a140fc94f2ef08a74511e80c9f35f95",
+      "clientSeed": "player_1",
+      "commitment": "af0ad6fb5f72497f6c6bd9910af1c8724aa65fe24180ac499a26def36e234f4a",
+      "nonce": 6,
+      "params": {
+        "rows": 16,
+        "risk": "medium"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 150000000,
+        "win": true,
+        "payoutMinor": 150000000,
+        "outcome": {
+          "rows": 16,
+          "risk": "medium",
+          "path": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "bucket": 5,
+          "multiplier_e8": 150000000
+        }
+      }
+    },
+    {
+      "serverSeed": "c488f7dad3677ac596d105701a8a20d098582fe9fcc0dba042096a914b3093bc",
+      "clientSeed": "player_2",
+      "commitment": "a7b8d025610f2f25e03fc9eab692182d380ed58d5c1a8932537bf6abdcde40f4",
+      "nonce": 7,
+      "params": {
+        "rows": 8,
+        "risk": "high"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 19771428,
+        "win": false,
+        "payoutMinor": 19771428,
+        "outcome": {
+          "rows": 8,
+          "risk": "high",
+          "path": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "bucket": 4,
+          "multiplier_e8": 19771428
+        }
+      }
+    },
+    {
+      "serverSeed": "7d74e35637c95cf8cc1fac7e2eda9164f4581be0dc2615c7d0fe20ae88bd1bb2",
+      "clientSeed": "player_3",
+      "commitment": "913683c2ba1c90475f789d1363233fb3c4cdfdbb519296b4999f300bd0baae39",
+      "nonce": 8,
+      "params": {
+        "rows": 12,
+        "risk": "high"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 70000000,
+        "win": false,
+        "payoutMinor": 70000000,
+        "outcome": {
+          "rows": 12,
+          "risk": "high",
+          "path": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "bucket": 4,
+          "multiplier_e8": 70000000
+        }
+      }
+    },
+    {
+      "serverSeed": "081447388e9808b8ed1622ee8f660e13e35e4f755fe12ffdc71ee3edf2574d16",
+      "clientSeed": "player_4",
+      "commitment": "6a50d2bc19af952a633eb943b41184a1e2f4a85e3010ff44a033fbff36046608",
+      "nonce": 9,
+      "params": {
+        "rows": 16,
+        "risk": "high"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 900000000,
+        "win": true,
+        "payoutMinor": 900000000,
+        "outcome": {
+          "rows": 16,
+          "risk": "high",
+          "path": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "bucket": 3,
+          "multiplier_e8": 900000000
+        }
+      }
+    },
+    {
+      "serverSeed": "0a50e81fd8fc12b3c681f83c0aa88d866fbb98b4685f6c31ad7db0d3bd654b9a",
+      "clientSeed": "player_0",
+      "commitment": "b8d3ba4fc0ba96fa9320a37681e1f154625f1f3512310d6a40b752749ceaa93a",
+      "nonce": 10,
+      "params": {
+        "rows": 8,
+        "risk": "expert"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10000000,
+        "win": false,
+        "payoutMinor": 10000000,
+        "outcome": {
+          "rows": 8,
+          "risk": "expert",
+          "path": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "bucket": 5,
+          "multiplier_e8": 10000000
+        }
+      }
+    },
+    {
+      "serverSeed": "66fd3a722218524d81c4ebca03ed63825247dab50d86e83180acf1d6ab1ef1f1",
+      "clientSeed": "player_1",
+      "commitment": "1e6ca7d3059c332daa28dbab346541ed73b726bf83db3583adcea880912bd94a",
+      "nonce": 11,
+      "params": {
+        "rows": 12,
+        "risk": "expert"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10000000,
+        "win": false,
+        "payoutMinor": 10000000,
+        "outcome": {
+          "rows": 12,
+          "risk": "expert",
+          "path": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "bucket": 5,
+          "multiplier_e8": 10000000
+        }
+      }
+    },
+    {
+      "serverSeed": "785744f7a93c3a1a16baefaae0bb8574dad96bf71aa657b3a021cddb837ec9fb",
+      "clientSeed": "player_2",
+      "commitment": "adcef2a5659063b7ed1577a999db1a932e662029b13dfa79163c57e73896e194",
+      "nonce": 12,
+      "params": {
+        "rows": 16,
+        "risk": "expert"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 250000000,
+        "win": true,
+        "payoutMinor": 250000000,
+        "outcome": {
+          "rows": 16,
+          "risk": "expert",
+          "path": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "bucket": 12,
+          "multiplier_e8": 250000000
+        }
+      }
+    },
+    {
+      "serverSeed": "58b73873318c5002f3e23044611d5794e5b23799216125d971800620ea65b61a",
+      "clientSeed": "player_0",
+      "commitment": "71c0ac688c63479e96f914232de38907b37de0eb6be3f2e915cd57041cfc5f97",
+      "nonce": 950,
+      "params": {
+        "rows": 14,
+        "risk": "expert"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 10000000,
+        "win": false,
+        "payoutMinor": 333333,
+        "outcome": {
+          "rows": 14,
+          "risk": "expert",
+          "path": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "bucket": 7,
+          "multiplier_e8": 10000000
+        }
+      }
+    }
+  ]
+}

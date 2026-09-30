@@ -328,6 +328,14 @@ for cursor = 0, 1, 2, …:                                 # advance when a game
          <a href="https://github.com/maczo-co/originals-ascend">💻 source</a> ·
          <a href="./paytables/ascend.json">⚖️ odds</a></p>
     </section>
+    <section id="chicken-escape" class="game">
+      <h3>Chicken Escape <span class="gid">chicken-escape</span></h3>
+      <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>
+      <p><span class="k">Resolve</span> death-set = shuffle(20)[:deaths]; cross lanes 0..k−1 until a death index is hit; multiplier = floor(rtp·∏(20−i)/(20−deaths−i)); reaching lane 20−deaths (the pier) auto-cashes.</p>
+      <p class="links"><a href="./?game=chicken-escape">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-chicken-escape">💻 source</a> ·
+         <a href="./paytables/chicken-escape.json">⚖️ odds</a></p>
+    </section>
     <section id="claw" class="game">
       <h3>Claw <span class="gid">claw</span></h3>
       <p><span class="k">Bias class</span> <b>modulo</b> — reduces a uint32 by modulo, carrying a documented-negligible bias (< ~1e-5).</p>
@@ -360,6 +368,14 @@ for cursor = 0, 1, 2, …:                                 # advance when a game
          <a href="https://github.com/maczo-co/originals-flood">💻 source</a> ·
          <a href="./paytables/flood.json">⚖️ odds</a></p>
     </section>
+    <section id="fortune-wheel" class="game">
+      <h3>Fortune Wheel <span class="gid">fortune-wheel</span></h3>
+      <p><span class="k">Bias class</span> <b>modulo</b> — reduces a uint32 by modulo, carrying a documented-negligible bias (< ~1e-5).</p>
+      <p><span class="k">Resolve</span> slot = u mod segments; the fixed arranged[slot] multiplier pays. The arrangement is deterministic per (risk,segments).</p>
+      <p class="links"><a href="./?game=fortune-wheel">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-fortune-wheel">💻 source</a> ·
+         <a href="./paytables/fortune-wheel.json">⚖️ odds</a></p>
+    </section>
     <section id="golden-monkey" class="game">
       <h3>Golden Monkey <span class="gid">golden-monkey</span></h3>
       <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>
@@ -375,6 +391,14 @@ for cursor = 0, 1, 2, …:                                 # advance when a game
       <p class="links"><a href="./?game=hive">🧮 verify</a> ·
          <a href="https://github.com/maczo-co/originals-hive">💻 source</a> ·
          <a href="./paytables/hive.json">⚖️ odds</a></p>
+    </section>
+    <section id="lantern-drop" class="game">
+      <h3>Lantern Drop <span class="gid">lantern-drop</span></h3>
+      <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>
+      <p><span class="k">Resolve</span> for each of `rows` lanterns one bit of the stream (u & 1) is right; bucket = count of rights; that envelope's multiplier pays.</p>
+      <p class="links"><a href="./?game=lantern-drop">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-lantern-drop">💻 source</a> ·
+         <a href="./paytables/lantern-drop.json">⚖️ odds</a></p>
     </section>
     <section id="menagerie" class="game">
       <h3>Menagerie <span class="gid">menagerie</span></h3>

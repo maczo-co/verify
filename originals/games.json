@@ -317,6 +317,16 @@
       "vectorCount": 15
     },
     {
+      "id": "chicken-escape",
+      "displayName": "Chicken Escape",
+      "biasClass": "uniform",
+      "params": [
+        "difficulty",
+        "lanes"
+      ],
+      "vectorCount": 19
+    },
+    {
       "id": "claw",
       "displayName": "Claw",
       "biasClass": "modulo",
@@ -355,6 +365,16 @@
       "vectorCount": 19
     },
     {
+      "id": "fortune-wheel",
+      "displayName": "Fortune Wheel",
+      "biasClass": "modulo",
+      "params": [
+        "segments",
+        "risk"
+      ],
+      "vectorCount": 10
+    },
+    {
       "id": "golden-monkey",
       "displayName": "Golden Monkey",
       "biasClass": "uniform",
@@ -372,6 +392,16 @@
         "difficulty"
       ],
       "vectorCount": 20
+    },
+    {
+      "id": "lantern-drop",
+      "displayName": "Lantern Drop",
+      "biasClass": "uniform",
+      "params": [
+        "rows",
+        "risk"
+      ],
+      "vectorCount": 13
     },
     {
       "id": "menagerie",

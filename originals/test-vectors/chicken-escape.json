@@ -1,0 +1,570 @@
+{
+  "game": "chicken-escape",
+  "vectors": [
+    {
+      "serverSeed": "615ce58eeaaeacd6182561a8c32dff240987cf75c88b9102f3c39f8f2810c34a",
+      "clientSeed": "player_1",
+      "commitment": "6000e9cce41c7a9d31a3a4c581c88f82308c218a0dce62ad590baf6c5c6315d5",
+      "nonce": 1,
+      "params": {
+        "difficulty": "easy",
+        "lanes": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 104210526,
+        "win": true,
+        "payoutMinor": 104210526,
+        "outcome": {
+          "difficulty": "easy",
+          "lanes": 1,
+          "crossed": 1,
+          "busted": false,
+          "death_set": [
+            17
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "89ea1f459ad0defa1d2de11c921acafaf0ed1d26578b1fc3fdd1177f7b81a920",
+      "clientSeed": "player_2",
+      "commitment": "11ef0150d1d1690811a2c5a71bec9e9a2f7de4a6dc06cbdfce7e0d4d86049ae1",
+      "nonce": 2,
+      "params": {
+        "difficulty": "easy",
+        "lanes": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 116470588,
+        "win": true,
+        "payoutMinor": 116470588,
+        "outcome": {
+          "difficulty": "easy",
+          "lanes": 3,
+          "crossed": 3,
+          "busted": false,
+          "death_set": [
+            17
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "85851ff62f46bf2e1fd8007320831cab36d52be57aca9aca072019894abace53",
+      "clientSeed": "player_3",
+      "commitment": "c00792c97d6bd99bc7ad95b8c73f8a3c197045b6771facf4ba21903104eb068e",
+      "nonce": 3,
+      "params": {
+        "difficulty": "easy",
+        "lanes": 8
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "lanes": 8,
+          "crossed": 7,
+          "busted": true,
+          "death_set": [
+            7
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "dfec930ef9329c53e0e34b7dbc64852491f2bb2135086773fb54f4070224e0e6",
+      "clientSeed": "player_4",
+      "commitment": "712f1962b0a155a9070f2958f9e30e2b07c8c25d225b04ec7877e67755469030",
+      "nonce": 4,
+      "params": {
+        "difficulty": "easy",
+        "lanes": 19
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "lanes": 19,
+          "crossed": 1,
+          "busted": true,
+          "death_set": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "0176e34d557631837e61e52b1b3febfdaafdd5b6027a9d7892a898e09d090842",
+      "clientSeed": "player_0",
+      "commitment": "e6847d910f0a85d1fa3a492c8cc33a55a40b17a5731593b94537735ccfb4cc4b",
+      "nonce": 5,
+      "params": {
+        "difficulty": "medium",
+        "lanes": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 116470588,
+        "win": true,
+        "payoutMinor": 116470588,
+        "outcome": {
+          "difficulty": "medium",
+          "lanes": 1,
+          "crossed": 1,
+          "busted": false,
+          "death_set": [
+            7,
+            10,
+            17
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "c8236967995e7597fe635da0fc828809b3b6783c2a0dbc6883541e0d499b9bad",
+      "clientSeed": "player_1",
+      "commitment": "a1d06956c8a63fb421a12c85d372ef9ca90b49e229be35f10f64f993c761b188",
+      "nonce": 6,
+      "params": {
+        "difficulty": "medium",
+        "lanes": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 165970588,
+        "win": true,
+        "payoutMinor": 165970588,
+        "outcome": {
+          "difficulty": "medium",
+          "lanes": 3,
+          "crossed": 3,
+          "busted": false,
+          "death_set": [
+            9,
+            10,
+            15
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "81ec9e99a8698644875b1317f3889e41dab61f1e15c6423fae7730c5b4360939",
+      "clientSeed": "player_2",
+      "commitment": "70e117530d4156f1d63d8d065e8a4ccdf74f9cbb502944ff8838ca3a448391cc",
+      "nonce": 7,
+      "params": {
+        "difficulty": "medium",
+        "lanes": 8
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "lanes": 8,
+          "crossed": 1,
+          "busted": true,
+          "death_set": [
+            1,
+            14,
+            15
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "ee9defe9bb19e604cc6b7a62813b8d4103fa7f31ef39c5049f3bf0cf41a5621e",
+      "clientSeed": "player_3",
+      "commitment": "1035ef1a19517df0a20d2bc03f8a8520bc555ba1fdc9ff1669250ddd1846d14c",
+      "nonce": 8,
+      "params": {
+        "difficulty": "medium",
+        "lanes": 17
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "lanes": 17,
+          "crossed": 1,
+          "busted": true,
+          "death_set": [
+            1,
+            7,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "b151faaa104c385ff29a6177a1628b9bf00a8a66f75450b87d9eb5cfe0ff0042",
+      "clientSeed": "player_4",
+      "commitment": "55f1111c4f5eac2dfdde48998716b80e112ba6348f3f21838776a663d8beda2f",
+      "nonce": 9,
+      "params": {
+        "difficulty": "hard",
+        "lanes": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 132000000,
+        "win": true,
+        "payoutMinor": 132000000,
+        "outcome": {
+          "difficulty": "hard",
+          "lanes": 1,
+          "crossed": 1,
+          "busted": false,
+          "death_set": [
+            1,
+            3,
+            10,
+            11,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "80bc2a1cd710d57981cabde542554ceca083445d01839d38d76a8d88f003e87e",
+      "clientSeed": "player_0",
+      "commitment": "880b2845845b9576cb971c077f065b4841bd483f8d230681d6e4d973fd4a5dee",
+      "nonce": 10,
+      "params": {
+        "difficulty": "hard",
+        "lanes": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "hard",
+          "lanes": 3,
+          "crossed": 0,
+          "busted": true,
+          "death_set": [
+            0,
+            11,
+            13,
+            17,
+            19
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "ac489384987fd3686ea0a264302fe6168f4f06cdc15fdcb416bbc726147b55c1",
+      "clientSeed": "player_1",
+      "commitment": "def17495a6cb93f7e22c62568a9b8306eccde4d96cb2f4d5036eac5b714f640d",
+      "nonce": 11,
+      "params": {
+        "difficulty": "hard",
+        "lanes": 8
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "hard",
+          "lanes": 8,
+          "crossed": 1,
+          "busted": true,
+          "death_set": [
+            1,
+            10,
+            11,
+            15,
+            17
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "99bdf9f2407a442a9786235698c4342791db3ce52a23129322ad5b2b65066442",
+      "clientSeed": "player_2",
+      "commitment": "0aebcb3a2d3992405c78c06e1c767f975fc11cb8999b281c8c20ce9174ced49a",
+      "nonce": 12,
+      "params": {
+        "difficulty": "hard",
+        "lanes": 15
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "hard",
+          "lanes": 15,
+          "crossed": 0,
+          "busted": true,
+          "death_set": [
+            0,
+            5,
+            8,
+            10,
+            19
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "5dfca6c932f83f2b5073424c5521e223f9436338af8e264977ee5e40202e7f1d",
+      "clientSeed": "player_3",
+      "commitment": "45468b18990f9299ff333cb563c0d0e1ff894aa151c515c246b0e69a6be0624c",
+      "nonce": 13,
+      "params": {
+        "difficulty": "daredevil",
+        "lanes": 1
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "daredevil",
+          "lanes": 1,
+          "crossed": 0,
+          "busted": true,
+          "death_set": [
+            0,
+            6,
+            8,
+            9,
+            11,
+            12,
+            13,
+            14,
+            16,
+            18
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "aa4c98f387bda6942a85bda804576f9727788024fc10d5acfdcd47e787f09324",
+      "clientSeed": "player_4",
+      "commitment": "5a8536722b30a7a3cd00c5cd97d14b730979e839f2c955e97adf8e307f97f067",
+      "nonce": 14,
+      "params": {
+        "difficulty": "daredevil",
+        "lanes": 3
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "daredevil",
+          "lanes": 3,
+          "crossed": 0,
+          "busted": true,
+          "death_set": [
+            0,
+            3,
+            4,
+            6,
+            10,
+            11,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "44a70328f52c35722df1b74170b054ded29592de854420ab0af0ef5feb2932b3",
+      "clientSeed": "player_0",
+      "commitment": "c58f7c344864822cc0f23dd37c58e067fac167e904991f3ddd86fb9a241636c0",
+      "nonce": 15,
+      "params": {
+        "difficulty": "daredevil",
+        "lanes": 8
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "daredevil",
+          "lanes": 8,
+          "crossed": 1,
+          "busted": true,
+          "death_set": [
+            1,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            19
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "19fe3585956ce4dcdac124683317205f0a7e5de9001eef3e74e0d41f7f631ec3",
+      "clientSeed": "player_1",
+      "commitment": "5d83dfd44493b4f5d2f70d0931f253889ad83daf910a84c08bf157d1b3e71c6c",
+      "nonce": 16,
+      "params": {
+        "difficulty": "daredevil",
+        "lanes": 10
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "daredevil",
+          "lanes": 10,
+          "crossed": 3,
+          "busted": true,
+          "death_set": [
+            3,
+            5,
+            6,
+            9,
+            10,
+            11,
+            13,
+            14,
+            16,
+            17
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "1cfd9d69322f6843d356398fc2f23ab0bea1444bf34bb413a79bbbb1d7f25890",
+      "clientSeed": "player_0",
+      "commitment": "534e1420c76d7cbec8092a6d2a10a35a601d410df0f076dcc9f50994485dfecc",
+      "nonce": 900,
+      "params": {
+        "difficulty": "medium",
+        "lanes": 0
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "medium",
+          "lanes": 0,
+          "crossed": 0,
+          "busted": false,
+          "death_set": [
+            4,
+            5,
+            17
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "7aa6a46bd27bdebb440d5cc09d1e3f4ac5d4a127860278bac1ca3c18ddf1a8cb",
+      "clientSeed": "player_1",
+      "commitment": "984cb9e0c9ac6af8a34b10e55adc0c5a0f6d0130ec1d0cdafd74cba643297126",
+      "nonce": 901,
+      "params": {
+        "difficulty": "daredevil",
+        "lanes": 0
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "daredevil",
+          "lanes": 0,
+          "crossed": 0,
+          "busted": false,
+          "death_set": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            14,
+            15,
+            16,
+            17,
+            19
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "2eabb27fadcadd8e374b0c97ad9733d5fec95d2661f947ca74ef1e642269da32",
+      "clientSeed": "player_0",
+      "commitment": "6dc2d7975b97be5255520e966a66a1ef18f992ff267e9975a19e1cef6590cad9",
+      "nonce": 950,
+      "params": {
+        "difficulty": "easy",
+        "lanes": 5
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "difficulty": "easy",
+          "lanes": 5,
+          "crossed": 4,
+          "busted": true,
+          "death_set": [
+            4
+          ]
+        }
+      }
+    }
+  ]
+}

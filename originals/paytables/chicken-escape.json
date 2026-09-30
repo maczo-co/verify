@@ -1,0 +1,34 @@
+{
+  "game": "chicken-escape",
+  "displayName": "Chicken Escape",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "difficulty",
+      "desc": "hits among 20 slots: easy 1, medium 3, hard 5, daredevil 10 (the road is 20 − hits lanes)"
+    },
+    {
+      "name": "lanes",
+      "desc": "lanes crossed (0 = abandoned before the first lane)"
+    }
+  ],
+  "slots": 20,
+  "difficulty": {
+    "easy": {
+      "deaths": 1
+    },
+    "medium": {
+      "deaths": 3
+    },
+    "hard": {
+      "deaths": 5
+    },
+    "daredevil": {
+      "deaths": 10
+    }
+  },
+  "note": "death-set = shuffle(20)[:deaths]; cross lanes 0..k−1 until a death index is hit; multiplier = floor(rtp·∏(20−i)/(20−deaths−i)); reaching lane 20−deaths (the pier) auto-cashes."
+}
