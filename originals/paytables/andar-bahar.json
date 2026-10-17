@@ -1,0 +1,93 @@
+{
+  "game": "andar-bahar",
+  "displayName": "Andar Bahar",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "bet",
+      "desc": "andar / bahar, or the deal count of the match: 1-5 / 6-10 / 11-15 / 16-25 / 26-30 / 31-35 / 36-40 / 41-49"
+    }
+  ],
+  "note": "shuffle(52) over 51 words; card c = rank c%13, suit c//13; the Joker is order[0] and deal k (1-based) is order[k]; the match is the first k whose rank equals the Joker's; Andar takes odd k, Bahar even k; a bet pays floor(placements·rtp / ways[bet]) when it wins.",
+  "deck": 52,
+  "placements": 20825,
+  "maxDeals": 49,
+  "bets": [
+    "andar",
+    "bahar",
+    "1-5",
+    "6-10",
+    "11-15",
+    "16-25",
+    "26-30",
+    "31-35",
+    "36-40",
+    "41-49"
+  ],
+  "sides": [
+    "andar",
+    "bahar"
+  ],
+  "ranges": {
+    "1-5": [
+      1,
+      5
+    ],
+    "6-10": [
+      6,
+      10
+    ],
+    "11-15": [
+      11,
+      15
+    ],
+    "16-25": [
+      16,
+      25
+    ],
+    "26-30": [
+      26,
+      30
+    ],
+    "31-35": [
+      31,
+      35
+    ],
+    "36-40": [
+      36,
+      40
+    ],
+    "41-49": [
+      41,
+      49
+    ]
+  },
+  "ways": {
+    "andar": 10725,
+    "bahar": 10100,
+    "1-5": 5645,
+    "6-10": 4520,
+    "11-15": 3520,
+    "16-25": 4540,
+    "26-30": 1270,
+    "31-35": 770,
+    "36-40": 395,
+    "41-49": 165
+  },
+  "publishedAtRtpE8": 99000000,
+  "multE8": {
+    "andar": 192230769,
+    "bahar": 204126237,
+    "1-5": 365221434,
+    "6-10": 456122787,
+    "11-15": 585703125,
+    "16-25": 454113436,
+    "26-30": 1623366141,
+    "31-35": 2677500000,
+    "36-40": 5219430379,
+    "41-49": 12495000000
+  }
+}

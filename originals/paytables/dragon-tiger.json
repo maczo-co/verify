@@ -1,0 +1,86 @@
+{
+  "game": "dragon-tiger",
+  "displayName": "Dragon Tiger",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "modulo",
+  "params": [
+    {
+      "name": "bet",
+      "desc": "dragon / tiger (the higher card; a tie returns half), tie, suited_tie, or a side bet on one card: dragon_ or tiger_ + big / small / odd / even / red / black"
+    }
+  ],
+  "note": "card = word mod 52 per side — Dragon from word 0, Tiger from word 1 (two full decks); rank = card mod 13 (0=A..12=K), value = rank + 1 (A low, K high), suit = card div 13 (1, 2 are red); the higher value wins, suits never decide. A bet winning `ways` of the 2704 draws pays floor(2704·rtp/ways); dragon/tiger pay floor((2704·rtp − tieWays·halfE8)/ways) and return half (0.5x) on a tie. tie = the same rank, suited_tie = the very same card. A side bet reads its side's card only: big 8–K, small A–6 (a 7 loses both), odd/even by value, red/black by suit.",
+  "deck": 52,
+  "bets": [
+    "dragon",
+    "tiger",
+    "tie",
+    "suited_tie",
+    "dragon_big",
+    "dragon_small",
+    "dragon_odd",
+    "dragon_even",
+    "dragon_red",
+    "dragon_black",
+    "tiger_big",
+    "tiger_small",
+    "tiger_odd",
+    "tiger_even",
+    "tiger_red",
+    "tiger_black"
+  ],
+  "sides": [
+    "dragon",
+    "tiger"
+  ],
+  "props": [
+    "big",
+    "small",
+    "odd",
+    "even",
+    "red",
+    "black"
+  ],
+  "draws": 2704,
+  "tieWays": 208,
+  "halfE8": 50000000,
+  "ways": {
+    "dragon": 1248,
+    "tiger": 1248,
+    "tie": 208,
+    "suited_tie": 52,
+    "dragon_big": 1248,
+    "dragon_small": 1248,
+    "dragon_odd": 1456,
+    "dragon_even": 1248,
+    "dragon_red": 1352,
+    "dragon_black": 1352,
+    "tiger_big": 1248,
+    "tiger_small": 1248,
+    "tiger_odd": 1456,
+    "tiger_even": 1248,
+    "tiger_red": 1352,
+    "tiger_black": 1352
+  },
+  "publishedAtRtpE8": 99000000,
+  "multE8": {
+    "dragon": 206166666,
+    "tiger": 206166666,
+    "tie": 1287000000,
+    "suited_tie": 5148000000,
+    "dragon_big": 214500000,
+    "dragon_small": 214500000,
+    "dragon_odd": 183857142,
+    "dragon_even": 214500000,
+    "dragon_red": 198000000,
+    "dragon_black": 198000000,
+    "tiger_big": 214500000,
+    "tiger_small": 214500000,
+    "tiger_odd": 183857142,
+    "tiger_even": 214500000,
+    "tiger_red": 198000000,
+    "tiger_black": 198000000
+  }
+}

@@ -1,0 +1,1065 @@
+{
+  "game": "andar-bahar",
+  "vectors": [
+    {
+      "serverSeed": "f63755710ed4c9c4e06e46e55fe2980227d211f0f22b3f07d8664468297aedb0",
+      "clientSeed": "player_1",
+      "commitment": "a96fe1e83ba85fb4231ba6be90d80a3c24b40ae843739caa1dc348096dea6441",
+      "nonce": 1,
+      "params": {
+        "bet": "andar"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "andar",
+          "joker": 50,
+          "cards": [
+            13,
+            9,
+            2,
+            10,
+            34,
+            44,
+            4,
+            35,
+            25,
+            45,
+            41,
+            5,
+            17,
+            32,
+            26,
+            14,
+            39,
+            49,
+            29,
+            38,
+            1,
+            12,
+            16,
+            3,
+            21,
+            36,
+            43,
+            24
+          ],
+          "count": 28,
+          "winner": "bahar",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "f63755710ed4c9c4e06e46e55fe2980227d211f0f22b3f07d8664468297aedb0",
+      "clientSeed": "player_1",
+      "commitment": "a96fe1e83ba85fb4231ba6be90d80a3c24b40ae843739caa1dc348096dea6441",
+      "nonce": 1,
+      "params": {
+        "bet": "bahar"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 204126237,
+        "win": true,
+        "payoutMinor": 204126237,
+        "outcome": {
+          "bet": "bahar",
+          "joker": 50,
+          "cards": [
+            13,
+            9,
+            2,
+            10,
+            34,
+            44,
+            4,
+            35,
+            25,
+            45,
+            41,
+            5,
+            17,
+            32,
+            26,
+            14,
+            39,
+            49,
+            29,
+            38,
+            1,
+            12,
+            16,
+            3,
+            21,
+            36,
+            43,
+            24
+          ],
+          "count": 28,
+          "winner": "bahar",
+          "multiplier_e8": 204126237
+        }
+      }
+    },
+    {
+      "serverSeed": "f63755710ed4c9c4e06e46e55fe2980227d211f0f22b3f07d8664468297aedb0",
+      "clientSeed": "player_1",
+      "commitment": "a96fe1e83ba85fb4231ba6be90d80a3c24b40ae843739caa1dc348096dea6441",
+      "nonce": 1,
+      "params": {
+        "bet": "1-5"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "1-5",
+          "joker": 50,
+          "cards": [
+            13,
+            9,
+            2,
+            10,
+            34,
+            44,
+            4,
+            35,
+            25,
+            45,
+            41,
+            5,
+            17,
+            32,
+            26,
+            14,
+            39,
+            49,
+            29,
+            38,
+            1,
+            12,
+            16,
+            3,
+            21,
+            36,
+            43,
+            24
+          ],
+          "count": 28,
+          "winner": "bahar",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "f63755710ed4c9c4e06e46e55fe2980227d211f0f22b3f07d8664468297aedb0",
+      "clientSeed": "player_1",
+      "commitment": "a96fe1e83ba85fb4231ba6be90d80a3c24b40ae843739caa1dc348096dea6441",
+      "nonce": 1,
+      "params": {
+        "bet": "6-10"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "6-10",
+          "joker": 50,
+          "cards": [
+            13,
+            9,
+            2,
+            10,
+            34,
+            44,
+            4,
+            35,
+            25,
+            45,
+            41,
+            5,
+            17,
+            32,
+            26,
+            14,
+            39,
+            49,
+            29,
+            38,
+            1,
+            12,
+            16,
+            3,
+            21,
+            36,
+            43,
+            24
+          ],
+          "count": 28,
+          "winner": "bahar",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "f63755710ed4c9c4e06e46e55fe2980227d211f0f22b3f07d8664468297aedb0",
+      "clientSeed": "player_1",
+      "commitment": "a96fe1e83ba85fb4231ba6be90d80a3c24b40ae843739caa1dc348096dea6441",
+      "nonce": 1,
+      "params": {
+        "bet": "11-15"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "11-15",
+          "joker": 50,
+          "cards": [
+            13,
+            9,
+            2,
+            10,
+            34,
+            44,
+            4,
+            35,
+            25,
+            45,
+            41,
+            5,
+            17,
+            32,
+            26,
+            14,
+            39,
+            49,
+            29,
+            38,
+            1,
+            12,
+            16,
+            3,
+            21,
+            36,
+            43,
+            24
+          ],
+          "count": 28,
+          "winner": "bahar",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "f63755710ed4c9c4e06e46e55fe2980227d211f0f22b3f07d8664468297aedb0",
+      "clientSeed": "player_1",
+      "commitment": "a96fe1e83ba85fb4231ba6be90d80a3c24b40ae843739caa1dc348096dea6441",
+      "nonce": 1,
+      "params": {
+        "bet": "16-25"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "16-25",
+          "joker": 50,
+          "cards": [
+            13,
+            9,
+            2,
+            10,
+            34,
+            44,
+            4,
+            35,
+            25,
+            45,
+            41,
+            5,
+            17,
+            32,
+            26,
+            14,
+            39,
+            49,
+            29,
+            38,
+            1,
+            12,
+            16,
+            3,
+            21,
+            36,
+            43,
+            24
+          ],
+          "count": 28,
+          "winner": "bahar",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "f63755710ed4c9c4e06e46e55fe2980227d211f0f22b3f07d8664468297aedb0",
+      "clientSeed": "player_1",
+      "commitment": "a96fe1e83ba85fb4231ba6be90d80a3c24b40ae843739caa1dc348096dea6441",
+      "nonce": 1,
+      "params": {
+        "bet": "26-30"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 1623366141,
+        "win": true,
+        "payoutMinor": 1623366141,
+        "outcome": {
+          "bet": "26-30",
+          "joker": 50,
+          "cards": [
+            13,
+            9,
+            2,
+            10,
+            34,
+            44,
+            4,
+            35,
+            25,
+            45,
+            41,
+            5,
+            17,
+            32,
+            26,
+            14,
+            39,
+            49,
+            29,
+            38,
+            1,
+            12,
+            16,
+            3,
+            21,
+            36,
+            43,
+            24
+          ],
+          "count": 28,
+          "winner": "bahar",
+          "multiplier_e8": 1623366141
+        }
+      }
+    },
+    {
+      "serverSeed": "f63755710ed4c9c4e06e46e55fe2980227d211f0f22b3f07d8664468297aedb0",
+      "clientSeed": "player_1",
+      "commitment": "a96fe1e83ba85fb4231ba6be90d80a3c24b40ae843739caa1dc348096dea6441",
+      "nonce": 1,
+      "params": {
+        "bet": "31-35"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "31-35",
+          "joker": 50,
+          "cards": [
+            13,
+            9,
+            2,
+            10,
+            34,
+            44,
+            4,
+            35,
+            25,
+            45,
+            41,
+            5,
+            17,
+            32,
+            26,
+            14,
+            39,
+            49,
+            29,
+            38,
+            1,
+            12,
+            16,
+            3,
+            21,
+            36,
+            43,
+            24
+          ],
+          "count": 28,
+          "winner": "bahar",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "f63755710ed4c9c4e06e46e55fe2980227d211f0f22b3f07d8664468297aedb0",
+      "clientSeed": "player_1",
+      "commitment": "a96fe1e83ba85fb4231ba6be90d80a3c24b40ae843739caa1dc348096dea6441",
+      "nonce": 1,
+      "params": {
+        "bet": "36-40"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "36-40",
+          "joker": 50,
+          "cards": [
+            13,
+            9,
+            2,
+            10,
+            34,
+            44,
+            4,
+            35,
+            25,
+            45,
+            41,
+            5,
+            17,
+            32,
+            26,
+            14,
+            39,
+            49,
+            29,
+            38,
+            1,
+            12,
+            16,
+            3,
+            21,
+            36,
+            43,
+            24
+          ],
+          "count": 28,
+          "winner": "bahar",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "f63755710ed4c9c4e06e46e55fe2980227d211f0f22b3f07d8664468297aedb0",
+      "clientSeed": "player_1",
+      "commitment": "a96fe1e83ba85fb4231ba6be90d80a3c24b40ae843739caa1dc348096dea6441",
+      "nonce": 1,
+      "params": {
+        "bet": "41-49"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "41-49",
+          "joker": 50,
+          "cards": [
+            13,
+            9,
+            2,
+            10,
+            34,
+            44,
+            4,
+            35,
+            25,
+            45,
+            41,
+            5,
+            17,
+            32,
+            26,
+            14,
+            39,
+            49,
+            29,
+            38,
+            1,
+            12,
+            16,
+            3,
+            21,
+            36,
+            43,
+            24
+          ],
+          "count": 28,
+          "winner": "bahar",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "d75ab9fa0e62ab4fbecae18144945508e1fae5961ee6ac521391905d19f155b0",
+      "clientSeed": "player_2",
+      "commitment": "3a6ca9932d9dba043e7def1c07826c5691f3bd40c066c8aa7c6e16da20511602",
+      "nonce": 2,
+      "params": {
+        "bet": "andar"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 192230769,
+        "win": true,
+        "payoutMinor": 192230769,
+        "outcome": {
+          "bet": "andar",
+          "joker": 50,
+          "cards": [
+            11
+          ],
+          "count": 1,
+          "winner": "andar",
+          "multiplier_e8": 192230769
+        }
+      }
+    },
+    {
+      "serverSeed": "d75ab9fa0e62ab4fbecae18144945508e1fae5961ee6ac521391905d19f155b0",
+      "clientSeed": "player_2",
+      "commitment": "3a6ca9932d9dba043e7def1c07826c5691f3bd40c066c8aa7c6e16da20511602",
+      "nonce": 2,
+      "params": {
+        "bet": "bahar"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "bahar",
+          "joker": 50,
+          "cards": [
+            11
+          ],
+          "count": 1,
+          "winner": "andar",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "d75ab9fa0e62ab4fbecae18144945508e1fae5961ee6ac521391905d19f155b0",
+      "clientSeed": "player_2",
+      "commitment": "3a6ca9932d9dba043e7def1c07826c5691f3bd40c066c8aa7c6e16da20511602",
+      "nonce": 2,
+      "params": {
+        "bet": "1-5"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 365221434,
+        "win": true,
+        "payoutMinor": 365221434,
+        "outcome": {
+          "bet": "1-5",
+          "joker": 50,
+          "cards": [
+            11
+          ],
+          "count": 1,
+          "winner": "andar",
+          "multiplier_e8": 365221434
+        }
+      }
+    },
+    {
+      "serverSeed": "d75ab9fa0e62ab4fbecae18144945508e1fae5961ee6ac521391905d19f155b0",
+      "clientSeed": "player_2",
+      "commitment": "3a6ca9932d9dba043e7def1c07826c5691f3bd40c066c8aa7c6e16da20511602",
+      "nonce": 2,
+      "params": {
+        "bet": "26-30"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "26-30",
+          "joker": 50,
+          "cards": [
+            11
+          ],
+          "count": 1,
+          "winner": "andar",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "6099298131453e5c082d01dcd116d1e078dcad967826cb32d4c698bc45b4b20c",
+      "clientSeed": "player_4",
+      "commitment": "7d48f3a8b904824db5c622c7623740fa3a1b722e95c618897f91afa66539e3e7",
+      "nonce": 4,
+      "params": {
+        "bet": "16-25"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 454113436,
+        "win": true,
+        "payoutMinor": 454113436,
+        "outcome": {
+          "bet": "16-25",
+          "joker": 46,
+          "cards": [
+            12,
+            0,
+            26,
+            29,
+            25,
+            2,
+            38,
+            28,
+            11,
+            36,
+            23,
+            1,
+            34,
+            21,
+            10,
+            43,
+            15,
+            24,
+            27,
+            37,
+            48,
+            14,
+            20
+          ],
+          "count": 23,
+          "winner": "andar",
+          "multiplier_e8": 454113436
+        }
+      }
+    },
+    {
+      "serverSeed": "2f0e3b25daa0f52f87157676db98ae1c22705113edd8b12c4cdb72dc8d057aa3",
+      "clientSeed": "player_1",
+      "commitment": "8e6e02d90c9ed8cd5946444cc5e1de101ff75ca01a435ef3705f802bcf073f7f",
+      "nonce": 6,
+      "params": {
+        "bet": "11-15"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 585703125,
+        "win": true,
+        "payoutMinor": 585703125,
+        "outcome": {
+          "bet": "11-15",
+          "joker": 24,
+          "cards": [
+            30,
+            43,
+            0,
+            10,
+            27,
+            51,
+            3,
+            49,
+            5,
+            15,
+            46,
+            11
+          ],
+          "count": 12,
+          "winner": "bahar",
+          "multiplier_e8": 585703125
+        }
+      }
+    },
+    {
+      "serverSeed": "49d862b788b4a86a3a1fda26e98c4de68937326b4ca29903fd2bc90dfbe47db5",
+      "clientSeed": "player_4",
+      "commitment": "1a0b48a7ff9f23da9680353d219ce62735dd3c167d81580e1c22b550cfc96f6b",
+      "nonce": 9,
+      "params": {
+        "bet": "6-10"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 456122787,
+        "win": true,
+        "payoutMinor": 456122787,
+        "outcome": {
+          "bet": "6-10",
+          "joker": 9,
+          "cards": [
+            39,
+            31,
+            32,
+            27,
+            13,
+            34,
+            16,
+            38,
+            22
+          ],
+          "count": 9,
+          "winner": "andar",
+          "multiplier_e8": 456122787
+        }
+      }
+    },
+    {
+      "serverSeed": "ecb16d8d9606d674f977d62cff9dab39a3422aa5e60df724fcb916747ce69666",
+      "clientSeed": "player_1",
+      "commitment": "6cc149a64966e01945fc3c712cf370ddd4e29e26f9f8adcde9da3fc1f03f3147",
+      "nonce": 11,
+      "params": {
+        "bet": "31-35"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 2677500000,
+        "win": true,
+        "payoutMinor": 2677500000,
+        "outcome": {
+          "bet": "31-35",
+          "joker": 51,
+          "cards": [
+            4,
+            39,
+            37,
+            14,
+            19,
+            11,
+            18,
+            48,
+            36,
+            35,
+            16,
+            46,
+            17,
+            44,
+            13,
+            42,
+            43,
+            40,
+            34,
+            26,
+            31,
+            27,
+            41,
+            7,
+            24,
+            1,
+            50,
+            30,
+            20,
+            2,
+            32,
+            45,
+            25
+          ],
+          "count": 33,
+          "winner": "andar",
+          "multiplier_e8": 2677500000
+        }
+      }
+    },
+    {
+      "serverSeed": "09c0fed59ee62df74d750f9b2ded2a81fd6f9977f4768e5e5225f7d4422f3cc7",
+      "clientSeed": "player_0",
+      "commitment": "e5b4c1429e2cb76a4050e4f68184d43ee2d0a30893a8cb05059bbc4afe0a1c72",
+      "nonce": 15,
+      "params": {
+        "bet": "41-49"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 12495000000,
+        "win": true,
+        "payoutMinor": 12495000000,
+        "outcome": {
+          "bet": "41-49",
+          "joker": 11,
+          "cards": [
+            28,
+            47,
+            10,
+            25,
+            20,
+            38,
+            2,
+            43,
+            3,
+            0,
+            36,
+            46,
+            22,
+            27,
+            39,
+            15,
+            26,
+            16,
+            40,
+            1,
+            17,
+            4,
+            45,
+            6,
+            30,
+            49,
+            9,
+            31,
+            18,
+            32,
+            14,
+            8,
+            12,
+            7,
+            19,
+            33,
+            5,
+            41,
+            42,
+            35,
+            23,
+            50
+          ],
+          "count": 42,
+          "winner": "bahar",
+          "multiplier_e8": 12495000000
+        }
+      }
+    },
+    {
+      "serverSeed": "c0f72b6a8c7319670d9cbba710840657caffda2a704d367d4c4db47ea436c12a",
+      "clientSeed": "player_3",
+      "commitment": "dbf814d096577338408fab247998803ceb38c35d9939fb1dea0def4a093c232b",
+      "nonce": 18,
+      "params": {
+        "bet": "36-40"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 5219430379,
+        "win": true,
+        "payoutMinor": 5219430379,
+        "outcome": {
+          "bet": "36-40",
+          "joker": 32,
+          "cards": [
+            30,
+            49,
+            48,
+            2,
+            44,
+            1,
+            43,
+            11,
+            36,
+            23,
+            10,
+            51,
+            50,
+            24,
+            3,
+            16,
+            47,
+            41,
+            28,
+            25,
+            4,
+            14,
+            0,
+            7,
+            42,
+            15,
+            12,
+            13,
+            46,
+            27,
+            34,
+            33,
+            31,
+            8,
+            17,
+            39,
+            22,
+            6
+          ],
+          "count": 38,
+          "winner": "bahar",
+          "multiplier_e8": 5219430379
+        }
+      }
+    },
+    {
+      "serverSeed": "d75ab9fa0e62ab4fbecae18144945508e1fae5961ee6ac521391905d19f155b0",
+      "clientSeed": "player_2",
+      "commitment": "3a6ca9932d9dba043e7def1c07826c5691f3bd40c066c8aa7c6e16da20511602",
+      "nonce": 2,
+      "params": {
+        "bet": "1-5"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 365221434,
+        "win": true,
+        "payoutMinor": 365221434,
+        "outcome": {
+          "bet": "1-5",
+          "joker": 50,
+          "cards": [
+            11
+          ],
+          "count": 1,
+          "winner": "andar",
+          "multiplier_e8": 365221434
+        }
+      }
+    },
+    {
+      "serverSeed": "09c0fed59ee62df74d750f9b2ded2a81fd6f9977f4768e5e5225f7d4422f3cc7",
+      "clientSeed": "player_0",
+      "commitment": "e5b4c1429e2cb76a4050e4f68184d43ee2d0a30893a8cb05059bbc4afe0a1c72",
+      "nonce": 15,
+      "params": {
+        "bet": "bahar"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 204126237,
+        "win": true,
+        "payoutMinor": 204126237,
+        "outcome": {
+          "bet": "bahar",
+          "joker": 11,
+          "cards": [
+            28,
+            47,
+            10,
+            25,
+            20,
+            38,
+            2,
+            43,
+            3,
+            0,
+            36,
+            46,
+            22,
+            27,
+            39,
+            15,
+            26,
+            16,
+            40,
+            1,
+            17,
+            4,
+            45,
+            6,
+            30,
+            49,
+            9,
+            31,
+            18,
+            32,
+            14,
+            8,
+            12,
+            7,
+            19,
+            33,
+            5,
+            41,
+            42,
+            35,
+            23,
+            50
+          ],
+          "count": 42,
+          "winner": "bahar",
+          "multiplier_e8": 204126237
+        }
+      }
+    },
+    {
+      "serverSeed": "d75ab9fa0e62ab4fbecae18144945508e1fae5961ee6ac521391905d19f155b0",
+      "clientSeed": "player_2",
+      "commitment": "3a6ca9932d9dba043e7def1c07826c5691f3bd40c066c8aa7c6e16da20511602",
+      "nonce": 2,
+      "params": {
+        "bet": "andar"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 192230769,
+        "win": true,
+        "payoutMinor": 6407691,
+        "outcome": {
+          "bet": "andar",
+          "joker": 50,
+          "cards": [
+            11
+          ],
+          "count": 1,
+          "winner": "andar",
+          "multiplier_e8": 192230769
+        }
+      }
+    }
+  ]
+}

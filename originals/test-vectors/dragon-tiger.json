@@ -1,0 +1,880 @@
+{
+  "game": "dragon-tiger",
+  "vectors": [
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "dragon"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 206166666,
+        "win": true,
+        "payoutMinor": 206166666,
+        "outcome": {
+          "bet": "dragon",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 206166666
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "tiger"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "tiger",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "tie"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "tie",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "suited_tie"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "suited_tie",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "dragon_big"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "dragon_big",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "dragon_small"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 214500000,
+        "win": true,
+        "payoutMinor": 214500000,
+        "outcome": {
+          "bet": "dragon_small",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 214500000
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "dragon_odd"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 183857142,
+        "win": true,
+        "payoutMinor": 183857142,
+        "outcome": {
+          "bet": "dragon_odd",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 183857142
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "dragon_even"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "dragon_even",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "dragon_red"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "dragon_red",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "dragon_black"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198000000,
+        "win": true,
+        "payoutMinor": 198000000,
+        "outcome": {
+          "bet": "dragon_black",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 198000000
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "tiger_big"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "tiger_big",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "tiger_small"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 214500000,
+        "win": true,
+        "payoutMinor": 214500000,
+        "outcome": {
+          "bet": "tiger_small",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 214500000
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "tiger_odd"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "tiger_odd",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "tiger_even"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 214500000,
+        "win": true,
+        "payoutMinor": 214500000,
+        "outcome": {
+          "bet": "tiger_even",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 214500000
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "tiger_red"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198000000,
+        "win": true,
+        "payoutMinor": 198000000,
+        "outcome": {
+          "bet": "tiger_red",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 198000000
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "tiger_black"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "tiger_black",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "7b6663554dce77b3d0c05a77be60983c96ef5a84a7fd87f94fe9bf4fedf987ac",
+      "clientSeed": "player_2",
+      "commitment": "c87f30a853b786aeb3ed22c8ff73177c470453d9ceb329c3726ad7bdad9dbb22",
+      "nonce": 2,
+      "params": {
+        "bet": "dragon_big"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 214500000,
+        "win": true,
+        "payoutMinor": 214500000,
+        "outcome": {
+          "bet": "dragon_big",
+          "dragon": 25,
+          "tiger": 20,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 214500000
+        }
+      }
+    },
+    {
+      "serverSeed": "7b6663554dce77b3d0c05a77be60983c96ef5a84a7fd87f94fe9bf4fedf987ac",
+      "clientSeed": "player_2",
+      "commitment": "c87f30a853b786aeb3ed22c8ff73177c470453d9ceb329c3726ad7bdad9dbb22",
+      "nonce": 2,
+      "params": {
+        "bet": "dragon_small"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "dragon_small",
+          "dragon": 25,
+          "tiger": 20,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "7b6663554dce77b3d0c05a77be60983c96ef5a84a7fd87f94fe9bf4fedf987ac",
+      "clientSeed": "player_2",
+      "commitment": "c87f30a853b786aeb3ed22c8ff73177c470453d9ceb329c3726ad7bdad9dbb22",
+      "nonce": 2,
+      "params": {
+        "bet": "dragon_red"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198000000,
+        "win": true,
+        "payoutMinor": 198000000,
+        "outcome": {
+          "bet": "dragon_red",
+          "dragon": 25,
+          "tiger": 20,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 198000000
+        }
+      }
+    },
+    {
+      "serverSeed": "7b6663554dce77b3d0c05a77be60983c96ef5a84a7fd87f94fe9bf4fedf987ac",
+      "clientSeed": "player_2",
+      "commitment": "c87f30a853b786aeb3ed22c8ff73177c470453d9ceb329c3726ad7bdad9dbb22",
+      "nonce": 2,
+      "params": {
+        "bet": "dragon_black"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "dragon_black",
+          "dragon": 25,
+          "tiger": 20,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "7b6663554dce77b3d0c05a77be60983c96ef5a84a7fd87f94fe9bf4fedf987ac",
+      "clientSeed": "player_2",
+      "commitment": "c87f30a853b786aeb3ed22c8ff73177c470453d9ceb329c3726ad7bdad9dbb22",
+      "nonce": 2,
+      "params": {
+        "bet": "tiger_big"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 214500000,
+        "win": true,
+        "payoutMinor": 214500000,
+        "outcome": {
+          "bet": "tiger_big",
+          "dragon": 25,
+          "tiger": 20,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 214500000
+        }
+      }
+    },
+    {
+      "serverSeed": "7b6663554dce77b3d0c05a77be60983c96ef5a84a7fd87f94fe9bf4fedf987ac",
+      "clientSeed": "player_2",
+      "commitment": "c87f30a853b786aeb3ed22c8ff73177c470453d9ceb329c3726ad7bdad9dbb22",
+      "nonce": 2,
+      "params": {
+        "bet": "tiger_small"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "tiger_small",
+          "dragon": 25,
+          "tiger": 20,
+          "winner": "dragon",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "b338ea9827fe02e0a867e2116053286ebdad35bcb508ecaf2ceb3cba6b12bdbd",
+      "clientSeed": "player_3",
+      "commitment": "c3c471d56cc0a7a72b32d17e6bc094926db8203fb8542003216d61589241532c",
+      "nonce": 3,
+      "params": {
+        "bet": "dragon"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "dragon",
+          "dragon": 43,
+          "tiger": 50,
+          "winner": "tiger",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "b338ea9827fe02e0a867e2116053286ebdad35bcb508ecaf2ceb3cba6b12bdbd",
+      "clientSeed": "player_3",
+      "commitment": "c3c471d56cc0a7a72b32d17e6bc094926db8203fb8542003216d61589241532c",
+      "nonce": 3,
+      "params": {
+        "bet": "tiger"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 206166666,
+        "win": true,
+        "payoutMinor": 206166666,
+        "outcome": {
+          "bet": "tiger",
+          "dragon": 43,
+          "tiger": 50,
+          "winner": "tiger",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 206166666
+        }
+      }
+    },
+    {
+      "serverSeed": "b338ea9827fe02e0a867e2116053286ebdad35bcb508ecaf2ceb3cba6b12bdbd",
+      "clientSeed": "player_3",
+      "commitment": "c3c471d56cc0a7a72b32d17e6bc094926db8203fb8542003216d61589241532c",
+      "nonce": 3,
+      "params": {
+        "bet": "tiger_red"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "tiger_red",
+          "dragon": 43,
+          "tiger": 50,
+          "winner": "tiger",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "b338ea9827fe02e0a867e2116053286ebdad35bcb508ecaf2ceb3cba6b12bdbd",
+      "clientSeed": "player_3",
+      "commitment": "c3c471d56cc0a7a72b32d17e6bc094926db8203fb8542003216d61589241532c",
+      "nonce": 3,
+      "params": {
+        "bet": "tiger_black"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 198000000,
+        "win": true,
+        "payoutMinor": 198000000,
+        "outcome": {
+          "bet": "tiger_black",
+          "dragon": 43,
+          "tiger": 50,
+          "winner": "tiger",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 198000000
+        }
+      }
+    },
+    {
+      "serverSeed": "675e838a3929c7843b1b3002287c7815368c7a791a2ed6cd6a0fb19c1b1902e0",
+      "clientSeed": "player_4",
+      "commitment": "b4620b11a5c365e660e430b0afd30de02e42c9b9047a7ca0541e02704aa3a534",
+      "nonce": 4,
+      "params": {
+        "bet": "dragon_odd"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "dragon_odd",
+          "dragon": 40,
+          "tiger": 46,
+          "winner": "tiger",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "675e838a3929c7843b1b3002287c7815368c7a791a2ed6cd6a0fb19c1b1902e0",
+      "clientSeed": "player_4",
+      "commitment": "b4620b11a5c365e660e430b0afd30de02e42c9b9047a7ca0541e02704aa3a534",
+      "nonce": 4,
+      "params": {
+        "bet": "dragon_even"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 214500000,
+        "win": true,
+        "payoutMinor": 214500000,
+        "outcome": {
+          "bet": "dragon_even",
+          "dragon": 40,
+          "tiger": 46,
+          "winner": "tiger",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 214500000
+        }
+      }
+    },
+    {
+      "serverSeed": "d8978231c5ef8b62aa1f87a963ff52c5e06e290db9fd1e5c7ca84e671936efb7",
+      "clientSeed": "player_0",
+      "commitment": "350e8edf51b69f2eda2ad98235cbca08461920e4b6f0605d14962610f4d4eeb4",
+      "nonce": 5,
+      "params": {
+        "bet": "tiger_odd"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 183857142,
+        "win": true,
+        "payoutMinor": 183857142,
+        "outcome": {
+          "bet": "tiger_odd",
+          "dragon": 19,
+          "tiger": 10,
+          "winner": "tiger",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 183857142
+        }
+      }
+    },
+    {
+      "serverSeed": "d8978231c5ef8b62aa1f87a963ff52c5e06e290db9fd1e5c7ca84e671936efb7",
+      "clientSeed": "player_0",
+      "commitment": "350e8edf51b69f2eda2ad98235cbca08461920e4b6f0605d14962610f4d4eeb4",
+      "nonce": 5,
+      "params": {
+        "bet": "tiger_even"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "tiger_even",
+          "dragon": 19,
+          "tiger": 10,
+          "winner": "tiger",
+          "suited": false,
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "a1dd6490e0acafc0ffa4941972f7ebee985414e353827b86a7e76fc607b8ac9c",
+      "clientSeed": "player_2",
+      "commitment": "bd06f2d16cc3447ac988b96963ad36360182f60fdf880d1fc5cd1c2bfed8c0a7",
+      "nonce": 12,
+      "params": {
+        "bet": "dragon"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 50000000,
+        "win": false,
+        "payoutMinor": 50000000,
+        "outcome": {
+          "bet": "dragon",
+          "dragon": 51,
+          "tiger": 38,
+          "winner": "tie",
+          "suited": false,
+          "result": "half",
+          "multiplier_e8": 50000000
+        }
+      }
+    },
+    {
+      "serverSeed": "a1dd6490e0acafc0ffa4941972f7ebee985414e353827b86a7e76fc607b8ac9c",
+      "clientSeed": "player_2",
+      "commitment": "bd06f2d16cc3447ac988b96963ad36360182f60fdf880d1fc5cd1c2bfed8c0a7",
+      "nonce": 12,
+      "params": {
+        "bet": "tiger"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 50000000,
+        "win": false,
+        "payoutMinor": 50000000,
+        "outcome": {
+          "bet": "tiger",
+          "dragon": 51,
+          "tiger": 38,
+          "winner": "tie",
+          "suited": false,
+          "result": "half",
+          "multiplier_e8": 50000000
+        }
+      }
+    },
+    {
+      "serverSeed": "a1dd6490e0acafc0ffa4941972f7ebee985414e353827b86a7e76fc607b8ac9c",
+      "clientSeed": "player_2",
+      "commitment": "bd06f2d16cc3447ac988b96963ad36360182f60fdf880d1fc5cd1c2bfed8c0a7",
+      "nonce": 12,
+      "params": {
+        "bet": "tie"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 1287000000,
+        "win": true,
+        "payoutMinor": 1287000000,
+        "outcome": {
+          "bet": "tie",
+          "dragon": 51,
+          "tiger": 38,
+          "winner": "tie",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 1287000000
+        }
+      }
+    },
+    {
+      "serverSeed": "4631d1bbda081385f86eeee44b1569a98491824d5e094d025a9bd7a366600eb0",
+      "clientSeed": "player_0",
+      "commitment": "a6478f6f2c2af4207d2f07ffc4df8965a1176e295c6c688b2470d87ec42021a2",
+      "nonce": 185,
+      "params": {
+        "bet": "suited_tie"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 5148000000,
+        "win": true,
+        "payoutMinor": 5148000000,
+        "outcome": {
+          "bet": "suited_tie",
+          "dragon": 12,
+          "tiger": 12,
+          "winner": "tie",
+          "suited": true,
+          "result": "win",
+          "multiplier_e8": 5148000000
+        }
+      }
+    },
+    {
+      "serverSeed": "298b3501e9b57ad20cd557a4def75d25533728575377d7ec41407450a23bcb52",
+      "clientSeed": "player_1",
+      "commitment": "0b0110ea67f0aa12bfce4bfe7d798f0c732687e046e79f89c236d64c0a0fba3b",
+      "nonce": 1,
+      "params": {
+        "bet": "dragon"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 206166666,
+        "win": true,
+        "payoutMinor": 6872221,
+        "outcome": {
+          "bet": "dragon",
+          "dragon": 4,
+          "tiger": 14,
+          "winner": "dragon",
+          "suited": false,
+          "result": "win",
+          "multiplier_e8": 206166666
+        }
+      }
+    }
+  ]
+}

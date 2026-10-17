@@ -1,0 +1,719 @@
+{
+  "game": "teen-patti",
+  "vectors": [
+    {
+      "serverSeed": "2c86791060b06c15db2a0013ebabe4a59d22e9eb63f61379c92cfe55aed079c0",
+      "clientSeed": "player_1",
+      "commitment": "de65a2a91c545a1187511192f96242e03e739889c94254c899e92adb41d88cc8",
+      "nonce": 1,
+      "params": {
+        "bet": "a"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "a",
+          "a": [
+            15,
+            13,
+            31
+          ],
+          "b": [
+            41,
+            40,
+            45
+          ],
+          "hand_a": "high_card",
+          "hand_b": "color",
+          "winner": "b",
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "2c86791060b06c15db2a0013ebabe4a59d22e9eb63f61379c92cfe55aed079c0",
+      "clientSeed": "player_1",
+      "commitment": "de65a2a91c545a1187511192f96242e03e739889c94254c899e92adb41d88cc8",
+      "nonce": 1,
+      "params": {
+        "bet": "b"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 197997784,
+        "win": true,
+        "payoutMinor": 197997784,
+        "outcome": {
+          "bet": "b",
+          "a": [
+            15,
+            13,
+            31
+          ],
+          "b": [
+            41,
+            40,
+            45
+          ],
+          "hand_a": "high_card",
+          "hand_b": "color",
+          "winner": "b",
+          "result": "win",
+          "multiplier_e8": 197997784
+        }
+      }
+    },
+    {
+      "serverSeed": "2c86791060b06c15db2a0013ebabe4a59d22e9eb63f61379c92cfe55aed079c0",
+      "clientSeed": "player_1",
+      "commitment": "de65a2a91c545a1187511192f96242e03e739889c94254c899e92adb41d88cc8",
+      "nonce": 1,
+      "params": {
+        "bet": "tie"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "tie",
+          "a": [
+            15,
+            13,
+            31
+          ],
+          "b": [
+            41,
+            40,
+            45
+          ],
+          "hand_a": "high_card",
+          "hand_b": "color",
+          "winner": "b",
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "2c86791060b06c15db2a0013ebabe4a59d22e9eb63f61379c92cfe55aed079c0",
+      "clientSeed": "player_1",
+      "commitment": "de65a2a91c545a1187511192f96242e03e739889c94254c899e92adb41d88cc8",
+      "nonce": 1,
+      "params": {
+        "bet": "pairplus_a"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "pairplus_a",
+          "a": [
+            15,
+            13,
+            31
+          ],
+          "b": [
+            41,
+            40,
+            45
+          ],
+          "hand_a": "high_card",
+          "hand_b": "color",
+          "winner": "b",
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "2c86791060b06c15db2a0013ebabe4a59d22e9eb63f61379c92cfe55aed079c0",
+      "clientSeed": "player_1",
+      "commitment": "de65a2a91c545a1187511192f96242e03e739889c94254c899e92adb41d88cc8",
+      "nonce": 1,
+      "params": {
+        "bet": "pairplus_b"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 500251505,
+        "win": true,
+        "payoutMinor": 500251505,
+        "outcome": {
+          "bet": "pairplus_b",
+          "a": [
+            15,
+            13,
+            31
+          ],
+          "b": [
+            41,
+            40,
+            45
+          ],
+          "hand_a": "high_card",
+          "hand_b": "color",
+          "winner": "b",
+          "result": "win",
+          "multiplier_e8": 500251505
+        }
+      }
+    },
+    {
+      "serverSeed": "68fa786f32130c69ab3e73aa29b8f83e305abda6b33a3244a2c28740a32fece7",
+      "clientSeed": "player_2",
+      "commitment": "e628a0238f2effe994388bdd4952a482276e31cbb6593f3882e2cb1e9bf0e1ae",
+      "nonce": 2,
+      "params": {
+        "bet": "pairplus_b"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200100602,
+        "win": true,
+        "payoutMinor": 200100602,
+        "outcome": {
+          "bet": "pairplus_b",
+          "a": [
+            50,
+            13,
+            33
+          ],
+          "b": [
+            51,
+            23,
+            36
+          ],
+          "hand_a": "high_card",
+          "hand_b": "pair",
+          "winner": "b",
+          "result": "win",
+          "multiplier_e8": 200100602
+        }
+      }
+    },
+    {
+      "serverSeed": "0cdf31ebd8d472e62117fecff5b0bd266082380c9c7be2cd00c0a80a818f77c3",
+      "clientSeed": "player_3",
+      "commitment": "5d3e89b43fc6df7d018e97a76f40ec61d7981e3c8460b805f157ca769a9975bf",
+      "nonce": 3,
+      "params": {
+        "bet": "pairplus_b"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "pairplus_b",
+          "a": [
+            5,
+            28,
+            12
+          ],
+          "b": [
+            3,
+            14,
+            0
+          ],
+          "hand_a": "high_card",
+          "hand_b": "high_card",
+          "winner": "b",
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "84d30e7d61cde9f6a1a734c02f2ca2772defc51424a8b377f25627407d33a450",
+      "clientSeed": "player_4",
+      "commitment": "5d4df11c5fa2fafd89139d3f240955644c2955b9b6fdf59529f2ad6f95acb24b",
+      "nonce": 4,
+      "params": {
+        "bet": "pairplus_a"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 200100602,
+        "win": true,
+        "payoutMinor": 200100602,
+        "outcome": {
+          "bet": "pairplus_a",
+          "a": [
+            21,
+            23,
+            36
+          ],
+          "b": [
+            12,
+            11,
+            39
+          ],
+          "hand_a": "pair",
+          "hand_b": "sequence",
+          "winner": "b",
+          "result": "win",
+          "multiplier_e8": 200100602
+        }
+      }
+    },
+    {
+      "serverSeed": "84d30e7d61cde9f6a1a734c02f2ca2772defc51424a8b377f25627407d33a450",
+      "clientSeed": "player_4",
+      "commitment": "5d4df11c5fa2fafd89139d3f240955644c2955b9b6fdf59529f2ad6f95acb24b",
+      "nonce": 4,
+      "params": {
+        "bet": "pairplus_b"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 700352107,
+        "win": true,
+        "payoutMinor": 700352107,
+        "outcome": {
+          "bet": "pairplus_b",
+          "a": [
+            21,
+            23,
+            36
+          ],
+          "b": [
+            12,
+            11,
+            39
+          ],
+          "hand_a": "pair",
+          "hand_b": "sequence",
+          "winner": "b",
+          "result": "win",
+          "multiplier_e8": 700352107
+        }
+      }
+    },
+    {
+      "serverSeed": "9fd4ef8e4bdf44f88a8bccf45956f90085b20212dff2949e5297402834efde02",
+      "clientSeed": "player_0",
+      "commitment": "61258840b50d320f369cad121bac93b9ddae6e10b0b9605559ab032ad192396c",
+      "nonce": 5,
+      "params": {
+        "bet": "a"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 197997784,
+        "win": true,
+        "payoutMinor": 197997784,
+        "outcome": {
+          "bet": "a",
+          "a": [
+            12,
+            1,
+            24
+          ],
+          "b": [
+            49,
+            48,
+            20
+          ],
+          "hand_a": "high_card",
+          "hand_b": "high_card",
+          "winner": "a",
+          "result": "win",
+          "multiplier_e8": 197997784
+        }
+      }
+    },
+    {
+      "serverSeed": "9fd4ef8e4bdf44f88a8bccf45956f90085b20212dff2949e5297402834efde02",
+      "clientSeed": "player_0",
+      "commitment": "61258840b50d320f369cad121bac93b9ddae6e10b0b9605559ab032ad192396c",
+      "nonce": 5,
+      "params": {
+        "bet": "b"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "bet": "b",
+          "a": [
+            12,
+            1,
+            24
+          ],
+          "b": [
+            49,
+            48,
+            20
+          ],
+          "hand_a": "high_card",
+          "hand_b": "high_card",
+          "winner": "a",
+          "result": "lose",
+          "multiplier_e8": 0
+        }
+      }
+    },
+    {
+      "serverSeed": "bb29b8ce124c47cf5a34c2265424c2601a97b1b01a255d6a0fc5d803ce4abf24",
+      "clientSeed": "player_1",
+      "commitment": "3e6d5d1d7d6b60d8ef95ed4dbeedd92e846433c11b0dfca74d1b23e3b657a5fb",
+      "nonce": 6,
+      "params": {
+        "bet": "pairplus_a"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 3601810836,
+        "win": true,
+        "payoutMinor": 3601810836,
+        "outcome": {
+          "bet": "pairplus_a",
+          "a": [
+            43,
+            42,
+            44
+          ],
+          "b": [
+            8,
+            29,
+            20
+          ],
+          "hand_a": "pure_sequence",
+          "hand_b": "high_card",
+          "winner": "a",
+          "result": "win",
+          "multiplier_e8": 3601810836
+        }
+      }
+    },
+    {
+      "serverSeed": "a13b008aee4045240364dee2921c1f134025e9665f8331f026146a9bc5a0ac2b",
+      "clientSeed": "player_3",
+      "commitment": "fb168bddd523fa1b33057135308bda817a0e7ac737a61467ff18c8364ac68e45",
+      "nonce": 8,
+      "params": {
+        "bet": "pairplus_a"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 700352107,
+        "win": true,
+        "payoutMinor": 700352107,
+        "outcome": {
+          "bet": "pairplus_a",
+          "a": [
+            24,
+            12,
+            36
+          ],
+          "b": [
+            23,
+            33,
+            47
+          ],
+          "hand_a": "sequence",
+          "hand_b": "high_card",
+          "winner": "a",
+          "result": "win",
+          "multiplier_e8": 700352107
+        }
+      }
+    },
+    {
+      "serverSeed": "0b0fdf4d507cc6f9d15acd3eefbf00e29698aa494873e07d4d81264224b8d338",
+      "clientSeed": "player_2",
+      "commitment": "ff5b273de2e29a3708a5b73cc92f06c3a3b1e9c51421bee972ff34099e843e1c",
+      "nonce": 22,
+      "params": {
+        "bet": "pairplus_a"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 500251505,
+        "win": true,
+        "payoutMinor": 500251505,
+        "outcome": {
+          "bet": "pairplus_a",
+          "a": [
+            36,
+            29,
+            33
+          ],
+          "b": [
+            41,
+            43,
+            16
+          ],
+          "hand_a": "color",
+          "hand_b": "sequence",
+          "winner": "b",
+          "result": "win",
+          "multiplier_e8": 500251505
+        }
+      }
+    },
+    {
+      "serverSeed": "a51e8f4d09016bcd3b1dd1fb42307c717289983bf678f17683df5efc34dabd6a",
+      "clientSeed": "player_4",
+      "commitment": "535f280cd034fb951111618bebabcf3e7c6686457596af73c24bddc924b57ca1",
+      "nonce": 94,
+      "params": {
+        "bet": "a"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 100000000,
+        "win": false,
+        "payoutMinor": 100000000,
+        "outcome": {
+          "bet": "a",
+          "a": [
+            7,
+            10,
+            48
+          ],
+          "b": [
+            33,
+            36,
+            9
+          ],
+          "hand_a": "high_card",
+          "hand_b": "high_card",
+          "winner": "tie",
+          "result": "push",
+          "multiplier_e8": 100000000
+        }
+      }
+    },
+    {
+      "serverSeed": "a51e8f4d09016bcd3b1dd1fb42307c717289983bf678f17683df5efc34dabd6a",
+      "clientSeed": "player_4",
+      "commitment": "535f280cd034fb951111618bebabcf3e7c6686457596af73c24bddc924b57ca1",
+      "nonce": 94,
+      "params": {
+        "bet": "b"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 100000000,
+        "win": false,
+        "payoutMinor": 100000000,
+        "outcome": {
+          "bet": "b",
+          "a": [
+            7,
+            10,
+            48
+          ],
+          "b": [
+            33,
+            36,
+            9
+          ],
+          "hand_a": "high_card",
+          "hand_b": "high_card",
+          "winner": "tie",
+          "result": "push",
+          "multiplier_e8": 100000000
+        }
+      }
+    },
+    {
+      "serverSeed": "a51e8f4d09016bcd3b1dd1fb42307c717289983bf678f17683df5efc34dabd6a",
+      "clientSeed": "player_4",
+      "commitment": "535f280cd034fb951111618bebabcf3e7c6686457596af73c24bddc924b57ca1",
+      "nonce": 94,
+      "params": {
+        "bet": "tie"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 89472506925,
+        "win": true,
+        "payoutMinor": 89472506925,
+        "outcome": {
+          "bet": "tie",
+          "a": [
+            7,
+            10,
+            48
+          ],
+          "b": [
+            33,
+            36,
+            9
+          ],
+          "hand_a": "high_card",
+          "hand_b": "high_card",
+          "winner": "tie",
+          "result": "win",
+          "multiplier_e8": 89472506925
+        }
+      }
+    },
+    {
+      "serverSeed": "ddb5fd1be95166537c36284eba32be2dcd7c186f291bff9e56a229a14cb1f5af",
+      "clientSeed": "player_0",
+      "commitment": "d3140f3dbd928b4036e0c71fa14bd2b50b1d1a343a9b584d4314ea8485a9c191",
+      "nonce": 105,
+      "params": {
+        "bet": "pairplus_b"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 4102062341,
+        "win": true,
+        "payoutMinor": 4102062341,
+        "outcome": {
+          "bet": "pairplus_b",
+          "a": [
+            45,
+            19,
+            5
+          ],
+          "b": [
+            8,
+            47,
+            21
+          ],
+          "hand_a": "pair",
+          "hand_b": "trail",
+          "winner": "b",
+          "result": "win",
+          "multiplier_e8": 4102062341
+        }
+      }
+    },
+    {
+      "serverSeed": "49446f9b62371756ddda62936d68d4634bf7b24761a202c704bdc0301d176780",
+      "clientSeed": "player_4",
+      "commitment": "f6e604479109433657c180adc1c2bd5e3569ff2548a5442851926f61968d87d6",
+      "nonce": 489,
+      "params": {
+        "bet": "pairplus_a"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 4102062341,
+        "win": true,
+        "payoutMinor": 4102062341,
+        "outcome": {
+          "bet": "pairplus_a",
+          "a": [
+            5,
+            31,
+            44
+          ],
+          "b": [
+            50,
+            34,
+            47
+          ],
+          "hand_a": "trail",
+          "hand_b": "pair",
+          "winner": "a",
+          "result": "win",
+          "multiplier_e8": 4102062341
+        }
+      }
+    },
+    {
+      "serverSeed": "29a741699046df32621d87ea246816189be962d0395a011c51fedc1c1f91b99c",
+      "clientSeed": "player_0",
+      "commitment": "bcabf70473c88eec78bcb64d446e70b05ef6112c62e4cf3841a26195c2a310e2",
+      "nonce": 3260,
+      "params": {
+        "bet": "pairplus_b"
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 3601810836,
+        "win": true,
+        "payoutMinor": 3601810836,
+        "outcome": {
+          "bet": "pairplus_b",
+          "a": [
+            26,
+            28,
+            21
+          ],
+          "b": [
+            49,
+            47,
+            48
+          ],
+          "hand_a": "high_card",
+          "hand_b": "pure_sequence",
+          "winner": "b",
+          "result": "win",
+          "multiplier_e8": 3601810836
+        }
+      }
+    },
+    {
+      "serverSeed": "9fd4ef8e4bdf44f88a8bccf45956f90085b20212dff2949e5297402834efde02",
+      "clientSeed": "player_0",
+      "commitment": "61258840b50d320f369cad121bac93b9ddae6e10b0b9605559ab032ad192396c",
+      "nonce": 5,
+      "params": {
+        "bet": "a"
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 197997784,
+        "win": true,
+        "payoutMinor": 6599925,
+        "outcome": {
+          "bet": "a",
+          "a": [
+            12,
+            1,
+            24
+          ],
+          "b": [
+            49,
+            48,
+            20
+          ],
+          "hand_a": "high_card",
+          "hand_b": "high_card",
+          "winner": "a",
+          "result": "win",
+          "multiplier_e8": 197997784
+        }
+      }
+    }
+  ]
+}

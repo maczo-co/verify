@@ -308,6 +308,15 @@
       "vectorCount": 28
     },
     {
+      "id": "andar-bahar",
+      "displayName": "Andar Bahar",
+      "biasClass": "uniform",
+      "params": [
+        "bet"
+      ],
+      "vectorCount": 23
+    },
+    {
       "id": "ascend",
       "displayName": "Ascend",
       "biasClass": "modulo",
@@ -353,6 +362,15 @@
         "picks"
       ],
       "vectorCount": 24
+    },
+    {
+      "id": "dragon-tiger",
+      "displayName": "Dragon Tiger",
+      "biasClass": "modulo",
+      "params": [
+        "bet"
+      ],
+      "vectorCount": 35
     },
     {
       "id": "flood",
@@ -442,6 +460,15 @@
         "strides"
       ],
       "vectorCount": 19
+    },
+    {
+      "id": "teen-patti",
+      "displayName": "Teen Patti",
+      "biasClass": "uniform",
+      "params": [
+        "bet"
+      ],
+      "vectorCount": 21
     },
     {
       "id": "triad",
