@@ -1,0 +1,1243 @@
+{
+  "game": "mythic-duel",
+  "vectors": [
+    {
+      "serverSeed": "06669e474a2fe5c536097659c86bf60f43fae763e1c2efd28edfc6f6adf4c715",
+      "clientSeed": "player_1",
+      "commitment": "fc6934bf9a8aa86e1df29c0a5f86121ee800622bfb4693e896db4870b6bac31f",
+      "nonce": 1,
+      "params": {
+        "plays": [
+          0
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 144000000,
+        "win": true,
+        "payoutMinor": 144000000,
+        "outcome": {
+          "plays": [
+            0
+          ],
+          "hits": 1,
+          "busted": false,
+          "ko": false,
+          "hand": [
+            3,
+            5,
+            3
+          ],
+          "turns": [
+            {
+              "slot": 0,
+              "card": 4,
+              "rival": 4,
+              "hit": true
+            }
+          ],
+          "deck": [
+            4,
+            5,
+            3,
+            3,
+            7,
+            7,
+            2,
+            1,
+            2,
+            0,
+            4,
+            1,
+            5,
+            0,
+            6,
+            6
+          ],
+          "rival": [
+            4,
+            2,
+            12,
+            2,
+            5,
+            13,
+            13,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "c736599c05b532e93a05df18f3c6d6eb4cb49476e33be32a6448053a5aa9d830",
+      "clientSeed": "player_2",
+      "commitment": "76841df105c20672da8452315e3ee498253954eb26cbf302b4fd430e0d082408",
+      "nonce": 2,
+      "params": {
+        "plays": [
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "plays": [
+            1
+          ],
+          "hits": 0,
+          "busted": true,
+          "ko": false,
+          "hand": [
+            0,
+            4,
+            2
+          ],
+          "turns": [
+            {
+              "slot": 1,
+              "card": 4,
+              "rival": 12,
+              "hit": false
+            }
+          ],
+          "deck": [
+            0,
+            4,
+            2,
+            5,
+            4,
+            3,
+            1,
+            7,
+            3,
+            0,
+            5,
+            6,
+            2,
+            6,
+            1,
+            7
+          ],
+          "rival": [
+            12,
+            14,
+            11,
+            0,
+            12,
+            5,
+            2,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "65bb68644f69fda9afec2c16e60ef5ca84c883c24d1140d9e234ca33ae06a699",
+      "clientSeed": "player_3",
+      "commitment": "5c23069d92f4cfe54fd1a5580930ca1b56dccc19fa84399a1fdc9060e3817ded",
+      "nonce": 3,
+      "params": {
+        "plays": [
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 113142857,
+        "win": true,
+        "payoutMinor": 113142857,
+        "outcome": {
+          "plays": [
+            2
+          ],
+          "hits": 1,
+          "busted": false,
+          "ko": false,
+          "hand": [
+            4,
+            1,
+            2
+          ],
+          "turns": [
+            {
+              "slot": 2,
+              "card": 7,
+              "rival": 3,
+              "hit": true
+            }
+          ],
+          "deck": [
+            4,
+            1,
+            7,
+            2,
+            0,
+            5,
+            3,
+            2,
+            6,
+            3,
+            5,
+            6,
+            1,
+            7,
+            4,
+            0
+          ],
+          "rival": [
+            3,
+            6,
+            7,
+            9,
+            9,
+            10,
+            6,
+            15
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "abceec1d4d2037b4d7bf4a6f6e04c1c61a5837e165472f8aafef65abe973ace3",
+      "clientSeed": "player_4",
+      "commitment": "c47995fbc753134ae51dae830b14bc64a262a01dcda66e14e81fd79a9fc41a49",
+      "nonce": 4,
+      "params": {
+        "plays": [
+          0,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 129306122,
+        "win": true,
+        "payoutMinor": 129306122,
+        "outcome": {
+          "plays": [
+            0,
+            1
+          ],
+          "hits": 2,
+          "busted": false,
+          "ko": false,
+          "hand": [
+            1,
+            3,
+            1
+          ],
+          "turns": [
+            {
+              "slot": 0,
+              "card": 7,
+              "rival": 9,
+              "hit": true
+            },
+            {
+              "slot": 1,
+              "card": 7,
+              "rival": 6,
+              "hit": true
+            }
+          ],
+          "deck": [
+            7,
+            7,
+            1,
+            1,
+            3,
+            4,
+            5,
+            6,
+            3,
+            2,
+            5,
+            2,
+            6,
+            0,
+            4,
+            0
+          ],
+          "rival": [
+            9,
+            6,
+            8,
+            11,
+            10,
+            0,
+            10,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "a02cd7bd010f5a8944c03e90a98fee95736e444c9dd7179b3cc2e202dfa7e75a",
+      "clientSeed": "player_0",
+      "commitment": "8720c6f38a2831ead823f986142ad65f15401a2ff69ce21f06a5fe6dc421960d",
+      "nonce": 5,
+      "params": {
+        "plays": [
+          2,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "plays": [
+            2,
+            2
+          ],
+          "hits": 1,
+          "busted": true,
+          "ko": false,
+          "hand": [
+            6,
+            4,
+            2
+          ],
+          "turns": [
+            {
+              "slot": 2,
+              "card": 4,
+              "rival": 2,
+              "hit": true
+            },
+            {
+              "slot": 2,
+              "card": 2,
+              "rival": 10,
+              "hit": false
+            }
+          ],
+          "deck": [
+            6,
+            4,
+            4,
+            2,
+            6,
+            2,
+            7,
+            1,
+            0,
+            7,
+            5,
+            5,
+            3,
+            1,
+            3,
+            0
+          ],
+          "rival": [
+            2,
+            10,
+            14,
+            11,
+            13,
+            6,
+            3,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "447c27d21a7ab42f4ff399c44df15f23d30d831b86b05b974137ac51699d2984",
+      "clientSeed": "player_1",
+      "commitment": "1053cbb2962a21a8d0402db0fa5a4acc3181d8fe6bd8e0b9c8642db1668aa17d",
+      "nonce": 6,
+      "params": {
+        "plays": [
+          1,
+          0,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "plays": [
+            1,
+            0,
+            2
+          ],
+          "hits": 1,
+          "busted": true,
+          "ko": false,
+          "hand": [
+            7,
+            5,
+            3
+          ],
+          "turns": [
+            {
+              "slot": 1,
+              "card": 5,
+              "rival": 3,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 7,
+              "rival": 15,
+              "hit": false
+            }
+          ],
+          "deck": [
+            7,
+            5,
+            3,
+            5,
+            4,
+            2,
+            6,
+            3,
+            4,
+            6,
+            7,
+            2,
+            0,
+            1,
+            0,
+            1
+          ],
+          "rival": [
+            3,
+            15,
+            15,
+            7,
+            1,
+            3,
+            13,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "25ac42f691c07da260b21618ee17b3d8667302370845fb1b1ed0d47227881ce4",
+      "clientSeed": "player_2",
+      "commitment": "bd83175904c6d38e720d499e5bed177bf721ca42283c8f6a812c041f32ad81cf",
+      "nonce": 7,
+      "params": {
+        "plays": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "plays": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "hits": 1,
+          "busted": true,
+          "ko": false,
+          "hand": [
+            4,
+            6,
+            5
+          ],
+          "turns": [
+            {
+              "slot": 0,
+              "card": 2,
+              "rival": 2,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 4,
+              "rival": 13,
+              "hit": false
+            }
+          ],
+          "deck": [
+            2,
+            6,
+            5,
+            4,
+            1,
+            0,
+            1,
+            5,
+            7,
+            7,
+            0,
+            4,
+            2,
+            6,
+            3,
+            3
+          ],
+          "rival": [
+            2,
+            13,
+            2,
+            3,
+            2,
+            4,
+            4,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "f1e5f55bb3039c301ef0bb7f5810c1e3756ad6773c08f96a1aef5174e3a62144",
+      "clientSeed": "player_3",
+      "commitment": "cec80d46d21723eb27fbea95b12b630545488a959732173f3354f4829dcccdd1",
+      "nonce": 8,
+      "params": {
+        "plays": [
+          2,
+          1,
+          0,
+          2,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "plays": [
+            2,
+            1,
+            0,
+            2,
+            1
+          ],
+          "hits": 4,
+          "busted": true,
+          "ko": false,
+          "hand": [
+            1,
+            6,
+            0
+          ],
+          "turns": [
+            {
+              "slot": 2,
+              "card": 7,
+              "rival": 9,
+              "hit": true
+            },
+            {
+              "slot": 1,
+              "card": 5,
+              "rival": 5,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 6,
+              "rival": 7,
+              "hit": true
+            },
+            {
+              "slot": 2,
+              "card": 5,
+              "rival": 0,
+              "hit": true
+            },
+            {
+              "slot": 1,
+              "card": 6,
+              "rival": 15,
+              "hit": false
+            }
+          ],
+          "deck": [
+            6,
+            5,
+            7,
+            5,
+            6,
+            1,
+            0,
+            3,
+            2,
+            0,
+            4,
+            4,
+            2,
+            7,
+            3,
+            1
+          ],
+          "rival": [
+            9,
+            5,
+            7,
+            0,
+            15,
+            9,
+            4,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "810280fbb2e8439d21907db5a0308b55669fdd8eed8cb9a404722c9f565ae99f",
+      "clientSeed": "player_4",
+      "commitment": "91f8ab3e7275b685cd4ea944bb0251b29436d279e81262c4d4f27b3ca2855f5e",
+      "nonce": 9,
+      "params": {
+        "plays": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "plays": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "hits": 3,
+          "busted": true,
+          "ko": false,
+          "hand": [
+            0,
+            7,
+            6
+          ],
+          "turns": [
+            {
+              "slot": 0,
+              "card": 2,
+              "rival": 6,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 5,
+              "rival": 10,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 7,
+              "rival": 6,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 0,
+              "rival": 7,
+              "hit": false
+            }
+          ],
+          "deck": [
+            2,
+            7,
+            6,
+            5,
+            7,
+            0,
+            2,
+            3,
+            0,
+            1,
+            3,
+            5,
+            1,
+            4,
+            6,
+            4
+          ],
+          "rival": [
+            6,
+            10,
+            6,
+            7,
+            8,
+            12,
+            8,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "c13ae6563e1d21848b3d7be17e154a861a923752d67294a0d5caf974f64e57be",
+      "clientSeed": "player_0",
+      "commitment": "329cec55746fab502fc4412276b8249a768921bbb7cfca8d08915bddf7de6bd7",
+      "nonce": 10,
+      "params": {
+        "plays": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "plays": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "hits": 3,
+          "busted": true,
+          "ko": false,
+          "hand": [
+            2,
+            2,
+            6
+          ],
+          "turns": [
+            {
+              "slot": 1,
+              "card": 4,
+              "rival": 0,
+              "hit": true
+            },
+            {
+              "slot": 1,
+              "card": 7,
+              "rival": 11,
+              "hit": true
+            },
+            {
+              "slot": 1,
+              "card": 7,
+              "rival": 2,
+              "hit": true
+            },
+            {
+              "slot": 1,
+              "card": 2,
+              "rival": 8,
+              "hit": false
+            }
+          ],
+          "deck": [
+            2,
+            4,
+            6,
+            7,
+            7,
+            2,
+            3,
+            1,
+            0,
+            5,
+            1,
+            3,
+            6,
+            4,
+            5,
+            0
+          ],
+          "rival": [
+            0,
+            11,
+            2,
+            8,
+            1,
+            9,
+            8,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "380174bb8fb2a89adae792b8af54933bb81426a70b9fd4211c866bc8c0e08827",
+      "clientSeed": "player_1",
+      "commitment": "000e04076d9dd4c76492eb0381a6a5aec6e6c8835e4301a0e1bc6b35db60bb3b",
+      "nonce": 11,
+      "params": {
+        "plays": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "plays": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "hits": 0,
+          "busted": true,
+          "ko": false,
+          "hand": [
+            3,
+            6,
+            5
+          ],
+          "turns": [
+            {
+              "slot": 2,
+              "card": 5,
+              "rival": 13,
+              "hit": false
+            }
+          ],
+          "deck": [
+            3,
+            6,
+            5,
+            0,
+            2,
+            1,
+            4,
+            3,
+            2,
+            5,
+            1,
+            7,
+            0,
+            4,
+            7,
+            6
+          ],
+          "rival": [
+            13,
+            5,
+            5,
+            4,
+            2,
+            4,
+            13,
+            13
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "40bdf1f41fbb792c721192003bbf4e172d88742c340d48e05a33f212b9a2d90d",
+      "clientSeed": "player_0",
+      "commitment": "7be2593e76f2ab19904c72a6970d1ae9bad70a02e838729d09e0c173b405dcc5",
+      "nonce": 105,
+      "params": {
+        "plays": [
+          1,
+          2,
+          0,
+          2,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "plays": [
+            1,
+            2,
+            0,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "hits": 3,
+          "busted": true,
+          "ko": false,
+          "hand": [
+            0,
+            1,
+            3
+          ],
+          "turns": [
+            {
+              "slot": 1,
+              "card": 7,
+              "rival": 3,
+              "hit": true
+            },
+            {
+              "slot": 2,
+              "card": 7,
+              "rival": 3,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 5,
+              "rival": 7,
+              "hit": true
+            },
+            {
+              "slot": 2,
+              "card": 3,
+              "rival": 15,
+              "hit": false
+            }
+          ],
+          "deck": [
+            5,
+            7,
+            7,
+            1,
+            3,
+            0,
+            0,
+            2,
+            6,
+            4,
+            6,
+            5,
+            3,
+            1,
+            4,
+            2
+          ],
+          "rival": [
+            3,
+            3,
+            7,
+            15,
+            7,
+            15,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "87639e821fe5252c433666861ef937b64ec024c19b0c0270a03a9a37bfdd2c97",
+      "clientSeed": "player_3",
+      "commitment": "09b4b86e07d5ec95f4138c45adff5a744bb62983df1414db7d384d79806258e4",
+      "nonce": 123,
+      "params": {
+        "plays": [
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 1933898716,
+        "win": true,
+        "payoutMinor": 1933898716,
+        "outcome": {
+          "plays": [
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "hits": 8,
+          "busted": false,
+          "ko": true,
+          "hand": [
+            0,
+            1,
+            0
+          ],
+          "turns": [
+            {
+              "slot": 2,
+              "card": 7,
+              "rival": 3,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 4,
+              "rival": 1,
+              "hit": true
+            },
+            {
+              "slot": 2,
+              "card": 4,
+              "rival": 1,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 2,
+              "rival": 6,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 6,
+              "rival": 7,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 5,
+              "rival": 6,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 6,
+              "rival": 10,
+              "hit": true
+            },
+            {
+              "slot": 2,
+              "card": 2,
+              "rival": 7,
+              "hit": true
+            }
+          ],
+          "deck": [
+            4,
+            1,
+            7,
+            4,
+            2,
+            2,
+            6,
+            5,
+            6,
+            0,
+            0,
+            5,
+            7,
+            3,
+            1,
+            3
+          ],
+          "rival": [
+            3,
+            1,
+            1,
+            6,
+            7,
+            6,
+            10,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "aeb8e6b493e717c5ef9b4aa440a52250f84054e2940c0bd102202b84b90c0e3e",
+      "clientSeed": "player_0",
+      "commitment": "7afa3ba4d547d4c6a5d1d68fd313af76d3adf285489c9bbf246ff4545644cff8",
+      "nonce": 900,
+      "params": {
+        "plays": []
+      },
+      "betMinor": 100000000,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 0,
+        "win": false,
+        "payoutMinor": 0,
+        "outcome": {
+          "plays": [],
+          "hits": 0,
+          "busted": false,
+          "ko": false,
+          "hand": [
+            7,
+            6,
+            0
+          ],
+          "turns": [],
+          "deck": [
+            7,
+            6,
+            0,
+            3,
+            2,
+            4,
+            1,
+            0,
+            5,
+            1,
+            3,
+            6,
+            5,
+            4,
+            2,
+            7
+          ],
+          "rival": [
+            5,
+            7,
+            13,
+            6,
+            0,
+            6,
+            11,
+            15
+          ]
+        }
+      }
+    },
+    {
+      "serverSeed": "1ee993a12d4c06e87da7d56000ec78e5faf8e74c9a8714cd8b3c573a54529137",
+      "clientSeed": "player_0",
+      "commitment": "0369e8c5e206fd2427b982003c735aa369e6f7556d21f8cbdbc589ba8b9dfc18",
+      "nonce": 950,
+      "params": {
+        "plays": [
+          2,
+          0
+        ]
+      },
+      "betMinor": 3333333,
+      "rtpE8": 99000000,
+      "expected": {
+        "multiplierE8": 230400000,
+        "win": true,
+        "payoutMinor": 7679999,
+        "outcome": {
+          "plays": [
+            2,
+            0
+          ],
+          "hits": 2,
+          "busted": false,
+          "ko": false,
+          "hand": [
+            6,
+            0,
+            6
+          ],
+          "turns": [
+            {
+              "slot": 2,
+              "card": 4,
+              "rival": 1,
+              "hit": true
+            },
+            {
+              "slot": 0,
+              "card": 3,
+              "rival": 0,
+              "hit": true
+            }
+          ],
+          "deck": [
+            3,
+            0,
+            4,
+            6,
+            6,
+            1,
+            7,
+            5,
+            5,
+            2,
+            3,
+            7,
+            2,
+            1,
+            4,
+            0
+          ],
+          "rival": [
+            1,
+            0,
+            6,
+            15,
+            7,
+            8,
+            1,
+            1
+          ]
+        }
+      }
+    }
+  ]
+}

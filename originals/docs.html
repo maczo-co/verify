@@ -424,6 +424,14 @@ for cursor = 0, 1, 2, …:                                 # advance when a game
          <a href="https://github.com/maczo-co/originals-menagerie">💻 source</a> ·
          <a href="./paytables/menagerie.json">⚖️ odds</a></p>
     </section>
+    <section id="mythic-duel" class="game">
+      <h3>Mythic Duel <span class="gid">mythic-duel</span></h3>
+      <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>
+      <p><span class="k">Resolve</span> your deck order = shuffle(16, u[0..14]) through deck[]; turn t's rival card = u[15+t] >> 28; a play (hand slot) hits when the rival card is a creature with DEF < your ATK and the slot refills from the deck; multiplier = floor(rtp·16^k / Π wins); 8 hits = the K.O. (auto-cash).</p>
+      <p class="links"><a href="./?game=mythic-duel">🧮 verify</a> ·
+         <a href="https://github.com/maczo-co/originals-mythic-duel">💻 source</a> ·
+         <a href="./paytables/mythic-duel.json">⚖️ odds</a></p>
+    </section>
     <section id="shootout" class="game">
       <h3>Shootout <span class="gid">shootout</span></h3>
       <p><span class="k">Bias class</span> <b>uniform</b> — maps words without a biased modulo reduction (bit extraction, or a uniform Fisher-Yates / without-replacement draw) — no modulo bias.</p>

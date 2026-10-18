@@ -1,0 +1,140 @@
+{
+  "game": "mythic-duel",
+  "displayName": "Mythic Duel",
+  "rtpPercent": 99.0,
+  "rtpE8": 99000000,
+  "engine": "uint32",
+  "biasClass": "uniform",
+  "params": [
+    {
+      "name": "plays",
+      "desc": "the hand slot (0..2) that attacks on each turn, in order — 0 to 8 plays (the 8th hit is the K.O.)"
+    }
+  ],
+  "deckSize": 16,
+  "hand": 3,
+  "hits": 8,
+  "creatures": [
+    {
+      "id": "salamander",
+      "atk": 1000
+    },
+    {
+      "id": "leviathan",
+      "atk": 1400
+    },
+    {
+      "id": "griffin",
+      "atk": 1800
+    },
+    {
+      "id": "kirin",
+      "atk": 2200
+    },
+    {
+      "id": "raiju",
+      "atk": 2400
+    },
+    {
+      "id": "kitsune",
+      "atk": 2600
+    },
+    {
+      "id": "phoenix",
+      "atk": 2800
+    },
+    {
+      "id": "dragon",
+      "atk": 3000
+    }
+  ],
+  "deck": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6,
+    6,
+    7,
+    7
+  ],
+  "rival": [
+    {
+      "creature": 0,
+      "def": 300
+    },
+    {
+      "creature": 0,
+      "def": 500
+    },
+    {
+      "creature": 1,
+      "def": 700
+    },
+    {
+      "creature": 1,
+      "def": 900
+    },
+    {
+      "creature": 2,
+      "def": 1100
+    },
+    {
+      "creature": 2,
+      "def": 1300
+    },
+    {
+      "creature": 3,
+      "def": 1500
+    },
+    {
+      "creature": 3,
+      "def": 1700
+    },
+    {
+      "creature": 4,
+      "def": 1900
+    },
+    {
+      "creature": 4,
+      "def": 2100
+    },
+    {
+      "creature": 5,
+      "def": 2300
+    },
+    {
+      "creature": 6,
+      "def": 2500
+    },
+    {
+      "creature": 6,
+      "def": 2700
+    },
+    {
+      "creature": 7,
+      "def": 2900
+    },
+    null,
+    null
+  ],
+  "wins": [
+    4,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "note": "your deck order = shuffle(16, u[0..14]) through deck[]; turn t's rival card = u[15+t] >> 28; a play (hand slot) hits when the rival card is a creature with DEF < your ATK and the slot refills from the deck; multiplier = floor(rtp·16^k / Π wins); 8 hits = the K.O. (auto-cash)."
+}

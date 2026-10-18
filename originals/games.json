@@ -432,6 +432,15 @@
       "vectorCount": 20
     },
     {
+      "id": "mythic-duel",
+      "displayName": "Mythic Duel",
+      "biasClass": "uniform",
+      "params": [
+        "plays"
+      ],
+      "vectorCount": 15
+    },
+    {
       "id": "shootout",
       "displayName": "Shootout",
       "biasClass": "uniform",
